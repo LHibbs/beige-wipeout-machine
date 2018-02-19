@@ -1,0 +1,25 @@
+In file included from /usr/include/eigen3/Eigen/Core:254:0,
+                 from vector.h:5:
+/usr/include/eigen3/Eigen/src/Core/Assign.h: In instantiation of ‘Derived& Eigen::DenseBase<Derived>::lazyAssign(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CoeffBasedProduct<const Eigen::Transpose<Eigen::Matrix<float, 3, 1> >, const Eigen::Matrix<float, 3, 3>&, 6>; Derived = Eigen::Matrix<float, 3, 3>]’:
+
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:414:46:   required from ‘Derived& Eigen::PlainObjectBase<Derived>::lazyAssign(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CoeffBasedProduct<const Eigen::Transpose<Eigen::Matrix<float, 3, 1> >, const Eigen::Matrix<float, 3, 3>&, 6>; Derived = Eigen::Matrix<float, 3, 3>]’
+
+/usr/include/eigen3/Eigen/src/Core/Assign.h:520:123:   required from ‘static Derived& Eigen::internal::assign_selector<Derived, OtherDerived, false, false>::run(Derived&, const OtherDerived&) [with Derived = Eigen::Matrix<float, 3, 3>; OtherDerived = Eigen::CoeffBasedProduct<const Eigen::Transpose<Eigen::Matrix<float, 3, 1> >, const Eigen::Matrix<float, 3, 3>&, 6>]’
+
+/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:621:105:   required from ‘Derived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CoeffBasedProduct<const Eigen::Transpose<Eigen::Matrix<float, 3, 1> >, const Eigen::Matrix<float, 3, 3>&, 6>; Derived = Eigen::Matrix<float, 3, 3>]’
+
+‘Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::MatrixBase<OtherDerived>&) [with OtherDerived = Eigen::CoeffBasedProduct<const Eigen::Transpose<Eigen::Matrix<float, 3, 1> >, const Eigen::Matrix<float, 3, 3>&, 6>; _Scalar = float; int _Rows = 3; int _Cols = 3; int _Options = 0; int _MaxRows = 3; int _MaxCols = 3]’
+
+[with OtherDerived = Eigen::Transpose<Eigen::Matrix<float, 3, 1> >; Eigen::RotationBase<Derived, _Dim>::RotationMatrixType = Eigen::Matrix<float, 3, 3>;
+
+minimu9-ahrs.cpp:207:26:   required from here
+/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:32:40: error: static assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+     #define EIGEN_STATIC_ASSERT(X,MSG) static_assert(X,#MSG);
+                                        ^
+/usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:182:3: note: in expansion of macro ‘EIGEN_STATIC_ASSERT’
+   EIGEN_STATIC_ASSERT( \
+   ^
+/usr/include/eigen3/Eigen/src/Core/Assign.h:492:3: note: in expansion of macro ‘EIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE’
+   EIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE(Derived,OtherDerived)
+   ^
+make: *** [minimu9-ahrs.o] Error 1
