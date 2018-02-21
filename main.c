@@ -48,12 +48,12 @@ int main(){
    int pipeToMe[2];
    int pipeToIt[2];
    int pipeFromSTDIN;
-//   double angle[3];
+   double angle[3];
    double acc[3];
    double dt_usec;
    double dt_sec;
-   double rawAcc[3];
-   double grav[3];
+   //double rawAcc[3];
+   //double grav[3];
    
 
    struct timeval *before,*after;
@@ -98,11 +98,11 @@ int main(){
    char buff[30];
    int index = 0;
    while(1){
-/*        scanf("%lf %lf %lf %lf %lf %lf\n",&angle[0],&angle[1],\
-              &angle[2],&acc[0],&acc[1],&acc[2]);*/
+        scanf("%lf %lf %lf %lf %lf %lf\n",&angle[0],&angle[1],\
+              &angle[2],&acc[0],&acc[1],&acc[2]);
 
-        scanf("%lf %lf %lf %lf %lf %lf\n",&rawAcc[0],&rawAcc[1],\
-              &rawAcc[2],&grav[0],&grav[1],&grav[2]);
+/*        scanf("%lf %lf %lf %lf %lf %lf\n",&rawAcc[0],&rawAcc[1],\
+              &rawAcc[2],&grav[0],&grav[1],&grav[2]);*/
         gettimeofday(after,NULL);
         dt_usec =  (after->tv_usec - before->tv_usec) +\
               1000000*(after->tv_sec - before->tv_sec);
@@ -118,9 +118,12 @@ int main(){
         pos[2] += vel[2]*dt_sec*1000;
 
         if(print){
-            printf("Raw Acc: , %g , %g , %g , Grav: , %g , %g , %g \n",\
-                  rawAcc[0],rawAcc[1],rawAcc[2],grav[0],grav[1],grav[2]);
+            /*printf("Raw Acc: , %g , %g , %g , Grav: , %g , %g , %g \n",\
+                  rawAcc[0],rawAcc[1],rawAcc[2],grav[0],grav[1],grav[2]);*/
             //printf("Acc: %g , %g , %g \n",acc[0],acc[1],acc[2]);
+            printf("DT(usec):%gAngle:X:%6.2f Y:%6.2f Z:%6.2f "\
+                  "ACC:\tX:%6.3f Y:%6.3f Z:%6.3f\n",dt_usec,angle[0],angle[1],\
+                  angle[2],acc[0],acc[1],acc[2]);
             /*printf("\fDT(usec):%g\nAngle:\n\tX:%6.2f Y:%6.2f Z:%6.2f "\
                   "\nACCELERATION:\n\tX:%6.3f Y:%6.3f Z:%6.3f\n",dt_usec,angle[0],angle[1],\
                   angle[2],acc[0],acc[1],acc[2]);
@@ -130,7 +133,7 @@ int main(){
         }
 
         *before = *after;
-                if(poll(&stdin_poll,1,0)==1){
+      if(poll(&stdin_poll,1,0)==1){
            while(poll(&stdin_poll,1,0)==1){
               MYREAD(pipeFromSTDIN,buff+index,1);
               index++;

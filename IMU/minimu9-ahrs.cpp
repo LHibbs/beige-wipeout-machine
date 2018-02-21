@@ -191,7 +191,7 @@ void ahrs(imu & imu, fuse_function * fuse, rotation_output_function * output)
 
   //while(select(1,&rdfds,NULL,NULL,&timeout))
   //while(!feof(stdin))
-  int count =0;
+  //int count =0;
   while(1)
   {
     auto last_start = start;
@@ -212,17 +212,17 @@ void ahrs(imu & imu, fuse_function * fuse, rotation_output_function * output)
     grav *= gravfactor;
     noGrav = acceleration + grav;// - normalizeGrav;*
 
-    //output(corrected);
+    output(corrected);
     //std::cout << "  " << acceleration << "  " << magnetic_field << std::endl;
     //std::cout << "  " << temp << std::endl;
-    //std::cout << " " << noGrav << std::endl;
+    std::cout << " " << noGrav << std::endl;
    
-    if(count > 200){
+    /*if(count > 200){
       std::cout << grav << " " << acceleration << std::endl;
     }
     else{
        count++;
-    }
+    }*/
     
 
     if(poll(&stdin_poll,1,0)==1){
