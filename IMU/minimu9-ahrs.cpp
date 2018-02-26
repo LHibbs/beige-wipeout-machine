@@ -175,10 +175,10 @@ void ahrs(imu & imu, fuse_function * fuse, rotation_output_function * output)
   quaternion rotation = quaternion::Identity();
   quaternion base = quaternion::Identity();
   quaternion corrected = quaternion::Identity();
-  vector grav = vector(0,0,0);
+  vector avgGrav = vector(0,-1,0);
+  vector avgGravCorrectedRot = vector(0,-1,0);
   vector noGrav = vector(0,0,0);
-  vector normalizeGrav = vector(0,0,0);
-  float gravfactor = 1.0;
+  vector sumGrav = vector(0,0,0);
   //vector y_axis = vector(0,1,0);
 
   // Set up a timer that expires every 20 ms.
@@ -191,7 +191,8 @@ void ahrs(imu & imu, fuse_function * fuse, rotation_output_function * output)
 
   //while(select(1,&rdfds,NULL,NULL,&timeout))
   //while(!feof(stdin))
-  //int count =0;
+  double gravFactor = 1;
+  int count =0;
   while(1)
   {
     auto last_start = start;
@@ -208,14 +209,24 @@ void ahrs(imu & imu, fuse_function * fuse, rotation_output_function * output)
     fuse(rotation, dt, angular_velocity, acceleration, magnetic_field);
 
     corrected = rotation * base;
-    grav  =(rotation.toRotationMatrix()).inverse().row(2);/*.transpose();*/
-    grav *= gravfactor;
-    noGrav = acceleration + grav;// - normalizeGrav;*
+    
+   /* grav  =(rotation.toRotationMatrix()).inverse().row(2);*//*.transpose();*/
+    avgGravCorrectedRot = rotation.inverse().toRotationMatrix() * avgGrav;
+    
+    noGrav = acceleration/gravFactor - avgGravCorrectedRot;// - normalizeGrav;*
+    
+    noGrav = base.toRotationMatrix().transpose() * noGrav;
 
-    output(corrected);
+    
     //std::cout << "  " << acceleration << "  " << magnetic_field << std::endl;
     //std::cout << "  " << temp << std::endl;
-    std::cout << " " << noGrav << std::endl;
+    
+    //std::cout << " " << noGrav << std::endl;
+    
+    //std::cout << "ACC: " << acceleration << "avgCorrectedRot " << avgGravCorrectedRot << "AVGGrav " << avgGrav << "noGrav" << noGrav << std::endl;
+    
+    
+
    
     /*if(count > 200){
       std::cout << grav << " " << acceleration << std::endl;
@@ -224,16 +235,35 @@ void ahrs(imu & imu, fuse_function * fuse, rotation_output_function * output)
        count++;
     }*/
     
+    if(count < 100){
+       sumGrav = sumGrav + (rotation.toRotationMatrix() * acceleration);
+       count++;
+    }
+    else if(count == 100){
+       avgGrav = sumGrav/count;
+       gravFactor = sqrt(avgGrav[0]*avgGrav[0] + avgGrav[1]*avgGrav[1] + avgGrav[2]*avgGrav[2]);
+       avgGrav /= gravFactor;
+       count = 1001;
+      std::cout << "0 0 0 0 0 0 0 0 0 0 0 0" << std::endl;
+    }
+    else{
+
+      output(corrected);
+      std::cout << " " << noGrav << std::endl;
+      
+    }
 
     if(poll(&stdin_poll,1,0)==1){
+
       std::cin >> buff;
       
+      count = 0;
+      sumGrav = sumGrav *0;
+      
       base = quaternion(rotation.inverse());
-      normalizeGrav = noGrav;
-      gravfactor = 1 / sqrt(grav[0]*grav[0] +  grav[1]*grav[1] + grav[2]*grav[2]);
 
-      std::cout << "0 0 0 0 0 0" << std::endl;
-      std::cout << "0 0 0 0 0 0" << std::endl;
+      std::cout << "0 0 0 0 0 0 0 0 0 0 0 0" << std::endl;
+      std::cout << "0 0 0 0 0 0 0 0 0 0 0 0" << std::endl;
     }
     loop_pacer.pace();
   }
