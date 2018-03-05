@@ -1,4 +1,5 @@
 #include "imuInteract.h"
+
 /*create child that executes open source code interacting with gyoscope*/
 void createAcceleromoterChild(int* newSTDIN, int* writeToChild){
 

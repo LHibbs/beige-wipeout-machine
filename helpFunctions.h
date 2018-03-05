@@ -12,8 +12,16 @@
 #include <poll.h>
 
 #define MYREAD(_FD,_BUF,_COUNT){\
-   if(read(_FD,_BUF,_COUNT)==-1){\
-      fprintf(stderr,"%s: %d",__FILE__,__LINE__);\
+   if(read(_FD,_BUF,_COUNT)<0){\
+      fprintf(stderr,"Error in read: %s: %d",__FILE__,__LINE__);\
+      perror(NULL);\
+      exit(EXIT_FAILURE);\
+   }\
+}
+
+#define MYWRITE(_FD,_BUF,_COUNT){\
+   if(write(_FD,_BUF,_COUNT)<0){\
+      fprintf(stderr,"Error in write: %s: %d",__FILE__,__LINE__);\
       perror(NULL);\
       exit(EXIT_FAILURE);\
    }\

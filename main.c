@@ -1,6 +1,5 @@
 #include "imuInteract.h"
-#include "encoder.h"
-
+#include "driveWheelPid.h"
 
 void clear(){
    int c = fgetc(stdin);
@@ -29,13 +28,13 @@ int main(){
    int count = 0;
    int pipeFromSTDIN;
    int pipeToIMU;
-   int* encoderChildPipe;
+   int* driveWheelPipe;
 
 
 
    createAcceleromoterChild(&pipeFromSTDIN, &pipeToIMU);
 
-   createEncoderChild(&encoderChildPipe);
+   createDriveWheelChild(&driveWheelPipe);
 
    struct pollfd stdin_poll = {
      .fd = pipeFromSTDIN, .events = POLLIN |  POLLPRI };
