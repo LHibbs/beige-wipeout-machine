@@ -1,5 +1,7 @@
 #include "imuInteract.h"
 #include "driveWheelPid.h"
+#include <wiringPi.h>
+#include "ldr.h"
 
 void clear(){
    int c = fgetc(stdin);
@@ -26,18 +28,59 @@ int main(){
    char buff[30];
    int index = 0;
    int count = 0;
-   int pipeFromSTDIN;
-   int pipeToIMU;
+   //int pipeFromSTDIN;
+   //int pipeToIMU;
    int* driveWheelPipe;
+   char msg[1000];
+   WheelPid wheels[4];
+   setbuf(stdout,NULL);
 
+   struct timespec sleepTime;
+   sleepTime.tv_sec = 0;
+   sleepTime.tv_nsec = 50000000;
+   long mv[4];
+   //runLDRTest();
 
+   //createAcceleromoterChild(&pipeFromSTDIN, &pipeToIMU);
 
-   createAcceleromoterChild(&pipeFromSTDIN, &pipeToIMU);
+   wiringPiSetup();
+   pinMode(pin(FL),OUTPUT);
+   pinMode(pin(FR),OUTPUT);
+   pinMode(pin(BL),OUTPUT);
+   pinMode(pin(BR),OUTPUT);
 
    createDriveWheelChild(&driveWheelPipe);
 
+
    struct pollfd stdin_poll = {
-     .fd = pipeFromSTDIN, .events = POLLIN |  POLLPRI };
+     //.fd = pipeFromSTDIN, .events = POLLIN |  POLLPRI };
+     .fd = STDOUT_FILENO, .events = POLLIN |  POLLPRI };
+   while(1){
+      continue;
+      if(poll(&stdin_poll,1,0)==1){
+           while(poll(&stdin_poll,1,0)==1){
+              
+              MYREAD(STDIN_FILENO,buff+index,1);
+             // MYREAD(pipeFromSTDIN,buff+index,1);
+              index++;
+           }
+      }
+      if(sscanf(buff,"%ld , %ld, %ld, %ld\n",&(mv[0]),&(mv[1]),&(mv[2]),&(mv[3]))==2){
+         msg[0] = 'm';
+         MYWRITE(driveWheelPipe[1],msg, sizeof(char));
+         MYWRITE(driveWheelPipe[1],mv, sizeof(long)*4);
+      }
+      else{
+         fprintf(stderr,"invalid String: line:%d\n",__LINE__);
+      }
+      msg[0] = 'p';
+      MYWRITE(driveWheelPipe[1],msg, sizeof(char));
+      MYREAD(driveWheelPipe[0],wheels,sizeof(WheelPid)*4);
+      printf("Current Encoder valules:\n");
+      printf("FL:%ld\t FR:%ld\nBL:%ld\t BR:%ld\n",wheels[FL].encoderCnt,wheels[FR].encoderCnt,wheels[BL].encoderCnt,wheels[BR].encoderCnt);
+      nanosleep(&sleepTime,NULL);
+   }
+   return 0;
 
    while(1){
         /*scanf("%lf %lf %lf %lf %lf %lf\n",&angle[0],&angle[1],\
@@ -104,13 +147,14 @@ int main(){
         *before = *after;
       if(poll(&stdin_poll,1,0)==1){
            while(poll(&stdin_poll,1,0)==1){
-              MYREAD(pipeFromSTDIN,buff+index,1);
+              scanf("%s",buff);
+              //MYREAD(pipeFromSTDIN,buff+index,1);
               index++;
            }
            index--;
            buff[index] = 0;
            if(strcmp(buff,"reset")==0){
-               mywrite(pipeToIMU,"\n",sizeof(char)*3);
+               printf("\n");
       //         printf("\f\n\nResting!!!\n\n");
                vel[0] = 0;
                vel[1] = 0;

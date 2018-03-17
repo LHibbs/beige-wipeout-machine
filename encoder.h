@@ -5,8 +5,8 @@
 #include <time.h>
 
 //array index
-#define FR 0
-#define FL 1
+#define FL 0
+#define FR 1
 #define BR 2
 #define BL 3
 
