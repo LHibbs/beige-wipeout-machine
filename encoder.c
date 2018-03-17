@@ -22,16 +22,14 @@ void encoderChildFunct(){
    char msg[100];
    indexToPos[0] = indexToPos[0] + 0;
    struct timespec sleepTime;
-   sleepTime.tv_sec = 0;
    sleepTime.tv_nsec = 100000;
-
+   sleepTime.tv_sec = sleepTime.tv_nsec/1000000;
    int temp;
    struct pollfd stdin_poll = {
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
    Encoder *drive = malloc(sizeof(Encoder)*4);
    Encoder *enMsgIn = malloc(sizeof(Encoder)*4);
    long longMsgIn[4];
-   return;
 
    for(int i = 0; i < 4; i++){
       drive[i].count = 0;
@@ -39,6 +37,7 @@ void encoderChildFunct(){
       drive[i].dir = 1;
       drive[i].goal = 0;
    }
+   fprintf(stderr,"got in encoder almost to while loop\n");
    while(1){
       //updates the counts on the encoders if we have a new reading
       CHECKWHEEL(FR);
@@ -152,10 +151,18 @@ void createEncoderChild(int** writeToChild){
    if(pid == 0){
       myclose(pipeToMe[0]);
       myclose(pipeToIt[1]);
-      dup2(pipeToMe[1],STDOUT_FILENO);
-      dup2(pipeToIt[0],STDIN_FILENO);
+      if(dup2(pipeToMe[1],STDOUT_FILENO)<0){
+         fprintf(stderr,"execl failure %d in  %s",__LINE__,__FILE__);
+         perror(NULL);
+         exit(EXIT_FAILURE);
+      }
+      if(dup2(pipeToIt[0],STDIN_FILENO)<0){
+         fprintf(stderr,"execl failure %d in  %s",__LINE__,__FILE__);
+         perror(NULL);
+         exit(EXIT_FAILURE);
+      }
       encoderChildFunct();
-      fprintf(stderr,"execl failure");
+      fprintf(stderr,"encoderCHildFUnction failure %d in  %s",__LINE__,__FILE__);
       perror(NULL);
       exit(EXIT_FAILURE);
    }

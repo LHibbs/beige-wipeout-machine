@@ -37,12 +37,14 @@ void driveWheelPidControl(){
    char msg[1000];
    //double speedGoalMsg[4];
    //MotorMsg dirMsg[4];
-   //Encoder curEnco[4];
-   //WheelPid wheels[4];
+   Encoder curEnco[4];
+   WheelPid wheels[4];
    //long changeDis[4];
 
-   //double dt_nsec = 5000000;//5ms
-   //double dt = dt_nsec / 1000000; //5
+   double dt_nsec = 5000000;//5ms
+
+   double dt = dt_nsec / 1000000; //5
+   dt = dt + 0;
    struct timespec sleepTime;
    sleepTime.tv_nsec = 10000000;//5ms
    sleepTime.tv_sec = 1;
@@ -67,16 +69,17 @@ void driveWheelPidControl(){
 
       sprintf(msg,"p");
       printf("about to read encoder values\n");
-      //MYWRITE(encoderPipe[1],msg,sizeof(char));
-     // MYREAD(encoderPipe[0],curEnco,sizeof(Encoder)*4);
+      MYWRITE(encoderPipe[1],msg,sizeof(char));
+      MYREAD(encoderPipe[0],curEnco,sizeof(Encoder)*4);
       printf("just read them\n");
-      /*
+      
       for(int i = 0; i < 4; i++){
          wheels[i].lastSpeed = wheels[i].curSpeed;
          wheels[i].curSpeed = ((double)(curEnco[i].count - wheels[i].encoderCnt )) / (dt)  ;
          wheels[i].encoderCnt = curEnco[i].count;
       }
       printf("FL:%ld, FR:%ld, BR:%ld, BL:%ld\n\n",wheels[0].encoderCnt,wheels[1].encoderCnt,wheels[2].encoderCnt,wheels[3].encoderCnt);
+      /*
       for(int i = 0; i < 4; i++){
          long diff = wheels[i].encoderCnt - wheels[i].encoderGoal;
          if(diff > 200){
@@ -88,7 +91,6 @@ void driveWheelPidControl(){
             wheelCmd[i][1] = 0;
          }
       }*/
-
       
       for(int i = 0; i < 4; i ++){
          sprintf(msg,"echo %d=%d > /dev/servoblaster",i,wheelCmd[i][0]);
