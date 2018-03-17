@@ -1,15 +1,15 @@
 #include "encoder.h"
 #include <time.h>
 //encoder pinout
-#define FR_PIN 0
-#define FL_PIN 0
-#define BR_PIN 0
-#define BL_PIN 0
+#define FR_PIN 25
+#define FL_PIN 28 
+#define BR_PIN 29 
+#define BL_PIN 24 
 //fill this in later
 #define READPIN(PIN) (0)
 
 #define CHECKWHEEL(PIN){\
-   if(READPIN(indexToPos[PIN])!=drive[PIN].lastVal){\
+   if(digitalRead(indexToPos[PIN])!=drive[PIN].lastVal){\
          drive[PIN].count += drive[PIN].dir;\
          /*this just togels the state in a more effiecnt way then reading again from the input*/\
          drive[PIN].lastVal ^= 1;\
@@ -23,17 +23,23 @@ void encoderChildFunct(){
    indexToPos[0] = indexToPos[0] + 0;
    struct timespec sleepTime;
    sleepTime.tv_nsec = 100000;
-   sleepTime.tv_sec = sleepTime.tv_nsec/1000000;
+   sleepTime.tv_sec = sleepTime.tv_nsec/1000000000;
    int temp;
    struct pollfd stdin_poll = {
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
    Encoder *drive = malloc(sizeof(Encoder)*4);
    Encoder *enMsgIn = malloc(sizeof(Encoder)*4);
    long longMsgIn[4];
+   pinMode(FL_PIN,INPUT);
+   pinMode(FR_PIN,INPUT);
+   pinMode(BL_PIN,INPUT);
+   pinMode(BR_PIN,INPUT);
+
 
    for(int i = 0; i < 4; i++){
       drive[i].count = 0;
       drive[i].lastVal = READPIN(indexToPos[i]);
+      fprintf(stderr,"i:%d=%d\n",i,drive[i].lastVal);
       drive[i].dir = 1;
       drive[i].goal = 0;
    }
@@ -46,8 +52,8 @@ void encoderChildFunct(){
       CHECKWHEEL(BL);
 
       if(poll(&stdin_poll,1,0)==1){
-         fprintf(stderr,"got message in encoder going to scanf:\n");
          scanf("%c",msg);
+         fprintf(stderr,"got message in encoder going to scanf:'%s'\n",msg);
          switch(msg[0]){
             fprintf(stderr,"got message in encoder :%s\n",msg);
             case 'r'://reset one or all motors 

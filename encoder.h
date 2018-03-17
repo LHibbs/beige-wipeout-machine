@@ -3,6 +3,7 @@
 
 #include "helpFunctions.h"
 #include <time.h>
+#include <wiringPi.h>
 
 //array index
 #define FL 0

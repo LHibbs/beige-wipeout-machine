@@ -102,7 +102,7 @@ void driveWheelPidControl(){
 
       nanosleep(&sleepTime,NULL);
 
-      wheelCmd[0][0] = 2000;
+      wheelCmd[3][0] = 2000;
       for(int i = 0; i < 4; i ++){
          sprintf(msg,"echo %d=%d > /dev/servoblaster",i,wheelCmd[i][0]);
          system(msg);
