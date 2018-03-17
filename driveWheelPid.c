@@ -32,6 +32,13 @@ long min(long A, long B){
       return B;
    return A;
 }
+void micosleep(long micoSec){
+
+   struct timespec sleepTime;
+   sleepTime.tv_nsec = mSec*1000;
+   sleepTime.tv_sec = mSec/1000000;
+   nanosleep(&sleepTime,NULL);
+}
 void driveWheelPidControl(){
    int* encoderPipe;
    char msg[1000];

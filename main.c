@@ -55,8 +55,21 @@ int main(){
    struct pollfd stdin_poll = {
      //.fd = pipeFromSTDIN, .events = POLLIN |  POLLPRI };
      .fd = STDOUT_FILENO, .events = POLLIN |  POLLPRI };
+   while(fgets(stdin)!=EOF){
+
+   }
+   digitalWrite(pin(FL),0);
+   digitalWrite(pin(FR),0);
+   digitalWrite(pin(BL),0);
+   digitalWrite(pin(BR),0);
+   close(driveWheelPipe[1]);
+   for(int i =0; i < 4;i++){
+      sprinf(msg,"echo i=0 > /dev/servoblaster");
+      system(msg);
+   }
+   return 0;
+
    while(1){
-      continue;
       if(poll(&stdin_poll,1,0)==1){
            while(poll(&stdin_poll,1,0)==1){
               
