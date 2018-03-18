@@ -39,6 +39,7 @@ void micosleep(long micoSec){
    sleepTime.tv_sec = mSec/1000000;
    nanosleep(&sleepTime,NULL);
 }
+
 void driveWheelPidControl(){
    int* encoderPipe;
    char msg[1000];
@@ -128,47 +129,8 @@ void driveWheelPidControl(){
    exit(EXIT_SUCCESS);
 
 }
-void driveWheelPidControlBAISC(){
 
-   int* encoderPipe;
-   char msg[1000];
-   double speedGoalMsg[4];
-   //MotorMsg dirMsg[4];
-   Encoder curEnco[4];
-   WheelPid wheels[4];
-   long changeDis[4];
-
-   double dt_nsec = 5000000;//5ms
-   double dt = dt_nsec / 1000000; //5
-   struct timespec sleepTime;
-   sleepTime.tv_sec = 0;
-   sleepTime.tv_nsec = dt_nsec;//5ms
-   struct pollfd stdin_poll = {
-     .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
-
-   createEncoderChild(&encoderPipe);
-   int wheelCmd[4][2];
-   while(1){
-
-      sprintf(msg,"p");
-      MYWRITE(encoderPipe[1],msg,sizeof(char));
-      MYREAD(encoderPipe[0],curEnco,sizeof(Encoder)*4);
-      for(int i = 0; i < 4; i++){
-         wheels[i].lastSpeed = wheels[i].curSpeed;
-         wheels[i].curSpeed = ((double)(curEnco[i].count - wheels[i].encoderCnt )) / (dt)  ;
-         wheels[i].encoderCnt = curEnco[i].count;
-      }
-      for(int i = 0; i < 4; i++){
-         long diff = wheels[i].encoderCnt - wheels[i].encoderGoal;
-         if(diff > 200){
-            wheelCmd[i][0] = min(2000,max(100,diff/100));
-            wheelCmd[i][1] = 1;
-         }
-         else if(diff < - 200){
-            wheelCmd[i][0] = min(2000,max(100,(-1*diff)/100));
-            wheelCmd[i][1] = 0;
-         }
-      }
+int pollInput(WheelPid *wheels, long *changeDis, double *speedGoalMsg, char *msg) {
 
       if(poll(&stdin_poll,1,0)==1){
          scanf("%c",msg);
@@ -195,13 +157,70 @@ void driveWheelPidControlBAISC(){
             default:
                fprintf(stderr,"Error in drive Wheel Pid Control function: line:%d file:%s\n",__LINE__,__FILE__);
          }
+         return 1; 
       }
+      return 0; 
+}
+
+
+void writeToWheels(int **wheelCmd, char *msg) {
       for(int i = 0; i < 4; i ++){
          sprintf(msg,"echo %d = %d > /dev/servoblaster",i,wheelCmd[i][0]);
          system(msg);
          digitalWrite(pin(i),wheelCmd[i][1]);
       }
+}
 
+void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels, int ** wheelCmd) {
+    char msg[10]; 
+    sprintf(msg,"p");
+    MYWRITE(encoderPipe[1],msg,sizeof(char));
+    MYREAD(encoderPipe[0],curEnco,sizeof(Encoder)* 4);
+    for(int i = 0; i < 4; i++){
+       wheels[i].lastSpeed = wheels[i].curSpeed;
+       wheels[i].curSpeed = ((double)(curEnco[i].count - wheels[i].encoderCnt )) / (dt)  ;
+       wheels[i].encoderCnt = curEnco[i].count;
+    }
+      for(int i = 0; i < 4; i++){
+         long diff = wheels[i].encoderCnt - wheels[i].encoderGoal;
+         if(diff > 200){
+            wheelCmd[i][0] = min(2000,max(100,diff/100));
+            wheelCmd[i][1] = 1;
+         }
+         else if(diff < - 200){
+            wheelCmd[i][0] = min(2000,max(100,(-1*diff)/100));
+            wheelCmd[i][1] = 0;
+         }
+      }
+}
+
+void driveWheelPidControlBAISC(){
+
+   int* encoderPipe;
+   char msg[1000];
+   double speedGoalMsg[4];
+   //MotorMsg dirMsg[4];
+   Encoder curEnco[4];
+   WheelPid wheels[4];
+   long changeDis[4];
+
+   double dt_nsec = 5000000;//5ms
+   double dt = dt_nsec / 1000000; //5
+   struct timespec sleepTime;
+   sleepTime.tv_sec = 0;
+   sleepTime.tv_nsec = dt_nsec;//5ms
+   struct pollfd stdin_poll = {
+     .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
+
+   createEncoderChild(&encoderPipe);
+   int wheelCmd[4][2];
+   while(1){
+
+      updateEncoderStatus(); 
+
+      if(pollInput(wheels, changeDis, speedGoalMsg, msg)) {
+        writeToWheels(wheelCmd, msg); 
+      }
 
       nanosleep(&sleepTime,NULL);
    }
