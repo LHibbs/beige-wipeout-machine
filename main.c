@@ -17,6 +17,7 @@ int main(){
    //double rawAcc[3];
    //double grav[3];
 
+   pid_t driveWheelPid;
    struct timeval *before,*after;
    before = malloc(sizeof(struct timeval));
    after = malloc(sizeof(struct timeval));
@@ -39,6 +40,7 @@ int main(){
    sleepTime.tv_sec = 0;
    sleepTime.tv_nsec = 50000000;
    long mv[4];
+   int status;
    //runLDRTest();
 
    //createAcceleromoterChild(&pipeFromSTDIN, &pipeToIMU);
@@ -49,26 +51,21 @@ int main(){
    pinMode(pin(BL),OUTPUT);
    pinMode(pin(BR),OUTPUT);
 
-   createDriveWheelChild(&driveWheelPipe);
+   driveWheelPid = createDriveWheelChild(&driveWheelPipe);
 
 
    struct pollfd stdin_poll = {
      //.fd = pipeFromSTDIN, .events = POLLIN |  POLLPRI };
      .fd = STDOUT_FILENO, .events = POLLIN |  POLLPRI };
-   while(fgets(stdin)!=EOF){
+   while(fgetc(stdin)!=EOF){
 
    }
-   digitalWrite(pin(FL),0);
-   digitalWrite(pin(FR),0);
-   digitalWrite(pin(BL),0);
-   digitalWrite(pin(BR),0);
-   close(driveWheelPipe[1]);
-   for(int i =0; i < 4;i++){
-      sprinf(msg,"echo i=0 > /dev/servoblaster");
-      system(msg);
-   }
-   return 0;
+   msg[0] = 'q'; 
+   MYWRITE(driveWheelPipe[1], msg, sizeof(char));   
+   waitpid(driveWheelPid,&status,0);
+   return 0; 
 
+   // not using anything below this right now
    while(1){
       if(poll(&stdin_poll,1,0)==1){
            while(poll(&stdin_poll,1,0)==1){

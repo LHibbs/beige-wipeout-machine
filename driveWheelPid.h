@@ -11,6 +11,6 @@ typedef struct{
 }WheelPid;
 
 
-void createDriveWheelChild(int ** writeToChild);
+pid_t  createDriveWheelChild(int ** writeToChild);
 int pin(int index);
 #endif
