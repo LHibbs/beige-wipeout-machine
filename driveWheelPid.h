@@ -1,15 +1,17 @@
 #ifndef DRIVEWHEELPID_H
 #define DRIVEWHEELPID_H
 #include "encoder.h"
+#include <assert.h>
+
 typedef struct{
-   double speedGoal;
-   double curSpeed;//units : encoder count/ms
-   double lastSpeed;
    long encoderCnt;
    long encoderGoal;
-   double curDir;
+   double curError;
+   int curDir;
+   double pow;//out of 1. 1 for max power 
 }WheelPid;
 
+enum dir{Forward, Backward, Right, Left}; 
 
 pid_t  createDriveWheelChild(int ** writeToChild);
 int pin(int index);

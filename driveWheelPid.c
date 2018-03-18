@@ -2,12 +2,15 @@
 #include <wiringPi.h>
 #include "time.h"
 
+#define KD 0.01
+#define KP 1
+#define KI 10 
 
-#define SPEED_KD 0.01
-#define SPEED_KP 1
-#define SPEED_KI 10 
+#define MOTOR_FWD 0
+#define MOTOR_BACK 1
 
-#define dt 5
+#define dt_msec 5
+#define dt_sec ((double)5)/1000
 #define dt_nsec 5000000
 
 int pin(int index){
@@ -36,7 +39,6 @@ long min(long A, long B){
    return A;
 }
 void micosleep(long mSec){
-
    struct timespec sleepTime;
    sleepTime.tv_nsec = mSec*1000;
    sleepTime.tv_sec = mSec/1000000;
@@ -54,40 +56,80 @@ void writeToWheels(int wheelCmd[][2]) {
       }
 }
 
+void updateWheels(WheelPid *wheels,double *inputGoal,enum dir direction){
+   switch(direction){
+      case Forward:
+         wheels[FL].curDir = 1;
+         wheels[FR].curDir = 1;
+         wheels[BR].curDir = 1;
+         wheels[BL].curDir = 1;
+      break;
+      case Backward:
+         wheels[FL].curDir = -1;
+         wheels[FR].curDir = -1;
+         wheels[BR].curDir = -1;
+         wheels[BL].curDir = -1;
+      break;
+      case Right:
+         wheels[FL].curDir = 1;
+         wheels[FR].curDir = -1;
+         wheels[BR].curDir = 1;
+         wheels[BL].curDir = -1;
+      break;
+      case Left:
+         wheels[FL].curDir = -1;
+         wheels[FR].curDir = 1;
+         wheels[BR].curDir = -1;
+         wheels[BL].curDir = 1;
+      break;
+      default:
+         assert(0);
+   }
+   for(int i = 0; i < 4; i++){
+      //note outside this function we set child encoder proess encoder counts to 0
+      wheels[i].encoderCnt = 0;
+      wheels[i].encoderGoal = (inputGoal[i])*wheels[i].curDir;
+      wheels[i].curError = 0;
+   }
+}
 /*Reads from main.c data request and responds accordingly
  * Returns 1 if there was reques (so wheels can be updated)
  * Returns 0 if no request
  * Puts input recieved into msg
  */ 
-int handleInput(WheelPid *wheels, long *changeDis, double *speedGoalMsg, char *msg, int wheelCmd[][2]) {
+int handleInput(WheelPid *wheels,char *msg, int wheelCmd[][2],int *encoderPipe) {
 
+   double inputGoal[4];
+   enum dir direction;
    struct pollfd stdin_poll = {
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
 
       if(poll(&stdin_poll,1,0)==1){
          scanf("%c",msg);
          switch(msg[0]){
-            case 'c'://change 4 wheels speed goal
-               MYREAD(STDIN_FILENO,&speedGoalMsg,sizeof(double)*4);
-               for(int i = 0; i < 4; i++){
-                  wheels[i].speedGoal = speedGoalMsg[i];
-               }
-               break;
             case 'p'://poll for the encoder states
                MYWRITE(STDOUT_FILENO,wheels,sizeof(WheelPid)*4);
                break;
-            case 'm':
-               MYREAD(STDIN_FILENO,&changeDis,sizeof(long)*4);
-               for(int i = 0; i < 4; i ++ ){
-                  wheels[i].encoderGoal += changeDis[i];
-               }
-            case 'r':
+            case 'm'://move -- looks for encoder move amount with direction
+               MYREAD(STDIN_FILENO,&inputGoal,sizeof(long)*4);
+               MYREAD(STDIN_FILENO,&direction,sizeof(enum dir));
+               updateWheels(wheels,inputGoal,direction);
+               char tempMsg[10];
+               tempMsg[0] = 'r';
+               tempMsg[1] = 'a';
+               //reset encoder values in child encoder process
+               MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
+               break;
+            case 'r'://reset
                for(int i = 0; i < 4;i++){
                   wheelCmd[i][0] = 0;
                   wheelCmd[i][1] = 0;
+                  wheels[i].curError = 0;
                   wheels[i].encoderGoal = wheels[i].encoderCnt;
                }
-            case 'q':
+               MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
+               break;
+            case 'q'://quit
                for(int i = 0; i < 4;i++){
                   wheelCmd[i][0] = 0;
                   wheelCmd[i][1] = 0;
@@ -108,26 +150,58 @@ void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels, i
     MYWRITE(encoderPipe[1],msg,sizeof(char));
     MYREAD(encoderPipe[0],curEnco,sizeof(Encoder)* 4);
     for(int i = 0; i < 4; i++){
-       wheels[i].lastSpeed = wheels[i].curSpeed;
-       wheels[i].curSpeed = ((double)(curEnco[i].count - wheels[i].encoderCnt )) / (dt)  ;
        wheels[i].encoderCnt = curEnco[i].count;
     }
-      for(int i = 0; i < 4; i++){
-         long diff = wheels[i].encoderCnt - wheels[i].encoderGoal;
-         if(diff > 200){
-            wheelCmd[i][0] = min(2000,max(100,diff/100));
-            wheelCmd[i][1] = 1;
-         }
-         else if(diff < - 200){
-            wheelCmd[i][0] = min(2000,max(100,(-1*diff)/100));
-            wheelCmd[i][1] = 0;
+}
+//this takes the pow that is a double that can be negitive or postiive and then direction and turns wheelCmd with the correct power and dir output to be controled
+void limitPowerWheels(double pow,int wheelCmd[][2],enum dir direction){
+
+}
+
+/* logic that interprets WheelPid struct data and outputs wheelCmd to control the motors physically
+ */
+void distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
+   int indexEncoderToUse = 0;
+   long encoderToUse = wheels[indexEncoderToUse].encoderCnt;;
+   long error_new;
+   /* this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
+    */
+   for(int i = 1; i < 4; i++){
+      if(direction == Forward){
+         if(wheels[i].encoderCnt < encoderToUse){
+            encoderToUse = wheels[i].encoderCnt;
+            encoderToUse = i;
          }
       }
+      if(direction == Backward){
+         if(wheels[i].encoderCnt > encoderToUse){
+            encoderToUse = wheels[i].encoderCnt;
+            encoderToUse = i;
+         }
+      }
+      //TODO add RIGHT and LEFT
+
+   }
+   // Calculate errors:
+   error_new = wheels[indexEncoderToUse].encoderGoal - encoderToUse;
+   //TODO add for BACK and LEFT and RIGHT thsi is only for FOWARD!!!
+
+   // PI control
+   for(int i = 0; i< 4;i++){
+      wheels[i].curError += error_new;
+   }
+   double pow;
+   
+   pow = KP*error_new + KI*dt_sec*(wheels[0].curError);
+   
+   limitPowerWheels(pow,wheelCmd,direction);
+
 }
+
+/*
 void driveWheelPidControl(){
    int* encoderPipe;
    char msg[1000];
-   //double speedGoalMsg[4];
    //MotorMsg dirMsg[4];
    Encoder curEnco[4];
    WheelPid wheels[4];
@@ -163,12 +237,9 @@ void driveWheelPidControl(){
       printf("just read them\n");
       
       for(int i = 0; i < 4; i++){
-         wheels[i].lastSpeed = wheels[i].curSpeed;
-         wheels[i].curSpeed = ((double)(curEnco[i].count - wheels[i].encoderCnt )) / (dt)  ;
          wheels[i].encoderCnt = curEnco[i].count;
       }
       printf("FL:%ld, FR:%ld, BR:%ld, BL:%ld\n\n",wheels[0].encoderCnt,wheels[1].encoderCnt,wheels[2].encoderCnt,wheels[3].encoderCnt);
-      /*
       for(int i = 0; i < 4; i++){
          long diff = wheels[i].encoderCnt - wheels[i].encoderGoal;
          if(diff > 200){
@@ -179,7 +250,7 @@ void driveWheelPidControl(){
             wheelCmd[i][0] = min(2000,max(100,(-1*diff)/100));
             wheelCmd[i][1] = 0;
          }
-      }*/
+      }
       
       for(int i = 0; i < 4; i ++){
          sprintf(msg,"echo %d=%d > /dev/servoblaster",i,wheelCmd[i][0]);
@@ -195,7 +266,7 @@ void driveWheelPidControl(){
       wheelCmd[1][0] =0;
       wheelCmd[2][0] = 0;
       wheelCmd[3][0] = 2000;
-      if(handleInput(wheels, NULL, NULL, msg, wheelCmd)) {
+      if(handleInput(wheels, msg, wheelCmd,NULL)) {
         writeToWheels(wheelCmd); 
       }
       for(int i = 0; i < 4; i ++){
@@ -207,7 +278,7 @@ void driveWheelPidControl(){
 
       nanosleep(&sleepTime,NULL);
 
-      if(handleInput(wheels, NULL, NULL, msg, wheelCmd)) {
+      if(handleInput(wheels,, msg, wheelCmd,NULL)) {
         writeToWheels(wheelCmd); 
       }
       wheelCmd[0][0] = 0;
@@ -218,16 +289,15 @@ void driveWheelPidControl(){
    }
    exit(EXIT_SUCCESS);
 
-}
-void driveWheelPidControlBAISC(){
+}*/
+void driveWheelPidControl(){
 
    int* encoderPipe;
    char msg[1000];
-   double speedGoalMsg[4];
    //MotorMsg dirMsg[4];
    Encoder curEnco[4];
    WheelPid wheels[4];
-   long changeDis[4];
+
 
    struct timespec sleepTime;
    sleepTime.tv_sec = 0;
@@ -235,11 +305,19 @@ void driveWheelPidControlBAISC(){
 
    createEncoderChild(&encoderPipe);
    int wheelCmd[4][2];
+   for(int i = 0 ; i < 4; i++){
+      wheelCmd[i][0] = 0;
+      wheelCmd[i][1] = 0;
+      wheels[i].curError = 0;
+      wheels[i].curDir = 1;
+      wheels[i].encoderCnt = 0;
+      wheels[i].encoderGoal = 0;
+   }
    while(1){
 
       updateEncoderStatus(encoderPipe, curEnco, wheels,wheelCmd);
 
-      if(handleInput(wheels, changeDis, speedGoalMsg, msg, wheelCmd)) {
+      if(handleInput(wheels, msg, wheelCmd,encoderPipe)) {
         writeToWheels(wheelCmd); 
       }
 
