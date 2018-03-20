@@ -61,10 +61,11 @@ int main(){
    printf("in main line%d\n\n\n",__LINE__);
    
    direction = Forward;
-   move(direction, 5,driveWheelPipe); 
 
    while(fgetc(stdin)!=EOF){
-   printf("in main line%d\n\n\n",__LINE__);
+
+      move(direction, 5,driveWheelPipe); 
+
    }
    printf("in main line%d\n\n\n",__LINE__);
    msg[0] = 'q'; 

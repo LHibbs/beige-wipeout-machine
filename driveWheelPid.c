@@ -10,8 +10,8 @@
 #define MOTOR_BACK 1
 
 #define dt_msec 5
-#define dt_sec ((double)5)/1000
 #define dt_nsec 5000000
+#define dt_sec ((double)dt_nsec)/1000000000
 
 #define MAX_SPEED 2000
 #define MIN_SPEED 100
@@ -159,7 +159,8 @@ void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels, i
 }
 //this takes the pow that is a double that can be negitive or postiive and then direction and turns wheelCmd with the correct power and dir output to be controled
 void limitPowerWheels(double pow,int wheelCmd[][2],enum dir direction){
-   int dir = 0;
+   int dirValueTemp = 0;
+   //pow is valid from -2000 to 2000 if neg is then turned postive with dirValueTemp 1
    printf("power:%10.10f \t direction:%d\n",pow,direction);
    if(abs(pow)>MAX_SPEED){
       pow = MAX_SPEED;
@@ -169,57 +170,56 @@ void limitPowerWheels(double pow,int wheelCmd[][2],enum dir direction){
       printf("tooLowSpeed\n");
    }
    if(pow<0){
-      dir = 1;
+      dirValueTemp = 1;
       pow = pow*-1;
    }
-   //printf("pow modified:%g\n",pow);
    
    switch(direction){
       case Forward:
          for(int i = 0; i < 4;i++){
-            wheelCmd[i][0] = (int)abs(2000*dir - pow);//default state is fowards
-            wheelCmd[i][1] = dir;
+            wheelCmd[i][0] = (int)abs(2000*dirValueTemp - pow);//default state is fowards
+            wheelCmd[i][1] = dirValueTemp;
          }
       break;
       case Backward:
          for(int i = 0; i < 4;i++){
-            wheelCmd[i][0] = (int)abs(2000*(1-dir) - pow);//default state is backwords
-            wheelCmd[i][1] = 1-dir; 
+            wheelCmd[i][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default state is backwords
+            wheelCmd[i][1] = 1-dirValueTemp; 
          }
       break;
       case Left:
             //FL
-            wheelCmd[0][0] = (int)abs(2000*(1-dir) - pow);//defualt backwords
-            wheelCmd[0][1] = 1-dir;
+            wheelCmd[0][0] = (int)abs(2000*(1-dirValueTemp) - pow);//defualt backwords
+            wheelCmd[0][1] = 1-dirValueTemp;
 
             //FR
-            wheelCmd[1][0] = (int)abs(2000*(dir) - pow);//default fowards
-            wheelCmd[1][1] = dir;
+            wheelCmd[1][0] = (int)abs(2000*(dirValueTemp) - pow);//default fowards
+            wheelCmd[1][1] = dirValueTemp;
 
             //BR
-            wheelCmd[2][0] = (int)abs(2000*(dir) - pow);//default fowards
-            wheelCmd[2][1] = dir;
+            wheelCmd[2][0] = (int)abs(2000*(dirValueTemp) - pow);//default fowards
+            wheelCmd[2][1] = dirValueTemp;
 
             //BL
-            wheelCmd[3][0] = (int)abs(2000*(1-dir) - pow);//default backwords
-            wheelCmd[3][1] = 1-dir;
+            wheelCmd[3][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default backwords
+            wheelCmd[3][1] = 1-dirValueTemp;
       break;
       case Right:
             //FL
-            wheelCmd[0][0] = (int)abs(2000*(dir) - pow);//defualt fowards 
-            wheelCmd[0][1] = dir;
+            wheelCmd[0][0] = (int)abs(2000*(dirValueTemp) - pow);//defualt fowards 
+            wheelCmd[0][1] = dirValueTemp;
 
             //FR
-            wheelCmd[1][0] = (int)abs(2000*(1-dir) - pow);//default backwards
-            wheelCmd[1][1] = 1-dir;
+            wheelCmd[1][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default backwards
+            wheelCmd[1][1] = 1-dirValueTemp;
 
             //BR
-            wheelCmd[2][0] = (int)abs(2000*(1-dir) - pow);//default backwards
-            wheelCmd[2][1] = 1-dir;
+            wheelCmd[2][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default backwards
+            wheelCmd[2][1] = 1-dirValueTemp;
 
             //BL
-            wheelCmd[3][0] = (int)abs(2000*(dir) - pow);//default fowords
-            wheelCmd[3][1] = dir;
+            wheelCmd[3][0] = (int)abs(2000*(dirValueTemp) - pow);//default fowords
+            wheelCmd[3][1] = dirValueTemp;
       break;
       default:
          assert(0);
