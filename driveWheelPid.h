@@ -7,6 +7,7 @@ typedef struct{
    long encoderCnt;
    long encoderGoal;
    double curError;
+   //this is for each wheel independet of the larger task ahead
    int curDir;
    double pow;//out of 1. 1 for max power 
 }WheelPid;

@@ -60,11 +60,18 @@ int main(){
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
    printf("in main line%d\n\n\n",__LINE__);
    
-   direction = Forward;
 
-   while(fgetc(stdin)!=EOF){
-
-      move(direction, 5,driveWheelPipe); 
+   while(1){
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      direction = Forward;
+      move(direction, 24,driveWheelPipe); 
+      if(fgetc(stdin)==EOF){
+         break;
+      }
+      direction = Backward;
+      move(direction, 24,driveWheelPipe); 
 
    }
    printf("in main line%d\n\n\n",__LINE__);

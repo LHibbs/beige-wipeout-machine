@@ -3,8 +3,8 @@
 #include "time.h"
 
 #define KD 0.01
-#define KP 100
-#define KI 25 
+#define KP 1
+#define KI .01 
 
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
@@ -14,7 +14,7 @@
 #define dt_sec ((double)dt_nsec)/1000000000
 
 #define MAX_SPEED 2000
-#define MIN_SPEED 100
+#define MIN_SPEED 300
 
 int pin(int index){
    switch(index){
@@ -40,6 +40,14 @@ long min(long A, long B){
    if(A > B)
       return B;
    return A;
+}
+void resetEncoder(int encoderPipe){
+   char tempMsg[10];
+   tempMsg[0] = 'r';
+   tempMsg[1] = 'a';
+   //reset encoder values in child encoder process
+   MYWRITE(encoderPipe,tempMsg,sizeof(char)*2);
+
 }
 void micosleep(long mSec){
    struct timespec sleepTime;
@@ -91,10 +99,11 @@ void updateWheels(WheelPid *wheels,double inputGoal,enum dir direction){
    for(int i = 0; i < 4; i++){
       //note outside this function we set child encoder proess encoder counts to 0
       wheels[i].encoderCnt = 0;
-      wheels[i].encoderGoal = (inputGoal)*wheels[i].curDir;
+      wheels[i].encoderGoal = (inputGoal)*(wheels[i].curDir);
       wheels[i].curError = 0;
    }
 }
+
 /*Reads from main.c data request and responds accordingly
  * Returns 1 if there was reques (so wheels can be updated)
  * Returns 0 if no request
@@ -117,12 +126,12 @@ int handleInput(WheelPid *wheels,char *msg, int wheelCmd[][2],int *encoderPipe,e
                MYREAD(STDIN_FILENO,direction,sizeof(enum dir));
                printf("inputGoal:%g \t direction:%d\n\n\n",inputGoal[0],(int)*direction);
                updateWheels(wheels,inputGoal[0],*direction);
-               
-               char tempMsg[10];
-               tempMsg[0] = 'r';
-               tempMsg[1] = 'a';
+               resetEncoder(encoderPipe[1]);
+//               char tempMsg[10];
+ //              tempMsg[0] = 'r';
+  //             tempMsg[1] = 'a';
                //reset encoder values in child encoder process
-               MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
+   //            MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
                break;
             case 'r'://reset
                for(int i = 0; i < 4;i++){
@@ -131,7 +140,6 @@ int handleInput(WheelPid *wheels,char *msg, int wheelCmd[][2],int *encoderPipe,e
                   wheels[i].curError = 0;
                   wheels[i].encoderGoal = wheels[i].encoderCnt;
                }
-               MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
                break;
             case 'q'://quit
                for(int i = 0; i < 4;i++){
@@ -154,71 +162,82 @@ void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels, i
     MYWRITE(encoderPipe[1],msg,sizeof(char));
     MYREAD(encoderPipe[0],curEnco,sizeof(Encoder)* 4);
     for(int i = 0; i < 4; i++){
-       wheels[i].encoderCnt = curEnco[i].count;
+       if(wheels[i].curDir >0){
+         wheels[i].encoderCnt += (curEnco[i].count-wheels[i].encoderCnt);
+       }
+       else{
+         wheels[i].encoderCnt -= (curEnco[i].count+wheels[i].encoderCnt);
+       }
     }
 }
 //this takes the pow that is a double that can be negitive or postiive and then direction and turns wheelCmd with the correct power and dir output to be controled
-void limitPowerWheels(double pow,int wheelCmd[][2],enum dir direction){
+void limitPowerWheels(double *pow,int wheelCmd[][2],enum dir direction){
    int dirValueTemp = 0;
    //pow is valid from -2000 to 2000 if neg is then turned postive with dirValueTemp 1
-   printf("power:%10.10f \t direction:%d\n",pow,direction);
-   if(abs(pow)>MAX_SPEED){
-      pow = MAX_SPEED;
+   printf("power:%10.10f \t direction:%d\n",*pow,direction);
+
+   //if pow is negitive invert it and set dirValue Temp = 1
+   if((*pow) < 0){
+      dirValueTemp = 1;
+      *pow = *pow * -1;
    }
-   if(abs(pow)<MIN_SPEED){
-      pow = 0;
+   //if greater then maxumim speed then set it to max speed
+   if(abs(*pow)>MAX_SPEED){
+      *pow = MAX_SPEED;
+   }
+   //if less then minamum speed then set it to zero we are done
+   if(abs(*pow) < MIN_SPEED){
+      *pow = 0;
       printf("tooLowSpeed\n");
    }
-   if(pow<0){
-      dirValueTemp = 1;
-      pow = pow*-1;
-   }
+  
    
    switch(direction){
+      case Backward:
       case Forward:
          for(int i = 0; i < 4;i++){
-            wheelCmd[i][0] = (int)abs(2000*dirValueTemp - pow);//default state is fowards
+            wheelCmd[i][0] = (int)abs(2000*dirValueTemp - *pow);//default state is fowards
             wheelCmd[i][1] = dirValueTemp;
          }
       break;
-      case Backward:
-         for(int i = 0; i < 4;i++){
-            wheelCmd[i][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default state is backwords
-            wheelCmd[i][1] = 1-dirValueTemp; 
+         /*for(int i = 0; i < 4;i++){
+            wheelCmd[i][0] = (int)abs(2000*(dirValueTemp) - *pow);//default state is backwords
+            wheelCmd[i][1] = dirValueTemp; 
          }
-      break;
+      break;*/
       case Left:
+      //need to change 1-dirValueTemp this may not work
             //FL
-            wheelCmd[0][0] = (int)abs(2000*(1-dirValueTemp) - pow);//defualt backwords
+            wheelCmd[0][0] = (int)abs(2000*(1-dirValueTemp) - *pow);//defualt backwords
             wheelCmd[0][1] = 1-dirValueTemp;
 
             //FR
-            wheelCmd[1][0] = (int)abs(2000*(dirValueTemp) - pow);//default fowards
+            wheelCmd[1][0] = (int)abs(2000*(dirValueTemp) - *pow);//default fowards
             wheelCmd[1][1] = dirValueTemp;
 
             //BR
-            wheelCmd[2][0] = (int)abs(2000*(dirValueTemp) - pow);//default fowards
+            wheelCmd[2][0] = (int)abs(2000*(dirValueTemp) - *pow);//default fowards
             wheelCmd[2][1] = dirValueTemp;
 
             //BL
-            wheelCmd[3][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default backwords
+            wheelCmd[3][0] = (int)abs(2000*(1-dirValueTemp) - *pow);//default backwords
             wheelCmd[3][1] = 1-dirValueTemp;
       break;
       case Right:
             //FL
-            wheelCmd[0][0] = (int)abs(2000*(dirValueTemp) - pow);//defualt fowards 
+            wheelCmd[0][0] = (int)abs(2000*(dirValueTemp) - *pow);//defualt fowards 
             wheelCmd[0][1] = dirValueTemp;
 
             //FR
-            wheelCmd[1][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default backwards
+            wheelCmd[1][0] = (int)abs(2000*(1-dirValueTemp) - *pow);//default backwards
             wheelCmd[1][1] = 1-dirValueTemp;
 
             //BR
-            wheelCmd[2][0] = (int)abs(2000*(1-dirValueTemp) - pow);//default backwards
+            wheelCmd[2][0] = (int)abs(2000*(1-dirValueTemp) - *pow);//default backwards
             wheelCmd[2][1] = 1-dirValueTemp;
 
             //BL
-            wheelCmd[3][0] = (int)abs(2000*(dirValueTemp) - pow);//default fowords
+            wheelCmd[3][0] = (int)abs(2000*(dirValueTemp) - *pow);//default fowords
             wheelCmd[3][1] = dirValueTemp;
       break;
       default:
@@ -236,28 +255,32 @@ void limitPowerWheels(double pow,int wheelCmd[][2],enum dir direction){
 
 /* logic that interprets WheelPid struct data and outputs wheelCmd to control the motors physically
  */
-void distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
+int distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
    int indexEncoderToUse = 0;
-   long encoderToUse = wheels[indexEncoderToUse].encoderCnt;;
+   long encoderToUse = wheels[indexEncoderToUse].encoderCnt;
+   printf("encoderToUse:%ld\n",encoderToUse);
    long error_new;
    /* this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
     */
+   /*
    for(int i = 1; i < 4; i++){
       if(direction == Forward){
          if(wheels[i].encoderCnt < encoderToUse){
             encoderToUse = wheels[i].encoderCnt;
-            encoderToUse = i;
+            indexEncoderToUse = i;
          }
       }
       if(direction == Backward){
+         printf("in backwards!!\n");
          if(wheels[i].encoderCnt > encoderToUse){
             encoderToUse = wheels[i].encoderCnt;
-            encoderToUse = i;
+            indexEncoderToUse = i;
          }
       }
       //TODO add RIGHT and LEFT
 
-   }
+   }*/
+   printf("FL:%7ld FR:%7ld BR:%7ld BLL%7ld\n",wheels[0].encoderCnt,wheels[1].encoderCnt,wheels[2].encoderCnt,wheels[3].encoderCnt);
    // Calculate errors:
    error_new = wheels[indexEncoderToUse].encoderGoal - encoderToUse;
    printf("wheels[indexEncoderToUse].encoderGoal:%ld encoderToUse:%ld\n",wheels[indexEncoderToUse].encoderGoal,encoderToUse);
@@ -272,17 +295,28 @@ void distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) 
    pow = KP*error_new + KI*dt_sec*(wheels[0].curError);
    printf("error_new:%ld CurError%g\n",error_new,wheels[0].curError);
    
-   limitPowerWheels(pow,wheelCmd,direction);
-   if(pow <1){
-    for(int i = 0 ; i < 4; i++){
-      wheelCmd[i][0] = 0;
-      wheelCmd[i][1] = 0;
-      wheels[i].curError = 0;
-      wheels[i].curDir = 1;
-      wheels[i].encoderCnt = 0;
-      wheels[i].encoderGoal = 0;
+   limitPowerWheels(&pow,wheelCmd,direction);
+   for(int i = 0; i < 4;i++){
+      wheels[i].curDir = (wheelCmd[i][1]==0)?1:-1;
    }
+
+   if(wheelCmd[0][1] == 1){
+      printf("going backwords\n");
    }
+
+   if(pow < 10){
+      printf("turning everything off!!\n");
+      for(int i = 0 ; i < 4; i++){
+         wheelCmd[i][0] = 0;
+         wheelCmd[i][1] = 0;
+         wheels[i].curError = 0;
+         wheels[i].curDir = 1;
+         wheels[i].encoderCnt = 0;
+         wheels[i].encoderGoal = 0;
+      }
+      return 1;
+   }
+   return 0;
 }
 
 void driveWheelPidControl(){
@@ -300,6 +334,7 @@ void driveWheelPidControl(){
    sleepTime.tv_nsec = dt_nsec;//5ms
 
    createEncoderChild(&encoderPipe);
+
    int wheelCmd[4][2];
    for(int i = 0 ; i < 4; i++){
       wheelCmd[i][0] = 0;
@@ -317,7 +352,9 @@ void driveWheelPidControl(){
       if(handleInput(wheels, msg, wheelCmd,encoderPipe,&direction)) {
         writeToWheels(wheelCmd); 
       }
-      distancePIDControl(wheels,wheelCmd,direction);
+      if(distancePIDControl(wheels,wheelCmd,direction)==1){
+         resetEncoder(encoderPipe[1]);
+      }
       writeToWheels(wheelCmd); 
 
       nanosleep(&sleepTime,NULL);
