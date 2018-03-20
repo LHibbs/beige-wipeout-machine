@@ -13,9 +13,14 @@ void clear(){
 }
 
 // dist in inches
-void move(int dir, int dist) {
-    
-
+void move(enum dir direction, int dist,int* driveWheelPipe) {
+   double distance = dist * ENC_TO_INCH;
+   char msg[10];
+   msg[0] = 'm';
+   printf("wiritng to child\n\n");
+   MYWRITE(driveWheelPipe[1],msg,sizeof(char));
+   MYWRITE(driveWheelPipe[1],&distance,sizeof(double));
+   MYWRITE(driveWheelPipe[1],&direction,sizeof(enum dir));
 }
 
 
@@ -53,10 +58,15 @@ int main(){
    struct pollfd stdin_poll = {
      //.fd = pipeFromSTDIN, .events = POLLIN |  POLLPRI };
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
+   printf("in main line%d\n\n\n",__LINE__);
+   
+   direction = Forward;
+   move(direction, 5,driveWheelPipe); 
+
    while(fgetc(stdin)!=EOF){
-      direction = Forward;
-      move(direction, 5); 
+   printf("in main line%d\n\n\n",__LINE__);
    }
+   printf("in main line%d\n\n\n",__LINE__);
    msg[0] = 'q'; 
    MYWRITE(driveWheelPipe[1], msg, sizeof(char));   
    waitpid(driveWheelPid,&status,0);

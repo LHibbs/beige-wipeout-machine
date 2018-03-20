@@ -53,9 +53,9 @@ void encoderChildFunct(){
 
       if(poll(&stdin_poll,1,0)==1){
          scanf("%c",msg);
-         fprintf(stderr,"got message in encoder going to scanf:'%s'\n",msg);
+         //fprintf(stderr,"got message in encoder going to scanf:'%s'\n",msg);
          switch(msg[0]){
-            fprintf(stderr,"got message in encoder :%s\n",msg);
+            //fprintf(stderr,"got message in encoder :%s\n",msg);
             case 'r'://reset one or all motors 
                scanf("%c",msg);
                switch(msg[0]){
