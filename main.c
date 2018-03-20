@@ -43,8 +43,6 @@ int main(){
    int status;
    //runLDRTest();
 
-   //createAcceleromoterChild(&pipeFromSTDIN, &pipeToIMU);
-
    wiringPiSetup();
    pinMode(pin(FL),OUTPUT);
    pinMode(pin(FR),OUTPUT);
