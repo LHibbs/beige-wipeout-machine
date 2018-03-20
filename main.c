@@ -3,7 +3,7 @@
 #include <wiringPi.h>
 #include "ldr.h"
 
-#define ENC_TO_INCH 170
+#define ENC_TO_INCH 255
 
 void clear(){
    int c = fgetc(stdin);
