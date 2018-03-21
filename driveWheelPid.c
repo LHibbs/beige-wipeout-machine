@@ -179,12 +179,13 @@ void limitPowerWheels(double *pow,int wheelCmd[][2],enum dir direction){
       dirValueTemp = 1;
       *pow = *pow * -1;
    }
+   assert(*pow>=0);
    //if greater then maxumim speed then set it to max speed
-   if(abs(*pow)>MAX_SPEED){
+   if((*pow)>MAX_SPEED){
       *pow = MAX_SPEED;
    }
    //if less then minamum speed then set it to zero we are done
-   if(abs(*pow) < MIN_SPEED){
+   if((*pow) < MIN_SPEED){
       *pow = 0;
       //printf("tooLowSpeed\n");
    }
@@ -374,7 +375,9 @@ void driveWheelPidControl(){
    enum dir direction = Forward;
    ImuDir curImu;
    curImu.Rx = curImu.Ry = curImu.Rz = curImu.curError = 0;
-
+   //flag that is either 1 or 0. 0 means the encoders have not been reset recently and we have moved so we will need to reset once we finish moving
+   //1 means that we have already reset the encoders and dont need to keep resetting them 
+   char encoderReset = 0;
    struct timespec sleepTime;
    sleepTime.tv_sec = 0;
    sleepTime.tv_nsec = dt_nsec;//5ms
@@ -405,7 +408,6 @@ void driveWheelPidControl(){
    scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    resetImu(imuPipe);
 
-   int count = 0;
    fprintf(stderr,"iipe:%d, %d\n\n",encoderPipe[0],encoderPipe[1]);
    while(1){
 
@@ -415,18 +417,24 @@ void driveWheelPidControl(){
       if(handleInput(&stdin_poll,wheels, msg, wheelCmd,encoderPipe,&direction)) {
         writeToWheels(wheelCmd); 
       }
-      if(distancePIDControl(wheels,wheelCmd,direction)==1){
+      //if encoder reset = 1 then we have already reset the encoders and are not moving again. this is to repeat encoder resetting actions
+      if(distancePIDControl(wheels,wheelCmd,direction)==1 && (encoderReset = 0)){
         resetEncoder(encoderPipe[1]);
-      }
-      if(count > 10){
+        encoderReset = 1;
 
-      anglePIDControl(wheels,wheelCmd,direction,&curImu);
-      count = 0;
+      }
+      //if else then we are moving the wheels meaning the encoders need to be reset eventually
+      else{
+         encoderReset = 0;
+      }
+
+      //if case so that is we are temporarly stop dont keep acumulating error in angle
+      if(encoderReset == 0){
+         anglePIDControl(wheels,wheelCmd,direction,&curImu);
       }
       writeToWheels(wheelCmd); 
 
       nanosleep(&sleepTime,NULL);
-      count ++;
    }
    exit(EXIT_SUCCESS);
 
