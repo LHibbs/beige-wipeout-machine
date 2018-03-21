@@ -272,7 +272,7 @@ void minimu9::handle::enable()
 void minimu9::handle::load_calibration()
 {
   wordexp_t expansion_result;
-  wordexp("~/.minimu9-ahrs-cal", &expansion_result, 0);
+  wordexp("/home/pi/.minimu9-ahrs-cal", &expansion_result, 0);
 
   std::ifstream file(expansion_result.we_wordv[0]);
   if (file.fail())

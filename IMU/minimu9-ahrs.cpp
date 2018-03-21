@@ -284,6 +284,9 @@ int main_with_exceptions(int argc, char **argv)
   sensor_set set;
   set.mag = set.acc = set.gyro = true;
 
+  if((options.i2c_bus_name[9] == '0')){
+     options.i2c_bus_name[9]='1';
+  }
   minimu9::comm_config config = minimu9::auto_detect(options.i2c_bus_name);
 
   sensor_set missing = set - minimu9::config_sensor_set(config);

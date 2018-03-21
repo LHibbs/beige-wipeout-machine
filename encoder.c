@@ -53,7 +53,7 @@ void encoderChildFunct(){
 
       if(poll(&stdin_poll,1,0)==1){
          scanf("%c",msg);
-         //fprintf(stderr,"got message in encoder going to scanf:'%s'\n",msg);
+         //fprintf(stderr,"got message in encoder going to scanf:'%c'\n",msg[0]);
          switch(msg[0]){
             //fprintf(stderr,"got message in encoder :%s\n",msg);
             case 'r'://reset one or all motors 
@@ -77,7 +77,7 @@ void encoderChildFunct(){
                      }
                   break;
                   default:
-                     fprintf(stderr,"Error in encoder function switch statment line:%d, file:%s\n",__LINE__,__FILE__);
+                     fprintf(stderr,"Error in encoder function switch statment got'%c' line:%d, file:%s\n",msg[0],__LINE__,__FILE__);
                }
             break;
 
@@ -118,7 +118,7 @@ void encoderChildFunct(){
                      }
                   break;
                   default:
-                     fprintf(stderr,"Error in encoder function switch statment line:%d, file:%s\n",__LINE__,__FILE__);
+                     fprintf(stderr,"Error in encoder function switch statment got message:%c line:%d, file:%s\n",msg[0],__LINE__,__FILE__);
                }
 
             break;
@@ -127,7 +127,7 @@ void encoderChildFunct(){
                MYWRITE(STDOUT_FILENO,drive,(sizeof(Encoder)*4));
             break;
             default:
-               fprintf(stderr,"Error in encoder function switch statment line:%d, file:%s\n",__LINE__,__FILE__);
+               fprintf(stderr,"Error in encoder function switch statment recieved:%c line:%d, file:%s\n",msg[0],__LINE__,__FILE__);
          }
       }
       //at 4 revs per second we will get a change of state every 150usec

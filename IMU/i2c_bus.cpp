@@ -50,7 +50,7 @@ void i2c_bus::open(const std::string & name)
   fd = ::open(name.c_str(), O_RDWR);
   if (fd == -1)
   {
-    throw posix_error(std::string("Failed to open I2C device ") + name);
+    throw posix_error(std::string("Failed to open I2C device 53 ") + name);
   }
 }
 
@@ -60,7 +60,7 @@ void i2c_bus::open_from_fd(int other_fd)
   fd = dup(other_fd);
   if (fd == -1)
   {
-    throw posix_error("Failed to dup I2C device");
+    throw posix_error("Failed to dup I2C device63");
   }
 }
 

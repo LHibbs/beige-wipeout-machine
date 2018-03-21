@@ -21,7 +21,7 @@ void createAcceleromoterChild(int* newSTDIN, int* writeToChild){
       myclose(pipeToIt[1]);
       dup2(pipeToMe[1],STDOUT_FILENO);
       dup2(pipeToIt[0],STDIN_FILENO);
-      execlp("/usr/bin/minimu9-ahrs","minimu9-ahrs","--output","euler",(char*) NULL);
+      execlp("minimu9-ahrs","minimu9-ahrs","--output=euler",(char*) NULL);
       fprintf(stderr,"execl failure");
       perror(NULL);
       exit(EXIT_FAILURE);

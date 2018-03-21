@@ -4,8 +4,8 @@
 #define KP 1
 #define KI .1 
 
-#define KP_ANGLE 1
-#define KI_ANGLE 0.1
+#define KP_ANGLE 10
+#define KI_ANGLE 0.5
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
 
@@ -172,7 +172,7 @@ void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels, i
 void limitPowerWheels(double *pow,int wheelCmd[][2],enum dir direction){
    int dirValueTemp = 0;
    //pow is valid from -2000 to 2000 if neg is then turned postive with dirValueTemp 1
-   printf("power:%10.10f \t direction:%d\n",*pow,direction);
+   //printf("power:%10.10f \t direction:%d\n",*pow,direction);
 
    //if pow is negitive invert it and set dirValue Temp = 1
    if((*pow) < 0){
@@ -186,7 +186,7 @@ void limitPowerWheels(double *pow,int wheelCmd[][2],enum dir direction){
    //if less then minamum speed then set it to zero we are done
    if(abs(*pow) < MIN_SPEED){
       *pow = 0;
-      printf("tooLowSpeed\n");
+      //printf("tooLowSpeed\n");
    }
   
    
@@ -251,10 +251,11 @@ void limitPowerWheels(double *pow,int wheelCmd[][2],enum dir direction){
 
 }
 double angleToValue(float angle){
+   assert(angle >= 0);
    if(abs(angle) > 90){
       double diff = 0;
-      diff = 180 - abs(angle);
-      //TODO
+      diff = abs(angle) - 180;
+      return (diff * ((angle>0)?1:-1));
    }
    return angle;
 }
@@ -262,23 +263,38 @@ double angleToValue(float angle){
 void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuDir *curImu) {
 
    double error_new  = angleToValue(curImu->Rx);
+   double pow;
    curImu->curError += error_new;
    //using wheels[0] becaues all wheels have the same curError. this will probally change 
    pow = KP_ANGLE*error_new + KI_ANGLE*dt_sec*(curImu->curError);
+   //Error_new will be negitice if it is turning slightly to the left going fowards ie counter clockwise
+   printf("angle: %g angle correction power:%g\n",error_new,pow);
    switch(direction){
-      case Foward:
-      case Backward:
+      case Forward:
+         wheelCmd[FR][0] -= pow*((wheelCmd[FR][1]==0)?1:-1);
+         wheelCmd[BR][0] -= pow*((wheelCmd[BR][1]==0)?1:-1);
+         wheelCmd[FL][0] += pow*((wheelCmd[FL][1]==0)?1:-1);
+         wheelCmd[BL][0] += pow*((wheelCmd[BL][1]==0)?1:-1);
       break;
-      //TODO
+      case Backward:
+         wheelCmd[FR][0] += pow*((wheelCmd[FR][1]==0)?1:-1);
+         wheelCmd[BR][0] += pow*((wheelCmd[BR][1]==0)?1:-1);
+         wheelCmd[FL][0] -= pow*((wheelCmd[FL][1]==0)?1:-1);
+         wheelCmd[BL][0] -= pow*((wheelCmd[BL][1]==0)?1:-1);
+      break;
       case Left:
       case Right:
       //TODO
       break;
    }
-      for(int i = 0; i < 4;i++){
-         wheelCmd[i][0] = (int)abs(2000*dirValueTemp - *pow);//default state is fowards
-         wheelCmd[i][1] = dirValueTemp;
+   for(int i = 0; i < 4;i++){
+      if(wheelCmd[i][0] > MAX_SPEED){
+         wheelCmd[i][0] = MAX_SPEED;
       }
+      else if(wheelCmd[i][0] < MIN_SPEED){
+         wheelCmd[i][0] = 0;
+      }
+   }
 
 }
 /* logic that interprets WheelPid struct data and outputs wheelCmd to control the motors physically
@@ -286,7 +302,7 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
 int distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
    int indexEncoderToUse = 0;
    long encoderToUse = wheels[indexEncoderToUse].encoderCnt;
-   printf("encoderToUse:%ld\n",encoderToUse);
+   //printf("encoderToUse:%ld\n",encoderToUse);
    long error_new;
    /* this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
     */
@@ -296,10 +312,10 @@ int distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
          indexEncoderToUse = i;
       }
    }
-   printf("FL:%7ld FR:%7ld BR:%7ld BLL%7ld\n",wheels[0].encoderCnt,wheels[1].encoderCnt,wheels[2].encoderCnt,wheels[3].encoderCnt);
+   //printf("FL:%7ld FR:%7ld BR:%7ld BLL%7ld\n",wheels[0].encoderCnt,wheels[1].encoderCnt,wheels[2].encoderCnt,wheels[3].encoderCnt);
    // Calculate errors:
    error_new = wheels[indexEncoderToUse].encoderGoal - encoderToUse;
-   printf("wheels[indexEncoderToUse].encoderGoal:%ld encoderToUse:%ld\n",wheels[indexEncoderToUse].encoderGoal,encoderToUse);
+   //printf("wheels[indexEncoderToUse].encoderGoal:%ld encoderToUse:%ld\n",wheels[indexEncoderToUse].encoderGoal,encoderToUse);
    //TODO add for BACK and LEFT and RIGHT thsi is only for FOWARD!!!
 
    // PI control
@@ -309,7 +325,7 @@ int distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
    double pow;
    //using wheels[0] becaues all wheels have the same curError. this will probally change 
    pow = KP*error_new + KI*dt_sec*(wheels[0].curError);
-   printf("error_new:%ld CurError%g\n",error_new,wheels[0].curError);
+   //printf("error_new:%ld CurError%g\n",error_new,wheels[0].curError);
    
    limitPowerWheels(&pow,wheelCmd,direction);
    for(int i = 0; i < 4;i++){
@@ -317,11 +333,11 @@ int distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
    }
 
    if(wheelCmd[0][1] == 1){
-      printf("going backwords\n");
+    //  printf("going backwords\n");
    }
 
    if(pow < 10){
-      printf("turning everything off!!\n");
+   //   printf("turning everything off!!\n");
       for(int i = 0 ; i < 4; i++){
          wheelCmd[i][0] = 0;
          wheelCmd[i][1] = 0;
@@ -357,15 +373,20 @@ void driveWheelPidControl(){
    WheelPid wheels[4];
    enum dir direction = Forward;
    ImuDir curImu;
-   curImu.Rx = curImu.Ry = curImu.Rz = curImu.currErr = 0;
+   curImu.Rx = curImu.Ry = curImu.Rz = curImu.curError = 0;
 
    struct timespec sleepTime;
    sleepTime.tv_sec = 0;
    sleepTime.tv_nsec = dt_nsec;//5ms
 
    createEncoderChild(&encoderPipe);
+   printf("pipe:%d, %d\n\n",encoderPipe[0],encoderPipe[1]);
+
 
    createAcceleromoterChild(&stdInPipe,&imuPipe);
+   //stdInPipe = STDIN_FILENO;
+   //imuPipe = STDOUT_FILENO;
+
 
    struct pollfd stdin_poll = {
      .fd = stdInPipe, .events = POLLIN |  POLLPRI };
@@ -379,8 +400,13 @@ void driveWheelPidControl(){
       wheels[i].encoderCnt = 0;
       wheels[i].encoderGoal = 0;
    }
+
+//this is beacues the IMU takes a coucple of seconds to start working
+   scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    resetImu(imuPipe);
 
+   int count = 0;
+   fprintf(stderr,"iipe:%d, %d\n\n",encoderPipe[0],encoderPipe[1]);
    while(1){
 
       updateEncoderStatus(encoderPipe, curEnco, wheels,wheelCmd);
@@ -390,12 +416,17 @@ void driveWheelPidControl(){
         writeToWheels(wheelCmd); 
       }
       if(distancePIDControl(wheels,wheelCmd,direction)==1){
-         resetEncoder(encoderPipe[1]);
+        resetEncoder(encoderPipe[1]);
       }
+      if(count > 10){
+
       anglePIDControl(wheels,wheelCmd,direction,&curImu);
+      count = 0;
+      }
       writeToWheels(wheelCmd); 
 
       nanosleep(&sleepTime,NULL);
+      count ++;
    }
    exit(EXIT_SUCCESS);
 

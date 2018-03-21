@@ -50,12 +50,15 @@ int main(){
    pinMode(pin(BR),OUTPUT);
 
    driveWheelPid = createDriveWheelChild(&driveWheelPipe);
+   //int newS;
+   //int wtC;
+   //createAcceleromoterChild(&newS,&wtC);
 
 
    enum dir direction;
    struct pollfd stdin_poll = {
-     //.fd = pipeFromSTDIN, .events = POLLIN |  POLLPRI };
-     .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
+       .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
+   //  .fd = newS, .events = POLLIN |  POLLPRI };
    printf("in main line%d\n\n\n",__LINE__);
    
 
@@ -64,12 +67,13 @@ int main(){
        break;
       }
       direction = Forward;
-      move(direction, 24,driveWheelPipe); 
+   //   move(direction, 24,driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
       }
       direction = Backward;
-      move(direction, 24,driveWheelPipe); 
+      direction = direction + 0;
+    //  move(direction, 24,driveWheelPipe); 
 
    }
    printf("in main line%d\n\n\n",__LINE__);
