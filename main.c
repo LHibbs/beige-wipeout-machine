@@ -67,13 +67,12 @@ int main(){
        break;
       }
       direction = Forward;
-   //   move(direction, 24,driveWheelPipe); 
+      move(direction, 48,driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
       }
       direction = Backward;
-      direction = direction + 0;
-    //  move(direction, 24,driveWheelPipe); 
+      move(direction, 48,driveWheelPipe); 
 
    }
    printf("in main line%d\n\n\n",__LINE__);
