@@ -4,8 +4,8 @@
 #define KP 1
 #define KI .1 
 
-#define KP_ANGLE 90
-#define KI_ANGLE 5
+#define KP_ANGLE 200 
+#define KI_ANGLE 0.01 
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
 
@@ -14,7 +14,7 @@
 #define dt_sec ((double)dt_nsec)/1000000000
 
 #define MAX_SPEED 2000
-#define MIN_SPEED 300
+#define MIN_SPEED 100
 
 int pin(int index){
    switch(index){
@@ -103,6 +103,17 @@ void updateWheels(WheelPid *wheels,double inputGoal,enum dir direction){
       wheels[i].curError = 0;
    }
 }
+void gradualStartUp(WheelPid *wheels,int wheelCmd[][2]){
+   struct timespec sleepTime;
+   sleepTime.tv_sec = 0;
+   sleepTime.tv_nsec = 10000000;//10ms
+
+   for(int i = 0; i < 4; i++){
+      wheelCmd[i][0] = 
+
+   }
+   
+}
 
 /*Reads from main.c data request and responds accordingly
  * Returns 1 if there was reques (so wheels can be updated)
@@ -130,6 +141,8 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
   //             tempMsg[1] = 'a';
                //reset encoder values in child encoder process
    //            MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
+               
+               gradualStartUp();
                break;
             case 'r'://reset
                for(int i = 0; i < 4;i++){
@@ -272,19 +285,22 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    //using wheels[0] becaues all wheels have the same curError. this will probally change 
    pow = KP_ANGLE*error_new + KI_ANGLE*dt_sec*(curImu->curError);
    //Error_new will be negitice if it is turning slightly to the left going fowards ie counter clockwise
-   printf("angle: %g angle correction power:%g\n",error_new,pow);
+   double wheelPower = ((wheelCmd[FR][1]==0)?wheelCmd[FR][0]:(2000-wheelCmd[FR][0]))/2000;
+   wheelPower = max(wheelPower, .3);
+   printf("angle: %g angle correction power:%g wheelPower:%g\n",error_new,pow,wheelPower);
    switch(direction){
       case Forward:
-         wheelCmd[FR][0] += pow*((wheelCmd[FR][1]==0)?1:-1);
-         wheelCmd[BR][0] += pow*((wheelCmd[BR][1]==0)?1:-1);
-         wheelCmd[FL][0] -= pow*((wheelCmd[FL][1]==0)?1:-1);
-         wheelCmd[BL][0] -= pow*((wheelCmd[BL][1]==0)?1:-1);
+         
+         wheelCmd[FR][0] += (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
+         wheelCmd[BR][0] += (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
+         wheelCmd[FL][0] -= (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
+         wheelCmd[BL][0] -= (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
       break;
       case Backward:
-         wheelCmd[FR][0] -= pow*((wheelCmd[FR][1]==0)?1:-1);
-         wheelCmd[BR][0] -= pow*((wheelCmd[BR][1]==0)?1:-1);
-         wheelCmd[FL][0] += pow*((wheelCmd[FL][1]==0)?1:-1);
-         wheelCmd[BL][0] += pow*((wheelCmd[BL][1]==0)?1:-1);
+         wheelCmd[FR][0] -= (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
+         wheelCmd[BR][0] -= (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
+         wheelCmd[FL][0] += (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
+         wheelCmd[BL][0] += (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
       break;
       case Left:
       case Right:
@@ -413,6 +429,7 @@ void driveWheelPidControl(){
       wheels[i].encoderGoal = 0;
    }
 
+        writeToWheels(wheelCmd); 
 //this is beacues the IMU takes a coucple of seconds to start working
    for(int i =0;i < 15; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));

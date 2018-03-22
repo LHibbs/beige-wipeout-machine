@@ -66,12 +66,14 @@ int main(){
       if(fgetc(stdin)==EOF){
        break;
       }
-      direction = Forward;
+
+      direction = Backward;
       move(direction, 48,driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
       }
-      direction = Backward;
+
+      direction = Forward;
       move(direction, 48,driveWheelPipe); 
 
    }
