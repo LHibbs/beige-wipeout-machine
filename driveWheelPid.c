@@ -4,7 +4,7 @@
 #define KP 1
 #define KI .1 
 
-#define KP_ANGLE 200 
+#define KP_ANGLE 400 
 #define KI_ANGLE 0.01 
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
@@ -103,14 +103,45 @@ void updateWheels(WheelPid *wheels,double inputGoal,enum dir direction){
       wheels[i].curError = 0;
    }
 }
-void gradualStartUp(WheelPid *wheels,int wheelCmd[][2]){
+void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
    struct timespec sleepTime;
    sleepTime.tv_sec = 0;
    sleepTime.tv_nsec = 10000000;//10ms
+   int wheelDir = 0;
+   if(direction == Backward || direction == Left){
+      wheelDir = 1;
+   }
+//speed at 100 and increment by 50 is .38 seconds
+   for(int speed = 100; speed <= 2000;speed = speed + 50){
+      switch(direction)
+      {
+         case Forward:
+         case Backward:
+            for(int i = 0; i < 4; i++){
+               wheelCmd[i][0] = abs(2000*wheelDir - speed);
+               wheelCmd[i][1] = wheelDir;
+            }
+         break;
+         case Left:
+         case Right:
+            wheelCmd[FL][0] = abs(2000*wheelDir - speed);
+            wheelCmd[FL][1] = wheelDir;
 
-   for(int i = 0; i < 4; i++){
-      wheelCmd[i][0] = 
+            wheelCmd[FR][0] = abs(2000*((wheelDir)?0:1) - speed);
+            wheelCmd[FR][1] = (wheelDir)?0:1;
 
+            wheelCmd[BR][0] = abs(2000*wheelDir - speed);
+            wheelCmd[BR][1] = wheelDir;
+
+            wheelCmd[BL][0] = abs(2000*((wheelDir)?0:1) - speed);
+            wheelCmd[BL][1] = (wheelDir)?0:1;
+         break;
+         default:
+            assert(0);
+         break;
+      }
+      writeToWheels(wheelCmd);
+      nanosleep(&sleepTime,NULL);
    }
    
 }
@@ -142,7 +173,7 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
                //reset encoder values in child encoder process
    //            MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
                
-               gradualStartUp();
+               gradualStartUp(wheels,wheelCmd,*direction);
                break;
             case 'r'://reset
                for(int i = 0; i < 4;i++){
@@ -290,17 +321,12 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    printf("angle: %g angle correction power:%g wheelPower:%g\n",error_new,pow,wheelPower);
    switch(direction){
       case Forward:
-         
-         wheelCmd[FR][0] += (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
-         wheelCmd[BR][0] += (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
          wheelCmd[FL][0] -= (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
          wheelCmd[BL][0] -= (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
       break;
       case Backward:
          wheelCmd[FR][0] -= (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
          wheelCmd[BR][0] -= (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
-         wheelCmd[FL][0] += (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
-         wheelCmd[BL][0] += (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
       break;
       case Left:
       case Right:
@@ -451,6 +477,7 @@ void driveWheelPidControl(){
       if(distancePIDControl(wheels,wheelCmd,direction)== 1){
          if(encoderReset == 0){
             resetEncoder(encoderPipe[1]);
+            curImu.curError = 0;
          }
          encoderReset = 1;
       }
