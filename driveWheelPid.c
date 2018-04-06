@@ -2,10 +2,11 @@
 
 #define KD 0.01
 #define KP 1
-#define KI .1 
+#define KI 0
+//#define KI .1 
 
 #define KP_ANGLE 100 
-#define KI_ANGLE 0.1
+#define KI_ANGLE 20
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
 
@@ -321,19 +322,21 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    printf("angle: %g angle correction power:%g wheelPower:%g\n",error_new,pow,wheelPower);
    switch(direction){
       case Forward:
-         wheelCmd[FL][0] += (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
-         wheelCmd[BL][0] += (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
+         wheelCmd[FL][0] -= (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
+         wheelCmd[BL][0] -= (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
 
-         wheelCmd[FR][0] -= (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
-         wheelCmd[BR][0] -= (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
+         wheelCmd[FR][0] += (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
+         wheelCmd[BR][0] += (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
 
       break;
       case Backward:
-         wheelCmd[FR][0] -= (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
-         wheelCmd[BR][0] -= (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
 
          wheelCmd[FL][0] += (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
          wheelCmd[BL][0] += (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
+
+         wheelCmd[FR][0] -= (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
+         wheelCmd[BR][0] -= (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
+
       break;
       case Left:
       case Right:
