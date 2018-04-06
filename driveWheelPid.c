@@ -4,8 +4,8 @@
 #define KP 1
 #define KI .1 
 
-#define KP_ANGLE 400 
-#define KI_ANGLE 0.01 
+#define KP_ANGLE 100 
+#define KI_ANGLE 0.1
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
 
@@ -112,7 +112,7 @@ void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
       wheelDir = 1;
    }
 //speed at 100 and increment by 50 is .38 seconds
-   for(int speed = 100; speed <= 2000;speed = speed + 50){
+   for(int speed = 50; speed <= 2000;speed = speed + 50){
       switch(direction)
       {
          case Forward:
@@ -313,7 +313,7 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    double error_new  = angleToValue(curImu->Rx);
    double pow;
    curImu->curError += error_new;
-   //using wheels[0] becaues all wheels have the same curError. this will probally change 
+
    pow = KP_ANGLE*error_new + KI_ANGLE*dt_sec*(curImu->curError);
    //Error_new will be negitice if it is turning slightly to the left going fowards ie counter clockwise
    double wheelPower = ((wheelCmd[FR][1]==0)?wheelCmd[FR][0]:(2000-wheelCmd[FR][0]))/2000;
@@ -321,12 +321,19 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    printf("angle: %g angle correction power:%g wheelPower:%g\n",error_new,pow,wheelPower);
    switch(direction){
       case Forward:
-         wheelCmd[FL][0] -= (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
-         wheelCmd[BL][0] -= (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
+         wheelCmd[FL][0] += (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
+         wheelCmd[BL][0] += (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
+
+         wheelCmd[FR][0] -= (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
+         wheelCmd[BR][0] -= (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
+
       break;
       case Backward:
          wheelCmd[FR][0] -= (wheelPower)*pow*((wheelCmd[FR][1]==0)?1:-1);
          wheelCmd[BR][0] -= (wheelPower)*pow*((wheelCmd[BR][1]==0)?1:-1);
+
+         wheelCmd[FL][0] += (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
+         wheelCmd[BL][0] += (wheelPower)*pow*((wheelCmd[BL][1]==0)?1:-1);
       break;
       case Left:
       case Right:
@@ -457,12 +464,13 @@ void driveWheelPidControl(){
 
         writeToWheels(wheelCmd); 
 //this is beacues the IMU takes a coucple of seconds to start working
-   for(int i =0;i < 15; i++){
+   for(int i =0;i < 300; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    }
    resetImu(imuPipe);
    for(int i =0;i < 15; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
+      printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
    }
    printf("IMU READY!!\n");
    while(1){
