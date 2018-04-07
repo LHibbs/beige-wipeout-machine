@@ -17,7 +17,7 @@ void move(enum dir direction, int dist,int* driveWheelPipe) {
    double distance = dist * ENC_TO_INCH;
    char msg[10];
    msg[0] = 'm';
-   printf("wiritng to child\n\n");
+   //printf("wiritng to child\n\n");
    MYWRITE(driveWheelPipe[1],msg,sizeof(char));
    MYWRITE(driveWheelPipe[1],&distance,sizeof(double));
    MYWRITE(driveWheelPipe[1],&direction,sizeof(enum dir));
@@ -34,7 +34,8 @@ int main(){
    int* driveWheelPipe;
    char msg[1000];
    WheelPid wheels[4];
-   setbuf(stdout,NULL);
+   //dont buffer stdout so faster printing to screen uncomment if multiple process are printing to screen
+   //setbuf(stdout,NULL);
 
    struct timespec sleepTime;
    sleepTime.tv_sec = 0;
@@ -59,7 +60,7 @@ int main(){
    struct pollfd stdin_poll = {
        .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
    //  .fd = newS, .events = POLLIN |  POLLPRI };
-   printf("in main line%d\n\n\n",__LINE__);
+   //printf("in main line%d\n\n\n",__LINE__);
    
 
    while(1){
@@ -77,7 +78,7 @@ int main(){
       move(direction, 150 ,driveWheelPipe); 
 
    }
-   printf("in main line%d\n\n\n",__LINE__);
+   //printf("in main line%d\n\n\n",__LINE__);
    msg[0] = 'q'; 
    MYWRITE(driveWheelPipe[1], msg, sizeof(char));   
    waitpid(driveWheelPid,&status,0);

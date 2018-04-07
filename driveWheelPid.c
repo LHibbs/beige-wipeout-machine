@@ -5,8 +5,8 @@
 #define KI 0
 //#define KI .1 
 
-#define KP_ANGLE 150 
-#define KI_ANGLE 0 //20
+#define KP_ANGLE 0
+#define KI_ANGLE 0
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
 
@@ -61,6 +61,11 @@ void micosleep(long mSec){
 
 void writeToWheels(int wheelCmd[][2]) {
    char msg[100]; 
+
+   /*if(!(wheelCmd[FL][0] == 0 || wheelCmd[FR][0] == 0)) {
+   printf("Finial wheel Power: , FL: , %d , FR: , %d , BR: , %d , BL , %d\n", \
+         wheelCmd[FL][0],wheelCmd[FR][0], wheelCmd[BR][0], wheelCmd[BL][0]);
+   }*/
       for(int i = 0; i < 4; i ++){
          sprintf(msg,"echo %d=%d > /dev/servoblaster",i,wheelCmd[i][0]);
          system(msg);
@@ -165,7 +170,7 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
             case 'm'://move -- looks for encoder move amount with direction
                MYREAD(stdin_poll->fd,inputGoal,sizeof(double));
                MYREAD(stdin_poll->fd,direction,sizeof(enum dir));
-               printf("inputGoal:%g \t direction:%d\n\n\n",inputGoal[0],(int)*direction);
+               fprintf(stderr,"inputGoal:%g \t direction:%d\n\n\n",inputGoal[0],(int)*direction);
                updateWheels(wheels,inputGoal[0],*direction);
                resetEncoder(encoderPipe[1]);
 //               char tempMsg[10];
@@ -319,7 +324,7 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    //Error_new will be negitice if it is turning slightly to the left going fowards ie counter clockwise
    double wheelPower = ((wheelCmd[FR][1]==0)?wheelCmd[FR][0]:(2000-wheelCmd[FR][0]))/2000;
    wheelPower = max(wheelPower, .3);
-   printf("angle: %g angle correction power:%g wheelPower:%g\n",error_new,pow,wheelPower);
+   printf("angle: , %g ,  angle correction power: , %g ,  wheelPowerCorectionFactor: , %g , BeforeAnglePIDWheelPower: , %d , ",error_new,pow,wheelPower,wheelCmd[FL][0]);
    switch(direction){
       case Forward:
          wheelCmd[FL][0] -= (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
@@ -373,10 +378,10 @@ int distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
       return 1;
    }
 
-   printf("FL:%7ld FR:%7ld BR:%7ld BLL%7ld\n",wheels[0].encoderCnt,wheels[1].encoderCnt,wheels[2].encoderCnt,wheels[3].encoderCnt);
+   //printf("FL:%7ld FR:%7ld BR:%7ld BLL%7ld\n",wheels[0].encoderCnt,wheels[1].encoderCnt,wheels[2].encoderCnt,wheels[3].encoderCnt);
    // Calculate errors:
    error_new = wheels[indexEncoderToUse].encoderGoal - encoderToUse;
-   printf("wheels[indexEncoderToUse].encoderGoal:%ld encoderToUse:%ld\n",wheels[indexEncoderToUse].encoderGoal,encoderToUse);
+   //printf("wheels[indexEncoderToUse].encoderGoal:%ld encoderToUse:%ld\n",wheels[indexEncoderToUse].encoderGoal,encoderToUse);
    //TODO add for BACK and LEFT and RIGHT thsi is only for FOWARD!!!
 
    // PI control
@@ -439,9 +444,14 @@ void driveWheelPidControl(){
    //flag that is either 1 or 0. 0 means the encoders have not been reset recently and we have moved so we will need to reset once we finish moving
    //1 means that we have already reset the encoders and dont need to keep resetting them 
    char encoderReset = 0;
+   struct timeval *before,*after;
+   double timer_u, timer_m;
    struct timespec sleepTime;
-   sleepTime.tv_sec = 0;
+   sleepTime.tv_sec = dt_sec;
    sleepTime.tv_nsec = dt_nsec;//5ms
+
+   before = malloc(sizeof(struct timespec));
+   after = malloc(sizeof(struct timespec));
 
    createEncoderChild(&encoderPipe);
    printf("pipe:%d, %d\n\n",encoderPipe[0],encoderPipe[1]);
@@ -475,8 +485,9 @@ void driveWheelPidControl(){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
       printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
    }
-   printf("IMU READY!!\n");
+   fprintf(stderr, "IMU READY!!\n");
    while(1){
+      gettimeofday(before,NULL);
 
       updateEncoderStatus(encoderPipe, curEnco, wheels,wheelCmd);
       updateImuStatus(&curImu);
@@ -501,9 +512,22 @@ void driveWheelPidControl(){
       if(encoderReset == 0){
          anglePIDControl(wheels,wheelCmd,direction,&curImu);
       }
+
       writeToWheels(wheelCmd); 
 
+      if(!(wheelCmd[FL][0] == 2000 && wheelCmd[FR][0] == 2000)) {
+         printf("timer_u: , %g , timer_m: , %g , Finial wheel Power: , FL: , %d , FR: , %d , BR: , %d , BL , %d\n", \
+               timer_u, timer_m, wheelCmd[FL][0],wheelCmd[FR][0], wheelCmd[BR][0], wheelCmd[BL][0]);
+      }
+
+
+      gettimeofday(after,NULL);
+      timer_u =  (after->tv_usec - before->tv_usec) +\
+            1000000*(after->tv_sec - before->tv_sec);
+      timer_m  = timer_u/1000;
+
       nanosleep(&sleepTime,NULL);
+
    }
    exit(EXIT_SUCCESS);
 
