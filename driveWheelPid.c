@@ -5,7 +5,7 @@
 #define KI 0
 //#define KI .1 
 
-#define KP_ANGLE 0
+#define KP_ANGLE 512
 #define KI_ANGLE 0
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
@@ -320,11 +320,11 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    double pow;
    curImu->curError += error_new;
 
-   pow = KP_ANGLE*error_new + KI_ANGLE*dt_sec*(curImu->curError);
+   pow = KP_ANGLE*error_new + KI_ANGLE*(curImu->curError);
    //Error_new will be negitice if it is turning slightly to the left going fowards ie counter clockwise
    double wheelPower = ((wheelCmd[FR][1]==0)?wheelCmd[FR][0]:(2000-wheelCmd[FR][0]))/2000;
    wheelPower = max(wheelPower, .3);
-   printf("angle: , %g ,  angle correction power: , %g ,  wheelPowerCorectionFactor: , %g , BeforeAnglePIDWheelPower: , %d , ",error_new,pow,wheelPower,wheelCmd[FL][0]);
+   printf("angle,angleCorrectionPower: , %g , %g ,  wheelPowerCorectionFactor: , %g , BeforeAnglePIDWheelPower: , %d , ",error_new,pow/500,wheelPower,wheelCmd[FL][0]);
    switch(direction){
       case Forward:
          wheelCmd[FL][0] -= (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
@@ -391,7 +391,7 @@ int distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction) {
    double pow;
    //using wheels[0] becaues all wheels have the same curError. this will probally change 
    pow = KP*error_new + KI*dt_sec*(wheels[0].curError);
-   printf("error_new:%ld CurError%g\n",error_new,wheels[0].curError);
+   //printf("error_new:%ld CurError%g\n",error_new,wheels[0].curError);
    
    limitPowerWheels(&pow,wheelCmd,direction);
    for(int i = 0; i < 4;i++){
@@ -424,7 +424,7 @@ void resetImu(int  imuPipe){
 void updateImuStatus(ImuDir *curImu){
    struct pollfd IMU_poll = {
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
-   if(poll(&IMU_poll,1,0)==1){
+   while(poll(&IMU_poll,1,0)==1){
       scanf("%g %g %g\n",&(curImu->Rx),&(curImu->Ry),&(curImu->Rz));
    }
 }
