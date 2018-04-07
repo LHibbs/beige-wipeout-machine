@@ -5,8 +5,8 @@
 #define KI 0
 //#define KI .1 
 
-#define KP_ANGLE 100 
-#define KI_ANGLE 20
+#define KP_ANGLE 150 
+#define KI_ANGLE 0 //20
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
 
@@ -467,11 +467,11 @@ void driveWheelPidControl(){
 
         writeToWheels(wheelCmd); 
 //this is beacues the IMU takes a coucple of seconds to start working
-   for(int i =0;i < 300; i++){
+   for(int i =0;i < 400; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    }
    resetImu(imuPipe);
-   for(int i =0;i < 15; i++){
+   for(int i =0;i < 30; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
       printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
    }
@@ -482,7 +482,7 @@ void driveWheelPidControl(){
       updateImuStatus(&curImu);
 
       if(handleInput(&stdin_poll,wheels, msg, wheelCmd,encoderPipe,&direction)) {
-        writeToWheels(wheelCmd); 
+        //writeToWheels(wheelCmd); 
       }
       //if encoder reset = 1 then we have already reset the encoders and are not moving again. this is to repeat encoder resetting actions
       if(distancePIDControl(wheels,wheelCmd,direction)== 1){
