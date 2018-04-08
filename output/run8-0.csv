@@ -1,0 +1,1237 @@
+pipe:4, 9
+
+168.102 1.938 -13.047
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0.073 0.001 -0.061
+0.066 -0.021 -0.07
+0.066 -0.003 -0.084
+0.071 -0.017 -0.11
+0.072 -0.005 -0.104
+0.063 0.042 -0.115
+0.063 0.038 -0.099
+0.07 0.022 -0.081
+0.084 0.005 -0.069
+0.098 0.009 -0.073
+0.127 0.028 -0.082
+0.112 0.038 -0.079
+0.11 0.041 -0.069
+0.108 0.043 -0.069
+0.124 0.07 -0.085
+0.147 0.084 -0.103
+0.136 0.069 -0.085
+0.135 0.067 -0.073
+0.122 0.066 -0.054
+0.116 0.079 -0.031
+0.12 0.077 -0.019
+0.108 0.066 -0.014
+0.1 0.066 -0.004
+timer_u: , 2.96439e-323 , timer_m: , 1.43352e+265 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16479 , timer_m: , 16.479 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15675 , timer_m: , 15.675 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16698 , timer_m: , 16.698 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16658 , timer_m: , 16.658 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17326 , timer_m: , 17.326 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15843 , timer_m: , 15.843 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15689 , timer_m: , 15.689 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15975 , timer_m: , 15.975 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 12648 , timer_m: , 12.648 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9004 , timer_m: , 9.004 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8744 , timer_m: , 8.744 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8605 , timer_m: , 8.605 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8763 , timer_m: , 8.763 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8597 , timer_m: , 8.597 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9359 , timer_m: , 9.359 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9057 , timer_m: , 9.057 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8577 , timer_m: , 8.577 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8716 , timer_m: , 8.716 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8927 , timer_m: , 8.927 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8722 , timer_m: , 8.722 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8989 , timer_m: , 8.989 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8834 , timer_m: , 8.834 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8936 , timer_m: , 8.936 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9325 , timer_m: , 9.325 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9043 , timer_m: , 9.043 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9505 , timer_m: , 9.505 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8903 , timer_m: , 8.903 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8777 , timer_m: , 8.777 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8990 , timer_m: , 8.99 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8640 , timer_m: , 8.64 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8473 , timer_m: , 8.473 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8534 , timer_m: , 8.534 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9191 , timer_m: , 9.191 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8692 , timer_m: , 8.692 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8636 , timer_m: , 8.636 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8961 , timer_m: , 8.961 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8892 , timer_m: , 8.892 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8635 , timer_m: , 8.635 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9290 , timer_m: , 9.29 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8856 , timer_m: , 8.856 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8852 , timer_m: , 8.852 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8903 , timer_m: , 8.903 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8674 , timer_m: , 8.674 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8573 , timer_m: , 8.573 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8438 , timer_m: , 8.438 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8989 , timer_m: , 8.989 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8899 , timer_m: , 8.899 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9003 , timer_m: , 9.003 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8764 , timer_m: , 8.764 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8572 , timer_m: , 8.572 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8716 , timer_m: , 8.716 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9030 , timer_m: , 9.03 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9098 , timer_m: , 9.098 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9036 , timer_m: , 9.036 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9233 , timer_m: , 9.233 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8760 , timer_m: , 8.76 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8672 , timer_m: , 8.672 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8736 , timer_m: , 8.736 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9247 , timer_m: , 9.247 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16939 , timer_m: , 16.939 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16572 , timer_m: , 16.572 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15829 , timer_m: , 15.829 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15953 , timer_m: , 15.953 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15930 , timer_m: , 15.93 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15852 , timer_m: , 15.852 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16002 , timer_m: , 16.002 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16110 , timer_m: , 16.11 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15836 , timer_m: , 15.836 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15578 , timer_m: , 15.578 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16795 , timer_m: , 16.795 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15921 , timer_m: , 15.921 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16757 , timer_m: , 16.757 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17551 , timer_m: , 17.551 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16717 , timer_m: , 16.717 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16330 , timer_m: , 16.33 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17924 , timer_m: , 17.924 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15737 , timer_m: , 15.737 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15839 , timer_m: , 15.839 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16405 , timer_m: , 16.405 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17523 , timer_m: , 17.523 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15717 , timer_m: , 15.717 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15634 , timer_m: , 15.634 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 12740 , timer_m: , 12.74 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8693 , timer_m: , 8.693 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8705 , timer_m: , 8.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8758 , timer_m: , 8.758 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8716 , timer_m: , 8.716 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8827 , timer_m: , 8.827 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9164 , timer_m: , 9.164 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8783 , timer_m: , 8.783 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8889 , timer_m: , 8.889 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8918 , timer_m: , 8.918 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9049 , timer_m: , 9.049 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8653 , timer_m: , 8.653 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9424 , timer_m: , 9.424 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9117 , timer_m: , 9.117 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9410 , timer_m: , 9.41 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9154 , timer_m: , 9.154 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8800 , timer_m: , 8.8 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8967 , timer_m: , 8.967 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9102 , timer_m: , 9.102 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9195 , timer_m: , 9.195 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8861 , timer_m: , 8.861 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8762 , timer_m: , 8.762 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9071 , timer_m: , 9.071 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9048 , timer_m: , 9.048 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8760 , timer_m: , 8.76 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8663 , timer_m: , 8.663 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8698 , timer_m: , 8.698 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8816 , timer_m: , 8.816 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8754 , timer_m: , 8.754 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9097 , timer_m: , 9.097 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8676 , timer_m: , 8.676 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8700 , timer_m: , 8.7 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8800 , timer_m: , 8.8 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9017 , timer_m: , 9.017 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9084 , timer_m: , 9.084 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8871 , timer_m: , 8.871 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8726 , timer_m: , 8.726 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8664 , timer_m: , 8.664 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8603 , timer_m: , 8.603 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8638 , timer_m: , 8.638 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8818 , timer_m: , 8.818 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8725 , timer_m: , 8.725 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8680 , timer_m: , 8.68 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8900 , timer_m: , 8.9 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9124 , timer_m: , 9.124 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8979 , timer_m: , 8.979 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8725 , timer_m: , 8.725 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8811 , timer_m: , 8.811 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9094 , timer_m: , 9.094 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8658 , timer_m: , 8.658 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8934 , timer_m: , 8.934 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15967 , timer_m: , 15.967 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16985 , timer_m: , 16.985 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16659 , timer_m: , 16.659 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16341 , timer_m: , 16.341 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15819 , timer_m: , 15.819 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15774 , timer_m: , 15.774 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16153 , timer_m: , 16.153 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16333 , timer_m: , 16.333 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16328 , timer_m: , 16.328 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16784 , timer_m: , 16.784 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15646 , timer_m: , 15.646 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16482 , timer_m: , 16.482 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15732 , timer_m: , 15.732 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15779 , timer_m: , 15.779 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9805 , timer_m: , 9.805 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8517 , timer_m: , 8.517 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8691 , timer_m: , 8.691 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8692 , timer_m: , 8.692 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8953 , timer_m: , 8.953 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8714 , timer_m: , 8.714 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8923 , timer_m: , 8.923 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9333 , timer_m: , 9.333 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8815 , timer_m: , 8.815 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8633 , timer_m: , 8.633 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9184 , timer_m: , 9.184 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8706 , timer_m: , 8.706 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8980 , timer_m: , 8.98 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8574 , timer_m: , 8.574 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8580 , timer_m: , 8.58 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8993 , timer_m: , 8.993 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8820 , timer_m: , 8.82 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8941 , timer_m: , 8.941 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8699 , timer_m: , 8.699 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8803 , timer_m: , 8.803 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8842 , timer_m: , 8.842 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9265 , timer_m: , 9.265 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9138 , timer_m: , 9.138 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8980 , timer_m: , 8.98 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8943 , timer_m: , 8.943 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9202 , timer_m: , 9.202 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8969 , timer_m: , 8.969 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9163 , timer_m: , 9.163 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8875 , timer_m: , 8.875 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8904 , timer_m: , 8.904 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8685 , timer_m: , 8.685 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8718 , timer_m: , 8.718 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8553 , timer_m: , 8.553 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8563 , timer_m: , 8.563 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8640 , timer_m: , 8.64 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8723 , timer_m: , 8.723 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8685 , timer_m: , 8.685 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8707 , timer_m: , 8.707 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8855 , timer_m: , 8.855 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8948 , timer_m: , 8.948 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9126 , timer_m: , 9.126 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9014 , timer_m: , 9.014 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8772 , timer_m: , 8.772 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8629 , timer_m: , 8.629 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9026 , timer_m: , 9.026 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8917 , timer_m: , 8.917 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8718 , timer_m: , 8.718 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9293 , timer_m: , 9.293 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9284 , timer_m: , 9.284 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9105 , timer_m: , 9.105 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16685 , timer_m: , 16.685 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17382 , timer_m: , 17.382 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15671 , timer_m: , 15.671 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17041 , timer_m: , 17.041 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16075 , timer_m: , 16.075 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17245 , timer_m: , 17.245 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 17774 , timer_m: , 17.774 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16310 , timer_m: , 16.31 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16501 , timer_m: , 16.501 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16171 , timer_m: , 16.171 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15900 , timer_m: , 15.9 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16129 , timer_m: , 16.129 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16483 , timer_m: , 16.483 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15736 , timer_m: , 15.736 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15654 , timer_m: , 15.654 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15663 , timer_m: , 15.663 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15487 , timer_m: , 15.487 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16068 , timer_m: , 16.068 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 13918 , timer_m: , 13.918 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8681 , timer_m: , 8.681 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8819 , timer_m: , 8.819 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9056 , timer_m: , 9.056 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8676 , timer_m: , 8.676 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8796 , timer_m: , 8.796 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8804 , timer_m: , 8.804 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8770 , timer_m: , 8.77 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9080 , timer_m: , 9.08 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9087 , timer_m: , 9.087 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8995 , timer_m: , 8.995 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8638 , timer_m: , 8.638 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8654 , timer_m: , 8.654 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8844 , timer_m: , 8.844 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8792 , timer_m: , 8.792 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8753 , timer_m: , 8.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8601 , timer_m: , 8.601 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8531 , timer_m: , 8.531 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8700 , timer_m: , 8.7 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8892 , timer_m: , 8.892 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9081 , timer_m: , 9.081 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9111 , timer_m: , 9.111 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9009 , timer_m: , 9.009 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9222 , timer_m: , 9.222 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9129 , timer_m: , 9.129 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8932 , timer_m: , 8.932 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9002 , timer_m: , 9.002 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8904 , timer_m: , 8.904 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8875 , timer_m: , 8.875 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9213 , timer_m: , 9.213 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8917 , timer_m: , 8.917 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8863 , timer_m: , 8.863 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8946 , timer_m: , 8.946 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9102 , timer_m: , 9.102 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8847 , timer_m: , 8.847 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8879 , timer_m: , 8.879 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8792 , timer_m: , 8.792 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8531 , timer_m: , 8.531 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8630 , timer_m: , 8.63 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8492 , timer_m: , 8.492 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8843 , timer_m: , 8.843 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8687 , timer_m: , 8.687 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8788 , timer_m: , 8.788 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8647 , timer_m: , 8.647 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8654 , timer_m: , 8.654 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9028 , timer_m: , 9.028 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8686 , timer_m: , 8.686 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8589 , timer_m: , 8.589 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8753 , timer_m: , 8.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8817 , timer_m: , 8.817 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8773 , timer_m: , 8.773 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 14127 , timer_m: , 14.127 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16291 , timer_m: , 16.291 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16834 , timer_m: , 16.834 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15801 , timer_m: , 15.801 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15710 , timer_m: , 15.71 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15786 , timer_m: , 15.786 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15715 , timer_m: , 15.715 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15811 , timer_m: , 15.811 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15648 , timer_m: , 15.648 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15673 , timer_m: , 15.673 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15631 , timer_m: , 15.631 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15985 , timer_m: , 15.985 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15595 , timer_m: , 15.595 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15649 , timer_m: , 15.649 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 14266 , timer_m: , 14.266 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8558 , timer_m: , 8.558 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8815 , timer_m: , 8.815 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9115 , timer_m: , 9.115 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8833 , timer_m: , 8.833 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8705 , timer_m: , 8.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8837 , timer_m: , 8.837 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8660 , timer_m: , 8.66 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8779 , timer_m: , 8.779 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8874 , timer_m: , 8.874 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8694 , timer_m: , 8.694 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8793 , timer_m: , 8.793 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8723 , timer_m: , 8.723 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8616 , timer_m: , 8.616 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8718 , timer_m: , 8.718 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8555 , timer_m: , 8.555 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8750 , timer_m: , 8.75 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8698 , timer_m: , 8.698 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8609 , timer_m: , 8.609 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8511 , timer_m: , 8.511 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8694 , timer_m: , 8.694 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8734 , timer_m: , 8.734 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9017 , timer_m: , 9.017 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9118 , timer_m: , 9.118 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9099 , timer_m: , 9.099 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9020 , timer_m: , 9.02 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9456 , timer_m: , 9.456 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8809 , timer_m: , 8.809 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8722 , timer_m: , 8.722 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9028 , timer_m: , 9.028 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8791 , timer_m: , 8.791 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9262 , timer_m: , 9.262 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8743 , timer_m: , 8.743 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8731 , timer_m: , 8.731 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8683 , timer_m: , 8.683 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8739 , timer_m: , 8.739 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8725 , timer_m: , 8.725 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8705 , timer_m: , 8.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8648 , timer_m: , 8.648 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8705 , timer_m: , 8.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8936 , timer_m: , 8.936 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8868 , timer_m: , 8.868 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8607 , timer_m: , 8.607 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8747 , timer_m: , 8.747 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8607 , timer_m: , 8.607 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8907 , timer_m: , 8.907 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8558 , timer_m: , 8.558 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8807 , timer_m: , 8.807 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8630 , timer_m: , 8.63 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8562 , timer_m: , 8.562 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8743 , timer_m: , 8.743 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 11403 , timer_m: , 11.403 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15953 , timer_m: , 15.953 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16078 , timer_m: , 16.078 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15874 , timer_m: , 15.874 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15992 , timer_m: , 15.992 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15748 , timer_m: , 15.748 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15851 , timer_m: , 15.851 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15716 , timer_m: , 15.716 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15788 , timer_m: , 15.788 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15692 , timer_m: , 15.692 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15656 , timer_m: , 15.656 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15882 , timer_m: , 15.882 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15916 , timer_m: , 15.916 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15765 , timer_m: , 15.765 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15657 , timer_m: , 15.657 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8783 , timer_m: , 8.783 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8697 , timer_m: , 8.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8733 , timer_m: , 8.733 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8586 , timer_m: , 8.586 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8769 , timer_m: , 8.769 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8704 , timer_m: , 8.704 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8593 , timer_m: , 8.593 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8985 , timer_m: , 8.985 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8731 , timer_m: , 8.731 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8735 , timer_m: , 8.735 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8931 , timer_m: , 8.931 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8478 , timer_m: , 8.478 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8772 , timer_m: , 8.772 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9329 , timer_m: , 9.329 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9109 , timer_m: , 9.109 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8899 , timer_m: , 8.899 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9036 , timer_m: , 9.036 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9500 , timer_m: , 9.5 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8750 , timer_m: , 8.75 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8565 , timer_m: , 8.565 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8774 , timer_m: , 8.774 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8769 , timer_m: , 8.769 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8943 , timer_m: , 8.943 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8852 , timer_m: , 8.852 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8586 , timer_m: , 8.586 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8894 , timer_m: , 8.894 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8848 , timer_m: , 8.848 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8736 , timer_m: , 8.736 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8712 , timer_m: , 8.712 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8476 , timer_m: , 8.476 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9287 , timer_m: , 9.287 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8931 , timer_m: , 8.931 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8817 , timer_m: , 8.817 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8649 , timer_m: , 8.649 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8714 , timer_m: , 8.714 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8616 , timer_m: , 8.616 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8694 , timer_m: , 8.694 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8595 , timer_m: , 8.595 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8707 , timer_m: , 8.707 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9091 , timer_m: , 9.091 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8724 , timer_m: , 8.724 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8825 , timer_m: , 8.825 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8615 , timer_m: , 8.615 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8808 , timer_m: , 8.808 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8679 , timer_m: , 8.679 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8970 , timer_m: , 8.97 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8828 , timer_m: , 8.828 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8576 , timer_m: , 8.576 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8733 , timer_m: , 8.733 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8686 , timer_m: , 8.686 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8608 , timer_m: , 8.608 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15897 , timer_m: , 15.897 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15753 , timer_m: , 15.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16049 , timer_m: , 16.049 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15658 , timer_m: , 15.658 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 14719 , timer_m: , 14.719 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8875 , timer_m: , 8.875 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8786 , timer_m: , 8.786 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8596 , timer_m: , 8.596 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8473 , timer_m: , 8.473 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8720 , timer_m: , 8.72 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8720 , timer_m: , 8.72 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8594 , timer_m: , 8.594 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8866 , timer_m: , 8.866 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8788 , timer_m: , 8.788 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9129 , timer_m: , 9.129 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8635 , timer_m: , 8.635 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8464 , timer_m: , 8.464 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8847 , timer_m: , 8.847 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8659 , timer_m: , 8.659 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8682 , timer_m: , 8.682 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8730 , timer_m: , 8.73 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9148 , timer_m: , 9.148 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8770 , timer_m: , 8.77 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8756 , timer_m: , 8.756 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8736 , timer_m: , 8.736 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8688 , timer_m: , 8.688 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8670 , timer_m: , 8.67 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8551 , timer_m: , 8.551 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8741 , timer_m: , 8.741 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8581 , timer_m: , 8.581 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8786 , timer_m: , 8.786 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8765 , timer_m: , 8.765 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8578 , timer_m: , 8.578 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8737 , timer_m: , 8.737 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8654 , timer_m: , 8.654 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8707 , timer_m: , 8.707 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8960 , timer_m: , 8.96 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8746 , timer_m: , 8.746 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8863 , timer_m: , 8.863 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9228 , timer_m: , 9.228 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8640 , timer_m: , 8.64 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8746 , timer_m: , 8.746 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8704 , timer_m: , 8.704 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8630 , timer_m: , 8.63 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8777 , timer_m: , 8.777 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8715 , timer_m: , 8.715 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8794 , timer_m: , 8.794 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8721 , timer_m: , 8.721 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8832 , timer_m: , 8.832 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8605 , timer_m: , 8.605 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8714 , timer_m: , 8.714 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8713 , timer_m: , 8.713 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8708 , timer_m: , 8.708 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8669 , timer_m: , 8.669 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9239 , timer_m: , 9.239 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15726 , timer_m: , 15.726 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15684 , timer_m: , 15.684 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16074 , timer_m: , 16.074 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16356 , timer_m: , 16.356 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15867 , timer_m: , 15.867 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15749 , timer_m: , 15.749 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15899 , timer_m: , 15.899 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15843 , timer_m: , 15.843 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15861 , timer_m: , 15.861 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 11545 , timer_m: , 11.545 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8755 , timer_m: , 8.755 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8721 , timer_m: , 8.721 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8726 , timer_m: , 8.726 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8596 , timer_m: , 8.596 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8730 , timer_m: , 8.73 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8707 , timer_m: , 8.707 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8597 , timer_m: , 8.597 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8843 , timer_m: , 8.843 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8674 , timer_m: , 8.674 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8714 , timer_m: , 8.714 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8752 , timer_m: , 8.752 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8810 , timer_m: , 8.81 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8840 , timer_m: , 8.84 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8780 , timer_m: , 8.78 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8669 , timer_m: , 8.669 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8895 , timer_m: , 8.895 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8757 , timer_m: , 8.757 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8831 , timer_m: , 8.831 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8883 , timer_m: , 8.883 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8762 , timer_m: , 8.762 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8862 , timer_m: , 8.862 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9058 , timer_m: , 9.058 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8961 , timer_m: , 8.961 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9352 , timer_m: , 9.352 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9266 , timer_m: , 9.266 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8888 , timer_m: , 8.888 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9124 , timer_m: , 9.124 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8775 , timer_m: , 8.775 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8991 , timer_m: , 8.991 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8596 , timer_m: , 8.596 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9191 , timer_m: , 9.191 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9147 , timer_m: , 9.147 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9688 , timer_m: , 9.688 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9118 , timer_m: , 9.118 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8630 , timer_m: , 8.63 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8710 , timer_m: , 8.71 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8613 , timer_m: , 8.613 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8617 , timer_m: , 8.617 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8745 , timer_m: , 8.745 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8605 , timer_m: , 8.605 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8855 , timer_m: , 8.855 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8757 , timer_m: , 8.757 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8780 , timer_m: , 8.78 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8740 , timer_m: , 8.74 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8639 , timer_m: , 8.639 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8899 , timer_m: , 8.899 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8676 , timer_m: , 8.676 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8742 , timer_m: , 8.742 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8537 , timer_m: , 8.537 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15676 , timer_m: , 15.676 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15924 , timer_m: , 15.924 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15891 , timer_m: , 15.891 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16110 , timer_m: , 16.11 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16077 , timer_m: , 16.077 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16016 , timer_m: , 16.016 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15991 , timer_m: , 15.991 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15961 , timer_m: , 15.961 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16014 , timer_m: , 16.014 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 13893 , timer_m: , 13.893 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8635 , timer_m: , 8.635 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8605 , timer_m: , 8.605 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8679 , timer_m: , 8.679 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8663 , timer_m: , 8.663 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8731 , timer_m: , 8.731 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8808 , timer_m: , 8.808 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8635 , timer_m: , 8.635 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8481 , timer_m: , 8.481 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8793 , timer_m: , 8.793 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8785 , timer_m: , 8.785 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8721 , timer_m: , 8.721 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8677 , timer_m: , 8.677 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9183 , timer_m: , 9.183 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8741 , timer_m: , 8.741 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8646 , timer_m: , 8.646 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8701 , timer_m: , 8.701 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8780 , timer_m: , 8.78 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8652 , timer_m: , 8.652 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8723 , timer_m: , 8.723 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8820 , timer_m: , 8.82 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8641 , timer_m: , 8.641 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8771 , timer_m: , 8.771 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8753 , timer_m: , 8.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8627 , timer_m: , 8.627 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8717 , timer_m: , 8.717 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8748 , timer_m: , 8.748 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8700 , timer_m: , 8.7 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8697 , timer_m: , 8.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8779 , timer_m: , 8.779 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8684 , timer_m: , 8.684 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8693 , timer_m: , 8.693 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8697 , timer_m: , 8.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8683 , timer_m: , 8.683 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8616 , timer_m: , 8.616 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8626 , timer_m: , 8.626 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8648 , timer_m: , 8.648 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8462 , timer_m: , 8.462 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8665 , timer_m: , 8.665 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8536 , timer_m: , 8.536 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8601 , timer_m: , 8.601 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8649 , timer_m: , 8.649 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8676 , timer_m: , 8.676 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9179 , timer_m: , 9.179 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9007 , timer_m: , 9.007 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9363 , timer_m: , 9.363 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8787 , timer_m: , 8.787 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9448 , timer_m: , 9.448 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8878 , timer_m: , 8.878 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8942 , timer_m: , 8.942 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 11681 , timer_m: , 11.681 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15802 , timer_m: , 15.802 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15697 , timer_m: , 15.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15693 , timer_m: , 15.693 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15752 , timer_m: , 15.752 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15845 , timer_m: , 15.845 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15866 , timer_m: , 15.866 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15670 , timer_m: , 15.67 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15898 , timer_m: , 15.898 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15816 , timer_m: , 15.816 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16062 , timer_m: , 16.062 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15843 , timer_m: , 15.843 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16017 , timer_m: , 16.017 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15824 , timer_m: , 15.824 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15745 , timer_m: , 15.745 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8794 , timer_m: , 8.794 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00275556 , 0.003968 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9035 , timer_m: , 9.035 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00256667 , 0.003696 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 780827 , timer_m: , 780.827 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0414667 , 0.059712 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8589 , timer_m: , 8.589 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0414667 , 0.059712 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8949 , timer_m: , 8.949 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0389556 , 0.056096 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8624 , timer_m: , 8.624 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0357778 , 0.05152 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8866 , timer_m: , 8.866 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0377222 , 0.05432 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8517 , timer_m: , 8.517 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0377222 , 0.05432 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8874 , timer_m: , 8.874 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0360667 , 0.051936 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8817 , timer_m: , 8.817 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0371889 , 0.053552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9090 , timer_m: , 9.09 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0371889 , 0.053552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9068 , timer_m: , 9.068 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0349889 , 0.050384 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8677 , timer_m: , 8.677 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0355333 , 0.051168 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8691 , timer_m: , 8.691 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0355333 , 0.051168 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8770 , timer_m: , 8.77 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0333556 , 0.048032 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8636 , timer_m: , 8.636 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0339 , 0.048816 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8680 , timer_m: , 8.68 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0339 , 0.048816 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8776 , timer_m: , 8.776 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0329222 , 0.047408 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8588 , timer_m: , 8.588 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0292667 , 0.042144 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8821 , timer_m: , 8.821 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0242889 , 0.034976 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8631 , timer_m: , 8.631 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0242889 , 0.034976 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8702 , timer_m: , 8.702 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0225556 , 0.03248 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8606 , timer_m: , 8.606 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0150444 , 0.021664 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8476 , timer_m: , 8.476 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0150444 , 0.021664 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8775 , timer_m: , 8.775 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0178333 , 0.02568 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8663 , timer_m: , 8.663 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0199333 , 0.028704 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8740 , timer_m: , 8.74 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0199333 , 0.028704 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8732 , timer_m: , 8.732 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0167667 , 0.024144 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8618 , timer_m: , 8.618 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0172889 , 0.024896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8764 , timer_m: , 8.764 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0172889 , 0.024896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8668 , timer_m: , 8.668 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0160111 , 0.023056 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8565 , timer_m: , 8.565 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0157444 , 0.022672 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8922 , timer_m: , 8.922 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0157444 , 0.022672 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8594 , timer_m: , 8.594 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0201667 , 0.02904 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8672 , timer_m: , 8.672 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0197778 , 0.02848 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8695 , timer_m: , 8.695 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0159444 , 0.02296 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8591 , timer_m: , 8.591 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0159444 , 0.02296 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8561 , timer_m: , 8.561 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0136444 , 0.019648 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8603 , timer_m: , 8.603 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0144889 , 0.020864 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8629 , timer_m: , 8.629 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0144889 , 0.020864 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8642 , timer_m: , 8.642 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0135111 , 0.019456 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8601 , timer_m: , 8.601 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0132667 , 0.019104 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8661 , timer_m: , 8.661 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0132667 , 0.019104 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8572 , timer_m: , 8.572 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0111889 , 0.016112 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8748 , timer_m: , 8.748 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00905556 , 0.01304 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8811 , timer_m: , 8.811 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00905556 , 0.01304 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8625 , timer_m: , 8.625 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00733333 , 0.01056 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8572 , timer_m: , 8.572 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0104222 , 0.015008 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8723 , timer_m: , 8.723 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0104222 , 0.015008 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8588 , timer_m: , 8.588 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0129222 , 0.018608 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8611 , timer_m: , 8.611 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0115111 , 0.016576 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8919 , timer_m: , 8.919 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0114667 , 0.016512 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8621 , timer_m: , 8.621 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0114667 , 0.016512 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8826 , timer_m: , 8.826 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00832222 , 0.011984 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8678 , timer_m: , 8.678 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00707778 , 0.010192 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8558 , timer_m: , 8.558 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00707778 , 0.010192 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8673 , timer_m: , 8.673 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00654444 , 0.009424 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8696 , timer_m: , 8.696 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0027 , 0.003888 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8794 , timer_m: , 8.794 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0027 , 0.003888 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8708 , timer_m: , 8.708 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00448889 , 0.006464 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8857 , timer_m: , 8.857 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00148889 , 0.002144 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8733 , timer_m: , 8.733 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00148889 , 0.002144 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8709 , timer_m: , 8.709 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000877719 , -0.00126392 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8736 , timer_m: , 8.736 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00552216 , -0.0079519 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8694 , timer_m: , 8.694 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00552216 , -0.0079519 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8781 , timer_m: , 8.781 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00404443 , -0.00582397 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8616 , timer_m: , 8.616 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00188889 , 0.00272 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8646 , timer_m: , 8.646 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000955556 , 0.001376 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9054 , timer_m: , 9.054 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000955556 , 0.001376 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9152 , timer_m: , 9.152 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00197771 , -0.0028479 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8914 , timer_m: , 8.914 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00405556 , 0.00584 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8642 , timer_m: , 8.642 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00405556 , 0.00584 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9148 , timer_m: , 9.148 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00383333 , 0.00552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8884 , timer_m: , 8.884 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0033 , 0.004752 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8850 , timer_m: , 8.85 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0033 , 0.004752 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8804 , timer_m: , 8.804 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00037774 , -0.000543945 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8814 , timer_m: , 8.814 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00228882 , -0.0032959 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8710 , timer_m: , 8.71 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00201111 , -0.002896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8832 , timer_m: , 8.832 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00201111 , -0.002896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8768 , timer_m: , 8.768 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00757785 , -0.0109121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8770 , timer_m: , 8.77 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00651109 , -0.00937598 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8549 , timer_m: , 8.549 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00651109 , -0.00937598 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8755 , timer_m: , 8.755 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00578885 , -0.00833594 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8741 , timer_m: , 8.741 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00710008 , -0.0102241 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8633 , timer_m: , 8.633 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00710008 , -0.0102241 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8806 , timer_m: , 8.806 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00313331 , -0.00451196 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8946 , timer_m: , 8.946 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00708889 , -0.010208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8724 , timer_m: , 8.724 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00708889 , -0.010208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8938 , timer_m: , 8.938 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00991109 , -0.014272 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9055 , timer_m: , 9.055 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00717773 , -0.0103359 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9543 , timer_m: , 9.543 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0106111 , -0.01528 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8590 , timer_m: , 8.59 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0106111 , -0.01528 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8771 , timer_m: , 8.771 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00628883 , -0.00905591 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9235 , timer_m: , 9.235 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.013111 , -0.0188799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9108 , timer_m: , 9.108 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.013111 , -0.0188799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8971 , timer_m: , 8.971 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.014311 , -0.0206079 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8689 , timer_m: , 8.689 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0156111 , -0.02248 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8614 , timer_m: , 8.614 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0156111 , -0.02248 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8722 , timer_m: , 8.722 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0154222 , -0.022208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8754 , timer_m: , 8.754 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0160444 , -0.023104 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8707 , timer_m: , 8.707 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0160444 , -0.023104 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8609 , timer_m: , 8.609 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0203222 , -0.0292639 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8678 , timer_m: , 8.678 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0188 , -0.027072 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8719 , timer_m: , 8.719 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0268222 , -0.038624 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 12008 , timer_m: , 12.008 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0310333 , -0.044688 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16701 , timer_m: , 16.701 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0304999 , -0.0439199 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15964 , timer_m: , 15.964 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0301222 , -0.043376 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15815 , timer_m: , 15.815 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0265333 , -0.038208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16112 , timer_m: , 16.112 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0253445 , -0.0364961 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15770 , timer_m: , 15.77 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0213445 , -0.0307361 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15853 , timer_m: , 15.853 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0230555 , -0.0332 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15720 , timer_m: , 15.72 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0210222 , -0.030272 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15766 , timer_m: , 15.766 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0229333 , -0.0330239 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15808 , timer_m: , 15.808 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0121445 , -0.017488 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15964 , timer_m: , 15.964 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00750003 , -0.0108 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15971 , timer_m: , 15.971 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0064777 , -0.00932788 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15687 , timer_m: , 15.687 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00761108 , -0.01096 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16140 , timer_m: , 16.14 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00587786 , -0.00846411 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15765 , timer_m: , 15.765 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00700005 , -0.0100801 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8730 , timer_m: , 8.73 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0105111 , -0.015136 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8658 , timer_m: , 8.658 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0142222 , -0.02048 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8907 , timer_m: , 8.907 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0142222 , -0.02048 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9520 , timer_m: , 9.52 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0122445 , -0.0176321 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9005 , timer_m: , 9.005 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0124556 , -0.017936 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8766 , timer_m: , 8.766 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0124556 , -0.017936 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8623 , timer_m: , 8.623 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0108556 , -0.0156321 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8882 , timer_m: , 8.882 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0178223 , -0.0256641 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8740 , timer_m: , 8.74 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0178223 , -0.0256641 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8646 , timer_m: , 8.646 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0142112 , -0.0204641 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8474 , timer_m: , 8.474 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0178777 , -0.0257439 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8896 , timer_m: , 8.896 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0178777 , -0.0257439 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8812 , timer_m: , 8.812 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0138111 , -0.0198879 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8927 , timer_m: , 8.927 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0151667 , -0.0218401 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8697 , timer_m: , 8.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0219333 , -0.031584 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8764 , timer_m: , 8.764 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0219333 , -0.031584 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8724 , timer_m: , 8.724 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0196777 , -0.0283359 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8673 , timer_m: , 8.673 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0255888 , -0.0368479 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8420 , timer_m: , 8.42 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0255888 , -0.0368479 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8711 , timer_m: , 8.711 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0255334 , -0.0367681 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9415 , timer_m: , 9.415 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0218555 , -0.0314719 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9243 , timer_m: , 9.243 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0218555 , -0.0314719 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8777 , timer_m: , 8.777 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0230223 , -0.0331521 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8638 , timer_m: , 8.638 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0247555 , -0.0356479 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8922 , timer_m: , 8.922 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0247555 , -0.0356479 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8661 , timer_m: , 8.661 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0228556 , -0.0329121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8578 , timer_m: , 8.578 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0253555 , -0.036512 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8998 , timer_m: , 8.998 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0226666 , -0.0326399 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8855 , timer_m: , 8.855 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0226666 , -0.0326399 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8921 , timer_m: , 8.921 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0160556 , -0.0231201 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9699 , timer_m: , 9.699 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0125778 , -0.0181121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8937 , timer_m: , 8.937 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0125778 , -0.0181121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8875 , timer_m: , 8.875 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0131556 , -0.0189441 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9775 , timer_m: , 9.775 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00894436 , -0.0128799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9294 , timer_m: , 9.294 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00235562 , -0.00339209 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8841 , timer_m: , 8.841 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00235562 , -0.00339209 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8987 , timer_m: , 8.987 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00255551 , -0.00367993 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8675 , timer_m: , 8.675 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000600009 , -0.000864014 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8762 , timer_m: , 8.762 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000600009 , -0.000864014 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8619 , timer_m: , 8.619 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00068885 , -0.000991943 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8751 , timer_m: , 8.751 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00152215 , -0.00219189 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8753 , timer_m: , 8.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00152215 , -0.00219189 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8661 , timer_m: , 8.661 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00416667 , 0.006 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8848 , timer_m: , 8.848 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000322222 , 0.000464 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8737 , timer_m: , 8.737 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000322222 , 0.000464 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8738 , timer_m: , 8.738 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00186666 , -0.00268799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8796 , timer_m: , 8.796 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00303333 , 0.004368 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8753 , timer_m: , 8.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00341119 , -0.00491211 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8735 , timer_m: , 8.735 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00341119 , -0.00491211 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8880 , timer_m: , 8.88 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00452222 , 0.006512 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 12187 , timer_m: , 12.187 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0013 , 0.001872 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16006 , timer_m: , 16.006 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0110778 , 0.015952 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15933 , timer_m: , 15.933 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00847778 , 0.012208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15817 , timer_m: , 15.817 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00416667 , 0.006 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16154 , timer_m: , 16.154 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000944519 , -0.00136011 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15811 , timer_m: , 15.811 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00252222 , 0.003632 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15824 , timer_m: , 15.824 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00704444 , 0.010144 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15982 , timer_m: , 15.982 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00885556 , 0.012752 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15734 , timer_m: , 15.734 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00505556 , 0.00728 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15820 , timer_m: , 15.82 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00505556 , 0.00728 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8818 , timer_m: , 8.818 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00788889 , 0.01136 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8667 , timer_m: , 8.667 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00643333 , 0.009264 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8654 , timer_m: , 8.654 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00643333 , 0.009264 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8689 , timer_m: , 8.689 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00547778 , 0.007888 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8863 , timer_m: , 8.863 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00588889 , 0.00848 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8818 , timer_m: , 8.818 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00588889 , 0.00848 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9050 , timer_m: , 9.05 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00788889 , 0.01136 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8992 , timer_m: , 8.992 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00608889 , 0.008768 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8800 , timer_m: , 8.8 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00608889 , 0.008768 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9095 , timer_m: , 9.095 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00125556 , 0.001808 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9052 , timer_m: , 9.052 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000477778 , 0.000688 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8923 , timer_m: , 8.923 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000700039 , -0.00100806 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8993 , timer_m: , 8.993 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000700039 , -0.00100806 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8759 , timer_m: , 8.759 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00151113 , -0.00217603 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8788 , timer_m: , 8.788 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00363329 , -0.00523193 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8738 , timer_m: , 8.738 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00363329 , -0.00523193 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8705 , timer_m: , 8.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -6.663e-05 , -9.59473e-05 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9165 , timer_m: , 9.165 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00222219 , -0.00319995 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9919 , timer_m: , 9.919 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00222219 , -0.00319995 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8653 , timer_m: , 8.653 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 5.55556e-05 , 8e-05 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8680 , timer_m: , 8.68 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00235562 , -0.00339209 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8739 , timer_m: , 8.739 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00638885 , -0.00919995 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9044 , timer_m: , 9.044 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00638885 , -0.00919995 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8586 , timer_m: , 8.586 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00431112 , -0.00620801 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9352 , timer_m: , 9.352 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000544444 , 0.000784 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8870 , timer_m: , 8.87 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000544444 , 0.000784 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8899 , timer_m: , 8.899 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00417778 , 0.006016 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8840 , timer_m: , 8.84 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00383333 , 0.00552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8912 , timer_m: , 8.912 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00383333 , 0.00552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8616 , timer_m: , 8.616 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00467778 , 0.006736 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8727 , timer_m: , 8.727 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00434444 , 0.006256 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8705 , timer_m: , 8.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00455556 , 0.00656 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8738 , timer_m: , 8.738 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00455556 , 0.00656 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8768 , timer_m: , 8.768 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00201111 , 0.002896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8812 , timer_m: , 8.812 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00047777 , -0.000687988 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8590 , timer_m: , 8.59 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00047777 , -0.000687988 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8764 , timer_m: , 8.764 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00387778 , 0.005584 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8727 , timer_m: , 8.727 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00371111 , 0.005344 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8848 , timer_m: , 8.848 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00371111 , 0.005344 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9071 , timer_m: , 9.071 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00366667 , 0.00528 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8962 , timer_m: , 8.962 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 2.22222e-05 , 3.2e-05 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8756 , timer_m: , 8.756 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 2.22222e-05 , 3.2e-05 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8902 , timer_m: , 8.902 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00802222 , -0.011552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8631 , timer_m: , 8.631 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00478889 , -0.006896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8810 , timer_m: , 8.81 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000511111 , 0.000736 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8744 , timer_m: , 8.744 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000511111 , 0.000736 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8787 , timer_m: , 8.787 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00145556 , 0.002096 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8723 , timer_m: , 8.723 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000888909 , -0.00128003 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8621 , timer_m: , 8.621 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.000888909 , -0.00128003 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8798 , timer_m: , 8.798 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00196669 , -0.00283203 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8727 , timer_m: , 8.727 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0002889 , -0.000416016 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16110 , timer_m: , 16.11 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00237783 , -0.00342407 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16850 , timer_m: , 16.85 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00413327 , -0.0059519 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 17206 , timer_m: , 17.206 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00294444 , -0.00423999 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16713 , timer_m: , 16.713 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00184445 , -0.00265601 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15988 , timer_m: , 15.988 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00268894 , -0.00387207 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15826 , timer_m: , 15.826 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00578885 , -0.00833594 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15967 , timer_m: , 15.967 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00832214 , -0.0119839 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15719 , timer_m: , 15.719 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00854441 , -0.012304 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15801 , timer_m: , 15.801 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0117221 , -0.0168799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16176 , timer_m: , 16.176 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0114222 , -0.016448 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16045 , timer_m: , 16.045 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0183 , -0.0263521 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15923 , timer_m: , 15.923 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0144001 , -0.0207361 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15805 , timer_m: , 15.805 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0104889 , -0.015104 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15794 , timer_m: , 15.794 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0082333 , -0.011856 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 17016 , timer_m: , 17.016 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0091334 , -0.0131521 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15688 , timer_m: , 15.688 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00199992 , -0.00287988 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16780 , timer_m: , 16.78 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00143331 , -0.00206396 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16876 , timer_m: , 16.876 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.000444444 , 0.00064 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15899 , timer_m: , 15.899 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00405562 , -0.00584009 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15761 , timer_m: , 15.761 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00279999 , -0.00403198 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15861 , timer_m: , 15.861 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00977783 , -0.0140801 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15812 , timer_m: , 15.812 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0074334 , -0.0107041 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15975 , timer_m: , 15.975 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00302226 , -0.00435205 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15705 , timer_m: , 15.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00945553 , -0.013616 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16020 , timer_m: , 16.02 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0100555 , -0.01448 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15789 , timer_m: , 15.789 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0172555 , -0.0248479 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15883 , timer_m: , 15.883 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0204444 , -0.0294399 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15964 , timer_m: , 15.964 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0125444 , -0.018064 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16147 , timer_m: , 16.147 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0130444 , -0.0187839 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15697 , timer_m: , 15.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0123333 , -0.01776 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15862 , timer_m: , 15.862 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0196223 , -0.0282561 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15879 , timer_m: , 15.879 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0163556 , -0.023552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15684 , timer_m: , 15.684 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0170334 , -0.0245281 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15617 , timer_m: , 15.617 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00721113 , -0.010384 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15496 , timer_m: , 15.496 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00627778 , 0.00904 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16254 , timer_m: , 16.254 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00774444 , 0.011152 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15865 , timer_m: , 15.865 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00695556 , 0.010016 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15814 , timer_m: , 15.814 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0102889 , 0.014816 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15874 , timer_m: , 15.874 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0110889 , 0.015968 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16008 , timer_m: , 16.008 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00975556 , 0.014048 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15885 , timer_m: , 15.885 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00701111 , 0.010096 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16094 , timer_m: , 16.094 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00462222 , 0.006656 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 14254 , timer_m: , 14.254 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.00351111 , 0.005056 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9252 , timer_m: , 9.252 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0022 , 0.003168 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8572 , timer_m: , 8.572 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , 0.0022 , 0.003168 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8802 , timer_m: , 8.802 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0025667 , -0.00369604 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8697 , timer_m: , 8.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00272217 , -0.00391992 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8784 , timer_m: , 8.784 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00272217 , -0.00391992 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9456 , timer_m: , 9.456 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0045222 , -0.00651196 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9128 , timer_m: , 9.128 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0106111 , -0.01528 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8998 , timer_m: , 8.998 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00991109 , -0.014272 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8594 , timer_m: , 8.594 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00991109 , -0.014272 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8994 , timer_m: , 8.994 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00750003 , -0.0108 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9504 , timer_m: , 9.504 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00912221 , -0.013136 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 56762 , timer_m: , 56.762 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00536669 , -0.00772803 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8853 , timer_m: , 8.853 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00536669 , -0.00772803 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00375553 , -0.00540796 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8648 , timer_m: , 8.648 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00367771 , -0.0052959 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8638 , timer_m: , 8.638 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00411106 , -0.00591992 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8559 , timer_m: , 8.559 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00411106 , -0.00591992 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8744 , timer_m: , 8.744 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00303328 , -0.00436792 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8529 , timer_m: , 8.529 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00454441 , -0.00654395 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8524 , timer_m: , 8.524 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00454441 , -0.00654395 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8750 , timer_m: , 8.75 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00428891 , -0.00617603 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8681 , timer_m: , 8.681 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00908881 , -0.0130879 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8834 , timer_m: , 8.834 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00908881 , -0.0130879 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8801 , timer_m: , 8.801 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0132445 , -0.019072 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8812 , timer_m: , 8.812 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0117445 , -0.0169121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8711 , timer_m: , 8.711 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0117445 , -0.0169121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8665 , timer_m: , 8.665 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0140555 , -0.02024 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8477 , timer_m: , 8.477 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0127777 , -0.0183999 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8700 , timer_m: , 8.7 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0127777 , -0.0183999 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8646 , timer_m: , 8.646 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0170556 , -0.0245601 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8821 , timer_m: , 8.821 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0179667 , -0.0258721 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8713 , timer_m: , 8.713 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0182666 , -0.026304 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8886 , timer_m: , 8.886 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0182666 , -0.026304 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8774 , timer_m: , 8.774 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0215556 , -0.03104 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8543 , timer_m: , 8.543 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.019789 , -0.0284961 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8534 , timer_m: , 8.534 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.019789 , -0.0284961 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8670 , timer_m: , 8.67 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0194444 , -0.028 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8803 , timer_m: , 8.803 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0193112 , -0.0278081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8700 , timer_m: , 8.7 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0193112 , -0.0278081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8778 , timer_m: , 8.778 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.00672217 , -0.00967993 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8545 , timer_m: , 8.545 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0101222 , -0.0145759 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8555 , timer_m: , 8.555 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0101222 , -0.0145759 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8802 , timer_m: , 8.802 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0190777 , -0.0274719 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8595 , timer_m: , 8.595 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0228444 , -0.032896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8620 , timer_m: , 8.62 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0228444 , -0.032896 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9170 , timer_m: , 9.17 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0268556 , -0.0386721 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9599 , timer_m: , 9.599 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0259555 , -0.037376 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16171 , timer_m: , 16.171 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0269999 , -0.0388799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15933 , timer_m: , 15.933 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0239 , -0.034416 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16056 , timer_m: , 16.056 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.027789 , -0.0400161 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15869 , timer_m: , 15.869 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0264111 , -0.038032 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15909 , timer_m: , 15.909 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0253777 , -0.0365439 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15680 , timer_m: , 15.68 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0228222 , -0.032864 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15864 , timer_m: , 15.864 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0218001 , -0.0313921 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15817 , timer_m: , 15.817 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0134221 , -0.0193279 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15910 , timer_m: , 15.91 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.010689 , -0.0153921 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15892 , timer_m: , 15.892 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0143333 , -0.0206399 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15769 , timer_m: , 15.769 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0131 , -0.018864 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15756 , timer_m: , 15.756 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0110555 , -0.0159199 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16223 , timer_m: , 16.223 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0167001 , -0.0240481 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15900 , timer_m: , 15.9 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0107778 , -0.01552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15768 , timer_m: , 15.768 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0106444 , -0.0153279 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15855 , timer_m: , 15.855 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.015411 , -0.0221919 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15766 , timer_m: , 15.766 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0232888 , -0.0335359 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15819 , timer_m: , 15.819 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0219223 , -0.0315681 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15895 , timer_m: , 15.895 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0244 , -0.035136 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16224 , timer_m: , 16.224 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0197556 , -0.028448 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16044 , timer_m: , 16.044 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0166 , -0.0239041 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16311 , timer_m: , 16.311 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0171666 , -0.02472 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15987 , timer_m: , 15.987 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0162555 , -0.023408 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15838 , timer_m: , 15.838 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0142778 , -0.0205601 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15994 , timer_m: , 15.994 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0202223 , -0.0291201 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15918 , timer_m: , 15.918 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0221778 , -0.031936 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16090 , timer_m: , 16.09 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0210334 , -0.0302881 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 17654 , timer_m: , 17.654 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.02 , -0.0288 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 17079 , timer_m: , 17.079 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0170778 , -0.024592 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 17143 , timer_m: , 17.143 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0194889 , -0.028064 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15928 , timer_m: , 15.928 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0206223 , -0.029696 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15889 , timer_m: , 15.889 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.022811 , -0.0328479 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15907 , timer_m: , 15.907 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0139667 , -0.0201121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16087 , timer_m: , 16.087 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0154334 , -0.0222241 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 17562 , timer_m: , 17.562 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0192444 , -0.0277119 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16081 , timer_m: , 16.081 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0189 , -0.0272161 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16120 , timer_m: , 16.12 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0195889 , -0.028208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15655 , timer_m: , 15.655 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0199666 , -0.028752 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15668 , timer_m: , 15.668 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0173777 , -0.0250239 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15928 , timer_m: , 15.928 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0196111 , -0.02824 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 15754 , timer_m: , 15.754 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0132333 , -0.0190559 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 16529 , timer_m: , 16.529 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0132 , -0.0190081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 14768 , timer_m: , 14.768 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0132 , -0.0190081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8564 , timer_m: , 8.564 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0106333 , -0.015312 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8681 , timer_m: , 8.681 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0128111 , -0.018448 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8693 , timer_m: , 8.693 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0128111 , -0.018448 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9102 , timer_m: , 9.102 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0166445 , -0.023968 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8749 , timer_m: , 8.749 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0158778 , -0.022864 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8759 , timer_m: , 8.759 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0158778 , -0.022864 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8739 , timer_m: , 8.739 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0159222 , -0.022928 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8732 , timer_m: , 8.732 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0196111 , -0.02824 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8828 , timer_m: , 8.828 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0234779 , -0.0338081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8814 , timer_m: , 8.814 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0234779 , -0.0338081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8783 , timer_m: , 8.783 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0229777 , -0.0330879 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8815 , timer_m: , 8.815 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0279222 , -0.040208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8786 , timer_m: , 8.786 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0279222 , -0.040208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8746 , timer_m: , 8.746 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0325779 , -0.0469121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8908 , timer_m: , 8.908 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0319778 , -0.0460481 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9865 , timer_m: , 9.865 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0264999 , -0.0381599 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9964 , timer_m: , 9.964 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0264999 , -0.0381599 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 10043 , timer_m: , 10.043 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.029489 , -0.0424641 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8734 , timer_m: , 8.734 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0336889 , -0.048512 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8629 , timer_m: , 8.629 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0336889 , -0.048512 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8653 , timer_m: , 8.653 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.033 , -0.04752 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8717 , timer_m: , 8.717 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0330222 , -0.047552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8630 , timer_m: , 8.63 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0330222 , -0.047552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8610 , timer_m: , 8.61 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0365111 , -0.0525759 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8733 , timer_m: , 8.733 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0397334 , -0.0572161 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8843 , timer_m: , 8.843 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0397334 , -0.0572161 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8847 , timer_m: , 8.847 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0347444 , -0.050032 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9995 , timer_m: , 9.995 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0351778 , -0.050656 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8883 , timer_m: , 8.883 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0353333 , -0.0508799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9792 , timer_m: , 9.792 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0353333 , -0.0508799 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9082 , timer_m: , 9.082 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0364444 , -0.05248 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8612 , timer_m: , 8.612 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0393444 , -0.056656 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8520 , timer_m: , 8.52 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0393444 , -0.056656 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 9163 , timer_m: , 9.163 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0383889 , -0.05528 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8955 , timer_m: , 8.955 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0380556 , -0.0548 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8749 , timer_m: , 8.749 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0402778 , -0.058 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8614 , timer_m: , 8.614 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0402778 , -0.058 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8634 , timer_m: , 8.634 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0414666 , -0.0597119 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8825 , timer_m: , 8.825 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0409778 , -0.0590081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8594 , timer_m: , 8.594 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0409778 , -0.0590081 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8680 , timer_m: , 8.68 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0420334 , -0.0605281 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8697 , timer_m: , 8.697 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0392666 , -0.0565439 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8658 , timer_m: , 8.658 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0392666 , -0.0565439 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8550 , timer_m: , 8.55 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0339778 , -0.048928 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8679 , timer_m: , 8.679 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0333445 , -0.0480161 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0 , timer_u: , 8750 , timer_m: , 8.75 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0333445 , -0.0480161 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 67 , timer_u: , 8699 , timer_m: , 8.699 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+angle,angleCorrectionPower: , -0.0338445 , -0.0487361 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 141 , timer_u: , 8735 , timer_m: , 8.735 , Finial wheel Power: , FL: , 141 , FR: , 141 , BR: , 141 , BL , 141
+angle,angleCorrectionPower: , -0.0365333 , -0.0526079 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 215 , timer_u: , 8796 , timer_m: , 8.796 , Finial wheel Power: , FL: , 215 , FR: , 215 , BR: , 215 , BL , 215
+angle,angleCorrectionPower: , -0.0365333 , -0.0526079 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 290 , timer_u: , 8772 , timer_m: , 8.772 , Finial wheel Power: , FL: , 290 , FR: , 290 , BR: , 290 , BL , 290
+angle,angleCorrectionPower: , -0.0394445 , -0.0568 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 392 , timer_u: , 14720 , timer_m: , 14.72 , Finial wheel Power: , FL: , 392 , FR: , 392 , BR: , 392 , BL , 392
+angle,angleCorrectionPower: , -0.0392 , -0.056448 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 493 , timer_u: , 15704 , timer_m: , 15.704 , Finial wheel Power: , FL: , 493 , FR: , 493 , BR: , 493 , BL , 493
+angle,angleCorrectionPower: , -0.0337333 , -0.0485759 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 593 , timer_u: , 15754 , timer_m: , 15.754 , Finial wheel Power: , FL: , 593 , FR: , 593 , BR: , 593 , BL , 593
+angle,angleCorrectionPower: , -0.0364889 , -0.0525439 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 688 , timer_u: , 15763 , timer_m: , 15.763 , Finial wheel Power: , FL: , 688 , FR: , 688 , BR: , 688 , BL , 688
+angle,angleCorrectionPower: , -0.0380444 , -0.0547839 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 779 , timer_u: , 15690 , timer_m: , 15.69 , Finial wheel Power: , FL: , 779 , FR: , 779 , BR: , 779 , BL , 779
+angle,angleCorrectionPower: , -0.0380444 , -0.0547839 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 838 , timer_u: , 8597 , timer_m: , 8.597 , Finial wheel Power: , FL: , 838 , FR: , 838 , BR: , 838 , BL , 838
+angle,angleCorrectionPower: , -0.0272778 , -0.03928 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 893 , timer_u: , 8631 , timer_m: , 8.631 , Finial wheel Power: , FL: , 893 , FR: , 893 , BR: , 893 , BL , 893
+angle,angleCorrectionPower: , -0.027311 , -0.0393279 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 945 , timer_u: , 8655 , timer_m: , 8.655 , Finial wheel Power: , FL: , 945 , FR: , 945 , BR: , 945 , BL , 945
+angle,angleCorrectionPower: , -0.027311 , -0.0393279 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 997 , timer_u: , 8729 , timer_m: , 8.729 , Finial wheel Power: , FL: , 997 , FR: , 997 , BR: , 997 , BL , 997
+angle,angleCorrectionPower: , -0.0251556 , -0.0362241 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1045 , timer_u: , 8549 , timer_m: , 8.549 , Finial wheel Power: , FL: , 1045 , FR: , 1045 , BR: , 1045 , BL , 1045
+angle,angleCorrectionPower: , -0.0184111 , -0.026512 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1091 , timer_u: , 8798 , timer_m: , 8.798 , Finial wheel Power: , FL: , 1091 , FR: , 1091 , BR: , 1091 , BL , 1091
+angle,angleCorrectionPower: , -0.0184111 , -0.026512 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1137 , timer_u: , 8604 , timer_m: , 8.604 , Finial wheel Power: , FL: , 1137 , FR: , 1137 , BR: , 1137 , BL , 1137
+angle,angleCorrectionPower: , -0.0221778 , -0.031936 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1175 , timer_u: , 8891 , timer_m: , 8.891 , Finial wheel Power: , FL: , 1175 , FR: , 1175 , BR: , 1175 , BL , 1175
+angle,angleCorrectionPower: , -0.0152556 , -0.021968 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1214 , timer_u: , 8680 , timer_m: , 8.68 , Finial wheel Power: , FL: , 1214 , FR: , 1214 , BR: , 1214 , BL , 1214
+angle,angleCorrectionPower: , -0.0152556 , -0.021968 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1253 , timer_u: , 8739 , timer_m: , 8.739 , Finial wheel Power: , FL: , 1253 , FR: , 1253 , BR: , 1253 , BL , 1253
+angle,angleCorrectionPower: , -0.0156111 , -0.02248 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1289 , timer_u: , 8719 , timer_m: , 8.719 , Finial wheel Power: , FL: , 1289 , FR: , 1289 , BR: , 1289 , BL , 1289
+angle,angleCorrectionPower: , -0.0166667 , -0.024 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1323 , timer_u: , 8717 , timer_m: , 8.717 , Finial wheel Power: , FL: , 1323 , FR: , 1323 , BR: , 1323 , BL , 1323
+angle,angleCorrectionPower: , -0.0164334 , -0.0236641 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1356 , timer_u: , 8647 , timer_m: , 8.647 , Finial wheel Power: , FL: , 1356 , FR: , 1356 , BR: , 1356 , BL , 1356
+angle,angleCorrectionPower: , -0.0164334 , -0.0236641 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1388 , timer_u: , 8657 , timer_m: , 8.657 , Finial wheel Power: , FL: , 1388 , FR: , 1388 , BR: , 1388 , BL , 1388
+angle,angleCorrectionPower: , -0.0169444 , -0.0243999 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1416 , timer_u: , 8888 , timer_m: , 8.888 , Finial wheel Power: , FL: , 1416 , FR: , 1416 , BR: , 1416 , BL , 1416
+angle,angleCorrectionPower: , -0.0108666 , -0.0156479 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1445 , timer_u: , 8662 , timer_m: , 8.662 , Finial wheel Power: , FL: , 1445 , FR: , 1445 , BR: , 1445 , BL , 1445
+angle,angleCorrectionPower: , -0.0108666 , -0.0156479 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1472 , timer_u: , 8746 , timer_m: , 8.746 , Finial wheel Power: , FL: , 1472 , FR: , 1472 , BR: , 1472 , BL , 1472
+angle,angleCorrectionPower: , -0.00886671 , -0.0127681 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1495 , timer_u: , 8668 , timer_m: , 8.668 , Finial wheel Power: , FL: , 1495 , FR: , 1495 , BR: , 1495 , BL , 1495
+angle,angleCorrectionPower: , -0.00733337 , -0.0105601 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1518 , timer_u: , 8696 , timer_m: , 8.696 , Finial wheel Power: , FL: , 1518 , FR: , 1518 , BR: , 1518 , BL , 1518
+angle,angleCorrectionPower: , -0.00733337 , -0.0105601 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1540 , timer_u: , 8818 , timer_m: , 8.818 , Finial wheel Power: , FL: , 1540 , FR: , 1540 , BR: , 1540 , BL , 1540
+angle,angleCorrectionPower: , -0.00756666 , -0.010896 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1559 , timer_u: , 8697 , timer_m: , 8.697 , Finial wheel Power: , FL: , 1559 , FR: , 1559 , BR: , 1559 , BL , 1559
+angle,angleCorrectionPower: , -0.00716671 , -0.0103201 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1579 , timer_u: , 8933 , timer_m: , 8.933 , Finial wheel Power: , FL: , 1579 , FR: , 1579 , BR: , 1579 , BL , 1579
+angle,angleCorrectionPower: , -0.00716671 , -0.0103201 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1596 , timer_u: , 9051 , timer_m: , 9.051 , Finial wheel Power: , FL: , 1596 , FR: , 1596 , BR: , 1596 , BL , 1596
+angle,angleCorrectionPower: , -0.00345561 , -0.00497607 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1613 , timer_u: , 8773 , timer_m: , 8.773 , Finial wheel Power: , FL: , 1613 , FR: , 1613 , BR: , 1613 , BL , 1613
+angle,angleCorrectionPower: , -0.00134447 , -0.00193604 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1626 , timer_u: , 9125 , timer_m: , 9.125 , Finial wheel Power: , FL: , 1626 , FR: , 1626 , BR: , 1626 , BL , 1626
+angle,angleCorrectionPower: , -0.00045556 , -0.000656006 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1635 , timer_u: , 8752 , timer_m: , 8.752 , Finial wheel Power: , FL: , 1635 , FR: , 1635 , BR: , 1635 , BL , 1635
+angle,angleCorrectionPower: , -0.00045556 , -0.000656006 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1645 , timer_u: , 8793 , timer_m: , 8.793 , Finial wheel Power: , FL: , 1645 , FR: , 1645 , BR: , 1645 , BL , 1645
+angle,angleCorrectionPower: , -0.000533379 , -0.000768066 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1659 , timer_u: , 9047 , timer_m: , 9.047 , Finial wheel Power: , FL: , 1659 , FR: , 1659 , BR: , 1659 , BL , 1659
+angle,angleCorrectionPower: , 0.00101111 , 0.001456 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1674 , timer_u: , 8877 , timer_m: , 8.877 , Finial wheel Power: , FL: , 1674 , FR: , 1674 , BR: , 1674 , BL , 1674
+angle,angleCorrectionPower: , 0.00101111 , 0.001456 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1688 , timer_u: , 8652 , timer_m: , 8.652 , Finial wheel Power: , FL: , 1688 , FR: , 1688 , BR: , 1688 , BL , 1688
+angle,angleCorrectionPower: , 0.00117778 , 0.001696 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1701 , timer_u: , 8701 , timer_m: , 8.701 , Finial wheel Power: , FL: , 1701 , FR: , 1701 , BR: , 1701 , BL , 1701
+angle,angleCorrectionPower: , 0.00252222 , 0.003632 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1713 , timer_u: , 8772 , timer_m: , 8.772 , Finial wheel Power: , FL: , 1713 , FR: , 1713 , BR: , 1713 , BL , 1713
+angle,angleCorrectionPower: , 0.00252222 , 0.003632 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1725 , timer_u: , 8679 , timer_m: , 8.679 , Finial wheel Power: , FL: , 1725 , FR: , 1725 , BR: , 1725 , BL , 1725
+angle,angleCorrectionPower: , 0.00523333 , 0.007536 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1736 , timer_u: , 8685 , timer_m: , 8.685 , Finial wheel Power: , FL: , 1736 , FR: , 1736 , BR: , 1736 , BL , 1736
+angle,angleCorrectionPower: , 0.00828889 , 0.011936 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1746 , timer_u: , 8815 , timer_m: , 8.815 , Finial wheel Power: , FL: , 1746 , FR: , 1746 , BR: , 1746 , BL , 1746
+angle,angleCorrectionPower: , 0.00828889 , 0.011936 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1757 , timer_u: , 8945 , timer_m: , 8.945 , Finial wheel Power: , FL: , 1757 , FR: , 1757 , BR: , 1757 , BL , 1757
+angle,angleCorrectionPower: , 0.00726667 , 0.010464 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1766 , timer_u: , 8720 , timer_m: , 8.72 , Finial wheel Power: , FL: , 1766 , FR: , 1766 , BR: , 1766 , BL , 1766
+angle,angleCorrectionPower: , 0.00723333 , 0.010416 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1775 , timer_u: , 8748 , timer_m: , 8.748 , Finial wheel Power: , FL: , 1775 , FR: , 1775 , BR: , 1775 , BL , 1775
+angle,angleCorrectionPower: , 0.00597778 , 0.008608 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1784 , timer_u: , 8612 , timer_m: , 8.612 , Finial wheel Power: , FL: , 1784 , FR: , 1784 , BR: , 1784 , BL , 1784
+angle,angleCorrectionPower: , 0.00597778 , 0.008608 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1791 , timer_u: , 8710 , timer_m: , 8.71 , Finial wheel Power: , FL: , 1791 , FR: , 1791 , BR: , 1791 , BL , 1791
+angle,angleCorrectionPower: , 0.00457778 , 0.006592 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1798 , timer_u: , 8869 , timer_m: , 8.869 , Finial wheel Power: , FL: , 1798 , FR: , 1798 , BR: , 1798 , BL , 1798
+angle,angleCorrectionPower: , 0.00333333 , 0.0048 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1805 , timer_u: , 8716 , timer_m: , 8.716 , Finial wheel Power: , FL: , 1805 , FR: , 1805 , BR: , 1805 , BL , 1805
+angle,angleCorrectionPower: , 0.00333333 , 0.0048 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1811 , timer_u: , 8703 , timer_m: , 8.703 , Finial wheel Power: , FL: , 1811 , FR: , 1811 , BR: , 1811 , BL , 1811
+angle,angleCorrectionPower: , 0.00213333 , 0.003072 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1817 , timer_u: , 8663 , timer_m: , 8.663 , Finial wheel Power: , FL: , 1817 , FR: , 1817 , BR: , 1817 , BL , 1817
+angle,angleCorrectionPower: , 0.000222222 , 0.00032 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1824 , timer_u: , 8606 , timer_m: , 8.606 , Finial wheel Power: , FL: , 1824 , FR: , 1824 , BR: , 1824 , BL , 1824
+angle,angleCorrectionPower: , 0.000222222 , 0.00032 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1830 , timer_u: , 8780 , timer_m: , 8.78 , Finial wheel Power: , FL: , 1830 , FR: , 1830 , BR: , 1830 , BL , 1830
+angle,angleCorrectionPower: , -0.00161116 , -0.00232007 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1835 , timer_u: , 8582 , timer_m: , 8.582 , Finial wheel Power: , FL: , 1835 , FR: , 1835 , BR: , 1835 , BL , 1835
+angle,angleCorrectionPower: , -0.0028556 , -0.00411206 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1840 , timer_u: , 8816 , timer_m: , 8.816 , Finial wheel Power: , FL: , 1840 , FR: , 1840 , BR: , 1840 , BL , 1840
+angle,angleCorrectionPower: , -0.0028556 , -0.00411206 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1845 , timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 1845 , FR: , 1845 , BR: , 1845 , BL , 1845
+angle,angleCorrectionPower: , -0.00354445 , -0.005104 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1849 , timer_u: , 8674 , timer_m: , 8.674 , Finial wheel Power: , FL: , 1849 , FR: , 1849 , BR: , 1849 , BL , 1849
+angle,angleCorrectionPower: , -0.00355564 , -0.00512012 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1853 , timer_u: , 8783 , timer_m: , 8.783 , Finial wheel Power: , FL: , 1853 , FR: , 1853 , BR: , 1853 , BL , 1853
+angle,angleCorrectionPower: , -0.0030777 , -0.00443188 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1859 , timer_u: , 16663 , timer_m: , 16.663 , Finial wheel Power: , FL: , 1859 , FR: , 1859 , BR: , 1859 , BL , 1859
+angle,angleCorrectionPower: , -0.00488892 , -0.00704004 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1864 , timer_u: , 15737 , timer_m: , 15.737 , Finial wheel Power: , FL: , 1864 , FR: , 1864 , BR: , 1864 , BL , 1864
+angle,angleCorrectionPower: , -0.00658891 , -0.00948804 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1870 , timer_u: , 16523 , timer_m: , 16.523 , Finial wheel Power: , FL: , 1870 , FR: , 1870 , BR: , 1870 , BL , 1870
+angle,angleCorrectionPower: , -0.00885552 , -0.012752 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1874 , timer_u: , 15768 , timer_m: , 15.768 , Finial wheel Power: , FL: , 1874 , FR: , 1874 , BR: , 1874 , BL , 1874
+angle,angleCorrectionPower: , -0.0111555 , -0.016064 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1878 , timer_u: , 15878 , timer_m: , 15.878 , Finial wheel Power: , FL: , 1878 , FR: , 1878 , BR: , 1878 , BL , 1878
+angle,angleCorrectionPower: , -0.013111 , -0.0188799 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1882 , timer_u: , 15935 , timer_m: , 15.935 , Finial wheel Power: , FL: , 1882 , FR: , 1882 , BR: , 1882 , BL , 1882
+angle,angleCorrectionPower: , -0.0156223 , -0.0224961 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1885 , timer_u: , 16622 , timer_m: , 16.622 , Finial wheel Power: , FL: , 1885 , FR: , 1885 , BR: , 1885 , BL , 1885
+angle,angleCorrectionPower: , -0.0207667 , -0.0299041 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1888 , timer_u: , 16901 , timer_m: , 16.901 , Finial wheel Power: , FL: , 1888 , FR: , 1888 , BR: , 1888 , BL , 1888
+angle,angleCorrectionPower: , -0.0215666 , -0.0310559 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1891 , timer_u: , 15940 , timer_m: , 15.94 , Finial wheel Power: , FL: , 1891 , FR: , 1891 , BR: , 1891 , BL , 1891
+angle,angleCorrectionPower: , -0.0225445 , -0.0324641 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1893 , timer_u: , 12623 , timer_m: , 12.623 , Finial wheel Power: , FL: , 1893 , FR: , 1893 , BR: , 1893 , BL , 1893
+angle,angleCorrectionPower: , -0.0234 , -0.033696 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1895 , timer_u: , 8775 , timer_m: , 8.775 , Finial wheel Power: , FL: , 1895 , FR: , 1895 , BR: , 1895 , BL , 1895
+angle,angleCorrectionPower: , -0.0243 , -0.0349919 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1896 , timer_u: , 8675 , timer_m: , 8.675 , Finial wheel Power: , FL: , 1896 , FR: , 1896 , BR: , 1896 , BL , 1896
+angle,angleCorrectionPower: , -0.0243 , -0.0349919 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1898 , timer_u: , 8600 , timer_m: , 8.6 , Finial wheel Power: , FL: , 1898 , FR: , 1898 , BR: , 1898 , BL , 1898
+angle,angleCorrectionPower: , -0.0249222 , -0.0358879 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1899 , timer_u: , 8542 , timer_m: , 8.542 , Finial wheel Power: , FL: , 1899 , FR: , 1899 , BR: , 1899 , BL , 1899
+angle,angleCorrectionPower: , -0.0252999 , -0.0364319 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1900 , timer_u: , 8929 , timer_m: , 8.929 , Finial wheel Power: , FL: , 1900 , FR: , 1900 , BR: , 1900 , BL , 1900
+turning everything off!!
+timer_u: , 8610 , timer_m: , 8.61 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8567 , timer_m: , 8.567 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8924 , timer_m: , 8.924 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8781 , timer_m: , 8.781 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8667 , timer_m: , 8.667 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9188 , timer_m: , 9.188 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8930 , timer_m: , 8.93 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9385 , timer_m: , 9.385 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9938 , timer_m: , 9.938 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8864 , timer_m: , 8.864 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8997 , timer_m: , 8.997 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8752 , timer_m: , 8.752 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8856 , timer_m: , 8.856 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8641 , timer_m: , 8.641 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8838 , timer_m: , 8.838 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8758 , timer_m: , 8.758 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8655 , timer_m: , 8.655 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8746 , timer_m: , 8.746 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8933 , timer_m: , 8.933 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8850 , timer_m: , 8.85 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8826 , timer_m: , 8.826 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8665 , timer_m: , 8.665 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8705 , timer_m: , 8.705 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8713 , timer_m: , 8.713 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8721 , timer_m: , 8.721 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8711 , timer_m: , 8.711 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8602 , timer_m: , 8.602 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8865 , timer_m: , 8.865 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8838 , timer_m: , 8.838 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8556 , timer_m: , 8.556 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8788 , timer_m: , 8.788 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8817 , timer_m: , 8.817 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8609 , timer_m: , 8.609 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8717 , timer_m: , 8.717 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8651 , timer_m: , 8.651 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8882 , timer_m: , 8.882 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8646 , timer_m: , 8.646 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8700 , timer_m: , 8.7 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9053 , timer_m: , 9.053 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8804 , timer_m: , 8.804 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8811 , timer_m: , 8.811 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9409 , timer_m: , 9.409 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9175 , timer_m: , 9.175 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9287 , timer_m: , 9.287 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8644 , timer_m: , 8.644 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15212 , timer_m: , 15.212 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15763 , timer_m: , 15.763 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15865 , timer_m: , 15.865 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15604 , timer_m: , 15.604 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16147 , timer_m: , 16.147 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8738 , timer_m: , 8.738 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8729 , timer_m: , 8.729 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8798 , timer_m: , 8.798 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8752 , timer_m: , 8.752 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8702 , timer_m: , 8.702 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8786 , timer_m: , 8.786 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8679 , timer_m: , 8.679 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8730 , timer_m: , 8.73 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8645 , timer_m: , 8.645 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8911 , timer_m: , 8.911 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8566 , timer_m: , 8.566 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8602 , timer_m: , 8.602 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8734 , timer_m: , 8.734 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8866 , timer_m: , 8.866 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8635 , timer_m: , 8.635 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9496 , timer_m: , 9.496 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8767 , timer_m: , 8.767 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8709 , timer_m: , 8.709 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8630 , timer_m: , 8.63 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8877 , timer_m: , 8.877 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8659 , timer_m: , 8.659 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8662 , timer_m: , 8.662 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8773 , timer_m: , 8.773 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8659 , timer_m: , 8.659 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8753 , timer_m: , 8.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8706 , timer_m: , 8.706 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8811 , timer_m: , 8.811 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8801 , timer_m: , 8.801 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8731 , timer_m: , 8.731 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8663 , timer_m: , 8.663 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8754 , timer_m: , 8.754 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8621 , timer_m: , 8.621 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8863 , timer_m: , 8.863 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8672 , timer_m: , 8.672 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8643 , timer_m: , 8.643 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8733 , timer_m: , 8.733 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8787 , timer_m: , 8.787 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8707 , timer_m: , 8.707 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8750 , timer_m: , 8.75 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8895 , timer_m: , 8.895 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9103 , timer_m: , 9.103 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8687 , timer_m: , 8.687 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8703 , timer_m: , 8.703 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9147 , timer_m: , 9.147 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8772 , timer_m: , 8.772 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8889 , timer_m: , 8.889 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8673 , timer_m: , 8.673 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 9293 , timer_m: , 9.293 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8751 , timer_m: , 8.751 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 8803 , timer_m: , 8.803 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15827 , timer_m: , 15.827 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16051 , timer_m: , 16.051 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16365 , timer_m: , 16.365 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16002 , timer_m: , 16.002 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15884 , timer_m: , 15.884 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15830 , timer_m: , 15.83 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15920 , timer_m: , 15.92 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15808 , timer_m: , 15.808 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15753 , timer_m: , 15.753 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15782 , timer_m: , 15.782 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15933 , timer_m: , 15.933 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15693 , timer_m: , 15.693 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15792 , timer_m: , 15.792 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15818 , timer_m: , 15.818 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15919 , timer_m: , 15.919 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16070 , timer_m: , 16.07 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16042 , timer_m: , 16.042 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15857 , timer_m: , 15.857 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15894 , timer_m: , 15.894 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15824 , timer_m: , 15.824 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15762 , timer_m: , 15.762 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15704 , timer_m: , 15.704 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15888 , timer_m: , 15.888 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15900 , timer_m: , 15.9 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16085 , timer_m: , 16.085 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15799 , timer_m: , 15.799 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 16149 , timer_m: , 16.149 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15868 , timer_m: , 15.868 , Finial wheel Power: , FL: , 0 , FR: , 0 , BR: , 0 , BL , 0
+timer_u: , 15500 , timer_m: , 15.5 , Finial wheel Power: , FL: , 0 , FR: , 0 , 

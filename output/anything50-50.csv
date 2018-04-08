@@ -1,0 +1,1493 @@
+pipe:4, 9
+
+167.113 2.726 -11.792
+167.105 2.684 -11.79
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+179.963 -179.949 179.991
+179.967 -179.933 180
+179.987 -179.91 179.981
+0.01 -0.11 -0.024
+0.019 -0.108 -0.039
+0.038 -0.124 -0.043
+0.035 -0.115 -0.043
+0.039 -0.089 -0.062
+0.037 -0.072 -0.083
+0.047 -0.073 -0.087
+0.06 -0.06 -0.081
+0.075 -0.047 -0.112
+0.083 -0.045 -0.076
+0.082 -0.027 -0.056
+0.087 -0.032 -0.05
+0.087 -0.029 -0.027
+0.099 -0.03 -0.03
+0.095 -0.022 -0.007
+0.094 -0.045 -0.009
+0.111 -0.053 -0.026
+0.112 -0.048 -0.023
+0.125 -0.021 -0.05
+Finial wheel Power: , FL: , 1950 , FR: , 1950 , BR: , 1950 , BL , 1950
+Finial wheel Power: , FL: , 1900 , FR: , 1900 , BR: , 1900 , BL , 1900
+Finial wheel Power: , FL: , 1850 , FR: , 1850 , BR: , 1850 , BL , 1850
+Finial wheel Power: , FL: , 1800 , FR: , 1800 , BR: , 1800 , BL , 1800
+Finial wheel Power: , FL: , 1750 , FR: , 1750 , BR: , 1750 , BL , 1750
+Finial wheel Power: , FL: , 1700 , FR: , 1700 , BR: , 1700 , BL , 1700
+Finial wheel Power: , FL: , 1650 , FR: , 1650 , BR: , 1650 , BL , 1650
+Finial wheel Power: , FL: , 1600 , FR: , 1600 , BR: , 1600 , BL , 1600
+Finial wheel Power: , FL: , 1550 , FR: , 1550 , BR: , 1550 , BL , 1550
+Finial wheel Power: , FL: , 1500 , FR: , 1500 , BR: , 1500 , BL , 1500
+Finial wheel Power: , FL: , 1450 , FR: , 1450 , BR: , 1450 , BL , 1450
+Finial wheel Power: , FL: , 1400 , FR: , 1400 , BR: , 1400 , BL , 1400
+Finial wheel Power: , FL: , 1350 , FR: , 1350 , BR: , 1350 , BL , 1350
+Finial wheel Power: , FL: , 1300 , FR: , 1300 , BR: , 1300 , BL , 1300
+Finial wheel Power: , FL: , 1250 , FR: , 1250 , BR: , 1250 , BL , 1250
+Finial wheel Power: , FL: , 1200 , FR: , 1200 , BR: , 1200 , BL , 1200
+Finial wheel Power: , FL: , 1150 , FR: , 1150 , BR: , 1150 , BL , 1150
+Finial wheel Power: , FL: , 1100 , FR: , 1100 , BR: , 1100 , BL , 1100
+Finial wheel Power: , FL: , 1050 , FR: , 1050 , BR: , 1050 , BL , 1050
+Finial wheel Power: , FL: , 1000 , FR: , 1000 , BR: , 1000 , BL , 1000
+Finial wheel Power: , FL: , 950 , FR: , 950 , BR: , 950 , BL , 950
+Finial wheel Power: , FL: , 900 , FR: , 900 , BR: , 900 , BL , 900
+Finial wheel Power: , FL: , 850 , FR: , 850 , BR: , 850 , BL , 850
+Finial wheel Power: , FL: , 800 , FR: , 800 , BR: , 800 , BL , 800
+Finial wheel Power: , FL: , 750 , FR: , 750 , BR: , 750 , BL , 750
+Finial wheel Power: , FL: , 700 , FR: , 700 , BR: , 700 , BL , 700
+Finial wheel Power: , FL: , 650 , FR: , 650 , BR: , 650 , BL , 650
+Finial wheel Power: , FL: , 600 , FR: , 600 , BR: , 600 , BL , 600
+Finial wheel Power: , FL: , 550 , FR: , 550 , BR: , 550 , BL , 550
+Finial wheel Power: , FL: , 500 , FR: , 500 , BR: , 500 , BL , 500
+Finial wheel Power: , FL: , 450 , FR: , 450 , BR: , 450 , BL , 450
+Finial wheel Power: , FL: , 400 , FR: , 400 , BR: , 400 , BL , 400
+Finial wheel Power: , FL: , 350 , FR: , 350 , BR: , 350 , BL , 350
+Finial wheel Power: , FL: , 300 , FR: , 300 , BR: , 300 , BL , 300
+Finial wheel Power: , FL: , 250 , FR: , 250 , BR: , 250 , BL , 250
+Finial wheel Power: , FL: , 200 , FR: , 200 , BR: , 200 , BL , 200
+Finial wheel Power: , FL: , 150 , FR: , 150 , BR: , 150 , BL , 150
+Finial wheel Power: , FL: , 100 , FR: , 100 , BR: , 100 , BL , 100
+Finial wheel Power: , FL: , 50 , FR: , 50 , BR: , 50 , BL , 50
+FL:      0 FR:      0 BR:      0 BLL      0
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:0
+error_new:-38250 CurError-38250
+angle: , -0.115005 ,  angle correction power: , -8.71167 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -2831 FR:  -2797 BR:  -2641 BLL  -2847
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-2641
+error_new:-35609 CurError-73859
+angle: , -0.102997 ,  angle correction power: , -7.88826 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -2957 FR:  -2920 BR:  -2760 BLL  -2976
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-2760
+error_new:-35490 CurError-109349
+angle: , -0.0980072 ,  angle correction power: , -7.58755 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3075 FR:  -3037 BR:  -2873 BLL  -3099
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-2873
+error_new:-35377 CurError-144726
+angle: , -0.095993 ,  angle correction power: , -7.50848 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3200 FR:  -3156 BR:  -2989 BLL  -3225
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-2989
+error_new:-35261 CurError-179987
+angle: , -0.0859985 ,  angle correction power: , -6.82339 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3317 FR:  -3272 BR:  -3098 BLL  -3344
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3098
+error_new:-35152 CurError-215139
+angle: , -0.0700073 ,  angle correction power: , -5.67656 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3436 FR:  -3389 BR:  -3210 BLL  -3466
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3210
+error_new:-35040 CurError-250179
+angle: , -0.0700073 ,  angle correction power: , -5.72906 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3555 FR:  -3505 BR:  -3320 BLL  -3585
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3320
+error_new:-34930 CurError-285109
+angle: , 0.033 ,  angle correction power: , 2.02124 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3673 FR:  -3618 BR:  -3431 BLL  -3702
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3431
+error_new:-34819 CurError-319928
+angle: , 0.055 ,  angle correction power: , 3.71249 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3784 FR:  -3730 BR:  -3536 BLL  -3822
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3536
+error_new:-34714 CurError-354642
+angle: , 0.298 ,  angle correction power: , 22.161 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -3900 FR:  -3845 BR:  -3647 BLL  -3944
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3647
+error_new:-34603 CurError-389245
+angle: , -0.233002 ,  angle correction power: , -17.8389 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4018 FR:  -3958 BR:  -3757 BLL  -4058
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3757
+error_new:-34493 CurError-423738
+angle: , 0.079 ,  angle correction power: , 5.62049 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4135 FR:  -4072 BR:  -3868 BLL  -4172
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3868
+error_new:-34382 CurError-458120
+angle: , 0.577 ,  angle correction power: , 43.4032 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4256 FR:  -4185 BR:  -3982 BLL  -4292
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-3982
+error_new:-34268 CurError-492388
+angle: , 0.179 ,  angle correction power: , 13.6875 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4377 FR:  -4300 BR:  -4094 BLL  -4408
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4094
+error_new:-34156 CurError-526544
+angle: , -0.151001 ,  angle correction power: , -11.1758 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4487 FR:  -4421 BR:  -4210 BLL  -4531
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4210
+error_new:-34040 CurError-560584
+angle: , -0.414993 ,  angle correction power: , -31.2865 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4608 FR:  -4535 BR:  -4322 BLL  -4644
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4322
+error_new:-33928 CurError-594512
+angle: , -0.546005 ,  angle correction power: , -41.5219 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4724 FR:  -4653 BR:  -4438 BLL  -4767
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4438
+error_new:-33812 CurError-628324
+angle: , -0.703995 ,  angle correction power: , -53.8991 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4836 FR:  -4767 BR:  -4549 BLL  -4889
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4549
+error_new:-33701 CurError-662025
+angle: , -0.852997 ,  angle correction power: , -65.714 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -4952 FR:  -4879 BR:  -4659 BLL  -5002
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4659
+error_new:-33591 CurError-695616
+angle: , -1.00301 ,  angle correction power: , -77.717 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5072 FR:  -4994 BR:  -4771 BLL  -5121
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4771
+error_new:-33479 CurError-729095
+angle: , -1.295 ,  angle correction power: , -100.588 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5189 FR:  -5109 BR:  -4881 BLL  -5242
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-4881
+error_new:-33369 CurError-762464
+angle: , -1.295 ,  angle correction power: , -101.559 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5315 FR:  -5231 BR:  -5001 BLL  -5369
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5001
+error_new:-33249 CurError-795713
+angle: , -1.75301 ,  angle correction power: , -137.224 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5432 FR:  -5353 BR:  -5119 BLL  -5491
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5119
+error_new:-33131 CurError-828844
+angle: , -2.073 ,  angle correction power: , -162.778 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5540 FR:  -5466 BR:  -5229 BLL  -5605
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5229
+error_new:-33021 CurError-861865
+angle: , -2.02499 ,  angle correction power: , -160.697 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5653 FR:  -5584 BR:  -5342 BLL  -5721
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5342
+error_new:-32908 CurError-894773
+angle: , -2.369 ,  angle correction power: , -188.274 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5769 FR:  -5701 BR:  -5456 BLL  -5839
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5456
+error_new:-32794 CurError-927567
+angle: , -2.345 ,  angle correction power: , -188.233 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5880 FR:  -5816 BR:  -5567 BLL  -5953
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5567
+error_new:-32683 CurError-960250
+angle: , -2.19501 ,  angle correction power: , -178.63 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -5991 FR:  -5929 BR:  -5679 BLL  -6064
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5679
+error_new:-32571 CurError-992821
+angle: , -2.157 ,  angle correction power: , -177.397 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6104 FR:  -6047 BR:  -5793 BLL  -6177
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5793
+error_new:-32457 CurError-1.02528e+06
+angle: , -2.19501 ,  angle correction power: , -181.894 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6215 FR:  -6166 BR:  -5909 BLL  -6293
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-5909
+error_new:-32341 CurError-1.05762e+06
+angle: , -2.276 ,  angle correction power: , -189.675 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6327 FR:  -6282 BR:  -6020 BLL  -6405
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6020
+error_new:-32230 CurError-1.08985e+06
+angle: , -2.104 ,  angle correction power: , -178.353 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6438 FR:  -6396 BR:  -6132 BLL  -6516
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6132
+error_new:-32118 CurError-1.12197e+06
+angle: , -2.53 ,  angle correction power: , -212.2 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6547 FR:  -6512 BR:  -6240 BLL  -6626
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6240
+error_new:-32010 CurError-1.15398e+06
+angle: , -2.588 ,  angle correction power: , -218.491 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6655 FR:  -6628 BR:  -6354 BLL  -6737
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6354
+error_new:-31896 CurError-1.18587e+06
+angle: , -2.683 ,  angle correction power: , -227.629 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6762 FR:  -6744 BR:  -6466 BLL  -6846
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6466
+error_new:-31784 CurError-1.21766e+06
+angle: , -2.62199 ,  angle correction power: , -225.02 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6874 FR:  -6861 BR:  -6578 BLL  -6958
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6578
+error_new:-31672 CurError-1.24933e+06
+angle: , -2.77499 ,  angle correction power: , -238.576 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -6983 FR:  -6977 BR:  -6687 BLL  -7067
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6687
+error_new:-31563 CurError-1.28089e+06
+angle: , -3.036 ,  angle correction power: , -260.428 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7059 FR:  -7057 BR:  -6764 BLL  -7144
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6764
+error_new:-31486 CurError-1.31238e+06
+angle: , -2.552 ,  angle correction power: , -226.043 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7132 FR:  -7136 BR:  -6841 BLL  -7218
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6841
+error_new:-31409 CurError-1.34379e+06
+angle: , -2.349 ,  angle correction power: , -212.579 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7204 FR:  -7213 BR:  -6916 BLL  -7290
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6916
+error_new:-31334 CurError-1.37512e+06
+angle: , -2.00999 ,  angle correction power: , -188.661 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7276 FR:  -7290 BR:  -6990 BLL  -7362
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-6990
+error_new:-31260 CurError-1.40638e+06
+angle: , -2.168 ,  angle correction power: , -202.138 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7349 FR:  -7369 BR:  -7066 BLL  -7436
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7066
+error_new:-31184 CurError-1.43756e+06
+angle: , -2.373 ,  angle correction power: , -219.293 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7423 FR:  -7448 BR:  -7143 BLL  -7511
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7143
+error_new:-31107 CurError-1.46867e+06
+angle: , -2.508 ,  angle correction power: , -231.298 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7494 FR:  -7524 BR:  -7217 BLL  -7582
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7217
+error_new:-31033 CurError-1.4997e+06
+angle: , -2.42999 ,  angle correction power: , -227.27 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7563 FR:  -7598 BR:  -7289 BLL  -7654
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7289
+error_new:-30961 CurError-1.53067e+06
+angle: , -2.33299 ,  angle correction power: , -221.745 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7633 FR:  -7673 BR:  -7362 BLL  -7724
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7362
+error_new:-30888 CurError-1.56155e+06
+angle: , -2.062 ,  angle correction power: , -202.967 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7703 FR:  -7748 BR:  -7434 BLL  -7795
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7434
+error_new:-30816 CurError-1.59237e+06
+angle: , -2.084 ,  angle correction power: , -206.18 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7774 FR:  -7824 BR:  -7508 BLL  -7867
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7508
+error_new:-30742 CurError-1.62311e+06
+angle: , -1.664 ,  angle correction power: , -175.928 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7844 FR:  -7899 BR:  -7581 BLL  -7938
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7581
+error_new:-30669 CurError-1.65378e+06
+angle: , -1.935 ,  angle correction power: , -197.704 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7917 FR:  -7975 BR:  -7655 BLL  -8011
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7655
+error_new:-30595 CurError-1.68438e+06
+angle: , -1.827 ,  angle correction power: , -190.974 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -7989 FR:  -8052 BR:  -7730 BLL  -8084
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7730
+error_new:-30520 CurError-1.7149e+06
+angle: , -2.25999 ,  angle correction power: , -225.144 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8062 FR:  -8129 BR:  -7806 BLL  -8158
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7806
+error_new:-30444 CurError-1.74534e+06
+angle: , -1.618 ,  angle correction power: , -178.208 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8134 FR:  -8206 BR:  -7880 BLL  -8230
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7880
+error_new:-30370 CurError-1.77571e+06
+angle: , -1.54601 ,  angle correction power: , -173.968 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8205 FR:  -8282 BR:  -7954 BLL  -8303
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-7954
+error_new:-30296 CurError-1.80601e+06
+angle: , -1.57001 ,  angle correction power: , -176.946 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8276 FR:  -8358 BR:  -8027 BLL  -8376
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8027
+error_new:-30223 CurError-1.83623e+06
+angle: , -1.547 ,  angle correction power: , -176.38 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8349 FR:  -8434 BR:  -8102 BLL  -8449
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8102
+error_new:-30148 CurError-1.86638e+06
+angle: , -1.226 ,  angle correction power: , -153.225 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8420 FR:  -8510 BR:  -8175 BLL  -8521
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8175
+error_new:-30075 CurError-1.89645e+06
+angle: , -1.19701 ,  angle correction power: , -151.948 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8493 FR:  -8587 BR:  -8250 BLL  -8596
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8250
+error_new:-30000 CurError-1.92645e+06
+angle: , -0.761993 ,  angle correction power: , -119.894 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8566 FR:  -8664 BR:  -8324 BLL  -8670
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8324
+error_new:-29926 CurError-1.95638e+06
+angle: , -0.190002 ,  angle correction power: , -77.1369 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8639 FR:  -8739 BR:  -8397 BLL  -8743
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8397
+error_new:-29853 CurError-1.98623e+06
+angle: , 0.01 ,  angle correction power: , -62.1292 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8712 FR:  -8815 BR:  -8470 BLL  -8818
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8470
+error_new:-29780 CurError-2.01601e+06
+angle: , 0.095 ,  angle correction power: , -55.683 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8786 FR:  -8891 BR:  -8543 BLL  -8893
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8543
+error_new:-29707 CurError-2.04572e+06
+angle: , 0.276 ,  angle correction power: , -41.901 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8862 FR:  -8967 BR:  -8617 BLL  -8970
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8617
+error_new:-29633 CurError-2.07535e+06
+angle: , 0.418 ,  angle correction power: , -30.9375 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -8940 FR:  -9046 BR:  -8693 BLL  -9051
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8693
+error_new:-29557 CurError-2.10491e+06
+angle: , 0.189 ,  angle correction power: , -47.9707 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9018 FR:  -9124 BR:  -8767 BLL  -9131
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8767
+error_new:-29483 CurError-2.13439e+06
+angle: , 0.083 ,  angle correction power: , -55.8585 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9099 FR:  -9202 BR:  -8845 BLL  -9214
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8845
+error_new:-29405 CurError-2.1638e+06
+angle: , -0.0019989 ,  angle correction power: , -62.2349 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9178 FR:  -9280 BR:  -8920 BLL  -9296
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8920
+error_new:-29330 CurError-2.19313e+06
+angle: , 0.376 ,  angle correction power: , -33.603 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9258 FR:  -9359 BR:  -8997 BLL  -9378
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-8997
+error_new:-29253 CurError-2.22238e+06
+angle: , 0.556 ,  angle correction power: , -19.686 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9338 FR:  -9437 BR:  -9072 BLL  -9458
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9072
+error_new:-29178 CurError-2.25156e+06
+angle: , 0.721 ,  angle correction power: , -6.77023 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9417 FR:  -9515 BR:  -9147 BLL  -9540
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9147
+error_new:-29103 CurError-2.28066e+06
+angle: , 0.414 ,  angle correction power: , -29.4847 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9496 FR:  -9594 BR:  -9223 BLL  -9621
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9223
+error_new:-29027 CurError-2.30969e+06
+angle: , 0.517 ,  angle correction power: , -21.372 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9578 FR:  -9674 BR:  -9300 BLL  -9704
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9300
+error_new:-28950 CurError-2.33864e+06
+angle: , 0.442 ,  angle correction power: , -26.6655 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9660 FR:  -9754 BR:  -9378 BLL  -9789
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9378
+error_new:-28872 CurError-2.36751e+06
+angle: , 0.287 ,  angle correction power: , -38.0752 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9741 FR:  -9833 BR:  -9454 BLL  -9871
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9454
+error_new:-28796 CurError-2.3963e+06
+angle: , 0.089 ,  angle correction power: , -52.8585 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9822 FR:  -9913 BR:  -9531 BLL  -9955
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9531
+error_new:-28719 CurError-2.42502e+06
+angle: , -0.00999451 ,  angle correction power: , -60.2906 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9903 FR:  -9992 BR:  -9607 BLL -10037
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9607
+error_new:-28643 CurError-2.45367e+06
+angle: , -0.121002 ,  angle correction power: , -68.7069 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL:  -9983 FR: -10070 BR:  -9682 BLL -10118
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9682
+error_new:-28568 CurError-2.48224e+06
+angle: , -0.449005 ,  angle correction power: , -93.6439 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10061 FR: -10146 BR:  -9756 BLL -10199
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9756
+error_new:-28494 CurError-2.51073e+06
+angle: , -0.436996 ,  angle correction power: , -93.071 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10139 FR: -10224 BR:  -9831 BLL -10280
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9831
+error_new:-28419 CurError-2.53915e+06
+angle: , -0.373001 ,  angle correction power: , -88.5511 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10219 FR: -10302 BR:  -9908 BLL -10364
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9908
+error_new:-28342 CurError-2.56749e+06
+angle: , -0.171997 ,  angle correction power: , -73.6048 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10301 FR: -10381 BR:  -9984 BLL -10448
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-9984
+error_new:-28266 CurError-2.59576e+06
+angle: , -0.332001 ,  angle correction power: , -85.854 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10381 FR: -10459 BR: -10059 BLL -10529
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10059
+error_new:-28191 CurError-2.62395e+06
+angle: , -0.222 ,  angle correction power: , -77.7705 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10458 FR: -10534 BR: -10132 BLL -10609
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10132
+error_new:-28118 CurError-2.65206e+06
+angle: , -0.283005 ,  angle correction power: , -82.5581 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10539 FR: -10613 BR: -10208 BLL -10691
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10208
+error_new:-28042 CurError-2.68011e+06
+angle: , -0.416 ,  angle correction power: , -92.8448 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10619 FR: -10689 BR: -10283 BLL -10774
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10283
+error_new:-27967 CurError-2.70807e+06
+angle: , -0.804993 ,  angle correction power: , -122.623 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10699 FR: -10767 BR: -10359 BLL -10856
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10359
+error_new:-27891 CurError-2.73596e+06
+angle: , -0.235001 ,  angle correction power: , -80.0498 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10781 FR: -10847 BR: -10437 BLL -10939
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10437
+error_new:-27813 CurError-2.76378e+06
+angle: , 0.282 ,  angle correction power: , -41.0632 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -10890 FR: -10957 BR: -10545 BLL -11054
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10545
+error_new:-27705 CurError-2.79148e+06
+angle: , -0.0059967 ,  angle correction power: , -62.6675 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11005 FR: -11077 BR: -10659 BLL -11177
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10659
+error_new:-27591 CurError-2.81907e+06
+angle: , 0.628 ,  angle correction power: , -14.6467 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11123 FR: -11193 BR: -10773 BLL -11292
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10773
+error_new:-27477 CurError-2.84655e+06
+angle: , 0.816 ,  angle correction power: , 0.0652728 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11242 FR: -11310 BR: -10893 BLL -11414
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-10893
+error_new:-27357 CurError-2.87391e+06
+angle: , 1.24 ,  angle correction power: , 32.7953 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11359 FR: -11430 BR: -11006 BLL -11535
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11006
+error_new:-27244 CurError-2.90115e+06
+angle: , 1.09 ,  angle correction power: , 22.3628 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11481 FR: -11549 BR: -11120 BLL -11643
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11120
+error_new:-27130 CurError-2.92828e+06
+angle: , 1.06 ,  angle correction power: , 20.9078 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11601 FR: -11663 BR: -11234 BLL -11756
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11234
+error_new:-27016 CurError-2.9553e+06
+angle: , 1.141 ,  angle correction power: , 27.8385 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11718 FR: -11778 BR: -11344 BLL -11877
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11344
+error_new:-26906 CurError-2.9822e+06
+angle: , 1.144 ,  angle correction power: , 28.9215 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11837 FR: -11896 BR: -11457 BLL -11994
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11457
+error_new:-26793 CurError-3.009e+06
+angle: , 1.377 ,  angle correction power: , 47.4293 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -11960 FR: -12016 BR: -11569 BLL -12115
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11569
+error_new:-26681 CurError-3.03568e+06
+angle: , 1.777 ,  angle correction power: , 78.762 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12078 FR: -12132 BR: -11681 BLL -12236
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11681
+error_new:-26569 CurError-3.06225e+06
+angle: , 2.032 ,  angle correction power: , 99.411 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12197 FR: -12247 BR: -11791 BLL -12356
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11791
+error_new:-26459 CurError-3.08871e+06
+angle: , 2.526 ,  angle correction power: , 138.356 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12314 FR: -12362 BR: -11903 BLL -12478
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-11903
+error_new:-26347 CurError-3.11505e+06
+angle: , 2.574 ,  angle correction power: , 143.886 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12434 FR: -12476 BR: -12013 BLL -12597
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12013
+error_new:-26237 CurError-3.14129e+06
+angle: , 2.694 ,  angle correction power: , 154.907 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12532 FR: -12570 BR: -12104 BLL -12698
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12104
+error_new:-26146 CurError-3.16744e+06
+angle: , 2.943 ,  angle correction power: , 175.789 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12613 FR: -12645 BR: -12176 BLL -12778
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12176
+error_new:-26074 CurError-3.19351e+06
+angle: , 3.147 ,  angle correction power: , 193.449 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12691 FR: -12718 BR: -12246 BLL -12857
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12246
+error_new:-26004 CurError-3.21951e+06
+angle: , 3.302 ,  angle correction power: , 207.551 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12772 FR: -12791 BR: -12317 BLL -12937
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12317
+error_new:-25933 CurError-3.24545e+06
+angle: , 3.452 ,  angle correction power: , 221.39 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12851 FR: -12865 BR: -12389 BLL -13019
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12389
+error_new:-25861 CurError-3.27131e+06
+angle: , 3.538 ,  angle correction power: , 230.493 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -12931 FR: -12937 BR: -12458 BLL -13099
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12458
+error_new:-25792 CurError-3.2971e+06
+angle: , 3.466 ,  angle correction power: , 227.693 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13011 FR: -13008 BR: -12528 BLL -13180
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12528
+error_new:-25722 CurError-3.32282e+06
+angle: , 3.455 ,  angle correction power: , 229.459 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13091 FR: -13078 BR: -12596 BLL -13260
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12596
+error_new:-25654 CurError-3.34848e+06
+angle: , 3.655 ,  angle correction power: , 247.2 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13169 FR: -13148 BR: -12664 BLL -13339
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12664
+error_new:-25586 CurError-3.37406e+06
+angle: , 3.895 ,  angle correction power: , 268.121 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13251 FR: -13220 BR: -12734 BLL -13422
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12734
+error_new:-25516 CurError-3.39958e+06
+angle: , 3.953 ,  angle correction power: , 275.436 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13331 FR: -13290 BR: -12802 BLL -13503
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12802
+error_new:-25448 CurError-3.42503e+06
+angle: , 4.046 ,  angle correction power: , 285.446 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13410 FR: -13358 BR: -12869 BLL -13583
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12869
+error_new:-25381 CurError-3.45041e+06
+angle: , 4.358 ,  angle correction power: , 312.114 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13488 FR: -13426 BR: -12935 BLL -13662
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-12935
+error_new:-25315 CurError-3.47572e+06
+angle: , 4.225 ,  angle correction power: , 305.308 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13566 FR: -13493 BR: -13000 BLL -13740
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13000
+error_new:-25250 CurError-3.50097e+06
+angle: , 4.091 ,  angle correction power: , 298.326 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13645 FR: -13561 BR: -13066 BLL -13820
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13066
+error_new:-25184 CurError-3.52616e+06
+angle: , 3.986 ,  angle correction power: , 293.441 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13724 FR: -13628 BR: -13132 BLL -13900
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13132
+error_new:-25118 CurError-3.55127e+06
+angle: , 3.959 ,  angle correction power: , 294.385 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13805 FR: -13696 BR: -13198 BLL -13982
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13198
+error_new:-25052 CurError-3.57633e+06
+angle: , 3.764 ,  angle correction power: , 282.583 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13882 FR: -13763 BR: -13264 BLL -14063
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13264
+error_new:-24986 CurError-3.60131e+06
+angle: , 3.969 ,  angle correction power: , 300.935 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -13961 FR: -13829 BR: -13330 BLL -14143
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13330
+error_new:-24920 CurError-3.62623e+06
+angle: , 3.491 ,  angle correction power: , 267.703 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14042 FR: -13898 BR: -13397 BLL -14226
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13397
+error_new:-24853 CurError-3.65108e+06
+angle: , 3.808 ,  angle correction power: , 294.334 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14123 FR: -13965 BR: -13463 BLL -14308
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13463
+error_new:-24787 CurError-3.67587e+06
+angle: , 3.509 ,  angle correction power: , 274.541 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14204 FR: -14035 BR: -13530 BLL -14389
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13530
+error_new:-24720 CurError-3.70059e+06
+angle: , 3.422 ,  angle correction power: , 270.582 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14285 FR: -14104 BR: -13597 BLL -14471
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13597
+error_new:-24653 CurError-3.72524e+06
+angle: , 3.318 ,  angle correction power: , 265.271 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14364 FR: -14170 BR: -13663 BLL -14552
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13663
+error_new:-24587 CurError-3.74983e+06
+angle: , 3.377 ,  angle correction power: , 272.228 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14443 FR: -14238 BR: -13729 BLL -14631
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13729
+error_new:-24521 CurError-3.77435e+06
+angle: , 2.909 ,  angle correction power: , 239.31 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14523 FR: -14306 BR: -13795 BLL -14713
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13795
+error_new:-24455 CurError-3.79881e+06
+angle: , 2.725 ,  angle correction power: , 227.554 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14603 FR: -14376 BR: -13862 BLL -14794
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13862
+error_new:-24388 CurError-3.8232e+06
+angle: , 2.728 ,  angle correction power: , 229.825 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14681 FR: -14444 BR: -13929 BLL -14876
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13929
+error_new:-24321 CurError-3.84752e+06
+angle: , 1.734 ,  angle correction power: , 156.575 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14761 FR: -14514 BR: -13997 BLL -14958
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-13997
+error_new:-24253 CurError-3.87177e+06
+angle: , 1.693 ,  angle correction power: , 154.77 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14839 FR: -14583 BR: -14064 BLL -15039
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14064
+error_new:-24186 CurError-3.89596e+06
+angle: , 0.919 ,  angle correction power: , 97.4093 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14916 FR: -14655 BR: -14135 BLL -15121
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14135
+error_new:-24115 CurError-3.92007e+06
+angle: , 1.057 ,  angle correction power: , 108.552 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -14997 FR: -14728 BR: -14205 BLL -15204
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14205
+error_new:-24045 CurError-3.94412e+06
+angle: , 1.032 ,  angle correction power: , 107.451 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15075 FR: -14799 BR: -14274 BLL -15286
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14274
+error_new:-23976 CurError-3.96809e+06
+angle: , 1.284 ,  angle correction power: , 127.314 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15156 FR: -14873 BR: -14346 BLL -15367
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14346
+error_new:-23904 CurError-3.992e+06
+angle: , 1.356 ,  angle correction power: , 133.731 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15235 FR: -14946 BR: -14417 BLL -15449
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14417
+error_new:-23833 CurError-4.01583e+06
+angle: , 1.411 ,  angle correction power: , 138.914 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15314 FR: -15018 BR: -14488 BLL -15530
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14488
+error_new:-23762 CurError-4.03959e+06
+angle: , 1.163 ,  angle correction power: , 121.187 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15394 FR: -15093 BR: -14560 BLL -15614
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14560
+error_new:-23690 CurError-4.06328e+06
+angle: , 0.79 ,  angle correction power: , 93.804 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15472 FR: -15164 BR: -14629 BLL -15692
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14629
+error_new:-23621 CurError-4.0869e+06
+angle: , 0.473 ,  angle correction power: , 70.3838 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15552 FR: -15239 BR: -14701 BLL -15774
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14701
+error_new:-23549 CurError-4.11045e+06
+angle: , 0.612 ,  angle correction power: , 81.2678 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15632 FR: -15315 BR: -14774 BLL -15857
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14774
+error_new:-23476 CurError-4.13393e+06
+angle: , 0.449 ,  angle correction power: , 69.3795 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15712 FR: -15391 BR: -14848 BLL -15939
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14848
+error_new:-23402 CurError-4.15733e+06
+angle: , 0.68 ,  angle correction power: , 87.2145 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15794 FR: -15469 BR: -14923 BLL -16022
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14923
+error_new:-23327 CurError-4.18066e+06
+angle: , 0.53 ,  angle correction power: , 76.362 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15871 FR: -15547 BR: -14999 BLL -16105
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-14999
+error_new:-23251 CurError-4.20391e+06
+angle: , 0.41 ,  angle correction power: , 67.6695 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -15953 FR: -15626 BR: -15075 BLL -16189
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15075
+error_new:-23175 CurError-4.22708e+06
+angle: , 0.533 ,  angle correction power: , 77.2943 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16031 FR: -15701 BR: -15148 BLL -16270
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15148
+error_new:-23102 CurError-4.25018e+06
+angle: , 0.442 ,  angle correction power: , 70.8008 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16109 FR: -15777 BR: -15222 BLL -16350
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15222
+error_new:-23028 CurError-4.27321e+06
+angle: , 0.63 ,  angle correction power: , 85.3733 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16188 FR: -15854 BR: -15296 BLL -16432
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15296
+error_new:-22954 CurError-4.29617e+06
+angle: , 0.83 ,  angle correction power: , 100.996 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16267 FR: -15928 BR: -15369 BLL -16512
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15369
+error_new:-22881 CurError-4.31905e+06
+angle: , 0.656 ,  angle correction power: , 88.4378 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16347 FR: -16006 BR: -15443 BLL -16594
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15443
+error_new:-22807 CurError-4.34185e+06
+angle: , 0.511 ,  angle correction power: , 77.946 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16427 FR: -16079 BR: -15518 BLL -16676
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15518
+error_new:-22732 CurError-4.36459e+06
+angle: , 0.471 ,  angle correction power: , 75.2993 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16513 FR: -16165 BR: -15601 BLL -16761
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15601
+error_new:-22649 CurError-4.38724e+06
+angle: , 0.365 ,  angle correction power: , 67.623 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16633 FR: -16280 BR: -15714 BLL -16884
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15714
+error_new:-22536 CurError-4.40977e+06
+angle: , 0.505 ,  angle correction power: , 78.5018 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16755 FR: -16398 BR: -15828 BLL -17003
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15828
+error_new:-22422 CurError-4.43219e+06
+angle: , 0.233 ,  angle correction power: , 58.2765 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16869 FR: -16514 BR: -15940 BLL -17100
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-15940
+error_new:-22310 CurError-4.4545e+06
+angle: , -0.709 ,  angle correction power: , -12.9052 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -16987 FR: -16627 BR: -16052 BLL -17221
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16052
+error_new:-22198 CurError-4.4767e+06
+angle: , -0.776001 ,  angle correction power: , -18.5123 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17103 FR: -16745 BR: -16166 BLL -17340
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16166
+error_new:-22084 CurError-4.49878e+06
+angle: , -0.710999 ,  angle correction power: , -14.1704 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17227 FR: -16866 BR: -16281 BLL -17466
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16281
+error_new:-21969 CurError-4.52075e+06
+angle: , -0.753998 ,  angle correction power: , -17.9608 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17353 FR: -16991 BR: -16396 BLL -17582
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16396
+error_new:-21854 CurError-4.54261e+06
+angle: , -0.432007 ,  angle correction power: , 5.86451 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17478 FR: -17113 BR: -16514 BLL -17707
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16514
+error_new:-21736 CurError-4.56434e+06
+angle: , -0.746002 ,  angle correction power: , -18.2446 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17598 FR: -17229 BR: -16627 BLL -17829
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16627
+error_new:-21623 CurError-4.58597e+06
+angle: , -0.705994 ,  angle correction power: , -15.7735 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17713 FR: -17341 BR: -16738 BLL -17949
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16738
+error_new:-21512 CurError-4.60748e+06
+angle: , -0.828995 ,  angle correction power: , -25.6203 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17833 FR: -17459 BR: -16851 BLL -18063
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16851
+error_new:-21399 CurError-4.62888e+06
+angle: , -0.703003 ,  angle correction power: , -16.6982 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -17947 FR: -17576 BR: -16963 BLL -18187
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-16963
+error_new:-21287 CurError-4.65016e+06
+angle: , -1.94299 ,  angle correction power: , -111.155 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18068 FR: -17695 BR: -17079 BLL -18312
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17079
+error_new:-21171 CurError-4.67134e+06
+angle: , -1.786 ,  angle correction power: , -100.719 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18188 FR: -17812 BR: -17190 BLL -18431
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17190
+error_new:-21060 CurError-4.6924e+06
+angle: , -2.49699 ,  angle correction power: , -155.917 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18306 FR: -17930 BR: -17305 BLL -18553
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17305
+error_new:-20945 CurError-4.71334e+06
+angle: , -2.649 ,  angle correction power: , -169.304 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18422 FR: -18049 BR: -17420 BLL -18674
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17420
+error_new:-20830 CurError-4.73417e+06
+angle: , -2.80099 ,  angle correction power: , -182.805 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18540 FR: -18168 BR: -17537 BLL -18793
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17537
+error_new:-20713 CurError-4.75488e+06
+angle: , -2.73399 ,  angle correction power: , -179.83 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18664 FR: -18292 BR: -17657 BLL -18917
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17657
+error_new:-20593 CurError-4.77548e+06
+angle: , -2.399 ,  angle correction power: , -156.505 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18781 FR: -18413 BR: -17772 BLL -19033
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17772
+error_new:-20478 CurError-4.79596e+06
+angle: , -2.58 ,  angle correction power: , -172.015 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -18899 FR: -18538 BR: -17890 BLL -19152
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-17890
+error_new:-20360 CurError-4.81632e+06
+angle: , -2.713 ,  angle correction power: , -184.024 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19009 FR: -18654 BR: -18004 BLL -19264
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18004
+error_new:-20246 CurError-4.83656e+06
+angle: , -2.953 ,  angle correction power: , -204.239 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19126 FR: -18771 BR: -18122 BLL -19381
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18122
+error_new:-20128 CurError-4.85669e+06
+angle: , -2.62801 ,  angle correction power: , -181.836 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19238 FR: -18885 BR: -18236 BLL -19492
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18236
+error_new:-20014 CurError-4.8767e+06
+angle: , -2.66499 ,  angle correction power: , -186.608 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19353 FR: -19005 BR: -18353 BLL -19605
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18353
+error_new:-19897 CurError-4.8966e+06
+angle: , -2.911 ,  angle correction power: , -207.242 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19463 FR: -19119 BR: -18465 BLL -19715
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18465
+error_new:-19785 CurError-4.91638e+06
+angle: , -3.12399 ,  angle correction power: , -225.56 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19575 FR: -19236 BR: -18579 BLL -19827
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18579
+error_new:-19671 CurError-4.93606e+06
+angle: , -3.515 ,  angle correction power: , -257.521 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19689 FR: -19355 BR: -18695 BLL -19938
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18695
+error_new:-19555 CurError-4.95561e+06
+angle: , -3.55099 ,  angle correction power: , -262.884 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19802 FR: -19474 BR: -18813 BLL -20053
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18813
+error_new:-19437 CurError-4.97505e+06
+angle: , -3.694 ,  angle correction power: , -276.38 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -19913 FR: -19592 BR: -18930 BLL -20166
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-18930
+error_new:-19320 CurError-4.99437e+06
+angle: , -4.05901 ,  angle correction power: , -306.8 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20021 FR: -19711 BR: -19046 BLL -20276
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19046
+error_new:-19204 CurError-5.01357e+06
+angle: , -4.35001 ,  angle correction power: , -331.887 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20128 FR: -19829 BR: -19161 BLL -20386
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19161
+error_new:-19089 CurError-5.03266e+06
+angle: , -4.923 ,  angle correction power: , -378.555 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20236 FR: -19948 BR: -19278 BLL -20494
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19278
+error_new:-18972 CurError-5.05163e+06
+angle: , -4.953 ,  angle correction power: , -384.519 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20342 FR: -20065 BR: -19394 BLL -20601
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19394
+error_new:-18856 CurError-5.07049e+06
+angle: , -5.41901 ,  angle correction power: , -423.534 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20443 FR: -20178 BR: -19504 BLL -20701
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19504
+error_new:-18746 CurError-5.08924e+06
+angle: , -5.429 ,  angle correction power: , -428.355 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20542 FR: -20293 BR: -19614 BLL -20800
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19614
+error_new:-18636 CurError-5.10787e+06
+angle: , -4.623 ,  angle correction power: , -371.372 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20642 FR: -20405 BR: -19726 BLL -20898
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19726
+error_new:-18524 CurError-5.1264e+06
+angle: , -4.50999 ,  angle correction power: , -366.279 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20741 FR: -20520 BR: -19838 BLL -20997
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19838
+error_new:-18412 CurError-5.14481e+06
+angle: , -4.077 ,  angle correction power: , -336.862 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20842 FR: -20636 BR: -19951 BLL -21097
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-19951
+error_new:-18299 CurError-5.16311e+06
+angle: , -3.14101 ,  angle correction power: , -269.019 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -20944 FR: -20752 BR: -20061 BLL -21197
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20061
+error_new:-18189 CurError-5.1813e+06
+angle: , -3.21001 ,  angle correction power: , -276.601 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21050 FR: -20868 BR: -20174 BLL -21301
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20174
+error_new:-18076 CurError-5.19937e+06
+angle: , -3.25301 ,  angle correction power: , -282.266 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21161 FR: -20993 BR: -20295 BLL -21412
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20295
+error_new:-17955 CurError-5.21733e+06
+angle: , -3.287 ,  angle correction power: , -287.281 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21269 FR: -21112 BR: -20411 BLL -21522
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20411
+error_new:-17839 CurError-5.23516e+06
+angle: , -3.48 ,  angle correction power: , -304.365 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21374 FR: -21227 BR: -20523 BLL -21627
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20523
+error_new:-17727 CurError-5.25289e+06
+angle: , -3.62399 ,  angle correction power: , -317.883 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21480 FR: -21346 BR: -20639 BLL -21736
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20639
+error_new:-17611 CurError-5.2705e+06
+angle: , -3.83299 ,  angle correction power: , -336.433 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21584 FR: -21463 BR: -20752 BLL -21841
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20752
+error_new:-17498 CurError-5.288e+06
+angle: , -4.15199 ,  angle correction power: , -363.472 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21687 FR: -21580 BR: -20865 BLL -21946
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20865
+error_new:-17385 CurError-5.30539e+06
+angle: , -4.41499 ,  angle correction power: , -386.508 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21793 FR: -21701 BR: -20981 BLL -22055
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-20981
+error_new:-17269 CurError-5.32266e+06
+angle: , -4.379 ,  angle correction power: , -387.093 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21896 FR: -21820 BR: -21096 BLL -22159
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21096
+error_new:-17154 CurError-5.33981e+06
+angle: , -4.34 ,  angle correction power: , -387.423 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -21996 FR: -21936 BR: -21207 BLL -22260
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21207
+error_new:-17043 CurError-5.35685e+06
+angle: , -3.722 ,  angle correction power: , -343.864 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22096 FR: -22051 BR: -21316 BLL -22358
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21316
+error_new:-16934 CurError-5.37379e+06
+angle: , -3.608 ,  angle correction power: , -338.021 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22205 FR: -22175 BR: -21433 BLL -22466
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21433
+error_new:-16817 CurError-5.3906e+06
+angle: , -3.024 ,  angle correction power: , -296.489 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22308 FR: -22290 BR: -21545 BLL -22570
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21545
+error_new:-16705 CurError-5.40731e+06
+angle: , -3.276 ,  angle correction power: , -317.846 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22415 FR: -22412 BR: -21663 BLL -22681
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21663
+error_new:-16587 CurError-5.4239e+06
+angle: , -3.453 ,  angle correction power: , -333.71 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22520 FR: -22531 BR: -21778 BLL -22786
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21778
+error_new:-16472 CurError-5.44037e+06
+angle: , -3.233 ,  angle correction power: , -319.635 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22624 FR: -22650 BR: -21892 BLL -22891
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-21892
+error_new:-16358 CurError-5.45672e+06
+angle: , -2.464 ,  angle correction power: , -263.808 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22726 FR: -22767 BR: -22005 BLL -22995
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22005
+error_new:-16245 CurError-5.47297e+06
+angle: , -2.58 ,  angle correction power: , -274.443 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22830 FR: -22882 BR: -22117 BLL -23099
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22117
+error_new:-16133 CurError-5.4891e+06
+angle: , -2.45799 ,  angle correction power: , -267.136 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -22939 FR: -23003 BR: -22235 BLL -23212
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22235
+error_new:-16015 CurError-5.50512e+06
+angle: , -2.545 ,  angle correction power: , -275.57 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23046 FR: -23123 BR: -22351 BLL -23321
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22351
+error_new:-15899 CurError-5.52102e+06
+angle: , -2.32001 ,  angle correction power: , -260.436 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23157 FR: -23239 BR: -22466 BLL -23433
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22466
+error_new:-15784 CurError-5.5368e+06
+angle: , -2.463 ,  angle correction power: , -273.007 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23272 FR: -23358 BR: -22588 BLL -23549
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22588
+error_new:-15662 CurError-5.55246e+06
+angle: , -2.17101 ,  angle correction power: , -252.736 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23385 FR: -23481 BR: -22708 BLL -23663
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22708
+error_new:-15542 CurError-5.568e+06
+angle: , -2.408 ,  angle correction power: , -272.317 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23499 FR: -23605 BR: -22827 BLL -23777
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22827
+error_new:-15423 CurError-5.58343e+06
+angle: , -2.373 ,  angle correction power: , -271.472 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23605 FR: -23720 BR: -22939 BLL -23883
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-22939
+error_new:-15311 CurError-5.59874e+06
+angle: , -1.614 ,  angle correction power: , -215.757 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23711 FR: -23835 BR: -23052 BLL -23990
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23052
+error_new:-15198 CurError-5.61394e+06
+angle: , -1.481 ,  angle correction power: , -206.893 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23816 FR: -23948 BR: -23162 BLL -24095
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23162
+error_new:-15088 CurError-5.62902e+06
+angle: , -0.970993 ,  angle correction power: , -169.37 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -23924 FR: -24065 BR: -23275 BLL -24203
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23275
+error_new:-14975 CurError-5.644e+06
+angle: , -0.835007 ,  angle correction power: , -159.798 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24001 FR: -24148 BR: -23353 BLL -24281
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23353
+error_new:-14897 CurError-5.6589e+06
+angle: , -0.451004 ,  angle correction power: , -131.336 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24116 FR: -24272 BR: -23472 BLL -24398
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23472
+error_new:-14778 CurError-5.67368e+06
+angle: , 0.222 ,  angle correction power: , -80.694 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24221 FR: -24385 BR: -23581 BLL -24501
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23581
+error_new:-14669 CurError-5.68834e+06
+angle: , 0.48 ,  angle correction power: , -60.984 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24332 FR: -24496 BR: -23692 BLL -24615
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23692
+error_new:-14558 CurError-5.7029e+06
+angle: , 0.653 ,  angle correction power: , -47.5192 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24443 FR: -24613 BR: -23803 BLL -24732
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23803
+error_new:-14447 CurError-5.71735e+06
+angle: , 0.98 ,  angle correction power: , -22.2592 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24557 FR: -24727 BR: -23913 BLL -24850
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-23913
+error_new:-14337 CurError-5.73169e+06
+angle: , 0.089 ,  angle correction power: , -89.0175 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24672 FR: -24837 BR: -24025 BLL -24960
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24025
+error_new:-14225 CurError-5.74591e+06
+angle: , 0.458 ,  angle correction power: , -60.999 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24788 FR: -24952 BR: -24136 BLL -25075
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24136
+error_new:-14114 CurError-5.76002e+06
+angle: , 0.562 ,  angle correction power: , -52.7775 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24888 FR: -25047 BR: -24227 BLL -25173
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24227
+error_new:-14023 CurError-5.77405e+06
+angle: , 0.527 ,  angle correction power: , -55.0072 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -24989 FR: -25149 BR: -24332 BLL -25276
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24332
+error_new:-13918 CurError-5.78797e+06
+angle: , 0.859 ,  angle correction power: , -29.463 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25095 FR: -25251 BR: -24429 BLL -25376
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24429
+error_new:-13821 CurError-5.80179e+06
+angle: , 0.737 ,  angle correction power: , -38.0602 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25196 FR: -25355 BR: -24524 BLL -25479
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24524
+error_new:-13726 CurError-5.81551e+06
+angle: , 0.512 ,  angle correction power: , -54.5512 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25287 FR: -25442 BR: -24611 BLL -25562
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24611
+error_new:-13639 CurError-5.82915e+06
+angle: , 0.209 ,  angle correction power: , -77.1195 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25393 FR: -25549 BR: -24710 BLL -25673
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24710
+error_new:-13540 CurError-5.84269e+06
+angle: , 0.589 ,  angle correction power: , -48.1777 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25503 FR: -25655 BR: -24812 BLL -25784
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24812
+error_new:-13438 CurError-5.85613e+06
+angle: , 0.371 ,  angle correction power: , -64.2495 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25590 FR: -25742 BR: -24900 BLL -25877
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-24900
+error_new:-13350 CurError-5.86948e+06
+angle: , 0.565 ,  angle correction power: , -49.2757 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25707 FR: -25854 BR: -25008 BLL -25992
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25008
+error_new:-13242 CurError-5.88272e+06
+angle: , 0.932 ,  angle correction power: , -21.0517 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25820 FR: -25965 BR: -25116 BLL -26107
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25116
+error_new:-13134 CurError-5.89586e+06
+angle: , 1.072 ,  angle correction power: , -9.74771 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -25930 FR: -26079 BR: -25226 BLL -26223
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25226
+error_new:-13024 CurError-5.90888e+06
+angle: , 1.156 ,  angle correction power: , -2.58071 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26044 FR: -26194 BR: -25335 BLL -26336
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25335
+error_new:-12915 CurError-5.9218e+06
+angle: , 0.902 ,  angle correction power: , -20.9542 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26155 FR: -26305 BR: -25451 BLL -26448
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25451
+error_new:-12799 CurError-5.93459e+06
+angle: , 1.122 ,  angle correction power: , -3.61272 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26269 FR: -26418 BR: -25558 BLL -26563
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25558
+error_new:-12692 CurError-5.94729e+06
+angle: , 1.061 ,  angle correction power: , -7.39197 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26381 FR: -26530 BR: -25665 BLL -26678
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25665
+error_new:-12585 CurError-5.95987e+06
+angle: , 1.11 ,  angle correction power: , -2.88446 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26498 FR: -26643 BR: -25773 BLL -26793
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25773
+error_new:-12477 CurError-5.97235e+06
+angle: , 0.719 ,  angle correction power: , -31.6702 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26617 FR: -26756 BR: -25882 BLL -26908
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25882
+error_new:-12368 CurError-5.98472e+06
+angle: , 0.792 ,  angle correction power: , -25.6012 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26730 FR: -26869 BR: -25990 BLL -27016
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-25990
+error_new:-12260 CurError-5.99698e+06
+angle: , 0.961 ,  angle correction power: , -12.2055 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26810 FR: -26946 BR: -26066 BLL -27099
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26066
+error_new:-12184 CurError-6.00916e+06
+angle: , 1.031 ,  angle correction power: , -6.18221 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26888 FR: -27023 BR: -26141 BLL -27178
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26141
+error_new:-12109 CurError-6.02127e+06
+angle: , 1.047 ,  angle correction power: , -4.19696 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -26964 FR: -27096 BR: -26213 BLL -27253
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26213
+error_new:-12037 CurError-6.03331e+06
+angle: , 1.053 ,  angle correction power: , -2.95722 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27042 FR: -27172 BR: -26287 BLL -27331
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26287
+error_new:-11963 CurError-6.04527e+06
+angle: , 0.89 ,  angle correction power: , -14.5147 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27121 FR: -27248 BR: -26361 BLL -27409
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26361
+error_new:-11889 CurError-6.05716e+06
+angle: , 1.21 ,  angle correction power: , 10.3928 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27202 FR: -27324 BR: -26434 BLL -27489
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26434
+error_new:-11816 CurError-6.06897e+06
+angle: , 1.107 ,  angle correction power: , 3.49803 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27281 FR: -27398 BR: -26506 BLL -27569
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26506
+error_new:-11744 CurError-6.08072e+06
+angle: , 1.183 ,  angle correction power: , 10.0853 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27359 FR: -27474 BR: -26580 BLL -27649
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26580
+error_new:-11670 CurError-6.09239e+06
+angle: , 1.231 ,  angle correction power: , 14.6085 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27436 FR: -27551 BR: -26655 BLL -27729
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26655
+error_new:-11595 CurError-6.10398e+06
+angle: , 1.436 ,  angle correction power: , 31.0605 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27512 FR: -27627 BR: -26729 BLL -27809
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26729
+error_new:-11521 CurError-6.1155e+06
+angle: , 1.637 ,  angle correction power: , 47.3633 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27591 FR: -27704 BR: -26803 BLL -27890
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26803
+error_new:-11447 CurError-6.12695e+06
+angle: , 1.523 ,  angle correction power: , 39.9555 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27672 FR: -27782 BR: -26879 BLL -27971
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26879
+error_new:-11371 CurError-6.13832e+06
+angle: , 1.034 ,  angle correction power: , 4.05604 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27750 FR: -27860 BR: -26954 BLL -28052
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-26954
+error_new:-11296 CurError-6.14962e+06
+angle: , 1.285 ,  angle correction power: , 23.8448 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27830 FR: -27938 BR: -27030 BLL -28133
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27030
+error_new:-11220 CurError-6.16084e+06
+angle: , 1.421 ,  angle correction power: , 35.1105 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27907 FR: -28014 BR: -27104 BLL -28211
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27104
+error_new:-11146 CurError-6.17198e+06
+angle: , 1.878 ,  angle correction power: , 70.794 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -27986 FR: -28091 BR: -27178 BLL -28291
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27178
+error_new:-11072 CurError-6.18306e+06
+angle: , 1.739 ,  angle correction power: , 61.6733 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28065 FR: -28168 BR: -27252 BLL -28371
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27252
+error_new:-10998 CurError-6.19405e+06
+angle: , 1.737 ,  angle correction power: , 62.826 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28143 FR: -28245 BR: -27325 BLL -28451
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27325
+error_new:-10925 CurError-6.20498e+06
+angle: , 1.762 ,  angle correction power: , 66.0225 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28223 FR: -28318 BR: -27400 BLL -28532
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27400
+error_new:-10850 CurError-6.21583e+06
+angle: , 1.06 ,  angle correction power: , 14.1675 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28300 FR: -28392 BR: -27474 BLL -28611
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27474
+error_new:-10776 CurError-6.2266e+06
+angle: , 0.891 ,  angle correction power: , 2.16078 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28375 FR: -28466 BR: -27545 BLL -28688
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27545
+error_new:-10705 CurError-6.23731e+06
+angle: , 1.153 ,  angle correction power: , 22.6755 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28456 FR: -28546 BR: -27623 BLL -28770
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27623
+error_new:-10627 CurError-6.24794e+06
+angle: , 1.466 ,  angle correction power: , 47.25 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28535 FR: -28622 BR: -27697 BLL -28850
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27697
+error_new:-10553 CurError-6.25849e+06
+angle: , 1.68 ,  angle correction power: , 64.56 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28612 FR: -28696 BR: -27771 BLL -28929
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27771
+error_new:-10479 CurError-6.26897e+06
+angle: , 1.47 ,  angle correction power: , 49.9125 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28691 FR: -28773 BR: -27845 BLL -29009
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27845
+error_new:-10405 CurError-6.27937e+06
+angle: , 1.36 ,  angle correction power: , 42.6825 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28768 FR: -28847 BR: -27919 BLL -29089
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27919
+error_new:-10331 CurError-6.2897e+06
+angle: , 1.055 ,  angle correction power: , 20.5988 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28847 FR: -28924 BR: -27993 BLL -29169
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-27993
+error_new:-10257 CurError-6.29996e+06
+angle: , 1.025 ,  angle correction power: , 19.1175 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -28924 FR: -29001 BR: -28067 BLL -29247
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28067
+error_new:-10183 CurError-6.31014e+06
+angle: , 0.782 ,  angle correction power: , 1.47904 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29004 FR: -29075 BR: -28141 BLL -29325
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28141
+error_new:-10109 CurError-6.32025e+06
+angle: , 0.543 ,  angle correction power: , -16.0387 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29084 FR: -29152 BR: -28214 BLL -29404
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28214
+error_new:-10036 CurError-6.33029e+06
+angle: , 0.656 ,  angle correction power: , -7.07171 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29163 FR: -29229 BR: -28288 BLL -29484
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28288
+error_new:-9962 CurError-6.34025e+06
+angle: , 0.536 ,  angle correction power: , -15.6697 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29242 FR: -29303 BR: -28362 BLL -29564
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28362
+error_new:-9888 CurError-6.35014e+06
+angle: , 0.488 ,  angle correction power: , -18.9037 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29321 FR: -29380 BR: -28437 BLL -29643
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28437
+error_new:-9813 CurError-6.35995e+06
+angle: , 0.581 ,  angle correction power: , -11.493 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29401 FR: -29457 BR: -28512 BLL -29722
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28512
+error_new:-9738 CurError-6.36969e+06
+angle: , -0.210007 ,  angle correction power: , -70.976 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29484 FR: -29536 BR: -28590 BLL -29804
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28590
+error_new:-9660 CurError-6.37935e+06
+angle: , -0.186005 ,  angle correction power: , -69.3153 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29563 FR: -29612 BR: -28664 BLL -29882
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28664
+error_new:-9586 CurError-6.38894e+06
+angle: , -0.404999 ,  angle correction power: , -86.0436 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29641 FR: -29686 BR: -28737 BLL -29958
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28737
+error_new:-9513 CurError-6.39845e+06
+angle: , -0.537994 ,  angle correction power: , -96.4218 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29722 FR: -29764 BR: -28814 BLL -30041
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28814
+error_new:-9436 CurError-6.40789e+06
+angle: , -0.0319977 ,  angle correction power: , -58.496 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29801 FR: -29842 BR: -28888 BLL -30122
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28888
+error_new:-9362 CurError-6.41725e+06
+angle: , 0.197 ,  angle correction power: , -41.1735 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29884 FR: -29920 BR: -28966 BLL -30202
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-28966
+error_new:-9284 CurError-6.42653e+06
+angle: , 0.056 ,  angle correction power: , -51.7065 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -29966 FR: -29999 BR: -29043 BLL -30282
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29043
+error_new:-9207 CurError-6.43574e+06
+angle: , 0.261 ,  angle correction power: , -36.1357 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30047 FR: -30074 BR: -29118 BLL -30363
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29118
+error_new:-9132 CurError-6.44487e+06
+angle: , 0.688 ,  angle correction power: , -3.59471 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30131 FR: -30155 BR: -29196 BLL -30447
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29196
+error_new:-9054 CurError-6.45392e+06
+angle: , 0.309 ,  angle correction power: , -31.788 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30210 FR: -30232 BR: -29271 BLL -30528
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29271
+error_new:-8979 CurError-6.4629e+06
+angle: , 0.485 ,  angle correction power: , -18.2242 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30290 FR: -30312 BR: -29349 BLL -30607
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29349
+error_new:-8901 CurError-6.4718e+06
+angle: , 0.302 ,  angle correction power: , -31.7227 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30373 FR: -30392 BR: -29427 BLL -30689
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29427
+error_new:-8823 CurError-6.48063e+06
+angle: , 0.301 ,  angle correction power: , -31.572 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30458 FR: -30474 BR: -29506 BLL -30773
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29506
+error_new:-8744 CurError-6.48937e+06
+angle: , 0.281 ,  angle correction power: , -32.8612 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30535 FR: -30549 BR: -29579 BLL -30851
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29579
+error_new:-8671 CurError-6.49804e+06
+angle: , 0.121 ,  angle correction power: , -44.7705 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30616 FR: -30627 BR: -29656 BLL -30934
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29656
+error_new:-8594 CurError-6.50664e+06
+angle: , 0.169 ,  angle correction power: , -41.0437 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30699 FR: -30709 BR: -29734 BLL -31021
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29734
+error_new:-8516 CurError-6.51515e+06
+angle: , 0.216 ,  angle correction power: , -37.3567 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30784 FR: -30793 BR: -29815 BLL -31110
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29815
+error_new:-8435 CurError-6.52359e+06
+angle: , 0.493 ,  angle correction power: , -16.212 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -30896 FR: -30904 BR: -29923 BLL -31223
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-29923
+error_new:-8327 CurError-6.53192e+06
+angle: , 0.281 ,  angle correction power: , -31.9012 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31002 FR: -31013 BR: -30028 BLL -31330
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30028
+error_new:-8222 CurError-6.54014e+06
+angle: , 0.482 ,  angle correction power: , -16.4647 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31114 FR: -31124 BR: -30135 BLL -31442
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30135
+error_new:-8115 CurError-6.54825e+06
+angle: , -0.0379944 ,  angle correction power: , -55.4928 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31226 FR: -31234 BR: -30241 BLL -31557
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30241
+error_new:-8009 CurError-6.55626e+06
+angle: , -0.279999 ,  angle correction power: , -73.8531 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31323 FR: -31329 BR: -30336 BLL -31659
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30336
+error_new:-7914 CurError-6.56418e+06
+angle: , -0.468994 ,  angle correction power: , -88.3795 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31402 FR: -31406 BR: -30410 BLL -31739
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30410
+error_new:-7840 CurError-6.57202e+06
+angle: , -0.408005 ,  angle correction power: , -84.1113 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31480 FR: -31480 BR: -30485 BLL -31818
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30485
+error_new:-7765 CurError-6.57978e+06
+angle: , -0.337997 ,  angle correction power: , -79.1143 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31559 FR: -31555 BR: -30559 BLL -31896
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30559
+error_new:-7691 CurError-6.58747e+06
+angle: , -0.356995 ,  angle correction power: , -80.8068 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31639 FR: -31630 BR: -30634 BLL -31975
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30634
+error_new:-7616 CurError-6.59509e+06
+angle: , -0.382996 ,  angle correction power: , -83.0441 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31716 FR: -31706 BR: -30709 BLL -32053
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30709
+error_new:-7541 CurError-6.60263e+06
+angle: , -0.384995 ,  angle correction power: , -83.4828 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31795 FR: -31784 BR: -30782 BLL -32131
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30782
+error_new:-7468 CurError-6.6101e+06
+angle: , -0.257004 ,  angle correction power: , -74.0762 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31874 FR: -31861 BR: -30856 BLL -32211
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30856
+error_new:-7394 CurError-6.61749e+06
+angle: , -0.356995 ,  angle correction power: , -81.8433 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -31951 FR: -31939 BR: -30931 BLL -32289
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-30931
+error_new:-7319 CurError-6.62481e+06
+angle: , -0.0930023 ,  angle correction power: , -62.1136 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32029 FR: -32013 BR: -31005 BLL -32365
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31005
+error_new:-7245 CurError-6.63205e+06
+angle: , -0.919006 ,  angle correction power: , -124.753 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32107 FR: -32091 BR: -31080 BLL -32442
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31080
+error_new:-7170 CurError-6.63922e+06
+angle: , -0.921005 ,  angle correction power: , -125.594 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32183 FR: -32168 BR: -31155 BLL -32522
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31155
+error_new:-7095 CurError-6.64632e+06
+angle: , -0.526001 ,  angle correction power: , -96.363 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32256 FR: -32239 BR: -31230 BLL -32597
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31230
+error_new:-7020 CurError-6.65334e+06
+angle: , -0.707993 ,  angle correction power: , -110.543 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32334 FR: -32317 BR: -31304 BLL -32675
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31304
+error_new:-6946 CurError-6.66028e+06
+angle: , -1.23 ,  angle correction power: , -150.616 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32411 FR: -32394 BR: -31379 BLL -32752
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31379
+error_new:-6871 CurError-6.66716e+06
+angle: , -0.753006 ,  angle correction power: , -115.407 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32478 FR: -32461 BR: -31447 BLL -32821
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31447
+error_new:-6803 CurError-6.67396e+06
+angle: , -0.268997 ,  angle correction power: , -79.3077 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32536 FR: -32520 BR: -31501 BLL -32880
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31501
+error_new:-6749 CurError-6.68071e+06
+angle: , -0.259003 ,  angle correction power: , -78.7524 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32616 FR: -32601 BR: -31580 BLL -32961
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31580
+error_new:-6670 CurError-6.68738e+06
+angle: , -0.485992 ,  angle correction power: , -96.1411 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32699 FR: -32683 BR: -31659 BLL -33042
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31659
+error_new:-6591 CurError-6.69397e+06
+angle: , -0.751007 ,  angle correction power: , -116.58 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32776 FR: -32757 BR: -31733 BLL -33118
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31733
+error_new:-6517 CurError-6.70049e+06
+angle: , -1.01801 ,  angle correction power: , -137.369 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32852 FR: -32833 BR: -31807 BLL -33196
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31807
+error_new:-6443 CurError-6.70693e+06
+angle: , -0.744995 ,  angle correction power: , -117.452 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -32928 FR: -32909 BR: -31879 BLL -33272
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31879
+error_new:-6371 CurError-6.7133e+06
+angle: , -0.654999 ,  angle correction power: , -111.193 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33004 FR: -32985 BR: -31953 BLL -33349
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-31953
+error_new:-6297 CurError-6.7196e+06
+angle: , -1.192 ,  angle correction power: , -152.363 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33079 FR: -33060 BR: -32027 BLL -33426
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32027
+error_new:-6223 CurError-6.72582e+06
+angle: , -0.983994 ,  angle correction power: , -137.5 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33156 FR: -33136 BR: -32103 BLL -33504
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32103
+error_new:-6147 CurError-6.73197e+06
+angle: , -1.205 ,  angle correction power: , -154.979 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33235 FR: -33216 BR: -32180 BLL -33584
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32180
+error_new:-6070 CurError-6.73804e+06
+angle: , -0.679001 ,  angle correction power: , -116.039 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33310 FR: -33296 BR: -32255 BLL -33663
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32255
+error_new:-5995 CurError-6.74403e+06
+angle: , -0.996994 ,  angle correction power: , -140.636 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33384 FR: -33372 BR: -32329 BLL -33739
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32329
+error_new:-5921 CurError-6.74995e+06
+angle: , -0.725998 ,  angle correction power: , -120.856 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33457 FR: -33450 BR: -32404 BLL -33814
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32404
+error_new:-5846 CurError-6.7558e+06
+angle: , -0.151001 ,  angle correction power: , -77.844 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33530 FR: -33526 BR: -32478 BLL -33889
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32478
+error_new:-5772 CurError-6.76157e+06
+angle: , -0.403 ,  angle correction power: , -97.0462 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33603 FR: -33603 BR: -32548 BLL -33965
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32548
+error_new:-5702 CurError-6.76727e+06
+angle: , -0.529007 ,  angle correction power: , -106.893 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33674 FR: -33679 BR: -32622 BLL -34041
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32622
+error_new:-5628 CurError-6.7729e+06
+angle: , -0.457001 ,  angle correction power: , -101.836 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33748 FR: -33754 BR: -32696 BLL -34116
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32696
+error_new:-5554 CurError-6.77846e+06
+angle: , -0.462006 ,  angle correction power: , -102.558 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33823 FR: -33830 BR: -32771 BLL -34191
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32771
+error_new:-5479 CurError-6.78393e+06
+angle: , -0.509995 ,  angle correction power: , -106.539 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33902 FR: -33909 BR: -32847 BLL -34271
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32847
+error_new:-5403 CurError-6.78934e+06
+angle: , -0.582993 ,  angle correction power: , -112.451 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -33977 FR: -33987 BR: -32922 BLL -34346
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32922
+error_new:-5328 CurError-6.79466e+06
+angle: , -0.389999 ,  angle correction power: , -98.2694 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34052 FR: -34061 BR: -32996 BLL -34423
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-32996
+error_new:-5254 CurError-6.79992e+06
+angle: , -0.417007 ,  angle correction power: , -100.608 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34129 FR: -34140 BR: -33073 BLL -34504
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33073
+error_new:-5177 CurError-6.8051e+06
+angle: , -0.847 ,  angle correction power: , -133.492 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34202 FR: -34214 BR: -33146 BLL -34581
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33146
+error_new:-5104 CurError-6.8102e+06
+angle: , -0.634003 ,  angle correction power: , -117.993 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34276 FR: -34289 BR: -33220 BLL -34658
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33220
+error_new:-5030 CurError-6.81523e+06
+angle: , -0.884003 ,  angle correction power: , -137.406 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34351 FR: -34366 BR: -33295 BLL -34735
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33295
+error_new:-4955 CurError-6.82018e+06
+angle: , -0.882996 ,  angle correction power: , -137.993 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34426 FR: -34442 BR: -33370 BLL -34811
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33370
+error_new:-4880 CurError-6.82506e+06
+angle: , -0.776993 ,  angle correction power: , -130.625 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34500 FR: -34518 BR: -33442 BLL -34887
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33442
+error_new:-4808 CurError-6.82987e+06
+angle: , -0.751999 ,  angle correction power: , -129.315 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34575 FR: -34595 BR: -33515 BLL -34961
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33515
+error_new:-4735 CurError-6.83461e+06
+angle: , -0.649002 ,  angle correction power: , -122.077 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34650 FR: -34672 BR: -33590 BLL -35037
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33590
+error_new:-4660 CurError-6.83927e+06
+angle: , -0.673996 ,  angle correction power: , -124.457 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34716 FR: -34740 BR: -33658 BLL -35105
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33658
+error_new:-4592 CurError-6.84386e+06
+angle: , -0.276993 ,  angle correction power: , -94.8894 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34795 FR: -34821 BR: -33736 BLL -35186
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33736
+error_new:-4514 CurError-6.84837e+06
+angle: , 0.086 ,  angle correction power: , -67.6004 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34875 FR: -34902 BR: -33815 BLL -35268
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33815
+error_new:-4435 CurError-6.85281e+06
+angle: , -0.119995 ,  angle correction power: , -83.1401 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -34954 FR: -34983 BR: -33894 BLL -35350
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33894
+error_new:-4356 CurError-6.85716e+06
+angle: , -0.214005 ,  angle correction power: , -90.3513 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35027 FR: -35058 BR: -33967 BLL -35425
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-33967
+error_new:-4283 CurError-6.86145e+06
+angle: , -0.289001 ,  angle correction power: , -96.1928 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35103 FR: -35134 BR: -34041 BLL -35502
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34041
+error_new:-4209 CurError-6.86566e+06
+angle: , 0.103 ,  angle correction power: , -66.7154 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35211 FR: -35246 BR: -34148 BLL -35614
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34148
+error_new:-4102 CurError-6.86976e+06
+angle: , 0.049 ,  angle correction power: , -70.7287 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35328 FR: -35366 BR: -34261 BLL -35728
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34261
+error_new:-3989 CurError-6.87375e+06
+angle: , 0.337 ,  angle correction power: , -48.8759 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35448 FR: -35491 BR: -34374 BLL -35855
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34374
+error_new:-3876 CurError-6.87762e+06
+angle: , 1.116 ,  angle correction power: , 10.3861 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35567 FR: -35612 BR: -34494 BLL -35978
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34494
+error_new:-3756 CurError-6.88138e+06
+angle: , 0.328 ,  angle correction power: , -48.4679 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35679 FR: -35718 BR: -34599 BLL -36096
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34599
+error_new:-3651 CurError-6.88503e+06
+angle: , 0.336 ,  angle correction power: , -47.6159 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35787 FR: -35833 BR: -34713 BLL -36214
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34713
+error_new:-3537 CurError-6.88857e+06
+angle: , 0.209 ,  angle correction power: , -56.9842 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -35898 FR: -35945 BR: -34819 BLL -36330
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34819
+error_new:-3431 CurError-6.892e+06
+angle: , 0.125 ,  angle correction power: , -63.1904 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36015 FR: -36059 BR: -34929 BLL -36447
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-34929
+error_new:-3321 CurError-6.89532e+06
+angle: , 0.109 ,  angle correction power: , -64.3087 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36128 FR: -36164 BR: -35040 BLL -36558
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35040
+error_new:-3210 CurError-6.89853e+06
+angle: , -0.136002 ,  angle correction power: , -82.7858 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36221 FR: -36251 BR: -35128 BLL -36653
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35128
+error_new:-3122 CurError-6.90165e+06
+angle: , 0.146 ,  angle correction power: , -61.5262 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36300 FR: -36327 BR: -35203 BLL -36732
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35203
+error_new:-3047 CurError-6.9047e+06
+angle: , 0.197 ,  angle correction power: , -57.5534 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36378 FR: -36403 BR: -35277 BLL -36812
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35277
+error_new:-2973 CurError-6.90767e+06
+angle: , 0.22 ,  angle correction power: , -55.6634 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36456 FR: -36479 BR: -35351 BLL -36891
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35351
+error_new:-2899 CurError-6.91057e+06
+angle: , 0.221 ,  angle correction power: , -55.4227 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36535 FR: -36556 BR: -35426 BLL -36970
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35426
+error_new:-2824 CurError-6.9134e+06
+angle: , 0.198 ,  angle correction power: , -56.9992 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36614 FR: -36633 BR: -35499 BLL -37050
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35499
+error_new:-2751 CurError-6.91615e+06
+angle: , -0.115005 ,  angle correction power: , -80.5609 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36693 FR: -36707 BR: -35573 BLL -37127
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35573
+error_new:-2677 CurError-6.91882e+06
+angle: , -0.0800018 ,  angle correction power: , -77.9956 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36770 FR: -36783 BR: -35648 BLL -37205
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35648
+error_new:-2602 CurError-6.92142e+06
+angle: , -0.296005 ,  angle correction power: , -94.4178 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36849 FR: -36860 BR: -35722 BLL -37285
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35722
+error_new:-2528 CurError-6.92395e+06
+angle: , 0.212 ,  angle correction power: , -56.1584 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -36923 FR: -36934 BR: -35797 BLL -37365
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35797
+error_new:-2453 CurError-6.92641e+06
+angle: , 0.536 ,  angle correction power: , -31.4564 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -37000 FR: -37011 BR: -35871 BLL -37446
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35871
+error_new:-2379 CurError-6.92878e+06
+angle: , 0.329 ,  angle correction power: , -46.7347 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -37078 FR: -37088 BR: -35946 BLL -37527
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-35946
+error_new:-2304 CurError-6.93109e+06
+angle: , 0.319 ,  angle correction power: , -47.2454 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -37157 FR: -37163 BR: -36018 BLL -37605
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36018
+error_new:-2232 CurError-6.93332e+06
+angle: , 0.461 ,  angle correction power: , -36.2497 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -37235 FR: -37237 BR: -36089 BLL -37683
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36089
+error_new:-2161 CurError-6.93548e+06
+angle: , 0.512 ,  angle correction power: , -32.0407 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -37310 FR: -37314 BR: -36162 BLL -37763
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36162
+error_new:-2088 CurError-6.93757e+06
+angle: , 0.366 ,  angle correction power: , -42.7162 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -37389 FR: -37388 BR: -36236 BLL -37843
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36236
+error_new:-2014 CurError-6.93958e+06
+angle: , -0.332001 ,  angle correction power: , -95.3153 ,  wheelPowerCorectionFactor: , 1 , BeforeAnglePIDWheelPower: , 0FL: -37470 FR: -37468 BR: -36311 BLL -37921
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36311
+error_new:-1939 CurError-6.94152e+06
+angle: , -0.414001 ,  angle correction power: , -101.776 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 61FL: -37547 FR: -37544 BR: -36384 BLL -38000
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36384
+error_new:-1866 CurError-6.94339e+06
+angle: , -0.0809937 ,  angle correction power: , -76.861 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 134Finial wheel Power: , FL: , 134 , FR: , 134 , BR: , 134 , BL , 134
+FL: -37624 FR: -37619 BR: -36459 BLL -38080
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36459
+error_new:-1791 CurError-6.94518e+06
+angle: , 0.092 ,  angle correction power: , -63.8174 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 209Finial wheel Power: , FL: , 209 , FR: , 209 , BR: , 209 , BL , 209
+FL: -37699 FR: -37694 BR: -36530 BLL -38157
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36530
+error_new:-1720 CurError-6.9469e+06
+angle: , 0.035 ,  angle correction power: , -68.0662 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 280Finial wheel Power: , FL: , 280 , FR: , 280 , BR: , 280 , BL , 280
+FL: -37773 FR: -37765 BR: -36602 BLL -38234
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36602
+error_new:-1648 CurError-6.94855e+06
+angle: , 0.644 ,  angle correction power: , -21.9082 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 352Finial wheel Power: , FL: , 352 , FR: , 352 , BR: , 352 , BL , 352
+FL: -37847 FR: -37837 BR: -36673 BLL -38310
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36673
+error_new:-1577 CurError-6.95012e+06
+angle: , 0.853 ,  angle correction power: , -5.59345 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 423Finial wheel Power: , FL: , 423 , FR: , 423 , BR: , 423 , BL , 423
+FL: -37920 FR: -37909 BR: -36743 BLL -38385
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36743
+error_new:-1507 CurError-6.95163e+06
+angle: , 1.025 ,  angle correction power: , 8.0753 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 493Finial wheel Power: , FL: , 493 , FR: , 493 , BR: , 493 , BL , 493
+FL: -37990 FR: -37977 BR: -36811 BLL -38458
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36811
+error_new:-1439 CurError-6.95307e+06
+angle: , 0.61 ,  angle correction power: , -22.5922 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 561Finial wheel Power: , FL: , 561 , FR: , 561 , BR: , 561 , BL , 561
+FL: -38058 FR: -38044 BR: -36878 BLL -38527
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36878
+error_new:-1372 CurError-6.95444e+06
+angle: , 0.61 ,  angle correction power: , -22.1347 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 628Finial wheel Power: , FL: , 628 , FR: , 628 , BR: , 628 , BL , 628
+FL: -38124 FR: -38109 BR: -36941 BLL -38593
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-36941
+error_new:-1309 CurError-6.95575e+06
+angle: , 0.661 ,  angle correction power: , -17.8139 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 691Finial wheel Power: , FL: , 691 , FR: , 691 , BR: , 691 , BL , 691
+FL: -38187 FR: -38169 BR: -37001 BLL -38658
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37001
+error_new:-1249 CurError-6.957e+06
+angle: , 0.96 ,  angle correction power: , 5.33105 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 751Finial wheel Power: , FL: , 751 , FR: , 751 , BR: , 751 , BL , 751
+FL: -38248 FR: -38229 BR: -37063 BLL -38722
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37063
+error_new:-1187 CurError-6.95819e+06
+angle: , 0.964 ,  angle correction power: , 6.35405 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 813Finial wheel Power: , FL: , 813 , FR: , 813 , BR: , 813 , BL , 813
+FL: -38307 FR: -38288 BR: -37120 BLL -38781
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37120
+error_new:-1130 CurError-6.95932e+06
+angle: , 1.078 ,  angle correction power: , 15.7125 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 870Finial wheel Power: , FL: , 870 , FR: , 870 , BR: , 870 , BL , 870
+FL: -38364 FR: -38342 BR: -37174 BLL -38839
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37174
+error_new:-1076 CurError-6.96039e+06
+angle: , 0.988 ,  angle correction power: , 9.70355 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 924Finial wheel Power: , FL: , 924 , FR: , 924 , BR: , 924 , BL , 924
+FL: -38417 FR: -38395 BR: -37226 BLL -38895
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37226
+error_new:-1024 CurError-6.96142e+06
+angle: , 0.957 ,  angle correction power: , 8.0963 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 976Finial wheel Power: , FL: , 976 , FR: , 976 , BR: , 976 , BL , 976
+FL: -38469 FR: -38446 BR: -37276 BLL -38946
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37276
+error_new:-974 CurError-6.96239e+06
+angle: , 0.957 ,  angle correction power: , 8.81405 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1026Finial wheel Power: , FL: , 1026 , FR: , 1026 , BR: , 1026 , BL , 1026
+FL: -38518 FR: -38493 BR: -37322 BLL -38996
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37322
+error_new:-928 CurError-6.96332e+06
+angle: , 1.5 ,  angle correction power: , 50.6641 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1072Finial wheel Power: , FL: , 1072 , FR: , 1072 , BR: , 1072 , BL , 1072
+FL: -38564 FR: -38538 BR: -37368 BLL -39045
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37368
+error_new:-882 CurError-6.9642e+06
+angle: , 1.437 ,  angle correction power: , 47.0168 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1118Finial wheel Power: , FL: , 1118 , FR: , 1118 , BR: , 1118 , BL , 1118
+FL: -38610 FR: -38584 BR: -37412 BLL -39091
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37412
+error_new:-838 CurError-6.96504e+06
+angle: , 1.437 ,  angle correction power: , 48.0946 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1162Finial wheel Power: , FL: , 1162 , FR: , 1162 , BR: , 1162 , BL , 1162
+FL: -38655 FR: -38628 BR: -37455 BLL -39136
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37455
+error_new:-795 CurError-6.96584e+06
+angle: , 1.53 ,  angle correction power: , 56.2171 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1205Finial wheel Power: , FL: , 1205 , FR: , 1205 , BR: , 1205 , BL , 1205
+FL: -38695 FR: -38667 BR: -37494 BLL -39179
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37494
+error_new:-756 CurError-6.96659e+06
+angle: , 1.951 ,  angle correction power: , 89.2553 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1244Finial wheel Power: , FL: , 1244 , FR: , 1244 , BR: , 1244 , BL , 1244
+FL: -38734 FR: -38706 BR: -37532 BLL -39218
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37532
+error_new:-718 CurError-6.96731e+06
+angle: , 1.951 ,  angle correction power: , 90.7186 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1282Finial wheel Power: , FL: , 1282 , FR: , 1282 , BR: , 1282 , BL , 1282
+FL: -38771 FR: -38741 BR: -37566 BLL -39254
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37566
+error_new:-684 CurError-6.96799e+06
+angle: , 1.87 ,  angle correction power: , 86.0461 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1316Finial wheel Power: , FL: , 1316 , FR: , 1316 , BR: , 1316 , BL , 1316
+FL: -38805 FR: -38774 BR: -37600 BLL -39291
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37600
+error_new:-650 CurError-6.96864e+06
+angle: , 1.538 ,  angle correction power: , 62.2996 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1350Finial wheel Power: , FL: , 1350 , FR: , 1350 , BR: , 1350 , BL , 1350
+FL: -38838 FR: -38807 BR: -37633 BLL -39324
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37633
+error_new:-617 CurError-6.96926e+06
+angle: , 1.365 ,  angle correction power: , 50.3483 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1383Finial wheel Power: , FL: , 1383 , FR: , 1383 , BR: , 1383 , BL , 1383
+FL: -38870 FR: -38838 BR: -37663 BLL -39354
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37663
+error_new:-587 CurError-6.96985e+06
+angle: , 1.365 ,  angle correction power: , 51.3721 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1413Finial wheel Power: , FL: , 1413 , FR: , 1413 , BR: , 1413 , BL , 1413
+FL: -38899 FR: -38865 BR: -37691 BLL -39385
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37691
+error_new:-559 CurError-6.97041e+06
+angle: , 1.131 ,  angle correction power: , 34.6703 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1441Finial wheel Power: , FL: , 1441 , FR: , 1441 , BR: , 1441 , BL , 1441
+FL: -38926 FR: -38893 BR: -37719 BLL -39413
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37719
+error_new:-531 CurError-6.97094e+06
+angle: , 1.002 ,  angle correction power: , 25.7468 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1469Finial wheel Power: , FL: , 1469 , FR: , 1469 , BR: , 1469 , BL , 1469
+FL: -38954 FR: -38919 BR: -37744 BLL -39439
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37744
+error_new:-506 CurError-6.97144e+06
+angle: , 1.002 ,  angle correction power: , 26.4983 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1494Finial wheel Power: , FL: , 1494 , FR: , 1494 , BR: , 1494 , BL , 1494
+FL: -38979 FR: -38943 BR: -37768 BLL -39465
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37768
+error_new:-482 CurError-6.97192e+06
+angle: , 1.052 ,  angle correction power: , 31.0373 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1518Finial wheel Power: , FL: , 1518 , FR: , 1518 , BR: , 1518 , BL , 1518
+FL: -39002 FR: -38966 BR: -37792 BLL -39490
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37792
+error_new:-458 CurError-6.97238e+06
+angle: , 1.47 ,  angle correction power: , 63.4898 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1542Finial wheel Power: , FL: , 1542 , FR: , 1542 , BR: , 1542 , BL , 1542
+FL: -39025 FR: -38989 BR: -37813 BLL -39512
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37813
+error_new:-437 CurError-6.97282e+06
+angle: , 1.47 ,  angle correction power: , 64.5923 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1563Finial wheel Power: , FL: , 1563 , FR: , 1563 , BR: , 1563 , BL , 1563
+FL: -39047 FR: -39009 BR: -37833 BLL -39534
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37833
+error_new:-417 CurError-6.97324e+06
+angle: , 1.643 ,  angle correction power: , 78.7996 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1583Finial wheel Power: , FL: , 1583 , FR: , 1583 , BR: , 1583 , BL , 1583
+FL: -39066 FR: -39029 BR: -37854 BLL -39554
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37854
+error_new:-396 CurError-6.97363e+06
+angle: , 1.995 ,  angle correction power: , 106.696 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1604Finial wheel Power: , FL: , 1604 , FR: , 1604 , BR: , 1604 , BL , 1604
+FL: -39086 FR: -39048 BR: -37873 BLL -39573
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37873
+error_new:-377 CurError-6.97401e+06
+angle: , 1.995 ,  angle correction power: , 108.192 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1623Finial wheel Power: , FL: , 1623 , FR: , 1623 , BR: , 1623 , BL , 1623
+FL: -39110 FR: -39071 BR: -37895 BLL -39597
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37895
+error_new:-355 CurError-6.97436e+06
+angle: , 2.028 ,  angle correction power: , 112.188 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1645Finial wheel Power: , FL: , 1645 , FR: , 1645 , BR: , 1645 , BL , 1645
+FL: -39135 FR: -39095 BR: -37920 BLL -39623
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37920
+error_new:-330 CurError-6.9747e+06
+angle: , 2.144 ,  angle correction power: , 122.496 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1670Finial wheel Power: , FL: , 1670 , FR: , 1670 , BR: , 1670 , BL , 1670
+FL: -39159 FR: -39119 BR: -37943 BLL -39649
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37943
+error_new:-307 CurError-6.975e+06
+angle: , 1.972 ,  angle correction power: , 111.075 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1693Finial wheel Power: , FL: , 1693 , FR: , 1693 , BR: , 1693 , BL , 1693
+FL: -39178 FR: -39139 BR: -37963 BLL -39670
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37963
+error_new:-287 CurError-6.97529e+06
+angle: , 1.73 ,  angle correction power: , 94.2226 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1713Finial wheel Power: , FL: , 1713 , FR: , 1713 , BR: , 1713 , BL , 1713
+FL: -39199 FR: -39159 BR: -37983 BLL -39692
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37983
+error_new:-267 CurError-6.97556e+06
+angle: , 1.841 ,  angle correction power: , 103.928 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1733Finial wheel Power: , FL: , 1733 , FR: , 1733 , BR: , 1733 , BL , 1733
+FL: -39211 FR: -39172 BR: -37994 BLL -39704
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-37994
+error_new:-256 CurError-6.97581e+06
+angle: , 1.841 ,  angle correction power: , 105.309 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1744Finial wheel Power: , FL: , 1744 , FR: , 1744 , BR: , 1744 , BL , 1744
+FL: -39223 FR: -39182 BR: -38005 BLL -39716
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38005
+error_new:-245 CurError-6.97606e+06
+angle: , 1.769 ,  angle correction power: , 101.236 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1755Finial wheel Power: , FL: , 1755 , FR: , 1755 , BR: , 1755 , BL , 1755
+FL: -39234 FR: -39193 BR: -38017 BLL -39727
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38017
+error_new:-233 CurError-6.97629e+06
+angle: , 1.804 ,  angle correction power: , 105.214 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1767Finial wheel Power: , FL: , 1767 , FR: , 1767 , BR: , 1767 , BL , 1767
+FL: -39245 FR: -39204 BR: -38026 BLL -39737
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38026
+error_new:-224 CurError-6.97651e+06
+angle: , 1.804 ,  angle correction power: , 106.567 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1776Finial wheel Power: , FL: , 1776 , FR: , 1776 , BR: , 1776 , BL , 1776
+FL: -39254 FR: -39213 BR: -38034 BLL -39746
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38034
+error_new:-216 CurError-6.97673e+06
+angle: , 1.914 ,  angle correction power: , 116.252 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1784Finial wheel Power: , FL: , 1784 , FR: , 1784 , BR: , 1784 , BL , 1784
+FL: -39262 FR: -39221 BR: -38043 BLL -39756
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38043
+error_new:-207 CurError-6.97694e+06
+angle: , 1.948 ,  angle correction power: , 120.263 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1793Finial wheel Power: , FL: , 1793 , FR: , 1793 , BR: , 1793 , BL , 1793
+FL: -39271 FR: -39230 BR: -38051 BLL -39764
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38051
+error_new:-199 CurError-6.97714e+06
+angle: , 1.948 ,  angle correction power: , 121.724 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1801Finial wheel Power: , FL: , 1801 , FR: , 1801 , BR: , 1801 , BL , 1801
+FL: -39279 FR: -39238 BR: -38058 BLL -39772
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38058
+error_new:-192 CurError-6.97733e+06
+angle: , 1.814 ,  angle correction power: , 113.035 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1808Finial wheel Power: , FL: , 1808 , FR: , 1808 , BR: , 1808 , BL , 1808
+FL: -39287 FR: -39245 BR: -38065 BLL -39781
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38065
+error_new:-185 CurError-6.97751e+06
+angle: , 1.69 ,  angle correction power: , 105.002 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1815Finial wheel Power: , FL: , 1815 , FR: , 1815 , BR: , 1815 , BL , 1815
+FL: -39294 FR: -39252 BR: -38071 BLL -39788
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38071
+error_new:-179 CurError-6.97769e+06
+angle: , 1.567 ,  angle correction power: , 96.9526 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1821Finial wheel Power: , FL: , 1821 , FR: , 1821 , BR: , 1821 , BL , 1821
+FL: -39300 FR: -39259 BR: -38077 BLL -39795
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38077
+error_new:-173 CurError-6.97786e+06
+angle: , 1.49 ,  angle correction power: , 92.2951 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1827Finial wheel Power: , FL: , 1827 , FR: , 1827 , BR: , 1827 , BL , 1827
+FL: -39306 FR: -39264 BR: -38083 BLL -39802
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38083
+error_new:-167 CurError-6.97803e+06
+angle: , 1.449 ,  angle correction power: , 90.3068 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1833Finial wheel Power: , FL: , 1833 , FR: , 1833 , BR: , 1833 , BL , 1833
+FL: -39312 FR: -39270 BR: -38089 BLL -39809
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38089
+error_new:-161 CurError-6.97819e+06
+angle: , 1.355 ,  angle correction power: , 84.2731 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1839Finial wheel Power: , FL: , 1839 , FR: , 1839 , BR: , 1839 , BL , 1839
+FL: -39318 FR: -39276 BR: -38093 BLL -39815
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38093
+error_new:-157 CurError-6.97835e+06
+angle: , 1.355 ,  angle correction power: , 85.2893 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1843Finial wheel Power: , FL: , 1843 , FR: , 1843 , BR: , 1843 , BL , 1843
+FL: -39323 FR: -39280 BR: -38098 BLL -39821
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38098
+error_new:-152 CurError-6.9785e+06
+angle: , 1.262 ,  angle correction power: , 79.2608 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1848Finial wheel Power: , FL: , 1848 , FR: , 1848 , BR: , 1848 , BL , 1848
+FL: -39327 FR: -39286 BR: -38104 BLL -39826
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38104
+error_new:-146 CurError-6.97865e+06
+angle: , 1.218 ,  angle correction power: , 76.8743 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1854Finial wheel Power: , FL: , 1854 , FR: , 1854 , BR: , 1854 , BL , 1854
+FL: -39332 FR: -39290 BR: -38108 BLL -39831
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38108
+error_new:-142 CurError-6.97879e+06
+angle: , 1.218 ,  angle correction power: , 77.7878 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1858Finial wheel Power: , FL: , 1858 , FR: , 1858 , BR: , 1858 , BL , 1858
+FL: -39337 FR: -39294 BR: -38111 BLL -39836
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38111
+error_new:-139 CurError-6.97893e+06
+angle: , 1.066 ,  angle correction power: , 67.1873 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1861Finial wheel Power: , FL: , 1861 , FR: , 1861 , BR: , 1861 , BL , 1861
+FL: -39341 FR: -39299 BR: -38116 BLL -39841
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38116
+error_new:-134 CurError-6.97906e+06
+angle: , 1.033 ,  angle correction power: , 65.4871 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1866Finial wheel Power: , FL: , 1866 , FR: , 1866 , BR: , 1866 , BL , 1866
+FL: -39345 FR: -39303 BR: -38120 BLL -39846
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38120
+error_new:-130 CurError-6.97919e+06
+angle: , 1.033 ,  angle correction power: , 66.2618 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1870Finial wheel Power: , FL: , 1870 , FR: , 1870 , BR: , 1870 , BL , 1870
+FL: -39349 FR: -39306 BR: -38123 BLL -39850
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38123
+error_new:-127 CurError-6.97932e+06
+angle: , 0.904 ,  angle correction power: , 57.2648 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1873Finial wheel Power: , FL: , 1873 , FR: , 1873 , BR: , 1873 , BL , 1873
+FL: -39352 FR: -39310 BR: -38126 BLL -39855
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38126
+error_new:-124 CurError-6.97944e+06
+angle: , 0.845 ,  angle correction power: , 53.4736 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1876Finial wheel Power: , FL: , 1876 , FR: , 1876 , BR: , 1876 , BL , 1876
+FL: -39355 FR: -39314 BR: -38129 BLL -39858
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38129
+error_new:-121 CurError-6.97956e+06
+angle: , 0.817 ,  angle correction power: , 51.9863 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1879Finial wheel Power: , FL: , 1879 , FR: , 1879 , BR: , 1879 , BL , 1879
+FL: -39358 FR: -39317 BR: -38132 BLL -39862
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38132
+error_new:-118 CurError-6.97968e+06
+angle: , 0.817 ,  angle correction power: , 52.5991 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1882Finial wheel Power: , FL: , 1882 , FR: , 1882 , BR: , 1882 , BL , 1882
+FL: -39361 FR: -39319 BR: -38134 BLL -39865
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38134
+error_new:-116 CurError-6.9798e+06
+angle: , 0.836 ,  angle correction power: , 54.6511 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1884Finial wheel Power: , FL: , 1884 , FR: , 1884 , BR: , 1884 , BL , 1884
+FL: -39364 FR: -39322 BR: -38137 BLL -39868
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38137
+error_new:-113 CurError-6.97991e+06
+angle: , 0.795 ,  angle correction power: , 52.1723 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1887Finial wheel Power: , FL: , 1887 , FR: , 1887 , BR: , 1887 , BL , 1887
+FL: -39367 FR: -39325 BR: -38140 BLL -39871
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38140
+error_new:-110 CurError-6.98002e+06
+angle: , 0.795 ,  angle correction power: , 52.7686 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1890Finial wheel Power: , FL: , 1890 , FR: , 1890 , BR: , 1890 , BL , 1890
+FL: -39370 FR: -39328 BR: -38142 BLL -39875
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38142
+error_new:-108 CurError-6.98013e+06
+angle: , 0.759 ,  angle correction power: , 50.6378 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1892Finial wheel Power: , FL: , 1892 , FR: , 1892 , BR: , 1892 , BL , 1892
+FL: -39373 FR: -39331 BR: -38144 BLL -39878
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38144
+error_new:-106 CurError-6.98024e+06
+angle: , 0.726 ,  angle correction power: , 48.7073 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1894Finial wheel Power: , FL: , 1894 , FR: , 1894 , BR: , 1894 , BL , 1894
+FL: -39376 FR: -39333 BR: -38146 BLL -39880
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38146
+error_new:-104 CurError-6.98034e+06
+angle: , 0.726 ,  angle correction power: , 49.2518 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1896Finial wheel Power: , FL: , 1896 , FR: , 1896 , BR: , 1896 , BL , 1896
+FL: -39378 FR: -39336 BR: -38148 BLL -39883
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38148
+error_new:-102 CurError-6.98044e+06
+angle: , 0.63 ,  angle correction power: , 42.5243 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1898Finial wheel Power: , FL: , 1898 , FR: , 1898 , BR: , 1898 , BL , 1898
+FL: -39380 FR: -39338 BR: -38150 BLL -39886
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38150
+error_new:-100 CurError-6.98054e+06
+angle: , 0.501 ,  angle correction power: , 33.2251 ,  wheelPowerCorectionFactor: , 0 , BeforeAnglePIDWheelPower: , 1900Finial wheel Power: , FL: , 1900 , FR: , 1900 , BR: , 1900 , BL , 1900
+FL: -39383 FR: -39340 BR: -38152 BLL -39888
+wheels[indexEncoderToUse].encoderGoal:-38250 encoderToUse:-38152
+error_new:-98 CurError-6.98064e+06
+turning everything off!!
