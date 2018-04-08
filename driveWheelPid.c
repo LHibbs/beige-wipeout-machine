@@ -4,8 +4,8 @@
 #define KP 1
 #define KI 0
 //#define KI .1 
-#define KP_ANGLE 40
-//#define KI_ANGLE 0.2825 
+
+#define KP_ANGLE 512
 #define KI_ANGLE 0
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
@@ -117,8 +117,6 @@ void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
    if(direction == Backward || direction == Left){
       wheelDir = 1;
    }
-   double bias  = 0;;
-   bias  = bias + 0;
 //speed at 100 and increment by 50 is .38 seconds
    for(int speed = 50; speed <= 2000;speed = speed + 50){
       switch(direction)
@@ -126,13 +124,7 @@ void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
          case Forward:
          case Backward:
             for(int i = 0; i < 4; i++){
-               if(i==FL || i == BL){
-                  bias = .95;
-               }
-               else{
-                  bias = 1;
-               }
-               wheelCmd[i][0] = abs(2000*wheelDir - speed*bias);
+               wheelCmd[i][0] = abs(2000*wheelDir - speed);
                wheelCmd[i][1] = wheelDir;
             }
          break;
@@ -179,8 +171,6 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
                MYREAD(stdin_poll->fd,inputGoal,sizeof(double));
                MYREAD(stdin_poll->fd,direction,sizeof(enum dir));
                fprintf(stderr,"inputGoal:%g \t direction:%d\n\n\n",inputGoal[0],(int)*direction);
-               
-               
                updateWheels(wheels,inputGoal[0],*direction);
                resetEncoder(encoderPipe[1]);
 //               char tempMsg[10];
@@ -190,7 +180,6 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
    //            MYWRITE(encoderPipe[1],tempMsg,sizeof(char)*2);
                
                gradualStartUp(wheels,wheelCmd,*direction);
-               
                break;
             case 'r'://reset
                for(int i = 0; i < 4;i++){
@@ -325,22 +314,17 @@ double angleToValue(float angle){
    return angle;
 }
 /* corrects for what value of angle we have acumulated over the trip*/
-void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuDir *curImu,double sumTime) {
+void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuDir *curImu) {
 
    double error_new  = angleToValue(curImu->Rx);
    double pow;
    curImu->curError += error_new;
-   int bias = -105;
-   if(direction == Forward){
-      bias = 120;
-   }
 
-
-   pow = KP_ANGLE*error_new + KI_ANGLE*(curImu->curError) + bias;
+   pow = KP_ANGLE*error_new + KI_ANGLE*(curImu->curError);
    //Error_new will be negitice if it is turning slightly to the left going fowards ie counter clockwise
    double wheelPower = ((wheelCmd[FR][1]==0)?wheelCmd[FR][0]:(2000-wheelCmd[FR][0]))/2000;
    wheelPower = max(wheelPower, .3);
-   printf("sumTime,angle,sumTime,angleCorrectionPower: , %g ,  %g , %g , %g ,  wheelPowerCorectionFactor: , %g , BeforeAnglePIDWheelPower: , %d , \n",sumTime,error_new,sumTime,pow/(-500),wheelPower,wheelCmd[FL][0]);
+   printf("angle,angleCorrectionPower: , %g , %g ,  wheelPowerCorectionFactor: , %g , BeforeAnglePIDWheelPower: , %d , ",error_new,pow/500,wheelPower,wheelCmd[FL][0]);
    switch(direction){
       case Forward:
          wheelCmd[FL][0] -= (wheelPower)*pow*((wheelCmd[FL][1]==0)?1:-1);
@@ -442,7 +426,6 @@ void updateImuStatus(ImuDir *curImu){
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
    while(poll(&IMU_poll,1,0)==1){
       scanf("%g %g %g\n",&(curImu->Rx),&(curImu->Ry),&(curImu->Rz));
-      fprintf(stderr,"%g ,  %g , %g \n",curImu->Rx,curImu->Ry,curImu->Rz);
    }
 }
 
@@ -462,11 +445,10 @@ void driveWheelPidControl(){
    //1 means that we have already reset the encoders and dont need to keep resetting them 
    char encoderReset = 0;
    struct timeval *before,*after;
-   double timer_u, timer_m,sumTime;
+   double timer_u, timer_m;
    struct timespec sleepTime;
    sleepTime.tv_sec = dt_sec;
    sleepTime.tv_nsec = dt_nsec;//5ms
-   sumTime = 0;
 
    before = malloc(sizeof(struct timespec));
    after = malloc(sizeof(struct timespec));
@@ -495,14 +477,13 @@ void driveWheelPidControl(){
 
         writeToWheels(wheelCmd); 
 //this is beacues the IMU takes a coucple of seconds to start working
-   for(int i =0;i < 150; i++){
+   for(int i =0;i < 400; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
-      fprintf(stderr,"%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
    }
    resetImu(imuPipe);
    for(int i =0;i < 30; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
-      fprintf(stderr,"%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
+      printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
    }
    fprintf(stderr, "IMU READY!!\n");
    while(1){
@@ -529,16 +510,15 @@ void driveWheelPidControl(){
 
       //if case so that is we are temporarly stop dont keep acumulating error in angle
       if(encoderReset == 0){
-         anglePIDControl(wheels,wheelCmd,direction,&curImu,sumTime);
+         anglePIDControl(wheels,wheelCmd,direction,&curImu);
       }
 
       writeToWheels(wheelCmd); 
-      sumTime += timer_m;
 
-      /*if(encoderReset==0 && !(wheelCmd[FL][0] == 2000 && wheelCmd[FR][0] == 2000)) {
-         printf("accumeulated,time_m: , %g , %g , Finial wheel Power: , FL: , %d , FR: , %d , BR: , %d , BL , %d\n", \
-              sumTime, timer_m, wheelCmd[FL][0],wheelCmd[FR][0], wheelCmd[BR][0], wheelCmd[BL][0]);
-      }*/
+      if(!(wheelCmd[FL][0] == 2000 && wheelCmd[FR][0] == 2000)) {
+         printf("timer_u: , %g , timer_m: , %g , Finial wheel Power: , FL: , %d , FR: , %d , BR: , %d , BL , %d\n", \
+               timer_u, timer_m, wheelCmd[FL][0],wheelCmd[FR][0], wheelCmd[BR][0], wheelCmd[BL][0]);
+      }
 
 
       gettimeofday(after,NULL);
