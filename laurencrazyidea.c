@@ -12,13 +12,9 @@
 //2 is BR
 //3 is BL
 
-//if its drifting clockwise, reduce power to these motors
-const int clockwise[][]  = {{0,3}, {0,1}, {1,2} , {2,3}}
-//if its drifting counterclockwise, reduce these 
-const int counterwise[][]  = {{1,2}, {2,3}, {2,3} , {0,4}}
 
 
-void simpleAnglePID(WheelPid *wheels, enum dir direction , double pow, ImuDir *curImu) {
+/*void simpleAnglePID(WheelPid *wheels, enum dir direction , double pow, ImuDir *curImu) {
 
     double error_new  = angleToValue(curImu->Rx);
     double pow;
@@ -47,11 +43,4 @@ void simpleAnglePID(WheelPid *wheels, enum dir direction , double pow, ImuDir *c
     } 
 }
 
-int isValInArray(int val, int *arr, int size){
-    int i;
-    for (i=0; i < size; i++) {
-        if (arr[i] == val)
-            return true;
-    }
-    return false;
-}
+*/

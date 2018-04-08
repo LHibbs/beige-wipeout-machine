@@ -23,7 +23,7 @@ void move(enum dir direction, int dist,int* driveWheelPipe) {
 }
 
 void moveToLine(enum dir direction, int expectedDist, int* driveWheelPipe) {
-   double distance = dist * ENC_TO_INCH;
+   double distance = expectedDist * ENC_TO_INCH;
    char msg[10];
    msg[0] = 'l';
    MYWRITE(driveWheelPipe[1],msg,sizeof(char));
@@ -35,18 +35,16 @@ void moveToLine(enum dir direction, int expectedDist, int* driveWheelPipe) {
 int main(){
 
    pid_t driveWheelPid;
-   char buff[30];
-   int index = 0;
    int* driveWheelPipe;
    char msg[1000];
-   WheelPid wheels[4];
    //dont buffer stdout so faster printing to screen uncomment if multiple process are printing to screen
    //setbuf(stdout,NULL);
 
+   /*
    struct timespec sleepTime;
    sleepTime.tv_sec = 0;
    sleepTime.tv_nsec = 50000000;
-   long mv[4];
+   */
    int status;
    //runLDRTest();
 
@@ -59,8 +57,9 @@ int main(){
    driveWheelPid = createDriveWheelChild(&driveWheelPipe);
 
    enum dir direction;
-   struct pollfd stdin_poll = {
+   /*struct pollfd stdin_poll = {
        .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
+       */
    
 
    while(1){

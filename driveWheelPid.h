@@ -24,15 +24,17 @@ typedef struct{
    double curError;
 }ImuDir;
 
+enum commandType{Line, Distance}; 
+
 typedef struct {
-    enum cmdType;
+    enum commandType cmdType;
+    double encoderDist;
     //information about what config of line sensors indicates a stop
     //...
 }Command; 
 
 enum dir{Forward, Right, Backward,  Left}; 
 
-enum cmdType{Line, Distance}; 
 
 
 

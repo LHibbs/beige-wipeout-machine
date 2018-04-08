@@ -30,12 +30,11 @@
 //3 is BL
 
 //if its drifting clockwise, reduce power to these motors
-const int clockwise[][]  = {{0,3}, {0,1}, {1,2} , {2,3}}
+const int clockwise[4][2]  = {{0,3}, {0,1}, {1,2} , {2,3}};
 //if its drifting counterclockwise, reduce these 
-const int counterwise[][]  = {{1,2}, {2,3}, {2,3} , {0,4}}
+const int counterwise[4][2]  = {{1,2}, {2,3}, {2,3} , {0,4}};
 
 
-void simpleAnglePID(WheelPid *wheels, enum dir direction , double pow, ImuDir *curImu) {
 
 int pin(int index){
    switch(index){
@@ -177,7 +176,7 @@ void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
  * Returns 0 if no request
  * Puts input recieved into msg
  */ 
-int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelCmd[][2],int *encoderPipe,enum dir *direction, struct Command *command) {
+int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelCmd[][2],int *encoderPipe,enum dir *direction, Command *command,int *startUpPhase) {
 
    double inputGoal[4];
 
@@ -195,9 +194,10 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
                updateWheels(wheels,inputGoal[0],*direction);
                //also doesn't seem like this needs to be here 
                resetEncoder(encoderPipe[1]);
+               *startUpPhase = 1;
                //gradualStartUp(wheels,wheelCmd,*direction);
-               command->cmdType = cmdType.Distance; 
-               command->encoderDist = inputGoal; 
+               command->cmdType = Distance; 
+               command->encoderDist = *inputGoal; 
                break;
             case 'r'://reset
                for(int i = 0; i < 4;i++){
@@ -277,7 +277,7 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
       case Backward:
       case Forward:
          for(int i = 0; i < 4;i++){
-            wheelCmd[i][0] = (int)abs(2000*wheels[i].tmepCurDir - (wheels[i].powToWheels));//default state is fowards
+            wheelCmd[i][0] = (int)abs(2000*wheels[i].tempCurDir - (wheels[i].powToWheels));//default state is fowards
             wheelCmd[i][1] = wheels[i].tempCurDir;
          }
       break;
@@ -325,13 +325,11 @@ double angleToValue(float angle){
    return angle;
 }
 /* corrects for what value of angle we have acumulated over the trip*/
-double straitBias(WheelPid *wheels,enum dir direction,) {
+void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
 
-   double error_new  = angleToValue(curImu->Rx);
-   double pow;
-   curImu->curError += error_new;
-
+/*
    pow = KP_ANGLE*error_new + KI_ANGLE*(curImu->curError);
+
    //Error_new will be negitice if it is turning slightly to the left going fowards ie counter clockwise
    double wheelPower = ((wheelCmd[FR][1]==0)?wheelCmd[FR][0]:(2000-wheelCmd[FR][0]))/2000;
    wheelPower = max(wheelPower, .3);
@@ -367,6 +365,7 @@ double straitBias(WheelPid *wheels,enum dir direction,) {
          wheelCmd[i][0] = 0;
       }
    }
+   */
 }
 /* logic that outputs a double indicating wheel power multiplier for all 4 wheels.
  * Used to speed up and slow down at beginning and end. 
@@ -374,19 +373,19 @@ double straitBias(WheelPid *wheels,enum dir direction,) {
 double distancePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction, int * startupPhase, double lastDistPowVal) {
 
    int indexEncoderToUse = 0;
+       long error_new;
    long encoderToUse = wheels[indexEncoderToUse].encoderCnt;
   
-    if(&startupPhase) {
+    if(*startupPhase) {
         lastDistPowVal += .01; 
         
         if( lastDistPowVal >= 1) {
-            &startup = 0; 
+            *startupPhase = 0; 
         } 
         
         return lastDistPowVal;
     }
     else {
-       long error_new;
        // this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
        for(int i = 1; i < 4; i++){
           if(abs(wheels[i].encoderCnt) < abs(encoderToUse)){
@@ -433,13 +432,34 @@ void updateImuStatus(ImuDir *curImu){
 
 int isTaskComplete(WheelPid *wheelPid, Command *command) {
 
-    if(command->cmdType == "Distance") {
-        if(wheelPid[0].encoderCnt >= command->encoderDist) { 
+    if(command->cmdType == Distance) {
+        if(wheelPid[0].encoderCnt >= command->encoderDist) 
             return 1; 
     } 
 
     return 0; 
 } 
+void resetWheels(int wheelCmd[][2], WheelPid *wheels) {
+
+   for(int i = 0 ; i < 4; i++){
+      wheelCmd[i][0] = 0;
+      wheelCmd[i][1] = 0;
+      wheels[i].curError = 0;
+      wheels[i].curDir = 1;
+      wheels[i].encoderCnt = 0;
+      wheels[i].encoderGoal = 0;
+      wheels[i].pow = 0; 
+   }
+}
+
+int isValInArray(int val, int *arr, int size){
+    int i;
+    for (i=0; i < size; i++) {
+        if (arr[i] == val)
+            return 1;
+    }
+    return 0;
+}
 
 void driveWheelPidControl(){
 
@@ -460,7 +480,8 @@ void driveWheelPidControl(){
    double timer_u, timer_m;
    struct timespec sleepTime;
    //not sure if this is right 
-   struct Command command; 
+   int startUpPhase = 0;
+   Command command; 
    sleepTime.tv_sec = dt_sec;
    sleepTime.tv_nsec = dt_nsec;//5ms
 
@@ -503,16 +524,16 @@ void driveWheelPidControl(){
       updateEncoderStatus(encoderPipe, curEnco, wheels);
       updateImuStatus(&curImu);
 
-      if(handleInput(&stdin_poll,wheels, msg, wheelCmd,encoderPipe,&direction)) {
+      if(handleInput(&stdin_poll,wheels, msg, wheelCmd,encoderPipe,&direction,&command,&startUpPhase)) {
           // a new command was issued: so now it is "active" 
-          encoderReset == 0; 
+          encoderReset = 0; 
           resetWheels(wheelCmd, wheels); 
       }
 
       //if encoder reset = 1 then we have already reset the encoders and are not moving again. this is to repeat encoder resetting actions
       if(encoderReset == 0) {
         //change: this no longer controlls when it ends, it only control pid before then ... 
-        distancePowerMult = distancePIDControl(wheels,wheelCmd,direction,distancePowerMul,distancePowerMultt);
+        distancePowerMult = distancePIDControl(wheels,wheelCmd,direction,&startUpPhase,distancePowerMult);
         
         //takes distancePowerMUlt and translates that to pow for each wheels control depending on direction adding bias 
         straightBias(wheels, direction, distancePowerMult);
@@ -521,7 +542,7 @@ void driveWheelPidControl(){
         //anglePIDControl(wheels,wheelCmd,direction,&curImu);
         //the line here is whatever the thing is that controlls when its done. Depending on the command being listened to this might be different things. 
         //for example, this might be a line, a limit switch, a distance ... 
-        int taskComplete = isTaskComplete(wheelPid, &command);
+        int taskComplete = isTaskComplete(wheels, &command);
 
         //this is what translates from WheelPid to wheelCmd 
         limitPowerWheels(wheels,wheelCmd,direction,taskComplete);
@@ -592,52 +613,4 @@ pid_t createDriveWheelChild(int** writeToChild){
    return pid;
 }
 
-void resetWheels(int wheelCmd[][2], WheelPid *wheels) {
 
-   for(int i = 0 ; i < 4; i++){
-      wheelCmd[i][0] = 0;
-      wheelCmd[i][1] = 0;
-      wheels[i].curError = 0;
-      wheels[i].curDir = 1;
-      wheels[i].encoderCnt = 0;
-      wheels[i].encoderGoal = 0;
-      wheels[i].pow = 0; 
-   }
-}
-
-
-void simpleAnglePID(WheelPid *wheels, enum dir direction,double powMult) {
-
-    double pow;
-
-    pow = KP_ANGLE*error_new + KI_ANGLE*(curImu->curError);
-
-    //negativr power means it is drifiting left (counterclockwise)
-    if(pow < 0) {
-        for (int i = 0; i < 4; i++) {
-            if(isValInArray(i, counterwise[(int)direction], 4)) {
-               wheels[i].pow -= pow; 
-            } else { 
-                wheels[i].pow += pow; 
-            }  
-        }
-    } 
-    if(pow > 0) {
-        for (int i = 0; i < 4; i++) {
-            if(isValInArray(i, clockwise[(int)direction], 4)) {
-               wheels[i].pow -= pow; 
-            } else { 
-                wheels[i].pow += pow; 
-            }  
-        }
-    } 
-}
-
-int isValInArray(int val, int *arr, int size){
-    int i;
-    for (i=0; i < size; i++) {
-        if (arr[i] == val)
-            return true;
-    }
-    return false;
-}
