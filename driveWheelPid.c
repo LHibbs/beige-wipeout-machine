@@ -4,11 +4,15 @@
 #define KP 1
 #define KI 0
 //#define KI .1 
-#define KP_ANGLE 40
-//#define KI_ANGLE 0.2825 
+
+#define KP_ANGLE 0
 #define KI_ANGLE 0
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
+
+#define BIAS_BACK 103
+#define BIAS_FWD 80
+
 
 #define dt_msec 5
 #define dt_nsec 5000000
@@ -330,9 +334,9 @@ void anglePIDControl(WheelPid *wheels, int wheelCmd[][2],enum dir direction,ImuD
    double error_new  = angleToValue(curImu->Rx);
    double pow;
    curImu->curError += error_new;
-   int bias = -105;
+   int bias = -BIAS_BACK;
    if(direction == Forward){
-      bias = 120;
+      bias = BIAS_FWD;
    }
 
 
