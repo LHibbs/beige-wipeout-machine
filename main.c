@@ -69,13 +69,13 @@ int main(){
       }
 
       direction = Backward;
-      move(direction, 48 , driveWheelPipe); 
+      move(direction, 150 , driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
       }
 
       direction = Forward;
-      move(direction, 48 ,driveWheelPipe); 
+      move(direction, 150 ,driveWheelPipe); 
 
    }
    //printf("in main line%d\n\n\n",__LINE__);
