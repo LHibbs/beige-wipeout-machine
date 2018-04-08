@@ -12,8 +12,11 @@ typedef struct{
    double curError;
    //this is for each wheel independet of the larger task ahead
    int curDir;
+   int tempCurDir;
+   int powToWheels;
    double pow;//out of 1. 1 for max power 
 }WheelPid;
+
 typedef struct{
    float Rx;
    float Ry;
@@ -21,7 +24,17 @@ typedef struct{
    double curError;
 }ImuDir;
 
-enum dir{Forward, Backward, Right, Left}; 
+typedef struct {
+    enum cmdType;
+    //information about what config of line sensors indicates a stop
+    //...
+}Command; 
+
+enum dir{Forward, Right, Backward,  Left}; 
+
+enum cmdType{Line, Distance}; 
+
+
 
 pid_t  createDriveWheelChild(int ** writeToChild);
 int pin(int index);
