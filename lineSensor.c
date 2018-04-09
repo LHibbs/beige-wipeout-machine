@@ -1,32 +1,31 @@
 #include "lineSensor.h"
 #include <time.h>
 //encoder pinout
-#define 12_THRESHOLD 410  //white was 350-360 black was 430
-#define 14_THRESHOLD 410  //ehite was 290 black was 430
-#define 30_THRESHOLD 1000 //may need to change this hard to tell black was infinate
-#define 21_THRESHOLD 1000 //may need to change this hard to tell black was infinate
-#define 11_THRESHOLD 1000 //white is 750 black is really high
-#define 10_THRESHOLD 1000 //white is 750 black is really high
+#define LS_12_THRESHOLD 410  //white was 350-360 black was 430
+#define LS_14_THRESHOLD 410  //ehite was 290 black was 430
+#define LS_30_THRESHOLD 1000 //may need to change this hard to tell black was infinate
+#define LS_21_THRESHOLD 1000 //may need to change this hard to tell black was infinate
+#define LS_11_THRESHOLD 1000 //white is 750 black is really high
+#define LS_10_THRESHOLD 1000 //white is 750 black is really high
 
 #define LS_0_PIN 12
-#define LS_0_THRESHOLD 12_THRESHOLD
+#define LS_0_THRESHOLD LS_12_THRESHOLD
 
 #define LS_1_PIN 14 
-#define LS_0_THRESHOLD 14_THRESHOLD
+#define LS_1_THRESHOLD LS_14_THRESHOLD
 
 #define LS_2_PIN 30 
-#define LS_0_THRESHOLD 30_THRESHOLD
+#define LS_2_THRESHOLD LS_30_THRESHOLD
 
 #define LS_3_PIN 21 
-#define LS_0_THRESHOLD 21_THRESHOLD
+#define LS_3_THRESHOLD LS_21_THRESHOLD
 
 #define LS_4_PIN 11
-#define LS_0_THRESHOLD 11_THRESHOLD
+#define LS_4_THRESHOLD LS_11_THRESHOLD
 
 #define LS_5_PIN 10 
-#define LS_0_THRESHOLD 10_THRESHOLD
+#define LS_5_THRESHOLD LS_10_THRESHOLD
 
-#define THRESHOLD 200
 
 /*function that is called that will never return that wil always loop around*/
 void lineChildFunct(){
@@ -56,6 +55,7 @@ void lineChildFunct(){
    for (int i = 0 ; i < 6; i++) {
        lightSensors[i].start = malloc(sizeof(struct timeval)); 
        lightSensors[i].state = IO; 
+       lightSensors[i].count = 0; 
    }
 
    fprintf(stderr,"got in lineSensor almost to while loop\n");
@@ -79,12 +79,18 @@ void lineChildFunct(){
                   1000000*(after->tv_sec - lightSensors[i].start->tv_sec);
                if(digitalRead(pins[i])==0 || diffTime > threshold[i]){
                   if(diffTime > threshold[i]){
-                     output &= ~(maskPin[i]);
+                     if(lightSensors[i].count < 5){
+                        lightSensors[i].count++;
+                     }
+                     else{
+                        output &= ~(maskPin[i]);
+                     }
                   }
                   else{
+                     lightSensors[i].count = 0;
                      output |= maskPin[i];
                   }
-                  fprintf(stderr,"thresHold:%g\n",diffTime);
+                  //fprintf(stderr,"thresHold:%g\n",diffTime);
 
                   pinMode(pins[i],OUTPUT);
                   lightSensors[i].state = IO;
