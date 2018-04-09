@@ -15,7 +15,9 @@ void clear(){
 // dist in inches
 void move(enum dir direction, int dist,int* driveWheelPipe) {
    double distance = dist * ENC_TO_INCH;
+   
    char msg[10];
+   printf("distance Goal:%g\n",distance);
    msg[0] = 'm';
    MYWRITE(driveWheelPipe[1],msg,sizeof(char));
    MYWRITE(driveWheelPipe[1],&distance,sizeof(double));
@@ -68,13 +70,13 @@ int main(){
       }
 
       direction = Backward;
-      move(direction, 150 , driveWheelPipe); 
+      move(direction, 60 , driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
       }
 
       direction = Forward;
-      move(direction, 150 ,driveWheelPipe); 
+      move(direction, 70 ,driveWheelPipe); 
 
    }
    msg[0] = 'q'; 
