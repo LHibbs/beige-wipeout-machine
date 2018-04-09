@@ -22,6 +22,8 @@
 #define LEFT_BIAS 0 
 #define RIGHT_BIAS 0 
 
+//distance to center of ramp 23 
+
 //index 1: 
 //0 foward
 //1 right 
@@ -227,8 +229,21 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
             case 'l':
                MYREAD(stdin_poll->fd,inputGoal,sizeof(double));
                MYREAD(stdin_poll->fd,direction,sizeof(enum dir));
+               MYREAD(stdin_poll->fd,&(command->lineSensorConfig),sizeof(char));
+               fprintf(stderr,"inputGoal:%g \t direction:%d\n\n\n",inputGoal[0],(int)*direction);
                updateWheels(wheels,inputGoal[0],*direction);
+               
+               //also doesn't seem like this needs to be here 
                resetEncoder(encoderPipe[1]);
+               *startUpPhase = 1;
+               //gradualStartUp(wheels,wheelCmd,*direction);
+               command->cmdType = Distance; 
+               if(*direction==Backward || *direction==Left){
+                  command->encoderDist = *inputGoal*-1; 
+               }
+               else{
+                  command->encoderDist = *inputGoal; 
+               }
                break; 
             case 'q'://quit
                for(int i = 0; i < 4;i++){
@@ -245,6 +260,14 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
       return 0; 
 }
 
+void updateLineSensor(int *linePipe,unsigned char* curLine){
+
+    char msg[10]; 
+    sprintf(msg,"p");
+    MYWRITE(linePipe[1],msg,sizeof(char));
+    MYREAD(linePipe[0],curLine,sizeof(unsigned char));
+    //printf("curLine:%x\n",(unsigned int)*curLine);
+}
 void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels) {
     char msg[10]; 
     sprintf(msg,"p");
@@ -259,6 +282,7 @@ void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels) {
        }
     }
 }
+
 //this takes the pow that is a double that can be negitive or postiive and then direction and turns wheelCmd with the correct power and dir output to be controled
 void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int taskComplete){
    //pow is valid from -2000 to 2000 if neg is then turned postive with dirValueTemp 1
@@ -489,13 +513,28 @@ void updateImuStatus(ImuDir *curImu){
    }
 }
 
-int isTaskComplete(WheelPid *wheelPid, Command *command) {
+//currently assumes that 0s in lineConfig are not important, can change this later
+//i.e these must be sensing a line, but it doesn't matter either way for other ones
+int lineConditionsMet(unsigned char lineSensorConfig, unsigned char curLineSensor) {
 
-    //if(command->cmdType == Distance) {
+   if((lineSensorConfig & curLineSensor) == lineSensorConfig){
+      return 1;
+   }
+
+   return 0;
+
+}
+
+int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSensor) {
+
+   //speculatively uncommented v
+    if(command->cmdType == Distance) {
     printf("encoderCnt:%ld encoderDist:%g\n",wheelPid[0].encoderCnt,command->encoderDist);
         if(abs(wheelPid[0].encoderCnt) >= abs(command->encoderDist)) 
             return 1; 
-    //} 
+    } else if (command->cmdType == Line) {
+         return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
+    }
 
     return 0; 
 } 
@@ -526,6 +565,7 @@ int isValInArray(int val, int *arr, int size){
 void driveWheelPidControl(){
 
    int* encoderPipe;
+   int* linePipe;
    int imuPipe;
    int stdInPipe;
    char msg[1000];
@@ -557,14 +597,15 @@ void driveWheelPidControl(){
 
 
    createAcceleromoterChild(&stdInPipe,&imuPipe);
-   //stdInPipe = STDIN_FILENO;
-   //imuPipe = STDOUT_FILENO;
+   createLineSensorChild(&linePipe);
+
 
 
    struct pollfd stdin_poll = {
      .fd = stdInPipe, .events = POLLIN |  POLLPRI };
 
    int wheelCmd[4][2];
+   unsigned char curLineSensor = 0; 
 
    resetWheels(wheelCmd, wheels); 
    writeToWheels(wheelCmd); 
@@ -584,11 +625,10 @@ void driveWheelPidControl(){
    while(1){
       gettimeofday(before,NULL);
       
-
-
       //sets current encoder count of wheels
       updateEncoderStatus(encoderPipe, curEnco, wheels);
       updateImuStatus(&curImu);
+      updateLineSensor(linePipe,&curLineSensor);
 
 
       if(handleInput(&stdin_poll,wheels, msg, wheelCmd,encoderPipe,&direction,&command,&startUpPhase)) {
@@ -610,7 +650,7 @@ void driveWheelPidControl(){
         //anglePIDControl(wheels,wheelCmd,direction,&curImu);
         //the line here is whatever the thing is that controlls when its done. Depending on the command being listened to this might be different things. 
         //for example, this might be a line, a limit switch, a distance ... 
-        int taskComplete = isTaskComplete(wheels, &command);
+        int taskComplete = isTaskComplete(wheels, &command, curLineSensor);
 
 
         //this is what translates from WheelPid to wheelCmd 

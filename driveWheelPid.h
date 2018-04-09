@@ -1,10 +1,12 @@
 #ifndef DRIVEWHEELPID_H
 #define DRIVEWHEELPID_H
+
 #include "imuInteract.h"
 #include "encoder.h"
 #include <assert.h>
 #include <wiringPi.h>
 #include "time.h"
+#include "lineSensor.h"
 
 typedef struct{
    long encoderCnt;
@@ -29,6 +31,8 @@ enum commandType{Line, Distance};
 typedef struct {
     enum commandType cmdType;
     double encoderDist;
+    // line sensor combo that indicates stop
+    unsigned char lineSensorConfig; 
     //information about what config of line sensors indicates a stop
     //...
 }Command; 
