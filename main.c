@@ -89,8 +89,8 @@ int main(){
       }
 
       direction = Forward;
+      //direction = Right; ;
       move(direction, 70 ,driveWheelPipe); 
-
    }
    msg[0] = 'q'; 
    MYWRITE(driveWheelPipe[1], msg, sizeof(char));   

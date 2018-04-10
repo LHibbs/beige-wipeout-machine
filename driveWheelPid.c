@@ -10,6 +10,9 @@
 #define MOTOR_FWD 0
 #define MOTOR_BACK 1
 
+#define BIAS_BACK 103
+#define BIAS_FWD 80
+
 #define dt_msec 5
 #define dt_nsec 5000000
 #define dt_sec ((double)dt_nsec)/1000000000
@@ -156,8 +159,8 @@ void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
                wheelCmd[i][1] = wheelDir;
             }
          break;
-         case Left:
          case Right:
+         case Left:
             wheelCmd[FL][0] = abs(2000*wheelDir - speed);
             wheelCmd[FL][1] = wheelDir;
 
@@ -427,8 +430,18 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
 
       break;
       case Left:
+         wheels[BR].pow = powerMult - (powerMult)*pow;
+         wheels[BL].pow = powerMult - (powerMult)*pow;
+
+         wheels[FR].pow = powerMult + (powerMult)*pow;
+         wheels[FL].pow = powerMult + (powerMult)*pow;
+      break; 
       case Right:
-      //TODO
+         wheels[FL].pow = powerMult - (powerMult)*pow;
+         wheels[FR].pow = powerMult - (powerMult)*pow;
+
+         wheels[BL].pow = powerMult + (powerMult)*pow;
+         wheels[BR].pow = powerMult + (powerMult)*pow;
       break;
    }
    for(int i = 0; i < 4;i++){
@@ -452,11 +465,11 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
        long error_new;
    long encoderToUse = wheels[indexEncoderToUse].encoderCnt;
   
-    if(*startupPhase) {
-        if(direction==Forward){
+    if(*startupPhase){
+        if(direction==Forward || direction==Right){
             lastDistPowVal += .01; 
         }
-        if(direction==Backward){
+        if(direction==Backward || direction==Left){
            printf("Backward startup\n\n");
             lastDistPowVal -= .01; 
         }

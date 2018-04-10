@@ -33,6 +33,7 @@ void cmdMotors(FeederStruct* feederCmd, LauncherStruct* launcherCmd){
 }
 void launcherChildFunct(){
    char msg[100];
+   int ballsToLaunch = 1;
 
    enum FeederState feederState = Backward;
    FeederStruct feederCmd = {{0,0},0};
@@ -52,34 +53,39 @@ void launcherChildFunct(){
    fprintf(stderr,"got in launcher almost to while loop\n");
    while(1){
 
-      if(feederState == Backward){
-         if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
-            feederCmd.cmd[0] = 0;
-            feederCmd.cmd[1] = 0;
+      
+      switch(feederState){
+         case Backward:
+            if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
+               feederCmd.cmd[0] = 0;
+               feederCmd.cmd[1] = 0;
 
-            feederState = Back;
-         }
-      }
-      if(feederState == Forward){
-         if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
-            feederCmd.cmd[0] = 0;
-            feederCmd.cmd[1] = 0;
-            feederCmd.count = 0;
+               feederState = Back;
+            }
+         break;
+         case Forward:
+            if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
+                  feederCmd.cmd[0] = 0;
+                  feederCmd.cmd[1] = 0;
+                  feederCmd.count = 0;
 
-            feederState = Front;
-         }
-      }
-      if(feederState == Front){
-         if(feederCmd.count < 10){
-            feederCmd.count++;
-         }
-         if(feederCmd.count == 10){
-            feederCmd.cmd[0] = 0;
-            feederCmd.cmd[1] = 1;
+                  feederState = Front;
+            }
+         case Front:
+            if(feederCmd.count < 10){
+               feederCmd.count++;
+            }
+            if(feederCmd.count == 10){
+               feederCmd.cmd[0] = 0;
+               feederCmd.cmd[1] = 1;
 
-            feederState = Backward;
-         }
+               feederState = Backward;
+            }
+         break;
+         case Back:
+         break;
       }
+     
       if(gradualStart == 1){
          if(launcherCmd.count > 50){
             launcherCmd.count = 0;
@@ -114,6 +120,11 @@ void launcherChildFunct(){
                feederCmd.cmd[1] = 0;
                assert(feederState == Back);
                feederState = Forward;
+            break;
+            case 'd': //dump x number of balls
+               scanf("%d",&ballsToLaunch);
+
+
             break;
             default:
                fprintf(stderr,"Error in encoder function switch statment recieved:%c line:%d, file:%s\n",msg[0],__LINE__,__FILE__);
