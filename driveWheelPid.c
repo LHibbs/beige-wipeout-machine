@@ -240,7 +240,7 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
                resetEncoder(encoderPipe[1]);
                *startUpPhase = 1;
                //gradualStartUp(wheels,wheelCmd,*direction);
-               command->cmdType = Distance; 
+               command->cmdType = Line; 
                if(*direction==Backward || *direction==Left){
                   command->encoderDist = *inputGoal*-1; 
                }
@@ -446,6 +446,9 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
          wheels[BL].pow = powerMult + (powerMult)*pow;
          wheels[BR].pow = powerMult + (powerMult)*pow;
       break;
+      case Clockwise:
+      case Counterclockwise:
+      break;
    }
    for(int i = 0; i < 4;i++){
 
@@ -548,9 +551,9 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
     printf("encoderCnt:%ld encoderDist:%g\n",wheelPid[0].encoderCnt,command->encoderDist);
         if(abs(wheelPid[0].encoderCnt) >= abs(command->encoderDist)) 
             return 1; 
-    } else if (command->cmdType == Line) {
+    } else if (command->cmdType == Line && (abs(wheelPid[0].encoderCnt) >= abs(command->encoderDist))){
          return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
-    } else if (command->Command == Align) { 
+    } else if (command->cmdType == Align) { 
         if(abs_double(curImu->Rx) < .01)
         {
             return 1;
@@ -582,17 +585,17 @@ int isValInArray(int val, int *arr, int size){
     return 0;
 }
 
-void align(Direction *dir, WheelPid *wheelPid, Command command, ImuDir *curImu) {
+void align(enum dir *dir, WheelPid *wheelPid, Command *command, ImuDir *curImu) {
     
     if(command->cmdType == Align) { 
         if(curImu->Rx > 0) { 
-            dir = Clockwise;
+            *dir = Clockwise;
             wheelPid[0].pow = MIN_SPEED;
             wheelPid[1].pow = MIN_SPEED; 
             wheelPid[2].pow = -MIN_SPEED;
             wheelPid[3].pow = -MIN_SPEED; 
         } else {
-           dir = Counterclockwise;  
+            *dir = Counterclockwise;  
             wheelPid[0].pow = -MIN_SPEED;
             wheelPid[1].pow = -MIN_SPEED; 
             wheelPid[2].pow = MIN_SPEED;
@@ -605,7 +608,7 @@ void driveWheelPidControl(){
 
    int* encoderPipe;
    int* linePipe;
-   int imuPipe;
+   //int imuPipe;
    int stdInPipe;
    char msg[1000];
    //MotorMsg dirMsg[4];
@@ -640,6 +643,7 @@ void driveWheelPidControl(){
 
 
 
+   stdInPipe = STDIN_FILENO;
    struct pollfd stdin_poll = {
      .fd = stdInPipe, .events = POLLIN |  POLLPRI };
 
@@ -685,11 +689,11 @@ void driveWheelPidControl(){
         //takes distancePowerMUlt and translates that to pow for each wheels control depending on direction adding bias 
         straightBias(wheels, direction, distancePowerMult);
         
-        align(&direction, wheels, command, &curImu); 
+        align(&direction, wheels, &command, &curImu); 
         //anglePIDControl(wheels,wheelCmd,direction,&curImu);
         //the line here is whatever the thing is that controlls when its done. Depending on the command being listened to this might be different things. 
         //for example, this might be a line, a limit switch, a distance ... 
-        int taskComplete = isTaskComplete(wheels, &command, curLineSensor);
+        int taskComplete = isTaskComplete(wheels, &command, curLineSensor, &curImu);
 
 
         //this is what translates from WheelPid to wheelCmd 
