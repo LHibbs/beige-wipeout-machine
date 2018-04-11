@@ -17,7 +17,7 @@
 #define dt_nsec 5000000
 #define dt_sec ((double)dt_nsec)/1000000000
 
-#define MAX_SPEED 1
+#define MAX_SPEED .7
 #define MIN_SPEED .08
 
 #define FWD_BIAS 80
@@ -242,10 +242,10 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
                //gradualStartUp(wheels,wheelCmd,*direction);
                command->cmdType = Line; 
                if(*direction==Backward || *direction==Left){
-                  command->encoderDist = *inputGoal*-1; 
+                  command->encoderDist = abs(*inputGoal*-1); 
                }
                else{
-                  command->encoderDist = *inputGoal; 
+                  command->encoderDist = abs(*inputGoal); 
                }
                break; 
             case 'a': 
@@ -551,7 +551,7 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
     printf("encoderCnt:%ld encoderDist:%g\n",wheelPid[0].encoderCnt,command->encoderDist);
         if(abs(wheelPid[0].encoderCnt) >= abs(command->encoderDist)) 
             return 1; 
-    } else if (command->cmdType == Line && (abs(wheelPid[0].encoderCnt) >= abs(command->encoderDist))){
+    } else if (command->cmdType == Line && (abs((wheelPid[0].encoderCnt)) >= abs(command->encoderDist))){
          return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
     } else if (command->cmdType == Align) { 
         if(abs_double(curImu->Rx) < .01)
