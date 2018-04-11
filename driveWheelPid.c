@@ -248,6 +248,9 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
                   command->encoderDist = *inputGoal; 
                }
                break; 
+            case 'a': 
+               command->cmdType = Align;  
+               break; 
             case 'q'://quit
                for(int i = 0; i < 4;i++){
                   wheelCmd[i][0] = 0;
@@ -538,7 +541,7 @@ int lineConditionsMet(unsigned char lineSensorConfig, unsigned char curLineSenso
 
 }
 
-int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSensor) {
+int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSensor, ImuDir *curImu) {
 
    //speculatively uncommented v
     if(command->cmdType == Distance) {
@@ -547,8 +550,12 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
             return 1; 
     } else if (command->cmdType == Line) {
          return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
+    } else if (command->Command == Align) { 
+        if(abs_double(curImu->Rx) < .01)
+        {
+            return 1;
+        }
     }
-
     return 0; 
 } 
 void resetWheels(int wheelCmd[][2], WheelPid *wheels) {
@@ -573,6 +580,25 @@ int isValInArray(int val, int *arr, int size){
             return 1;
     }
     return 0;
+}
+
+void align(Direction *dir, WheelPid *wheelPid, Command command, ImuDir *curImu) {
+    
+    if(command->cmdType == Align) { 
+        if(curImu->Rx > 0) { 
+            dir = Clockwise;
+            wheelPid[0].pow = MIN_SPEED;
+            wheelPid[1].pow = MIN_SPEED; 
+            wheelPid[2].pow = -MIN_SPEED;
+            wheelPid[3].pow = -MIN_SPEED; 
+        } else {
+           dir = Counterclockwise;  
+            wheelPid[0].pow = -MIN_SPEED;
+            wheelPid[1].pow = -MIN_SPEED; 
+            wheelPid[2].pow = MIN_SPEED;
+            wheelPid[3].pow = -MIN_SPEED; 
+        } 
+    }
 }
 
 void driveWheelPidControl(){
@@ -609,7 +635,7 @@ void driveWheelPidControl(){
    printf("pipe:%d, %d\n\n",encoderPipe[0],encoderPipe[1]);
 
 
-   createAcceleromoterChild(&stdInPipe,&imuPipe);
+   //createAcceleromoterChild(&stdInPipe,&imuPipe);
    createLineSensorChild(&linePipe);
 
 
@@ -627,7 +653,7 @@ void driveWheelPidControl(){
    for(int i =0;i < 3; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    }
-   resetImu(imuPipe);
+   //resetImu(imuPipe);
    for(int i =0;i < 0; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
       printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
@@ -640,7 +666,7 @@ void driveWheelPidControl(){
       
       //sets current encoder count of wheels
       updateEncoderStatus(encoderPipe, curEnco, wheels);
-      updateImuStatus(&curImu);
+      //updateImuStatus(&curImu);
       updateLineSensor(linePipe,&curLineSensor);
 
 
@@ -659,7 +685,7 @@ void driveWheelPidControl(){
         //takes distancePowerMUlt and translates that to pow for each wheels control depending on direction adding bias 
         straightBias(wheels, direction, distancePowerMult);
         
-
+        align(&direction, wheels, command, &curImu); 
         //anglePIDControl(wheels,wheelCmd,direction,&curImu);
         //the line here is whatever the thing is that controlls when its done. Depending on the command being listened to this might be different things. 
         //for example, this might be a line, a limit switch, a distance ... 

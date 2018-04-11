@@ -26,7 +26,7 @@ typedef struct{
    double curError;
 }ImuDir;
 
-enum commandType{Line, Distance}; 
+enum commandType{Line, Distance, Align}; 
 
 typedef struct {
     enum commandType cmdType;
@@ -37,7 +37,7 @@ typedef struct {
     //...
 }Command; 
 
-enum dir{Forward, Right, Backward,  Left}; 
+enum dir{Forward, Right, Backward, Left, Clockwise, Counterclockwise}; 
 
 
 

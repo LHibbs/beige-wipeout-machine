@@ -46,6 +46,15 @@ void moveToLine(enum dir direction, int expectedDist, int* driveWheelPipe, char 
    MYWRITE(driveWheelPipe[1],&type, sizeof(char)); 
 } 
 
+void alignCommand(int * driveWheelPipe) { 
+    
+   double distance = expectedDist * ENC_TO_INCH;
+   char msg[10];
+   msg[0] = 'a';
+   MYWRITE(driveWheelPipe[1],msg,sizeof(char));
+}
+
+
 
 int main(){
 
@@ -97,6 +106,20 @@ int main(){
    waitpid(driveWheelPid,&status,0);
    return 0; 
 }
+
+void sidelineFoward(int* driveWheelPipe) { 
+    move(Foward, 30, driveWheelPipe); 
+    alignCommand(driveWheelPipe); 
+    moveToLine(Foward, 40, driveWheelPipe, SIDELINE_FWD); 
+}
+
+/*void centerToSupplyFwd(int * driveWheelPipe) { 
+    move
+    align
+    move
+
+}*/
+
 /*
 void wipeout(int* driveWheelPipe) {
    move(Forward, 82, driveWheelPipe, SIDELINE_FWD); 
