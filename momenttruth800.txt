@@ -1,0 +1,4952 @@
+pipe:4, 9
+
+
+
+
+reseting wheels!
+
+
+
+
+
+reseting wheels!
+
+
+reset encoderCnt: wheels[0].encoderGoal:-2040
+
+
+Backward startup
+
+pow:-2040, encoderGoal:-2040, encoderVal:0, errorNew:-2040
+wheels[0].pow:-0.01
+wheels[0].pow:-0.01
+wheels[1].pow:-0.01
+wheels[1].pow:-0.01
+wheels[2].pow:-0.01
+wheels[2].pow:-0.01
+wheels[3].pow:-0.01
+wheels[3].pow:-0.01
+distancePowerMult:-0.01
+isTask complete : encoderCnt:0 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 0 , [0][0]: 0 
+[1][1]: 0 , [1][0]: 0 
+[2][1]: 0 , [2][0]: 0 
+[3][1]: 0 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+Backward startup
+
+pow:-2038, encoderGoal:-2040, encoderVal:-2, errorNew:-2038
+wheels[0].pow:-0.02
+wheels[0].pow:-0.02
+wheels[1].pow:-0.02
+wheels[1].pow:-0.02
+wheels[2].pow:-0.02
+wheels[2].pow:-0.02
+wheels[3].pow:-0.02
+wheels[3].pow:-0.02
+distancePowerMult:-0.02
+isTask complete : encoderCnt:-2 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+Backward startup
+
+pow:-2037, encoderGoal:-2040, encoderVal:-3, errorNew:-2037
+wheels[0].pow:-0.03
+wheels[0].pow:-0.03
+wheels[1].pow:-0.03
+wheels[1].pow:-0.03
+wheels[2].pow:-0.03
+wheels[2].pow:-0.03
+wheels[3].pow:-0.03
+wheels[3].pow:-0.03
+distancePowerMult:-0.03
+isTask complete : encoderCnt:-3 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -3
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 4
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2
+Backward startup
+
+pow:-2036, encoderGoal:-2040, encoderVal:-4, errorNew:-2036
+wheels[0].pow:-0.04
+wheels[0].pow:-0.04
+wheels[1].pow:-0.04
+wheels[1].pow:-0.04
+wheels[2].pow:-0.04
+wheels[2].pow:-0.04
+wheels[3].pow:-0.04
+wheels[3].pow:-0.04
+distancePowerMult:-0.04
+isTask complete : encoderCnt:-4 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -4
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 6
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 5
+Backward startup
+
+pow:-2033, encoderGoal:-2040, encoderVal:-7, errorNew:-2033
+wheels[0].pow:-0.05
+wheels[0].pow:-0.05
+wheels[1].pow:-0.05
+wheels[1].pow:-0.05
+wheels[2].pow:-0.05
+wheels[2].pow:-0.05
+wheels[3].pow:-0.05
+wheels[3].pow:-0.05
+distancePowerMult:-0.05
+isTask complete : encoderCnt:-7 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -7
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 9
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 8
+Backward startup
+
+pow:-2031, encoderGoal:-2040, encoderVal:-9, errorNew:-2031
+wheels[0].pow:-0.06
+wheels[0].pow:-0.06
+wheels[1].pow:-0.06
+wheels[1].pow:-0.06
+wheels[2].pow:-0.06
+wheels[2].pow:-0.06
+wheels[3].pow:-0.06
+wheels[3].pow:-0.06
+distancePowerMult:-0.06
+isTask complete : encoderCnt:-9 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -9
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 11
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 11
+Backward startup
+
+pow:-2029, encoderGoal:-2040, encoderVal:-11, errorNew:-2029
+wheels[0].pow:-0.07
+wheels[0].pow:-0.07
+wheels[1].pow:-0.07
+wheels[1].pow:-0.07
+wheels[2].pow:-0.07
+wheels[2].pow:-0.07
+wheels[3].pow:-0.07
+wheels[3].pow:-0.07
+distancePowerMult:-0.07
+isTask complete : encoderCnt:-11 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -11
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 13
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 14
+Backward startup
+
+pow:-2026, encoderGoal:-2040, encoderVal:-14, errorNew:-2026
+wheels[0].pow:-0.08
+wheels[0].pow:-0.08
+wheels[1].pow:-0.08
+wheels[1].pow:-0.08
+wheels[2].pow:-0.08
+wheels[2].pow:-0.08
+wheels[3].pow:-0.08
+wheels[3].pow:-0.08
+distancePowerMult:-0.08
+isTask complete : encoderCnt:-14 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -14
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 16
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 17
+Backward startup
+
+pow:-2023, encoderGoal:-2040, encoderVal:-17, errorNew:-2023
+wheels[0].pow:-0.09
+wheels[0].pow:-0.09
+wheels[1].pow:-0.09
+wheels[1].pow:-0.09
+wheels[2].pow:-0.09
+wheels[2].pow:-0.09
+wheels[3].pow:-0.09
+wheels[3].pow:-0.09
+distancePowerMult:-0.09
+isTask complete : encoderCnt:-17 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+wheels[1].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+wheels[2].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+wheels[3].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1820 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 180 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1820 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 180 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -17
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 19
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 20
+Backward startup
+
+pow:-2018, encoderGoal:-2040, encoderVal:-22, errorNew:-2018
+wheels[0].pow:-0.1
+wheels[0].pow:-0.1
+wheels[1].pow:-0.1
+wheels[1].pow:-0.1
+wheels[2].pow:-0.1
+wheels[2].pow:-0.1
+wheels[3].pow:-0.1
+wheels[3].pow:-0.1
+distancePowerMult:-0.1
+isTask complete : encoderCnt:-22 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+wheels[1].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+wheels[2].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+wheels[3].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+[0][1]: 1820 , [0][0]: 1 
+[1][1]: 180 , [1][0]: 0 
+[2][1]: 1820 , [2][0]: 1 
+[3][1]: 180 , [3][0]: 0 
+wheelCmd[0][0] = 1801 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 199 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1801 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 199 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -22
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 24
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 26
+Backward startup
+
+pow:-2011, encoderGoal:-2040, encoderVal:-29, errorNew:-2011
+wheels[0].pow:-0.11
+wheels[0].pow:-0.11
+wheels[1].pow:-0.11
+wheels[1].pow:-0.11
+wheels[2].pow:-0.11
+wheels[2].pow:-0.11
+wheels[3].pow:-0.11
+wheels[3].pow:-0.11
+distancePowerMult:-0.11
+isTask complete : encoderCnt:-29 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+wheels[1].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+wheels[2].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+wheels[3].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+[0][1]: 1801 , [0][0]: 1 
+[1][1]: 199 , [1][0]: 0 
+[2][1]: 1801 , [2][0]: 1 
+[3][1]: 199 , [3][0]: 0 
+wheelCmd[0][0] = 1781 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 219 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1781 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 219 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -29
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 30
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 32
+Backward startup
+
+pow:-2004, encoderGoal:-2040, encoderVal:-36, errorNew:-2004
+wheels[0].pow:-0.12
+wheels[0].pow:-0.12
+wheels[1].pow:-0.12
+wheels[1].pow:-0.12
+wheels[2].pow:-0.12
+wheels[2].pow:-0.12
+wheels[3].pow:-0.12
+wheels[3].pow:-0.12
+distancePowerMult:-0.12
+isTask complete : encoderCnt:-36 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+wheels[1].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+wheels[2].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+wheels[3].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+[0][1]: 1781 , [0][0]: 1 
+[1][1]: 219 , [1][0]: 0 
+[2][1]: 1781 , [2][0]: 1 
+[3][1]: 219 , [3][0]: 0 
+wheelCmd[0][0] = 1761 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 239 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1761 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 239 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -36
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 36
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 36
+Backward startup
+
+pow:-1995, encoderGoal:-2040, encoderVal:-45, errorNew:-1995
+wheels[0].pow:-0.13
+wheels[0].pow:-0.13
+wheels[1].pow:-0.13
+wheels[1].pow:-0.13
+wheels[2].pow:-0.13
+wheels[2].pow:-0.13
+wheels[3].pow:-0.13
+wheels[3].pow:-0.13
+distancePowerMult:-0.13
+isTask complete : encoderCnt:-45 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+wheels[1].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+wheels[2].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+wheels[3].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+[0][1]: 1761 , [0][0]: 1 
+[1][1]: 239 , [1][0]: 0 
+[2][1]: 1761 , [2][0]: 1 
+[3][1]: 239 , [3][0]: 0 
+wheelCmd[0][0] = 1741 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 259 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1741 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 259 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -45
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 44
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 43
+Backward startup
+
+pow:-1989, encoderGoal:-2040, encoderVal:-51, errorNew:-1989
+wheels[0].pow:-0.14
+wheels[0].pow:-0.14
+wheels[1].pow:-0.14
+wheels[1].pow:-0.14
+wheels[2].pow:-0.14
+wheels[2].pow:-0.14
+wheels[3].pow:-0.14
+wheels[3].pow:-0.14
+distancePowerMult:-0.14
+isTask complete : encoderCnt:-51 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+wheels[1].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+wheels[2].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+wheels[3].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+[0][1]: 1741 , [0][0]: 1 
+[1][1]: 259 , [1][0]: 0 
+[2][1]: 1741 , [2][0]: 1 
+[3][1]: 259 , [3][0]: 0 
+wheelCmd[0][0] = 1721 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 279 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1721 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 279 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -51
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 52
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 48
+Backward startup
+
+pow:-1983, encoderGoal:-2040, encoderVal:-57, errorNew:-1983
+wheels[0].pow:-0.15
+wheels[0].pow:-0.15
+wheels[1].pow:-0.15
+wheels[1].pow:-0.15
+wheels[2].pow:-0.15
+wheels[2].pow:-0.15
+wheels[3].pow:-0.15
+wheels[3].pow:-0.15
+distancePowerMult:-0.15
+isTask complete : encoderCnt:-57 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+wheels[1].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+wheels[2].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+wheels[3].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+[0][1]: 1721 , [0][0]: 1 
+[1][1]: 279 , [1][0]: 0 
+[2][1]: 1721 , [2][0]: 1 
+[3][1]: 279 , [3][0]: 0 
+wheelCmd[0][0] = 1700 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 300 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1700 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 300 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -57
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 57
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 55
+Backward startup
+
+pow:-1972, encoderGoal:-2040, encoderVal:-68, errorNew:-1972
+wheels[0].pow:-0.16
+wheels[0].pow:-0.16
+wheels[1].pow:-0.16
+wheels[1].pow:-0.16
+wheels[2].pow:-0.16
+wheels[2].pow:-0.16
+wheels[3].pow:-0.16
+wheels[3].pow:-0.16
+distancePowerMult:-0.16
+isTask complete : encoderCnt:-68 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+wheels[1].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+wheels[2].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+wheels[3].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+[0][1]: 1700 , [0][0]: 1 
+[1][1]: 300 , [1][0]: 0 
+[2][1]: 1700 , [2][0]: 1 
+[3][1]: 300 , [3][0]: 0 
+wheelCmd[0][0] = 1680 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 320 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1680 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 320 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -68
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 67
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 65
+Backward startup
+
+pow:-1960, encoderGoal:-2040, encoderVal:-80, errorNew:-1960
+wheels[0].pow:-0.17
+wheels[0].pow:-0.17
+wheels[1].pow:-0.17
+wheels[1].pow:-0.17
+wheels[2].pow:-0.17
+wheels[2].pow:-0.17
+wheels[3].pow:-0.17
+wheels[3].pow:-0.17
+distancePowerMult:-0.17
+isTask complete : encoderCnt:-80 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+wheels[1].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+wheels[2].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+wheels[3].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+[0][1]: 1680 , [0][0]: 1 
+[1][1]: 320 , [1][0]: 0 
+[2][1]: 1680 , [2][0]: 1 
+[3][1]: 320 , [3][0]: 0 
+wheelCmd[0][0] = 1660 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 340 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1660 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 340 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -80
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 80
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 77
+Backward startup
+
+pow:-1946, encoderGoal:-2040, encoderVal:-94, errorNew:-1946
+wheels[0].pow:-0.18
+wheels[0].pow:-0.18
+wheels[1].pow:-0.18
+wheels[1].pow:-0.18
+wheels[2].pow:-0.18
+wheels[2].pow:-0.18
+wheels[3].pow:-0.18
+wheels[3].pow:-0.18
+distancePowerMult:-0.18
+isTask complete : encoderCnt:-94 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+wheels[1].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+wheels[2].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+wheels[3].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+[0][1]: 1660 , [0][0]: 1 
+[1][1]: 340 , [1][0]: 0 
+[2][1]: 1660 , [2][0]: 1 
+[3][1]: 340 , [3][0]: 0 
+wheelCmd[0][0] = 1640 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 360 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1640 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 360 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -94
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 94
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 91
+Backward startup
+
+pow:-1932, encoderGoal:-2040, encoderVal:-108, errorNew:-1932
+wheels[0].pow:-0.19
+wheels[0].pow:-0.19
+wheels[1].pow:-0.19
+wheels[1].pow:-0.19
+wheels[2].pow:-0.19
+wheels[2].pow:-0.19
+wheels[3].pow:-0.19
+wheels[3].pow:-0.19
+distancePowerMult:-0.19
+isTask complete : encoderCnt:-108 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+wheels[1].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+wheels[2].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+wheels[3].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+[0][1]: 1640 , [0][0]: 1 
+[1][1]: 360 , [1][0]: 0 
+[2][1]: 1640 , [2][0]: 1 
+[3][1]: 360 , [3][0]: 0 
+wheelCmd[0][0] = 1620 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 380 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1620 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 380 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -108
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 108
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 106
+Backward startup
+
+pow:-1914, encoderGoal:-2040, encoderVal:-126, errorNew:-1914
+wheels[0].pow:-0.2
+wheels[0].pow:-0.2
+wheels[1].pow:-0.2
+wheels[1].pow:-0.2
+wheels[2].pow:-0.2
+wheels[2].pow:-0.2
+wheels[3].pow:-0.2
+wheels[3].pow:-0.2
+distancePowerMult:-0.2
+isTask complete : encoderCnt:-126 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+wheels[1].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+wheels[2].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+wheels[3].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+[0][1]: 1620 , [0][0]: 1 
+[1][1]: 380 , [1][0]: 0 
+[2][1]: 1620 , [2][0]: 1 
+[3][1]: 380 , [3][0]: 0 
+wheelCmd[0][0] = 1600 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 400 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 400 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -126
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 125
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 123
+Backward startup
+
+pow:-1892, encoderGoal:-2040, encoderVal:-148, errorNew:-1892
+wheels[0].pow:-0.21
+wheels[0].pow:-0.21
+wheels[1].pow:-0.21
+wheels[1].pow:-0.21
+wheels[2].pow:-0.21
+wheels[2].pow:-0.21
+wheels[3].pow:-0.21
+wheels[3].pow:-0.21
+distancePowerMult:-0.21
+isTask complete : encoderCnt:-148 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[1].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[2].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[3].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+[0][1]: 1600 , [0][0]: 1 
+[1][1]: 400 , [1][0]: 0 
+[2][1]: 1600 , [2][0]: 1 
+[3][1]: 400 , [3][0]: 0 
+wheelCmd[0][0] = 1580 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 420 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1580 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 420 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -148
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 144
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 142
+Backward startup
+
+pow:-1871, encoderGoal:-2040, encoderVal:-169, errorNew:-1871
+wheels[0].pow:-0.22
+wheels[0].pow:-0.22
+wheels[1].pow:-0.22
+wheels[1].pow:-0.22
+wheels[2].pow:-0.22
+wheels[2].pow:-0.22
+wheels[3].pow:-0.22
+wheels[3].pow:-0.22
+distancePowerMult:-0.22
+isTask complete : encoderCnt:-169 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+wheels[1].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+wheels[2].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+wheels[3].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+[0][1]: 1580 , [0][0]: 1 
+[1][1]: 420 , [1][0]: 0 
+[2][1]: 1580 , [2][0]: 1 
+[3][1]: 420 , [3][0]: 0 
+wheelCmd[0][0] = 1560 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 440 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1560 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 440 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -169
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 163
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 160
+Backward startup
+
+pow:-1852, encoderGoal:-2040, encoderVal:-188, errorNew:-1852
+wheels[0].pow:-0.23
+wheels[0].pow:-0.23
+wheels[1].pow:-0.23
+wheels[1].pow:-0.23
+wheels[2].pow:-0.23
+wheels[2].pow:-0.23
+wheels[3].pow:-0.23
+wheels[3].pow:-0.23
+distancePowerMult:-0.23
+isTask complete : encoderCnt:-188 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+wheels[1].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+wheels[2].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+wheels[3].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+[0][1]: 1560 , [0][0]: 1 
+[1][1]: 440 , [1][0]: 0 
+[2][1]: 1560 , [2][0]: 1 
+[3][1]: 440 , [3][0]: 0 
+wheelCmd[0][0] = 1540 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 460 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1540 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 460 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -188
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 186
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 181
+Backward startup
+
+pow:-1840, encoderGoal:-2040, encoderVal:-200, errorNew:-1840
+wheels[0].pow:-0.24
+wheels[0].pow:-0.24
+wheels[1].pow:-0.24
+wheels[1].pow:-0.24
+wheels[2].pow:-0.24
+wheels[2].pow:-0.24
+wheels[3].pow:-0.24
+wheels[3].pow:-0.24
+distancePowerMult:-0.24
+isTask complete : encoderCnt:-200 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+wheels[1].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+wheels[2].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+wheels[3].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+[0][1]: 1540 , [0][0]: 1 
+[1][1]: 460 , [1][0]: 0 
+[2][1]: 1540 , [2][0]: 1 
+[3][1]: 460 , [3][0]: 0 
+wheelCmd[0][0] = 1520 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 480 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1520 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 480 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -200
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 202
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 195
+Backward startup
+
+pow:-1821, encoderGoal:-2040, encoderVal:-219, errorNew:-1821
+wheels[0].pow:-0.25
+wheels[0].pow:-0.25
+wheels[1].pow:-0.25
+wheels[1].pow:-0.25
+wheels[2].pow:-0.25
+wheels[2].pow:-0.25
+wheels[3].pow:-0.25
+wheels[3].pow:-0.25
+distancePowerMult:-0.25
+isTask complete : encoderCnt:-219 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+wheels[1].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+wheels[2].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+wheels[3].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+[0][1]: 1520 , [0][0]: 1 
+[1][1]: 480 , [1][0]: 0 
+[2][1]: 1520 , [2][0]: 1 
+[3][1]: 480 , [3][0]: 0 
+wheelCmd[0][0] = 1500 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 500 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1500 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 500 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -219
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 220
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 214
+Backward startup
+
+pow:-1802, encoderGoal:-2040, encoderVal:-238, errorNew:-1802
+wheels[0].pow:-0.26
+wheels[0].pow:-0.26
+wheels[1].pow:-0.26
+wheels[1].pow:-0.26
+wheels[2].pow:-0.26
+wheels[2].pow:-0.26
+wheels[3].pow:-0.26
+wheels[3].pow:-0.26
+distancePowerMult:-0.26
+isTask complete : encoderCnt:-238 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+wheels[1].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+wheels[2].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+wheels[3].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+[0][1]: 1500 , [0][0]: 1 
+[1][1]: 500 , [1][0]: 0 
+[2][1]: 1500 , [2][0]: 1 
+[3][1]: 500 , [3][0]: 0 
+wheelCmd[0][0] = 1480 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 520 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1480 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 520 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -238
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 239
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 234
+Backward startup
+
+pow:-1788, encoderGoal:-2040, encoderVal:-252, errorNew:-1788
+wheels[0].pow:-0.27
+wheels[0].pow:-0.27
+wheels[1].pow:-0.27
+wheels[1].pow:-0.27
+wheels[2].pow:-0.27
+wheels[2].pow:-0.27
+wheels[3].pow:-0.27
+wheels[3].pow:-0.27
+distancePowerMult:-0.27
+isTask complete : encoderCnt:-252 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+wheels[1].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+wheels[2].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+wheels[3].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+[0][1]: 1480 , [0][0]: 1 
+[1][1]: 520 , [1][0]: 0 
+[2][1]: 1480 , [2][0]: 1 
+[3][1]: 520 , [3][0]: 0 
+wheelCmd[0][0] = 1460 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 540 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1460 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 540 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -252
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 253
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 246
+Backward startup
+
+pow:-1774, encoderGoal:-2040, encoderVal:-266, errorNew:-1774
+wheels[0].pow:-0.28
+wheels[0].pow:-0.28
+wheels[1].pow:-0.28
+wheels[1].pow:-0.28
+wheels[2].pow:-0.28
+wheels[2].pow:-0.28
+wheels[3].pow:-0.28
+wheels[3].pow:-0.28
+distancePowerMult:-0.28
+isTask complete : encoderCnt:-266 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+wheels[1].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+wheels[2].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+wheels[3].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+[0][1]: 1460 , [0][0]: 1 
+[1][1]: 540 , [1][0]: 0 
+[2][1]: 1460 , [2][0]: 1 
+[3][1]: 540 , [3][0]: 0 
+wheelCmd[0][0] = 1440 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 560 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1440 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 560 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -266
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 266
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 261
+Backward startup
+
+pow:-1759, encoderGoal:-2040, encoderVal:-281, errorNew:-1759
+wheels[0].pow:-0.29
+wheels[0].pow:-0.29
+wheels[1].pow:-0.29
+wheels[1].pow:-0.29
+wheels[2].pow:-0.29
+wheels[2].pow:-0.29
+wheels[3].pow:-0.29
+wheels[3].pow:-0.29
+distancePowerMult:-0.29
+isTask complete : encoderCnt:-281 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[1].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[2].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[3].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+[0][1]: 1440 , [0][0]: 1 
+[1][1]: 560 , [1][0]: 0 
+[2][1]: 1440 , [2][0]: 1 
+[3][1]: 560 , [3][0]: 0 
+wheelCmd[0][0] = 1420 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 580 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1420 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 580 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -281
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 283
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 277
+Backward startup
+
+pow:-1740, encoderGoal:-2040, encoderVal:-300, errorNew:-1740
+wheels[0].pow:-0.3
+wheels[0].pow:-0.3
+wheels[1].pow:-0.3
+wheels[1].pow:-0.3
+wheels[2].pow:-0.3
+wheels[2].pow:-0.3
+wheels[3].pow:-0.3
+wheels[3].pow:-0.3
+distancePowerMult:-0.3
+isTask complete : encoderCnt:-300 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+wheels[1].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+wheels[2].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+wheels[3].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+[0][1]: 1420 , [0][0]: 1 
+[1][1]: 580 , [1][0]: 0 
+[2][1]: 1420 , [2][0]: 1 
+[3][1]: 580 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1400 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 600 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -300
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 302
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 294
+Backward startup
+
+pow:-1724, encoderGoal:-2040, encoderVal:-316, errorNew:-1724
+wheels[0].pow:-0.31
+wheels[0].pow:-0.31
+wheels[1].pow:-0.31
+wheels[1].pow:-0.31
+wheels[2].pow:-0.31
+wheels[2].pow:-0.31
+wheels[3].pow:-0.31
+wheels[3].pow:-0.31
+distancePowerMult:-0.31
+isTask complete : encoderCnt:-316 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+wheels[1].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+wheels[2].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+wheels[3].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+[0][1]: 1400 , [0][0]: 1 
+[1][1]: 600 , [1][0]: 0 
+[2][1]: 1400 , [2][0]: 1 
+[3][1]: 600 , [3][0]: 0 
+wheelCmd[0][0] = 1380 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 620 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1380 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 620 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -316
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 317
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 309
+Backward startup
+
+pow:-1703, encoderGoal:-2040, encoderVal:-337, errorNew:-1703
+wheels[0].pow:-0.32
+wheels[0].pow:-0.32
+wheels[1].pow:-0.32
+wheels[1].pow:-0.32
+wheels[2].pow:-0.32
+wheels[2].pow:-0.32
+wheels[3].pow:-0.32
+wheels[3].pow:-0.32
+distancePowerMult:-0.32
+isTask complete : encoderCnt:-337 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+wheels[1].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+wheels[2].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+wheels[3].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+[0][1]: 1380 , [0][0]: 1 
+[1][1]: 620 , [1][0]: 0 
+[2][1]: 1380 , [2][0]: 1 
+[3][1]: 620 , [3][0]: 0 
+wheelCmd[0][0] = 1360 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 640 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1360 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 640 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -337
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 335
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 330
+Backward startup
+
+pow:-1680, encoderGoal:-2040, encoderVal:-360, errorNew:-1680
+wheels[0].pow:-0.33
+wheels[0].pow:-0.33
+wheels[1].pow:-0.33
+wheels[1].pow:-0.33
+wheels[2].pow:-0.33
+wheels[2].pow:-0.33
+wheels[3].pow:-0.33
+wheels[3].pow:-0.33
+distancePowerMult:-0.33
+isTask complete : encoderCnt:-360 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+wheels[1].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+wheels[2].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+wheels[3].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+[0][1]: 1360 , [0][0]: 1 
+[1][1]: 640 , [1][0]: 0 
+[2][1]: 1360 , [2][0]: 1 
+[3][1]: 640 , [3][0]: 0 
+wheelCmd[0][0] = 1340 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 660 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1340 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 660 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -360
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 357
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 352
+Backward startup
+
+pow:-1658, encoderGoal:-2040, encoderVal:-382, errorNew:-1658
+wheels[0].pow:-0.34
+wheels[0].pow:-0.34
+wheels[1].pow:-0.34
+wheels[1].pow:-0.34
+wheels[2].pow:-0.34
+wheels[2].pow:-0.34
+wheels[3].pow:-0.34
+wheels[3].pow:-0.34
+distancePowerMult:-0.34
+isTask complete : encoderCnt:-382 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+wheels[1].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+wheels[2].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+wheels[3].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+[0][1]: 1340 , [0][0]: 1 
+[1][1]: 660 , [1][0]: 0 
+[2][1]: 1340 , [2][0]: 1 
+[3][1]: 660 , [3][0]: 0 
+wheelCmd[0][0] = 1320 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 680 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1320 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 680 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -382
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 380
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 374
+Backward startup
+
+pow:-1635, encoderGoal:-2040, encoderVal:-405, errorNew:-1635
+wheels[0].pow:-0.35
+wheels[0].pow:-0.35
+wheels[1].pow:-0.35
+wheels[1].pow:-0.35
+wheels[2].pow:-0.35
+wheels[2].pow:-0.35
+wheels[3].pow:-0.35
+wheels[3].pow:-0.35
+distancePowerMult:-0.35
+isTask complete : encoderCnt:-405 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+wheels[1].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+wheels[2].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+wheels[3].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+[0][1]: 1320 , [0][0]: 1 
+[1][1]: 680 , [1][0]: 0 
+[2][1]: 1320 , [2][0]: 1 
+[3][1]: 680 , [3][0]: 0 
+wheelCmd[0][0] = 1300 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 700 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1300 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 700 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -405
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 402
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 395
+Backward startup
+
+pow:-1611, encoderGoal:-2040, encoderVal:-429, errorNew:-1611
+wheels[0].pow:-0.36
+wheels[0].pow:-0.36
+wheels[1].pow:-0.36
+wheels[1].pow:-0.36
+wheels[2].pow:-0.36
+wheels[2].pow:-0.36
+wheels[3].pow:-0.36
+wheels[3].pow:-0.36
+distancePowerMult:-0.36
+isTask complete : encoderCnt:-429 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+wheels[1].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+wheels[2].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+wheels[3].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+[0][1]: 1300 , [0][0]: 1 
+[1][1]: 700 , [1][0]: 0 
+[2][1]: 1300 , [2][0]: 1 
+[3][1]: 700 , [3][0]: 0 
+wheelCmd[0][0] = 1280 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 720 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1280 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 720 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -429
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 424
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 419
+Backward startup
+
+pow:-1588, encoderGoal:-2040, encoderVal:-452, errorNew:-1588
+wheels[0].pow:-0.37
+wheels[0].pow:-0.37
+wheels[1].pow:-0.37
+wheels[1].pow:-0.37
+wheels[2].pow:-0.37
+wheels[2].pow:-0.37
+wheels[3].pow:-0.37
+wheels[3].pow:-0.37
+distancePowerMult:-0.37
+isTask complete : encoderCnt:-452 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+wheels[1].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+wheels[2].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+wheels[3].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+[0][1]: 1280 , [0][0]: 1 
+[1][1]: 720 , [1][0]: 0 
+[2][1]: 1280 , [2][0]: 1 
+[3][1]: 720 , [3][0]: 0 
+wheelCmd[0][0] = 1260 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 740 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1260 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 740 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -452
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 448
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 442
+Backward startup
+
+pow:-1566, encoderGoal:-2040, encoderVal:-474, errorNew:-1566
+wheels[0].pow:-0.38
+wheels[0].pow:-0.38
+wheels[1].pow:-0.38
+wheels[1].pow:-0.38
+wheels[2].pow:-0.38
+wheels[2].pow:-0.38
+wheels[3].pow:-0.38
+wheels[3].pow:-0.38
+distancePowerMult:-0.38
+isTask complete : encoderCnt:-474 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+wheels[1].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+wheels[2].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+wheels[3].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+[0][1]: 1260 , [0][0]: 1 
+[1][1]: 740 , [1][0]: 0 
+[2][1]: 1260 , [2][0]: 1 
+[3][1]: 740 , [3][0]: 0 
+wheelCmd[0][0] = 1240 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 760 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1240 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 760 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -474
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 472
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 464
+Backward startup
+
+pow:-1539, encoderGoal:-2040, encoderVal:-501, errorNew:-1539
+wheels[0].pow:-0.39
+wheels[0].pow:-0.39
+wheels[1].pow:-0.39
+wheels[1].pow:-0.39
+wheels[2].pow:-0.39
+wheels[2].pow:-0.39
+wheels[3].pow:-0.39
+wheels[3].pow:-0.39
+distancePowerMult:-0.39
+isTask complete : encoderCnt:-501 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+wheels[1].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+wheels[2].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+wheels[3].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+[0][1]: 1240 , [0][0]: 1 
+[1][1]: 760 , [1][0]: 0 
+[2][1]: 1240 , [2][0]: 1 
+[3][1]: 760 , [3][0]: 0 
+wheelCmd[0][0] = 1220 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 780 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1220 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 780 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -501
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 496
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 489
+Backward startup
+
+pow:-1511, encoderGoal:-2040, encoderVal:-529, errorNew:-1511
+wheels[0].pow:-0.4
+wheels[0].pow:-0.4
+wheels[1].pow:-0.4
+wheels[1].pow:-0.4
+wheels[2].pow:-0.4
+wheels[2].pow:-0.4
+wheels[3].pow:-0.4
+wheels[3].pow:-0.4
+distancePowerMult:-0.4
+isTask complete : encoderCnt:-529 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+wheels[1].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+wheels[2].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+wheels[3].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+[0][1]: 1220 , [0][0]: 1 
+[1][1]: 780 , [1][0]: 0 
+[2][1]: 1220 , [2][0]: 1 
+[3][1]: 780 , [3][0]: 0 
+wheelCmd[0][0] = 1200 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 800 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1200 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 800 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -529
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 523
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 517
+Backward startup
+
+pow:-1483, encoderGoal:-2040, encoderVal:-557, errorNew:-1483
+wheels[0].pow:-0.41
+wheels[0].pow:-0.41
+wheels[1].pow:-0.41
+wheels[1].pow:-0.41
+wheels[2].pow:-0.41
+wheels[2].pow:-0.41
+wheels[3].pow:-0.41
+wheels[3].pow:-0.41
+distancePowerMult:-0.41
+isTask complete : encoderCnt:-557 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+wheels[1].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+wheels[2].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+wheels[3].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+[0][1]: 1200 , [0][0]: 1 
+[1][1]: 800 , [1][0]: 0 
+[2][1]: 1200 , [2][0]: 1 
+[3][1]: 800 , [3][0]: 0 
+wheelCmd[0][0] = 1180 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 820 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1180 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 820 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -557
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 550
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 543
+Backward startup
+
+pow:-1454, encoderGoal:-2040, encoderVal:-586, errorNew:-1454
+wheels[0].pow:-0.42
+wheels[0].pow:-0.42
+wheels[1].pow:-0.42
+wheels[1].pow:-0.42
+wheels[2].pow:-0.42
+wheels[2].pow:-0.42
+wheels[3].pow:-0.42
+wheels[3].pow:-0.42
+distancePowerMult:-0.42
+isTask complete : encoderCnt:-586 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+wheels[1].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+wheels[2].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+wheels[3].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+[0][1]: 1180 , [0][0]: 1 
+[1][1]: 820 , [1][0]: 0 
+[2][1]: 1180 , [2][0]: 1 
+[3][1]: 820 , [3][0]: 0 
+wheelCmd[0][0] = 1160 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 840 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1160 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 840 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -586
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 580
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 572
+Backward startup
+
+pow:-1425, encoderGoal:-2040, encoderVal:-615, errorNew:-1425
+wheels[0].pow:-0.43
+wheels[0].pow:-0.43
+wheels[1].pow:-0.43
+wheels[1].pow:-0.43
+wheels[2].pow:-0.43
+wheels[2].pow:-0.43
+wheels[3].pow:-0.43
+wheels[3].pow:-0.43
+distancePowerMult:-0.43
+isTask complete : encoderCnt:-615 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[1].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[2].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[3].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+[0][1]: 1160 , [0][0]: 1 
+[1][1]: 840 , [1][0]: 0 
+[2][1]: 1160 , [2][0]: 1 
+[3][1]: 840 , [3][0]: 0 
+wheelCmd[0][0] = 1140 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 860 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1140 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 860 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -615
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 608
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 599
+Backward startup
+
+pow:-1394, encoderGoal:-2040, encoderVal:-646, errorNew:-1394
+wheels[0].pow:-0.44
+wheels[0].pow:-0.44
+wheels[1].pow:-0.44
+wheels[1].pow:-0.44
+wheels[2].pow:-0.44
+wheels[2].pow:-0.44
+wheels[3].pow:-0.44
+wheels[3].pow:-0.44
+distancePowerMult:-0.44
+isTask complete : encoderCnt:-646 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+wheels[1].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+wheels[2].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+wheels[3].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+[0][1]: 1140 , [0][0]: 1 
+[1][1]: 860 , [1][0]: 0 
+[2][1]: 1140 , [2][0]: 1 
+[3][1]: 860 , [3][0]: 0 
+wheelCmd[0][0] = 1120 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 880 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1120 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 880 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -646
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 637
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 629
+Backward startup
+
+pow:-1364, encoderGoal:-2040, encoderVal:-676, errorNew:-1364
+wheels[0].pow:-0.45
+wheels[0].pow:-0.45
+wheels[1].pow:-0.45
+wheels[1].pow:-0.45
+wheels[2].pow:-0.45
+wheels[2].pow:-0.45
+wheels[3].pow:-0.45
+wheels[3].pow:-0.45
+distancePowerMult:-0.45
+isTask complete : encoderCnt:-676 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+wheels[1].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+wheels[2].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+wheels[3].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+[0][1]: 1120 , [0][0]: 1 
+[1][1]: 880 , [1][0]: 0 
+[2][1]: 1120 , [2][0]: 1 
+[3][1]: 880 , [3][0]: 0 
+wheelCmd[0][0] = 1100 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 900 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1100 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 900 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -676
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 668
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 659
+Backward startup
+
+pow:-1335, encoderGoal:-2040, encoderVal:-705, errorNew:-1335
+wheels[0].pow:-0.46
+wheels[0].pow:-0.46
+wheels[1].pow:-0.46
+wheels[1].pow:-0.46
+wheels[2].pow:-0.46
+wheels[2].pow:-0.46
+wheels[3].pow:-0.46
+wheels[3].pow:-0.46
+distancePowerMult:-0.46
+isTask complete : encoderCnt:-705 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+wheels[1].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+wheels[2].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+wheels[3].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+[0][1]: 1100 , [0][0]: 1 
+[1][1]: 900 , [1][0]: 0 
+[2][1]: 1100 , [2][0]: 1 
+[3][1]: 900 , [3][0]: 0 
+wheelCmd[0][0] = 1080 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 920 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1080 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 920 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -705
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 699
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 688
+Backward startup
+
+pow:-1302, encoderGoal:-2040, encoderVal:-738, errorNew:-1302
+wheels[0].pow:-0.47
+wheels[0].pow:-0.47
+wheels[1].pow:-0.47
+wheels[1].pow:-0.47
+wheels[2].pow:-0.47
+wheels[2].pow:-0.47
+wheels[3].pow:-0.47
+wheels[3].pow:-0.47
+distancePowerMult:-0.47
+isTask complete : encoderCnt:-738 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[1].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[2].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[3].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+[0][1]: 1080 , [0][0]: 1 
+[1][1]: 920 , [1][0]: 0 
+[2][1]: 1080 , [2][0]: 1 
+[3][1]: 920 , [3][0]: 0 
+wheelCmd[0][0] = 1060 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 940 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1060 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 940 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -738
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 728
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 719
+Backward startup
+
+pow:-1269, encoderGoal:-2040, encoderVal:-771, errorNew:-1269
+wheels[0].pow:-0.48
+wheels[0].pow:-0.48
+wheels[1].pow:-0.48
+wheels[1].pow:-0.48
+wheels[2].pow:-0.48
+wheels[2].pow:-0.48
+wheels[3].pow:-0.48
+wheels[3].pow:-0.48
+distancePowerMult:-0.48
+isTask complete : encoderCnt:-771 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+wheels[1].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+wheels[2].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+wheels[3].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+[0][1]: 1060 , [0][0]: 1 
+[1][1]: 940 , [1][0]: 0 
+[2][1]: 1060 , [2][0]: 1 
+[3][1]: 940 , [3][0]: 0 
+wheelCmd[0][0] = 1040 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 960 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1040 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 960 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -771
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 760
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 752
+Backward startup
+
+pow:-1237, encoderGoal:-2040, encoderVal:-803, errorNew:-1237
+wheels[0].pow:-0.49
+wheels[0].pow:-0.49
+wheels[1].pow:-0.49
+wheels[1].pow:-0.49
+wheels[2].pow:-0.49
+wheels[2].pow:-0.49
+wheels[3].pow:-0.49
+wheels[3].pow:-0.49
+distancePowerMult:-0.49
+isTask complete : encoderCnt:-803 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+wheels[1].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+wheels[2].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+wheels[3].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+[0][1]: 1040 , [0][0]: 1 
+[1][1]: 960 , [1][0]: 0 
+[2][1]: 1040 , [2][0]: 1 
+[3][1]: 960 , [3][0]: 0 
+wheelCmd[0][0] = 1020 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 980 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1020 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 980 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -803
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 794
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 783
+Backward startup
+
+pow:-1203, encoderGoal:-2040, encoderVal:-837, errorNew:-1203
+wheels[0].pow:-0.5
+wheels[0].pow:-0.5
+wheels[1].pow:-0.5
+wheels[1].pow:-0.5
+wheels[2].pow:-0.5
+wheels[2].pow:-0.5
+wheels[3].pow:-0.5
+wheels[3].pow:-0.5
+distancePowerMult:-0.5
+isTask complete : encoderCnt:-837 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+wheels[1].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+wheels[2].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+wheels[3].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+[0][1]: 1020 , [0][0]: 1 
+[1][1]: 980 , [1][0]: 0 
+[2][1]: 1020 , [2][0]: 1 
+[3][1]: 980 , [3][0]: 0 
+wheelCmd[0][0] = 1000 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 1000 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1000 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1000 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -837
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 827
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 816
+Backward startup
+
+pow:-1167, encoderGoal:-2040, encoderVal:-873, errorNew:-1167
+wheels[0].pow:-0.51
+wheels[0].pow:-0.51
+wheels[1].pow:-0.51
+wheels[1].pow:-0.51
+wheels[2].pow:-0.51
+wheels[2].pow:-0.51
+wheels[3].pow:-0.51
+wheels[3].pow:-0.51
+distancePowerMult:-0.51
+isTask complete : encoderCnt:-873 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[1].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[2].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[3].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+[0][1]: 1000 , [0][0]: 1 
+[1][1]: 1000 , [1][0]: 0 
+[2][1]: 1000 , [2][0]: 1 
+[3][1]: 1000 , [3][0]: 0 
+wheelCmd[0][0] = 980 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 1020 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 980 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1020 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -873
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 860
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 850
+Backward startup
+
+pow:-1130, encoderGoal:-2040, encoderVal:-910, errorNew:-1130
+wheels[0].pow:-0.52
+wheels[0].pow:-0.52
+wheels[1].pow:-0.52
+wheels[1].pow:-0.52
+wheels[2].pow:-0.52
+wheels[2].pow:-0.52
+wheels[3].pow:-0.52
+wheels[3].pow:-0.52
+distancePowerMult:-0.52
+isTask complete : encoderCnt:-910 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+wheels[1].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+wheels[2].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+wheels[3].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+[0][1]: 980 , [0][0]: 1 
+[1][1]: 1020 , [1][0]: 0 
+[2][1]: 980 , [2][0]: 1 
+[3][1]: 1020 , [3][0]: 0 
+wheelCmd[0][0] = 960 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 1040 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 960 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1040 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -910
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 896
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 887
+Backward startup
+
+pow:-1095, encoderGoal:-2040, encoderVal:-945, errorNew:-1095
+wheels[0].pow:-0.53
+wheels[0].pow:-0.53
+wheels[1].pow:-0.53
+wheels[1].pow:-0.53
+wheels[2].pow:-0.53
+wheels[2].pow:-0.53
+wheels[3].pow:-0.53
+wheels[3].pow:-0.53
+distancePowerMult:-0.53
+isTask complete : encoderCnt:-945 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+wheels[1].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+wheels[2].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+wheels[3].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+[0][1]: 960 , [0][0]: 1 
+[1][1]: 1040 , [1][0]: 0 
+[2][1]: 960 , [2][0]: 1 
+[3][1]: 1040 , [3][0]: 0 
+wheelCmd[0][0] = 940 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 1060 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 940 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1060 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -945
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 932
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 921
+Backward startup
+
+pow:-1058, encoderGoal:-2040, encoderVal:-982, errorNew:-1058
+wheels[0].pow:-0.529
+wheels[0].pow:-0.529
+wheels[1].pow:-0.529
+wheels[1].pow:-0.529
+wheels[2].pow:-0.529
+wheels[2].pow:-0.529
+wheels[3].pow:-0.529
+wheels[3].pow:-0.529
+distancePowerMult:-0.529
+isTask complete : encoderCnt:-982 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.529, powToWheels:1058
+wheels[1].tempCurDir: 1 ,.pow: 0.529, powToWheels:1058
+wheels[2].tempCurDir: 1 ,.pow: 0.529, powToWheels:1058
+wheels[3].tempCurDir: 1 ,.pow: 0.529, powToWheels:1058
+[0][1]: 940 , [0][0]: 1 
+[1][1]: 1060 , [1][0]: 0 
+[2][1]: 940 , [2][0]: 1 
+[3][1]: 1060 , [3][0]: 0 
+wheelCmd[0][0] = 942 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 1058 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 942 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1058 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -982
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 967
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 958
+pow:-1020, encoderGoal:-2040, encoderVal:-1020, errorNew:-1020
+pow returned by distance:-0.51
+wheels[0].pow:-0.51
+wheels[0].pow:-0.51
+wheels[1].pow:-0.51
+wheels[1].pow:-0.51
+wheels[2].pow:-0.51
+wheels[2].pow:-0.51
+wheels[3].pow:-0.51
+wheels[3].pow:-0.51
+distancePowerMult:-0.51
+isTask complete : encoderCnt:-1020 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[1].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[2].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[3].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+[0][1]: 942 , [0][0]: 1 
+[1][1]: 1058 , [1][0]: 0 
+[2][1]: 942 , [2][0]: 1 
+[3][1]: 1058 , [3][0]: 0 
+wheelCmd[0][0] = 980 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 1020 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 980 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1020 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1020
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1004
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 997
+pow:-979, encoderGoal:-2040, encoderVal:-1061, errorNew:-979
+pow returned by distance:-0.4895
+wheels[0].pow:-0.4895
+wheels[0].pow:-0.4895
+wheels[1].pow:-0.4895
+wheels[1].pow:-0.4895
+wheels[2].pow:-0.4895
+wheels[2].pow:-0.4895
+wheels[3].pow:-0.4895
+wheels[3].pow:-0.4895
+distancePowerMult:-0.4895
+isTask complete : encoderCnt:-1061 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.4895, powToWheels:979
+wheels[1].tempCurDir: 1 ,.pow: 0.4895, powToWheels:979
+wheels[2].tempCurDir: 1 ,.pow: 0.4895, powToWheels:979
+wheels[3].tempCurDir: 1 ,.pow: 0.4895, powToWheels:979
+[0][1]: 980 , [0][0]: 1 
+[1][1]: 1020 , [1][0]: 0 
+[2][1]: 980 , [2][0]: 1 
+[3][1]: 1020 , [3][0]: 0 
+wheelCmd[0][0] = 1021 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 979 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1021 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 979 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1061
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1045
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1037
+pow:-940, encoderGoal:-2040, encoderVal:-1100, errorNew:-940
+pow returned by distance:-0.47
+wheels[0].pow:-0.47
+wheels[0].pow:-0.47
+wheels[1].pow:-0.47
+wheels[1].pow:-0.47
+wheels[2].pow:-0.47
+wheels[2].pow:-0.47
+wheels[3].pow:-0.47
+wheels[3].pow:-0.47
+distancePowerMult:-0.47
+isTask complete : encoderCnt:-1100 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[1].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[2].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[3].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+[0][1]: 1021 , [0][0]: 1 
+[1][1]: 979 , [1][0]: 0 
+[2][1]: 1021 , [2][0]: 1 
+[3][1]: 979 , [3][0]: 0 
+wheelCmd[0][0] = 1060 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 940 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1060 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 940 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1100
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1085
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1075
+pow:-902, encoderGoal:-2040, encoderVal:-1138, errorNew:-902
+pow returned by distance:-0.451
+wheels[0].pow:-0.451
+wheels[0].pow:-0.451
+wheels[1].pow:-0.451
+wheels[1].pow:-0.451
+wheels[2].pow:-0.451
+wheels[2].pow:-0.451
+wheels[3].pow:-0.451
+wheels[3].pow:-0.451
+distancePowerMult:-0.451
+isTask complete : encoderCnt:-1138 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.451, powToWheels:902
+wheels[1].tempCurDir: 1 ,.pow: 0.451, powToWheels:902
+wheels[2].tempCurDir: 1 ,.pow: 0.451, powToWheels:902
+wheels[3].tempCurDir: 1 ,.pow: 0.451, powToWheels:902
+[0][1]: 1060 , [0][0]: 1 
+[1][1]: 940 , [1][0]: 0 
+[2][1]: 1060 , [2][0]: 1 
+[3][1]: 940 , [3][0]: 0 
+wheelCmd[0][0] = 1098 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 902 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1098 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 902 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1138
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1122
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1116
+pow:-860, encoderGoal:-2040, encoderVal:-1180, errorNew:-860
+pow returned by distance:-0.43
+wheels[0].pow:-0.43
+wheels[0].pow:-0.43
+wheels[1].pow:-0.43
+wheels[1].pow:-0.43
+wheels[2].pow:-0.43
+wheels[2].pow:-0.43
+wheels[3].pow:-0.43
+wheels[3].pow:-0.43
+distancePowerMult:-0.43
+isTask complete : encoderCnt:-1180 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[1].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[2].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[3].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+[0][1]: 1098 , [0][0]: 1 
+[1][1]: 902 , [1][0]: 0 
+[2][1]: 1098 , [2][0]: 1 
+[3][1]: 902 , [3][0]: 0 
+wheelCmd[0][0] = 1140 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 860 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1140 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 860 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1180
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1160
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1158
+pow:-822, encoderGoal:-2040, encoderVal:-1218, errorNew:-822
+pow returned by distance:-0.411
+wheels[0].pow:-0.411
+wheels[0].pow:-0.411
+wheels[1].pow:-0.411
+wheels[1].pow:-0.411
+wheels[2].pow:-0.411
+wheels[2].pow:-0.411
+wheels[3].pow:-0.411
+wheels[3].pow:-0.411
+distancePowerMult:-0.411
+isTask complete : encoderCnt:-1218 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.411, powToWheels:822
+wheels[1].tempCurDir: 1 ,.pow: 0.411, powToWheels:822
+wheels[2].tempCurDir: 1 ,.pow: 0.411, powToWheels:822
+wheels[3].tempCurDir: 1 ,.pow: 0.411, powToWheels:822
+[0][1]: 1140 , [0][0]: 1 
+[1][1]: 860 , [1][0]: 0 
+[2][1]: 1140 , [2][0]: 1 
+[3][1]: 860 , [3][0]: 0 
+wheelCmd[0][0] = 1178 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 822 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1178 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 822 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1218
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1196
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1197
+pow:-789, encoderGoal:-2040, encoderVal:-1251, errorNew:-789
+pow returned by distance:-0.3945
+wheels[0].pow:-0.3945
+wheels[0].pow:-0.3945
+wheels[1].pow:-0.3945
+wheels[1].pow:-0.3945
+wheels[2].pow:-0.3945
+wheels[2].pow:-0.3945
+wheels[3].pow:-0.3945
+wheels[3].pow:-0.3945
+distancePowerMult:-0.3945
+isTask complete : encoderCnt:-1251 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.3945, powToWheels:789
+wheels[1].tempCurDir: 1 ,.pow: 0.3945, powToWheels:789
+wheels[2].tempCurDir: 1 ,.pow: 0.3945, powToWheels:789
+wheels[3].tempCurDir: 1 ,.pow: 0.3945, powToWheels:789
+[0][1]: 1178 , [0][0]: 1 
+[1][1]: 822 , [1][0]: 0 
+[2][1]: 1178 , [2][0]: 1 
+[3][1]: 822 , [3][0]: 0 
+wheelCmd[0][0] = 1211 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 789 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1211 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 789 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1251
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1231
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1230
+pow:-757, encoderGoal:-2040, encoderVal:-1283, errorNew:-757
+pow returned by distance:-0.3785
+wheels[0].pow:-0.3785
+wheels[0].pow:-0.3785
+wheels[1].pow:-0.3785
+wheels[1].pow:-0.3785
+wheels[2].pow:-0.3785
+wheels[2].pow:-0.3785
+wheels[3].pow:-0.3785
+wheels[3].pow:-0.3785
+distancePowerMult:-0.3785
+isTask complete : encoderCnt:-1283 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.3785, powToWheels:757
+wheels[1].tempCurDir: 1 ,.pow: 0.3785, powToWheels:757
+wheels[2].tempCurDir: 1 ,.pow: 0.3785, powToWheels:757
+wheels[3].tempCurDir: 1 ,.pow: 0.3785, powToWheels:757
+[0][1]: 1211 , [0][0]: 1 
+[1][1]: 789 , [1][0]: 0 
+[2][1]: 1211 , [2][0]: 1 
+[3][1]: 789 , [3][0]: 0 
+wheelCmd[0][0] = 1243 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 757 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1243 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 757 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1283
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1265
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1265
+pow:-723, encoderGoal:-2040, encoderVal:-1317, errorNew:-723
+pow returned by distance:-0.3615
+wheels[0].pow:-0.3615
+wheels[0].pow:-0.3615
+wheels[1].pow:-0.3615
+wheels[1].pow:-0.3615
+wheels[2].pow:-0.3615
+wheels[2].pow:-0.3615
+wheels[3].pow:-0.3615
+wheels[3].pow:-0.3615
+distancePowerMult:-0.3615
+isTask complete : encoderCnt:-1317 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.3615, powToWheels:723
+wheels[1].tempCurDir: 1 ,.pow: 0.3615, powToWheels:723
+wheels[2].tempCurDir: 1 ,.pow: 0.3615, powToWheels:723
+wheels[3].tempCurDir: 1 ,.pow: 0.3615, powToWheels:723
+[0][1]: 1243 , [0][0]: 1 
+[1][1]: 757 , [1][0]: 0 
+[2][1]: 1243 , [2][0]: 1 
+[3][1]: 757 , [3][0]: 0 
+wheelCmd[0][0] = 1277 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 723 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1277 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 723 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1317
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1296
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1300
+pow:-694, encoderGoal:-2040, encoderVal:-1346, errorNew:-694
+pow returned by distance:-0.347
+wheels[0].pow:-0.347
+wheels[0].pow:-0.347
+wheels[1].pow:-0.347
+wheels[1].pow:-0.347
+wheels[2].pow:-0.347
+wheels[2].pow:-0.347
+wheels[3].pow:-0.347
+wheels[3].pow:-0.347
+distancePowerMult:-0.347
+isTask complete : encoderCnt:-1346 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.347, powToWheels:694
+wheels[1].tempCurDir: 1 ,.pow: 0.347, powToWheels:694
+wheels[2].tempCurDir: 1 ,.pow: 0.347, powToWheels:694
+wheels[3].tempCurDir: 1 ,.pow: 0.347, powToWheels:694
+[0][1]: 1277 , [0][0]: 1 
+[1][1]: 723 , [1][0]: 0 
+[2][1]: 1277 , [2][0]: 1 
+[3][1]: 723 , [3][0]: 0 
+wheelCmd[0][0] = 1306 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 694 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1306 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 694 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1346
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1328
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1333
+pow:-664, encoderGoal:-2040, encoderVal:-1376, errorNew:-664
+pow returned by distance:-0.332
+wheels[0].pow:-0.332
+wheels[0].pow:-0.332
+wheels[1].pow:-0.332
+wheels[1].pow:-0.332
+wheels[2].pow:-0.332
+wheels[2].pow:-0.332
+wheels[3].pow:-0.332
+wheels[3].pow:-0.332
+distancePowerMult:-0.332
+isTask complete : encoderCnt:-1376 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.332, powToWheels:664
+wheels[1].tempCurDir: 1 ,.pow: 0.332, powToWheels:664
+wheels[2].tempCurDir: 1 ,.pow: 0.332, powToWheels:664
+wheels[3].tempCurDir: 1 ,.pow: 0.332, powToWheels:664
+[0][1]: 1306 , [0][0]: 1 
+[1][1]: 694 , [1][0]: 0 
+[2][1]: 1306 , [2][0]: 1 
+[3][1]: 694 , [3][0]: 0 
+wheelCmd[0][0] = 1336 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 664 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1336 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 664 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1376
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1358
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1363
+pow:-634, encoderGoal:-2040, encoderVal:-1406, errorNew:-634
+pow returned by distance:-0.317
+wheels[0].pow:-0.317
+wheels[0].pow:-0.317
+wheels[1].pow:-0.317
+wheels[1].pow:-0.317
+wheels[2].pow:-0.317
+wheels[2].pow:-0.317
+wheels[3].pow:-0.317
+wheels[3].pow:-0.317
+distancePowerMult:-0.317
+isTask complete : encoderCnt:-1406 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.317, powToWheels:634
+wheels[1].tempCurDir: 1 ,.pow: 0.317, powToWheels:634
+wheels[2].tempCurDir: 1 ,.pow: 0.317, powToWheels:634
+wheels[3].tempCurDir: 1 ,.pow: 0.317, powToWheels:634
+[0][1]: 1336 , [0][0]: 1 
+[1][1]: 664 , [1][0]: 0 
+[2][1]: 1336 , [2][0]: 1 
+[3][1]: 664 , [3][0]: 0 
+wheelCmd[0][0] = 1366 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 634 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1366 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 634 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1406
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1386
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1394
+pow:-605, encoderGoal:-2040, encoderVal:-1435, errorNew:-605
+pow returned by distance:-0.3025
+wheels[0].pow:-0.3025
+wheels[0].pow:-0.3025
+wheels[1].pow:-0.3025
+wheels[1].pow:-0.3025
+wheels[2].pow:-0.3025
+wheels[2].pow:-0.3025
+wheels[3].pow:-0.3025
+wheels[3].pow:-0.3025
+distancePowerMult:-0.3025
+isTask complete : encoderCnt:-1435 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.3025, powToWheels:605
+wheels[1].tempCurDir: 1 ,.pow: 0.3025, powToWheels:605
+wheels[2].tempCurDir: 1 ,.pow: 0.3025, powToWheels:605
+wheels[3].tempCurDir: 1 ,.pow: 0.3025, powToWheels:605
+[0][1]: 1366 , [0][0]: 1 
+[1][1]: 634 , [1][0]: 0 
+[2][1]: 1366 , [2][0]: 1 
+[3][1]: 634 , [3][0]: 0 
+wheelCmd[0][0] = 1395 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 605 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1395 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 605 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1435
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1414
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1424
+pow:-580, encoderGoal:-2040, encoderVal:-1460, errorNew:-580
+pow returned by distance:-0.29
+wheels[0].pow:-0.29
+wheels[0].pow:-0.29
+wheels[1].pow:-0.29
+wheels[1].pow:-0.29
+wheels[2].pow:-0.29
+wheels[2].pow:-0.29
+wheels[3].pow:-0.29
+wheels[3].pow:-0.29
+distancePowerMult:-0.29
+isTask complete : encoderCnt:-1460 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[1].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[2].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[3].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+[0][1]: 1395 , [0][0]: 1 
+[1][1]: 605 , [1][0]: 0 
+[2][1]: 1395 , [2][0]: 1 
+[3][1]: 605 , [3][0]: 0 
+wheelCmd[0][0] = 1420 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 580 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1420 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 580 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1460
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1443
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1452
+pow:-556, encoderGoal:-2040, encoderVal:-1484, errorNew:-556
+pow returned by distance:-0.278
+wheels[0].pow:-0.278
+wheels[0].pow:-0.278
+wheels[1].pow:-0.278
+wheels[1].pow:-0.278
+wheels[2].pow:-0.278
+wheels[2].pow:-0.278
+wheels[3].pow:-0.278
+wheels[3].pow:-0.278
+distancePowerMult:-0.278
+isTask complete : encoderCnt:-1484 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.278, powToWheels:556
+wheels[1].tempCurDir: 1 ,.pow: 0.278, powToWheels:556
+wheels[2].tempCurDir: 1 ,.pow: 0.278, powToWheels:556
+wheels[3].tempCurDir: 1 ,.pow: 0.278, powToWheels:556
+[0][1]: 1420 , [0][0]: 1 
+[1][1]: 580 , [1][0]: 0 
+[2][1]: 1420 , [2][0]: 1 
+[3][1]: 580 , [3][0]: 0 
+wheelCmd[0][0] = 1444 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 556 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1444 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 556 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1484
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1468
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1477
+pow:-531, encoderGoal:-2040, encoderVal:-1509, errorNew:-531
+pow returned by distance:-0.2655
+wheels[0].pow:-0.2655
+wheels[0].pow:-0.2655
+wheels[1].pow:-0.2655
+wheels[1].pow:-0.2655
+wheels[2].pow:-0.2655
+wheels[2].pow:-0.2655
+wheels[3].pow:-0.2655
+wheels[3].pow:-0.2655
+distancePowerMult:-0.2655
+isTask complete : encoderCnt:-1509 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.2655, powToWheels:531
+wheels[1].tempCurDir: 1 ,.pow: 0.2655, powToWheels:531
+wheels[2].tempCurDir: 1 ,.pow: 0.2655, powToWheels:531
+wheels[3].tempCurDir: 1 ,.pow: 0.2655, powToWheels:531
+[0][1]: 1444 , [0][0]: 1 
+[1][1]: 556 , [1][0]: 0 
+[2][1]: 1444 , [2][0]: 1 
+[3][1]: 556 , [3][0]: 0 
+wheelCmd[0][0] = 1469 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 531 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1469 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 531 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1509
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1491
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1502
+pow:-509, encoderGoal:-2040, encoderVal:-1531, errorNew:-509
+pow returned by distance:-0.2545
+wheels[0].pow:-0.2545
+wheels[0].pow:-0.2545
+wheels[1].pow:-0.2545
+wheels[1].pow:-0.2545
+wheels[2].pow:-0.2545
+wheels[2].pow:-0.2545
+wheels[3].pow:-0.2545
+wheels[3].pow:-0.2545
+distancePowerMult:-0.2545
+isTask complete : encoderCnt:-1531 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.2545, powToWheels:509
+wheels[1].tempCurDir: 1 ,.pow: 0.2545, powToWheels:509
+wheels[2].tempCurDir: 1 ,.pow: 0.2545, powToWheels:509
+wheels[3].tempCurDir: 1 ,.pow: 0.2545, powToWheels:509
+[0][1]: 1469 , [0][0]: 1 
+[1][1]: 531 , [1][0]: 0 
+[2][1]: 1469 , [2][0]: 1 
+[3][1]: 531 , [3][0]: 0 
+wheelCmd[0][0] = 1491 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 509 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1491 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 509 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1531
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1515
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1526
+pow:-489, encoderGoal:-2040, encoderVal:-1551, errorNew:-489
+pow returned by distance:-0.2445
+wheels[0].pow:-0.2445
+wheels[0].pow:-0.2445
+wheels[1].pow:-0.2445
+wheels[1].pow:-0.2445
+wheels[2].pow:-0.2445
+wheels[2].pow:-0.2445
+wheels[3].pow:-0.2445
+wheels[3].pow:-0.2445
+distancePowerMult:-0.2445
+isTask complete : encoderCnt:-1551 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.2445, powToWheels:489
+wheels[1].tempCurDir: 1 ,.pow: 0.2445, powToWheels:489
+wheels[2].tempCurDir: 1 ,.pow: 0.2445, powToWheels:489
+wheels[3].tempCurDir: 1 ,.pow: 0.2445, powToWheels:489
+[0][1]: 1491 , [0][0]: 1 
+[1][1]: 509 , [1][0]: 0 
+[2][1]: 1491 , [2][0]: 1 
+[3][1]: 509 , [3][0]: 0 
+wheelCmd[0][0] = 1511 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 489 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1511 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 489 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1551
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1537
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1548
+pow:-467, encoderGoal:-2040, encoderVal:-1573, errorNew:-467
+pow returned by distance:-0.2335
+wheels[0].pow:-0.2335
+wheels[0].pow:-0.2335
+wheels[1].pow:-0.2335
+wheels[1].pow:-0.2335
+wheels[2].pow:-0.2335
+wheels[2].pow:-0.2335
+wheels[3].pow:-0.2335
+wheels[3].pow:-0.2335
+distancePowerMult:-0.2335
+isTask complete : encoderCnt:-1573 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.2335, powToWheels:467
+wheels[1].tempCurDir: 1 ,.pow: 0.2335, powToWheels:467
+wheels[2].tempCurDir: 1 ,.pow: 0.2335, powToWheels:467
+wheels[3].tempCurDir: 1 ,.pow: 0.2335, powToWheels:467
+[0][1]: 1511 , [0][0]: 1 
+[1][1]: 489 , [1][0]: 0 
+[2][1]: 1511 , [2][0]: 1 
+[3][1]: 489 , [3][0]: 0 
+wheelCmd[0][0] = 1533 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 467 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1533 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 467 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1573
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1557
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1569
+pow:-447, encoderGoal:-2040, encoderVal:-1593, errorNew:-447
+pow returned by distance:-0.2235
+wheels[0].pow:-0.2235
+wheels[0].pow:-0.2235
+wheels[1].pow:-0.2235
+wheels[1].pow:-0.2235
+wheels[2].pow:-0.2235
+wheels[2].pow:-0.2235
+wheels[3].pow:-0.2235
+wheels[3].pow:-0.2235
+distancePowerMult:-0.2235
+isTask complete : encoderCnt:-1593 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.2235, powToWheels:447
+wheels[1].tempCurDir: 1 ,.pow: 0.2235, powToWheels:447
+wheels[2].tempCurDir: 1 ,.pow: 0.2235, powToWheels:447
+wheels[3].tempCurDir: 1 ,.pow: 0.2235, powToWheels:447
+[0][1]: 1533 , [0][0]: 1 
+[1][1]: 467 , [1][0]: 0 
+[2][1]: 1533 , [2][0]: 1 
+[3][1]: 467 , [3][0]: 0 
+wheelCmd[0][0] = 1553 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 447 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1553 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 447 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1593
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1577
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1592
+pow:-420, encoderGoal:-2040, encoderVal:-1620, errorNew:-420
+pow returned by distance:-0.21
+wheels[0].pow:-0.21
+wheels[0].pow:-0.21
+wheels[1].pow:-0.21
+wheels[1].pow:-0.21
+wheels[2].pow:-0.21
+wheels[2].pow:-0.21
+wheels[3].pow:-0.21
+wheels[3].pow:-0.21
+distancePowerMult:-0.21
+isTask complete : encoderCnt:-1620 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[1].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[2].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[3].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+[0][1]: 1553 , [0][0]: 1 
+[1][1]: 447 , [1][0]: 0 
+[2][1]: 1553 , [2][0]: 1 
+[3][1]: 447 , [3][0]: 0 
+wheelCmd[0][0] = 1580 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 420 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1580 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 420 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1620
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1606
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1621
+pow:-394, encoderGoal:-2040, encoderVal:-1646, errorNew:-394
+pow returned by distance:-0.197
+wheels[0].pow:-0.197
+wheels[0].pow:-0.197
+wheels[1].pow:-0.197
+wheels[1].pow:-0.197
+wheels[2].pow:-0.197
+wheels[2].pow:-0.197
+wheels[3].pow:-0.197
+wheels[3].pow:-0.197
+distancePowerMult:-0.197
+isTask complete : encoderCnt:-1646 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.197, powToWheels:394
+wheels[1].tempCurDir: 1 ,.pow: 0.197, powToWheels:394
+wheels[2].tempCurDir: 1 ,.pow: 0.197, powToWheels:394
+wheels[3].tempCurDir: 1 ,.pow: 0.197, powToWheels:394
+[0][1]: 1580 , [0][0]: 1 
+[1][1]: 420 , [1][0]: 0 
+[2][1]: 1580 , [2][0]: 1 
+[3][1]: 420 , [3][0]: 0 
+wheelCmd[0][0] = 1606 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 394 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1606 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 394 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1646
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1634
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1649
+pow:-371, encoderGoal:-2040, encoderVal:-1669, errorNew:-371
+pow returned by distance:-0.1855
+wheels[0].pow:-0.1855
+wheels[0].pow:-0.1855
+wheels[1].pow:-0.1855
+wheels[1].pow:-0.1855
+wheels[2].pow:-0.1855
+wheels[2].pow:-0.1855
+wheels[3].pow:-0.1855
+wheels[3].pow:-0.1855
+distancePowerMult:-0.1855
+isTask complete : encoderCnt:-1669 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.1855, powToWheels:371
+wheels[1].tempCurDir: 1 ,.pow: 0.1855, powToWheels:371
+wheels[2].tempCurDir: 1 ,.pow: 0.1855, powToWheels:371
+wheels[3].tempCurDir: 1 ,.pow: 0.1855, powToWheels:371
+[0][1]: 1606 , [0][0]: 1 
+[1][1]: 394 , [1][0]: 0 
+[2][1]: 1606 , [2][0]: 1 
+[3][1]: 394 , [3][0]: 0 
+wheelCmd[0][0] = 1629 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 371 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1629 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 371 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1669
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1661
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1676
+pow:-348, encoderGoal:-2040, encoderVal:-1692, errorNew:-348
+pow returned by distance:-0.174
+wheels[0].pow:-0.174
+wheels[0].pow:-0.174
+wheels[1].pow:-0.174
+wheels[1].pow:-0.174
+wheels[2].pow:-0.174
+wheels[2].pow:-0.174
+wheels[3].pow:-0.174
+wheels[3].pow:-0.174
+distancePowerMult:-0.174
+isTask complete : encoderCnt:-1692 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.174, powToWheels:348
+wheels[1].tempCurDir: 1 ,.pow: 0.174, powToWheels:348
+wheels[2].tempCurDir: 1 ,.pow: 0.174, powToWheels:348
+wheels[3].tempCurDir: 1 ,.pow: 0.174, powToWheels:348
+[0][1]: 1629 , [0][0]: 1 
+[1][1]: 371 , [1][0]: 0 
+[2][1]: 1629 , [2][0]: 1 
+[3][1]: 371 , [3][0]: 0 
+wheelCmd[0][0] = 1652 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 348 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1652 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 348 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1692
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1685
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1701
+pow:-326, encoderGoal:-2040, encoderVal:-1714, errorNew:-326
+pow returned by distance:-0.163
+wheels[0].pow:-0.163
+wheels[0].pow:-0.163
+wheels[1].pow:-0.163
+wheels[1].pow:-0.163
+wheels[2].pow:-0.163
+wheels[2].pow:-0.163
+wheels[3].pow:-0.163
+wheels[3].pow:-0.163
+distancePowerMult:-0.163
+isTask complete : encoderCnt:-1714 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.163, powToWheels:326
+wheels[1].tempCurDir: 1 ,.pow: 0.163, powToWheels:326
+wheels[2].tempCurDir: 1 ,.pow: 0.163, powToWheels:326
+wheels[3].tempCurDir: 1 ,.pow: 0.163, powToWheels:326
+[0][1]: 1652 , [0][0]: 1 
+[1][1]: 348 , [1][0]: 0 
+[2][1]: 1652 , [2][0]: 1 
+[3][1]: 348 , [3][0]: 0 
+wheelCmd[0][0] = 1674 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 326 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1674 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 326 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1714
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1706
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1724
+pow:-305, encoderGoal:-2040, encoderVal:-1735, errorNew:-305
+pow returned by distance:-0.1525
+wheels[0].pow:-0.1525
+wheels[0].pow:-0.1525
+wheels[1].pow:-0.1525
+wheels[1].pow:-0.1525
+wheels[2].pow:-0.1525
+wheels[2].pow:-0.1525
+wheels[3].pow:-0.1525
+wheels[3].pow:-0.1525
+distancePowerMult:-0.1525
+isTask complete : encoderCnt:-1735 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.1525, powToWheels:305
+wheels[1].tempCurDir: 1 ,.pow: 0.1525, powToWheels:305
+wheels[2].tempCurDir: 1 ,.pow: 0.1525, powToWheels:305
+wheels[3].tempCurDir: 1 ,.pow: 0.1525, powToWheels:305
+[0][1]: 1674 , [0][0]: 1 
+[1][1]: 326 , [1][0]: 0 
+[2][1]: 1674 , [2][0]: 1 
+[3][1]: 326 , [3][0]: 0 
+wheelCmd[0][0] = 1695 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 305 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1695 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 305 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1735
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1726
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1746
+pow:-286, encoderGoal:-2040, encoderVal:-1754, errorNew:-286
+pow returned by distance:-0.143
+wheels[0].pow:-0.143
+wheels[0].pow:-0.143
+wheels[1].pow:-0.143
+wheels[1].pow:-0.143
+wheels[2].pow:-0.143
+wheels[2].pow:-0.143
+wheels[3].pow:-0.143
+wheels[3].pow:-0.143
+distancePowerMult:-0.143
+isTask complete : encoderCnt:-1754 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.143, powToWheels:286
+wheels[1].tempCurDir: 1 ,.pow: 0.143, powToWheels:286
+wheels[2].tempCurDir: 1 ,.pow: 0.143, powToWheels:286
+wheels[3].tempCurDir: 1 ,.pow: 0.143, powToWheels:286
+[0][1]: 1695 , [0][0]: 1 
+[1][1]: 305 , [1][0]: 0 
+[2][1]: 1695 , [2][0]: 1 
+[3][1]: 305 , [3][0]: 0 
+wheelCmd[0][0] = 1714 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 286 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1714 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 286 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1754
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1744
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1766
+pow:-268, encoderGoal:-2040, encoderVal:-1772, errorNew:-268
+pow returned by distance:-0.134
+wheels[0].pow:-0.134
+wheels[0].pow:-0.134
+wheels[1].pow:-0.134
+wheels[1].pow:-0.134
+wheels[2].pow:-0.134
+wheels[2].pow:-0.134
+wheels[3].pow:-0.134
+wheels[3].pow:-0.134
+distancePowerMult:-0.134
+isTask complete : encoderCnt:-1772 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.134, powToWheels:268
+wheels[1].tempCurDir: 1 ,.pow: 0.134, powToWheels:268
+wheels[2].tempCurDir: 1 ,.pow: 0.134, powToWheels:268
+wheels[3].tempCurDir: 1 ,.pow: 0.134, powToWheels:268
+[0][1]: 1714 , [0][0]: 1 
+[1][1]: 286 , [1][0]: 0 
+[2][1]: 1714 , [2][0]: 1 
+[3][1]: 286 , [3][0]: 0 
+wheelCmd[0][0] = 1732 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 268 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1732 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 268 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1772
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1762
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1784
+pow:-253, encoderGoal:-2040, encoderVal:-1787, errorNew:-253
+pow returned by distance:-0.1265
+wheels[0].pow:-0.1265
+wheels[0].pow:-0.1265
+wheels[1].pow:-0.1265
+wheels[1].pow:-0.1265
+wheels[2].pow:-0.1265
+wheels[2].pow:-0.1265
+wheels[3].pow:-0.1265
+wheels[3].pow:-0.1265
+distancePowerMult:-0.1265
+isTask complete : encoderCnt:-1787 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.1265, powToWheels:253
+wheels[1].tempCurDir: 1 ,.pow: 0.1265, powToWheels:253
+wheels[2].tempCurDir: 1 ,.pow: 0.1265, powToWheels:253
+wheels[3].tempCurDir: 1 ,.pow: 0.1265, powToWheels:253
+[0][1]: 1732 , [0][0]: 1 
+[1][1]: 268 , [1][0]: 0 
+[2][1]: 1732 , [2][0]: 1 
+[3][1]: 268 , [3][0]: 0 
+wheelCmd[0][0] = 1747 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 253 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1747 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 253 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1787
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1777
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1798
+pow:-240, encoderGoal:-2040, encoderVal:-1800, errorNew:-240
+pow returned by distance:-0.12
+wheels[0].pow:-0.12
+wheels[0].pow:-0.12
+wheels[1].pow:-0.12
+wheels[1].pow:-0.12
+wheels[2].pow:-0.12
+wheels[2].pow:-0.12
+wheels[3].pow:-0.12
+wheels[3].pow:-0.12
+distancePowerMult:-0.12
+isTask complete : encoderCnt:-1800 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.12, powToWheels:240
+wheels[1].tempCurDir: 1 ,.pow: 0.12, powToWheels:240
+wheels[2].tempCurDir: 1 ,.pow: 0.12, powToWheels:240
+wheels[3].tempCurDir: 1 ,.pow: 0.12, powToWheels:240
+[0][1]: 1747 , [0][0]: 1 
+[1][1]: 253 , [1][0]: 0 
+[2][1]: 1747 , [2][0]: 1 
+[3][1]: 253 , [3][0]: 0 
+wheelCmd[0][0] = 1760 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 240 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1760 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 240 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1800
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1792
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1812
+pow:-228, encoderGoal:-2040, encoderVal:-1812, errorNew:-228
+pow returned by distance:-0.114
+wheels[0].pow:-0.114
+wheels[0].pow:-0.114
+wheels[1].pow:-0.114
+wheels[1].pow:-0.114
+wheels[2].pow:-0.114
+wheels[2].pow:-0.114
+wheels[3].pow:-0.114
+wheels[3].pow:-0.114
+distancePowerMult:-0.114
+isTask complete : encoderCnt:-1812 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.114, powToWheels:228
+wheels[1].tempCurDir: 1 ,.pow: 0.114, powToWheels:228
+wheels[2].tempCurDir: 1 ,.pow: 0.114, powToWheels:228
+wheels[3].tempCurDir: 1 ,.pow: 0.114, powToWheels:228
+[0][1]: 1760 , [0][0]: 1 
+[1][1]: 240 , [1][0]: 0 
+[2][1]: 1760 , [2][0]: 1 
+[3][1]: 240 , [3][0]: 0 
+wheelCmd[0][0] = 1772 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 228 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1772 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 228 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1812
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1805
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1824
+pow:-217, encoderGoal:-2040, encoderVal:-1823, errorNew:-217
+pow returned by distance:-0.1085
+wheels[0].pow:-0.1085
+wheels[0].pow:-0.1085
+wheels[1].pow:-0.1085
+wheels[1].pow:-0.1085
+wheels[2].pow:-0.1085
+wheels[2].pow:-0.1085
+wheels[3].pow:-0.1085
+wheels[3].pow:-0.1085
+distancePowerMult:-0.1085
+isTask complete : encoderCnt:-1823 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.1085, powToWheels:217
+wheels[1].tempCurDir: 1 ,.pow: 0.1085, powToWheels:217
+wheels[2].tempCurDir: 1 ,.pow: 0.1085, powToWheels:217
+wheels[3].tempCurDir: 1 ,.pow: 0.1085, powToWheels:217
+[0][1]: 1772 , [0][0]: 1 
+[1][1]: 228 , [1][0]: 0 
+[2][1]: 1772 , [2][0]: 1 
+[3][1]: 228 , [3][0]: 0 
+wheelCmd[0][0] = 1783 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 217 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1783 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 217 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1823
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1817
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1836
+pow:-208, encoderGoal:-2040, encoderVal:-1832, errorNew:-208
+pow returned by distance:-0.104
+wheels[0].pow:-0.104
+wheels[0].pow:-0.104
+wheels[1].pow:-0.104
+wheels[1].pow:-0.104
+wheels[2].pow:-0.104
+wheels[2].pow:-0.104
+wheels[3].pow:-0.104
+wheels[3].pow:-0.104
+distancePowerMult:-0.104
+isTask complete : encoderCnt:-1832 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.104, powToWheels:208
+wheels[1].tempCurDir: 1 ,.pow: 0.104, powToWheels:208
+wheels[2].tempCurDir: 1 ,.pow: 0.104, powToWheels:208
+wheels[3].tempCurDir: 1 ,.pow: 0.104, powToWheels:208
+[0][1]: 1783 , [0][0]: 1 
+[1][1]: 217 , [1][0]: 0 
+[2][1]: 1783 , [2][0]: 1 
+[3][1]: 217 , [3][0]: 0 
+wheelCmd[0][0] = 1792 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 208 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1792 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 208 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1832
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1827
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1845
+pow:-198, encoderGoal:-2040, encoderVal:-1842, errorNew:-198
+pow returned by distance:-0.099
+wheels[0].pow:-0.099
+wheels[0].pow:-0.099
+wheels[1].pow:-0.099
+wheels[1].pow:-0.099
+wheels[2].pow:-0.099
+wheels[2].pow:-0.099
+wheels[3].pow:-0.099
+wheels[3].pow:-0.099
+distancePowerMult:-0.099
+isTask complete : encoderCnt:-1842 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.099, powToWheels:198
+wheels[1].tempCurDir: 1 ,.pow: 0.099, powToWheels:198
+wheels[2].tempCurDir: 1 ,.pow: 0.099, powToWheels:198
+wheels[3].tempCurDir: 1 ,.pow: 0.099, powToWheels:198
+[0][1]: 1792 , [0][0]: 1 
+[1][1]: 208 , [1][0]: 0 
+[2][1]: 1792 , [2][0]: 1 
+[3][1]: 208 , [3][0]: 0 
+wheelCmd[0][0] = 1802 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 198 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1802 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 198 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1842
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1837
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1855
+pow:-188, encoderGoal:-2040, encoderVal:-1852, errorNew:-188
+pow returned by distance:-0.094
+wheels[0].pow:-0.094
+wheels[0].pow:-0.094
+wheels[1].pow:-0.094
+wheels[1].pow:-0.094
+wheels[2].pow:-0.094
+wheels[2].pow:-0.094
+wheels[3].pow:-0.094
+wheels[3].pow:-0.094
+distancePowerMult:-0.094
+isTask complete : encoderCnt:-1852 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.094, powToWheels:188
+wheels[1].tempCurDir: 1 ,.pow: 0.094, powToWheels:188
+wheels[2].tempCurDir: 1 ,.pow: 0.094, powToWheels:188
+wheels[3].tempCurDir: 1 ,.pow: 0.094, powToWheels:188
+[0][1]: 1802 , [0][0]: 1 
+[1][1]: 198 , [1][0]: 0 
+[2][1]: 1802 , [2][0]: 1 
+[3][1]: 198 , [3][0]: 0 
+wheelCmd[0][0] = 1812 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 188 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1812 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 188 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1852
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1846
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1864
+pow:-179, encoderGoal:-2040, encoderVal:-1861, errorNew:-179
+pow returned by distance:-0.0895
+wheels[0].pow:-0.0895
+wheels[0].pow:-0.0895
+wheels[1].pow:-0.0895
+wheels[1].pow:-0.0895
+wheels[2].pow:-0.0895
+wheels[2].pow:-0.0895
+wheels[3].pow:-0.0895
+wheels[3].pow:-0.0895
+distancePowerMult:-0.0895
+isTask complete : encoderCnt:-1861 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.0895, powToWheels:179
+wheels[1].tempCurDir: 1 ,.pow: 0.0895, powToWheels:179
+wheels[2].tempCurDir: 1 ,.pow: 0.0895, powToWheels:179
+wheels[3].tempCurDir: 1 ,.pow: 0.0895, powToWheels:179
+[0][1]: 1812 , [0][0]: 1 
+[1][1]: 188 , [1][0]: 0 
+[2][1]: 1812 , [2][0]: 1 
+[3][1]: 188 , [3][0]: 0 
+wheelCmd[0][0] = 1821 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 179 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1821 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 179 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1861
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1855
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1872
+pow:-171, encoderGoal:-2040, encoderVal:-1869, errorNew:-171
+pow returned by distance:-0.0855
+wheels[0].pow:-0.0855
+wheels[0].pow:-0.0855
+wheels[1].pow:-0.0855
+wheels[1].pow:-0.0855
+wheels[2].pow:-0.0855
+wheels[2].pow:-0.0855
+wheels[3].pow:-0.0855
+wheels[3].pow:-0.0855
+distancePowerMult:-0.0855
+isTask complete : encoderCnt:-1869 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.0855, powToWheels:171
+wheels[1].tempCurDir: 1 ,.pow: 0.0855, powToWheels:171
+wheels[2].tempCurDir: 1 ,.pow: 0.0855, powToWheels:171
+wheels[3].tempCurDir: 1 ,.pow: 0.0855, powToWheels:171
+[0][1]: 1821 , [0][0]: 1 
+[1][1]: 179 , [1][0]: 0 
+[2][1]: 1821 , [2][0]: 1 
+[3][1]: 179 , [3][0]: 0 
+wheelCmd[0][0] = 1829 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 171 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1829 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 171 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1869
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1863
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1879
+pow:-164, encoderGoal:-2040, encoderVal:-1876, errorNew:-164
+pow returned by distance:-0.082
+wheels[0].pow:-0.082
+wheels[0].pow:-0.082
+wheels[1].pow:-0.082
+wheels[1].pow:-0.082
+wheels[2].pow:-0.082
+wheels[2].pow:-0.082
+wheels[3].pow:-0.082
+wheels[3].pow:-0.082
+distancePowerMult:-0.082
+isTask complete : encoderCnt:-1876 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.082, powToWheels:164
+wheels[1].tempCurDir: 1 ,.pow: 0.082, powToWheels:164
+wheels[2].tempCurDir: 1 ,.pow: 0.082, powToWheels:164
+wheels[3].tempCurDir: 1 ,.pow: 0.082, powToWheels:164
+[0][1]: 1829 , [0][0]: 1 
+[1][1]: 171 , [1][0]: 0 
+[2][1]: 1829 , [2][0]: 1 
+[3][1]: 171 , [3][0]: 0 
+wheelCmd[0][0] = 1836 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 164 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1836 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 164 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1876
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1871
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1886
+pow:-157, encoderGoal:-2040, encoderVal:-1883, errorNew:-157
+pow returned by distance:-0.0785
+wheels[0].pow:-0.0785
+wheels[0].pow:-0.0785
+wheels[1].pow:-0.0785
+wheels[1].pow:-0.0785
+wheels[2].pow:-0.0785
+wheels[2].pow:-0.0785
+wheels[3].pow:-0.0785
+wheels[3].pow:-0.0785
+distancePowerMult:-0.0785
+isTask complete : encoderCnt:-1883 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1836 , [0][0]: 1 
+[1][1]: 164 , [1][0]: 0 
+[2][1]: 1836 , [2][0]: 1 
+[3][1]: 164 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1883
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1878
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1892
+pow:-149, encoderGoal:-2040, encoderVal:-1891, errorNew:-149
+pow returned by distance:-0.0745
+wheels[0].pow:-0.0745
+wheels[0].pow:-0.0745
+wheels[1].pow:-0.0745
+wheels[1].pow:-0.0745
+wheels[2].pow:-0.0745
+wheels[2].pow:-0.0745
+wheels[3].pow:-0.0745
+wheels[3].pow:-0.0745
+distancePowerMult:-0.0745
+isTask complete : encoderCnt:-1891 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1891
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1886
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1898
+pow:-142, encoderGoal:-2040, encoderVal:-1898, errorNew:-142
+pow returned by distance:-0.071
+wheels[0].pow:-0.071
+wheels[0].pow:-0.071
+wheels[1].pow:-0.071
+wheels[1].pow:-0.071
+wheels[2].pow:-0.071
+wheels[2].pow:-0.071
+wheels[3].pow:-0.071
+wheels[3].pow:-0.071
+distancePowerMult:-0.071
+isTask complete : encoderCnt:-1898 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1898
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1892
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1904
+pow:-135, encoderGoal:-2040, encoderVal:-1905, errorNew:-135
+pow returned by distance:-0.0675
+wheels[0].pow:-0.0675
+wheels[0].pow:-0.0675
+wheels[1].pow:-0.0675
+wheels[1].pow:-0.0675
+wheels[2].pow:-0.0675
+wheels[2].pow:-0.0675
+wheels[3].pow:-0.0675
+wheels[3].pow:-0.0675
+distancePowerMult:-0.0675
+isTask complete : encoderCnt:-1905 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1905
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1898
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1909
+pow:-129, encoderGoal:-2040, encoderVal:-1911, errorNew:-129
+pow returned by distance:-0.0645
+wheels[0].pow:-0.0645
+wheels[0].pow:-0.0645
+wheels[1].pow:-0.0645
+wheels[1].pow:-0.0645
+wheels[2].pow:-0.0645
+wheels[2].pow:-0.0645
+wheels[3].pow:-0.0645
+wheels[3].pow:-0.0645
+distancePowerMult:-0.0645
+isTask complete : encoderCnt:-1911 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1911
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1903
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1915
+pow:-124, encoderGoal:-2040, encoderVal:-1916, errorNew:-124
+pow returned by distance:-0.062
+wheels[0].pow:-0.062
+wheels[0].pow:-0.062
+wheels[1].pow:-0.062
+wheels[1].pow:-0.062
+wheels[2].pow:-0.062
+wheels[2].pow:-0.062
+wheels[3].pow:-0.062
+wheels[3].pow:-0.062
+distancePowerMult:-0.062
+isTask complete : encoderCnt:-1916 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1916
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1909
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1919
+pow:-118, encoderGoal:-2040, encoderVal:-1922, errorNew:-118
+pow returned by distance:-0.059
+wheels[0].pow:-0.059
+wheels[0].pow:-0.059
+wheels[1].pow:-0.059
+wheels[1].pow:-0.059
+wheels[2].pow:-0.059
+wheels[2].pow:-0.059
+wheels[3].pow:-0.059
+wheels[3].pow:-0.059
+distancePowerMult:-0.059
+isTask complete : encoderCnt:-1922 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1922
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1914
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1924
+pow:-113, encoderGoal:-2040, encoderVal:-1927, errorNew:-113
+pow returned by distance:-0.0565
+wheels[0].pow:-0.0565
+wheels[0].pow:-0.0565
+wheels[1].pow:-0.0565
+wheels[1].pow:-0.0565
+wheels[2].pow:-0.0565
+wheels[2].pow:-0.0565
+wheels[3].pow:-0.0565
+wheels[3].pow:-0.0565
+distancePowerMult:-0.0565
+isTask complete : encoderCnt:-1927 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1927
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1920
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1928
+pow:-107, encoderGoal:-2040, encoderVal:-1933, errorNew:-107
+pow returned by distance:-0.0535
+wheels[0].pow:-0.0535
+wheels[0].pow:-0.0535
+wheels[1].pow:-0.0535
+wheels[1].pow:-0.0535
+wheels[2].pow:-0.0535
+wheels[2].pow:-0.0535
+wheels[3].pow:-0.0535
+wheels[3].pow:-0.0535
+distancePowerMult:-0.0535
+isTask complete : encoderCnt:-1933 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1933
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1925
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1932
+pow:-101, encoderGoal:-2040, encoderVal:-1939, errorNew:-101
+pow returned by distance:-0.0505
+wheels[0].pow:-0.0505
+wheels[0].pow:-0.0505
+wheels[1].pow:-0.0505
+wheels[1].pow:-0.0505
+wheels[2].pow:-0.0505
+wheels[2].pow:-0.0505
+wheels[3].pow:-0.0505
+wheels[3].pow:-0.0505
+distancePowerMult:-0.0505
+isTask complete : encoderCnt:-1939 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1939
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1931
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1936
+pow:-95, encoderGoal:-2040, encoderVal:-1945, errorNew:-95
+pow returned by distance:-0.0475
+wheels[0].pow:-0.0475
+wheels[0].pow:-0.0475
+wheels[1].pow:-0.0475
+wheels[1].pow:-0.0475
+wheels[2].pow:-0.0475
+wheels[2].pow:-0.0475
+wheels[3].pow:-0.0475
+wheels[3].pow:-0.0475
+distancePowerMult:-0.0475
+isTask complete : encoderCnt:-1945 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1945
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1937
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1940
+pow:-88, encoderGoal:-2040, encoderVal:-1952, errorNew:-88
+pow returned by distance:-0.044
+wheels[0].pow:-0.044
+wheels[0].pow:-0.044
+wheels[1].pow:-0.044
+wheels[1].pow:-0.044
+wheels[2].pow:-0.044
+wheels[2].pow:-0.044
+wheels[3].pow:-0.044
+wheels[3].pow:-0.044
+distancePowerMult:-0.044
+isTask complete : encoderCnt:-1952 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1952
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1942
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1945
+pow:-83, encoderGoal:-2040, encoderVal:-1957, errorNew:-83
+pow returned by distance:-0.0415
+wheels[0].pow:-0.0415
+wheels[0].pow:-0.0415
+wheels[1].pow:-0.0415
+wheels[1].pow:-0.0415
+wheels[2].pow:-0.0415
+wheels[2].pow:-0.0415
+wheels[3].pow:-0.0415
+wheels[3].pow:-0.0415
+distancePowerMult:-0.0415
+isTask complete : encoderCnt:-1957 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1957
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1948
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1949
+pow:-77, encoderGoal:-2040, encoderVal:-1963, errorNew:-77
+pow returned by distance:-0.0385
+wheels[0].pow:-0.0385
+wheels[0].pow:-0.0385
+wheels[1].pow:-0.0385
+wheels[1].pow:-0.0385
+wheels[2].pow:-0.0385
+wheels[2].pow:-0.0385
+wheels[3].pow:-0.0385
+wheels[3].pow:-0.0385
+distancePowerMult:-0.0385
+isTask complete : encoderCnt:-1963 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1963
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1954
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1954
+pow:-71, encoderGoal:-2040, encoderVal:-1969, errorNew:-71
+pow returned by distance:-0.0355
+wheels[0].pow:-0.0355
+wheels[0].pow:-0.0355
+wheels[1].pow:-0.0355
+wheels[1].pow:-0.0355
+wheels[2].pow:-0.0355
+wheels[2].pow:-0.0355
+wheels[3].pow:-0.0355
+wheels[3].pow:-0.0355
+distancePowerMult:-0.0355
+isTask complete : encoderCnt:-1969 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1969
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1959
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1959
+pow:-65, encoderGoal:-2040, encoderVal:-1975, errorNew:-65
+pow returned by distance:-0.0325
+wheels[0].pow:-0.0325
+wheels[0].pow:-0.0325
+wheels[1].pow:-0.0325
+wheels[1].pow:-0.0325
+wheels[2].pow:-0.0325
+wheels[2].pow:-0.0325
+wheels[3].pow:-0.0325
+wheels[3].pow:-0.0325
+distancePowerMult:-0.0325
+isTask complete : encoderCnt:-1975 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1975
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1965
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1963
+pow:-60, encoderGoal:-2040, encoderVal:-1980, errorNew:-60
+pow returned by distance:-0.03
+wheels[0].pow:-0.03
+wheels[0].pow:-0.03
+wheels[1].pow:-0.03
+wheels[1].pow:-0.03
+wheels[2].pow:-0.03
+wheels[2].pow:-0.03
+wheels[3].pow:-0.03
+wheels[3].pow:-0.03
+distancePowerMult:-0.03
+isTask complete : encoderCnt:-1980 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1980
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1971
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1968
+pow:-54, encoderGoal:-2040, encoderVal:-1986, errorNew:-54
+pow returned by distance:-0.027
+wheels[0].pow:-0.027
+wheels[0].pow:-0.027
+wheels[1].pow:-0.027
+wheels[1].pow:-0.027
+wheels[2].pow:-0.027
+wheels[2].pow:-0.027
+wheels[3].pow:-0.027
+wheels[3].pow:-0.027
+distancePowerMult:-0.027
+isTask complete : encoderCnt:-1986 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1986
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1977
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1972
+pow:-48, encoderGoal:-2040, encoderVal:-1992, errorNew:-48
+pow returned by distance:-0.024
+wheels[0].pow:-0.024
+wheels[0].pow:-0.024
+wheels[1].pow:-0.024
+wheels[1].pow:-0.024
+wheels[2].pow:-0.024
+wheels[2].pow:-0.024
+wheels[3].pow:-0.024
+wheels[3].pow:-0.024
+distancePowerMult:-0.024
+isTask complete : encoderCnt:-1992 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1992
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1984
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1977
+pow:-42, encoderGoal:-2040, encoderVal:-1998, errorNew:-42
+pow returned by distance:-0.021
+wheels[0].pow:-0.021
+wheels[0].pow:-0.021
+wheels[1].pow:-0.021
+wheels[1].pow:-0.021
+wheels[2].pow:-0.021
+wheels[2].pow:-0.021
+wheels[3].pow:-0.021
+wheels[3].pow:-0.021
+distancePowerMult:-0.021
+isTask complete : encoderCnt:-1998 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -1998
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1989
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1981
+pow:-37, encoderGoal:-2040, encoderVal:-2003, errorNew:-37
+pow returned by distance:-0.0185
+wheels[0].pow:-0.0185
+wheels[0].pow:-0.0185
+wheels[1].pow:-0.0185
+wheels[1].pow:-0.0185
+wheels[2].pow:-0.0185
+wheels[2].pow:-0.0185
+wheels[3].pow:-0.0185
+wheels[3].pow:-0.0185
+distancePowerMult:-0.0185
+isTask complete : encoderCnt:-2003 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2003
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 1995
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1985
+pow:-31, encoderGoal:-2040, encoderVal:-2009, errorNew:-31
+pow returned by distance:-0.0155
+wheels[0].pow:-0.0155
+wheels[0].pow:-0.0155
+wheels[1].pow:-0.0155
+wheels[1].pow:-0.0155
+wheels[2].pow:-0.0155
+wheels[2].pow:-0.0155
+wheels[3].pow:-0.0155
+wheels[3].pow:-0.0155
+distancePowerMult:-0.0155
+isTask complete : encoderCnt:-2009 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2009
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2000
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1988
+pow:-25, encoderGoal:-2040, encoderVal:-2015, errorNew:-25
+pow returned by distance:-0.0125
+wheels[0].pow:-0.0125
+wheels[0].pow:-0.0125
+wheels[1].pow:-0.0125
+wheels[1].pow:-0.0125
+wheels[2].pow:-0.0125
+wheels[2].pow:-0.0125
+wheels[3].pow:-0.0125
+wheels[3].pow:-0.0125
+distancePowerMult:-0.0125
+isTask complete : encoderCnt:-2015 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2015
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2006
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1992
+pow:-20, encoderGoal:-2040, encoderVal:-2020, errorNew:-20
+pow returned by distance:-0.01
+wheels[0].pow:-0.01
+wheels[0].pow:-0.01
+wheels[1].pow:-0.01
+wheels[1].pow:-0.01
+wheels[2].pow:-0.01
+wheels[2].pow:-0.01
+wheels[3].pow:-0.01
+wheels[3].pow:-0.01
+distancePowerMult:-0.01
+isTask complete : encoderCnt:-2020 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2020
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2010
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1995
+pow:-13, encoderGoal:-2040, encoderVal:-2027, errorNew:-13
+pow returned by distance:-0.0065
+wheels[0].pow:-0.0065
+wheels[0].pow:-0.0065
+wheels[1].pow:-0.0065
+wheels[1].pow:-0.0065
+wheels[2].pow:-0.0065
+wheels[2].pow:-0.0065
+wheels[3].pow:-0.0065
+wheels[3].pow:-0.0065
+distancePowerMult:-0.0065
+isTask complete : encoderCnt:-2027 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2027
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2015
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 1998
+pow:-7, encoderGoal:-2040, encoderVal:-2033, errorNew:-7
+pow returned by distance:-0.0035
+wheels[0].pow:-0.0035
+wheels[0].pow:-0.0035
+wheels[1].pow:-0.0035
+wheels[1].pow:-0.0035
+wheels[2].pow:-0.0035
+wheels[2].pow:-0.0035
+wheels[3].pow:-0.0035
+wheels[3].pow:-0.0035
+distancePowerMult:-0.0035
+isTask complete : encoderCnt:-2033 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2033
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2019
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2002
+pow:-1, encoderGoal:-2040, encoderVal:-2039, errorNew:-1
+pow returned by distance:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+distancePowerMult:-0.0005
+isTask complete : encoderCnt:-2039 encoderDist:2040
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 1840 wheelCmd[0,[1]] = 1
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = -1 wheel.encoderCnt = -2039
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2024
+2:wheelCmd.curDir = -1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2005
+pow:5, encoderGoal:-2040, encoderVal:-2045, errorNew:5
+pow returned by distance:0.0025
+wheels[0].pow:0.0025
+wheels[0].pow:0.0025
+wheels[1].pow:0.0025
+wheels[1].pow:0.0025
+wheels[2].pow:0.0025
+wheels[2].pow:0.0025
+wheels[3].pow:0.0025
+wheels[3].pow:0.0025
+distancePowerMult:0.0025
+isTask complete : encoderCnt:-2045 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1840 , [0][0]: 1 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = -2045
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2028
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2008
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2047 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2047
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2032
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2011
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2049 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2049
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2036
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2014
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2054 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2054
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2040
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2018
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2060 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2060
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2043
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2023
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2066 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2066
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2048
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2028
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2072 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2072
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2053
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2034
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2080 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2080
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2059
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2041
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2088 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2088
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2066
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2049
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2095 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2095
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2073
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2058
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2102 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2102
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2079
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2065
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2108 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2108
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2085
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2072
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2115 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2115
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2091
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2079
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2122 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2122
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2096
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2085
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2130 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2130
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2103
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2093
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2137 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2137
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2109
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2100
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2144 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2144
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2116
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2107
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2152 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2152
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2122
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2114
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2159 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2159
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2129
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2121
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2166 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2166
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2136
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2129
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2173 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2173
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2143
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2136
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2181 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2181
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2149
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2143
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2187 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2187
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2156
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2149
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2194 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2194
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2162
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2156
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2201 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2201
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2167
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2163
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2208 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2208
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2174
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2171
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2216 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2216
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2180
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2178
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2223 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2223
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2186
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2185
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2230 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2230
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2192
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2191
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2237 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2237
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2198
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2196
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2244 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2244
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2204
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2202
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2248 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2248
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2208
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2207
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2253 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2253
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2212
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2211
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2256 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2256
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2216
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2216
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2260 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2260
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2219
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2220
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2263 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2263
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2223
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2224
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2268 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2268
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2227
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2228
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2272 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2272
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2230
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2232
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2276 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2276
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2234
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2236
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2281 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2281
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2238
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2240
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2285 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2285
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2241
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2244
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2289 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2289
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2244
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2249
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2293 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2293
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2248
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2253
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2298 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2298
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2252
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2257
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2302 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2302
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2256
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2261
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2306 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2306
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2259
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2266
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2311 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2311
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2263
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2270
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2315 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2315
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2267
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2274
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2319 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2319
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2271
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2279
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2324 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2324
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2275
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2283
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2328 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2328
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2279
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2287
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2333 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2333
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2283
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2291
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2337 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2337
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2286
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2296
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2342 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2342
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2291
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2300
+wheels[0].pow:0
+wheels[0].pow:0
+wheels[1].pow:0
+wheels[1].pow:0
+wheels[2].pow:0
+wheels[2].pow:0
+wheels[3].pow:0
+wheels[3].pow:0
+distancePowerMult:0
+isTask complete : encoderCnt:2347 encoderDist:2040
+ENCODER DISTANCE REACHED IGNORING ENCODER
+
+line sensor config: 2 curLineSensor: 2TASK COMPLEETE!!!
+wheels[0].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 0 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 160 , [1][0]: 0 
+[2][1]: 160 , [2][0]: 0 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 160 wheelCmd[1,[1]] = 0
+wheelCmd[2][0] = 160 wheelCmd[2,[1]] = 0
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+0:wheelCmd.curDir = 1 wheel.encoderCnt = 2347
+1:wheelCmd.curDir = 1 wheel.encoderCnt = 2294
+2:wheelCmd.curDir = 1 wheel.encoderCnt = 0
+3:wheelCmd.curDir = 1 wheel.encoderCnt = 2304
+
+
+
+reseting wheels!
+
+

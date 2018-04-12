@@ -1,0 +1,2729 @@
+pipe:4, 9
+
+
+
+
+reseting wheels!
+
+
+
+
+
+reseting wheels!
+
+
+wheels[0].encoderGoal:-2550
+
+
+Backward startup
+
+distancePowerMult:-0.01
+wheels[0].pow:-0.01
+wheels[0].pow:-0.01
+wheels[1].pow:-0.01
+wheels[1].pow:-0.01
+wheels[2].pow:-0.01
+wheels[2].pow:-0.01
+wheels[3].pow:-0.01
+wheels[3].pow:-0.01
+isTask complete : encoderCnt:0 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 0 , [0][0]: 0 
+[1][1]: 0 , [1][0]: 0 
+[2][1]: 0 , [2][0]: 0 
+[3][1]: 0 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.02
+wheels[0].pow:-0.02
+wheels[0].pow:-0.02
+wheels[1].pow:-0.02
+wheels[1].pow:-0.02
+wheels[2].pow:-0.02
+wheels[2].pow:-0.02
+wheels[3].pow:-0.02
+wheels[3].pow:-0.02
+isTask complete : encoderCnt:5 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.03
+wheels[0].pow:-0.03
+wheels[0].pow:-0.03
+wheels[1].pow:-0.03
+wheels[1].pow:-0.03
+wheels[2].pow:-0.03
+wheels[2].pow:-0.03
+wheels[3].pow:-0.03
+wheels[3].pow:-0.03
+isTask complete : encoderCnt:29 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.04
+wheels[0].pow:-0.04
+wheels[0].pow:-0.04
+wheels[1].pow:-0.04
+wheels[1].pow:-0.04
+wheels[2].pow:-0.04
+wheels[2].pow:-0.04
+wheels[3].pow:-0.04
+wheels[3].pow:-0.04
+isTask complete : encoderCnt:67 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.05
+wheels[0].pow:-0.05
+wheels[0].pow:-0.05
+wheels[1].pow:-0.05
+wheels[1].pow:-0.05
+wheels[2].pow:-0.05
+wheels[2].pow:-0.05
+wheels[3].pow:-0.05
+wheels[3].pow:-0.05
+isTask complete : encoderCnt:110 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.06
+wheels[0].pow:-0.06
+wheels[0].pow:-0.06
+wheels[1].pow:-0.06
+wheels[1].pow:-0.06
+wheels[2].pow:-0.06
+wheels[2].pow:-0.06
+wheels[3].pow:-0.06
+wheels[3].pow:-0.06
+isTask complete : encoderCnt:164 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.07
+wheels[0].pow:-0.07
+wheels[0].pow:-0.07
+wheels[1].pow:-0.07
+wheels[1].pow:-0.07
+wheels[2].pow:-0.07
+wheels[2].pow:-0.07
+wheels[3].pow:-0.07
+wheels[3].pow:-0.07
+isTask complete : encoderCnt:217 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.08
+wheels[0].pow:-0.08
+wheels[0].pow:-0.08
+wheels[1].pow:-0.08
+wheels[1].pow:-0.08
+wheels[2].pow:-0.08
+wheels[2].pow:-0.08
+wheels[3].pow:-0.08
+wheels[3].pow:-0.08
+isTask complete : encoderCnt:273 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.09
+wheels[0].pow:-0.09
+wheels[0].pow:-0.09
+wheels[1].pow:-0.09
+wheels[1].pow:-0.09
+wheels[2].pow:-0.09
+wheels[2].pow:-0.09
+wheels[3].pow:-0.09
+wheels[3].pow:-0.09
+isTask complete : encoderCnt:331 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+wheels[1].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+wheels[2].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+wheels[3].tempCurDir: 1 ,.pow: 0.09, powToWheels:180
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 180 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1820 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1820 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 180 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.1
+wheels[0].pow:-0.1
+wheels[0].pow:-0.1
+wheels[1].pow:-0.1
+wheels[1].pow:-0.1
+wheels[2].pow:-0.1
+wheels[2].pow:-0.1
+wheels[3].pow:-0.1
+wheels[3].pow:-0.1
+isTask complete : encoderCnt:391 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+wheels[1].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+wheels[2].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+wheels[3].tempCurDir: 1 ,.pow: 0.1, powToWheels:199
+[0][1]: 180 , [0][0]: 0 
+[1][1]: 1820 , [1][0]: 1 
+[2][1]: 1820 , [2][0]: 1 
+[3][1]: 180 , [3][0]: 0 
+wheelCmd[0][0] = 199 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1801 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1801 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 199 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.11
+wheels[0].pow:-0.11
+wheels[0].pow:-0.11
+wheels[1].pow:-0.11
+wheels[1].pow:-0.11
+wheels[2].pow:-0.11
+wheels[2].pow:-0.11
+wheels[3].pow:-0.11
+wheels[3].pow:-0.11
+isTask complete : encoderCnt:452 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+wheels[1].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+wheels[2].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+wheels[3].tempCurDir: 1 ,.pow: 0.11, powToWheels:219
+[0][1]: 199 , [0][0]: 0 
+[1][1]: 1801 , [1][0]: 1 
+[2][1]: 1801 , [2][0]: 1 
+[3][1]: 199 , [3][0]: 0 
+wheelCmd[0][0] = 219 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1781 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1781 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 219 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.12
+wheels[0].pow:-0.12
+wheels[0].pow:-0.12
+wheels[1].pow:-0.12
+wheels[1].pow:-0.12
+wheels[2].pow:-0.12
+wheels[2].pow:-0.12
+wheels[3].pow:-0.12
+wheels[3].pow:-0.12
+isTask complete : encoderCnt:512 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+wheels[1].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+wheels[2].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+wheels[3].tempCurDir: 1 ,.pow: 0.12, powToWheels:239
+[0][1]: 219 , [0][0]: 0 
+[1][1]: 1781 , [1][0]: 1 
+[2][1]: 1781 , [2][0]: 1 
+[3][1]: 219 , [3][0]: 0 
+wheelCmd[0][0] = 239 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1761 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1761 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 239 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.13
+wheels[0].pow:-0.13
+wheels[0].pow:-0.13
+wheels[1].pow:-0.13
+wheels[1].pow:-0.13
+wheels[2].pow:-0.13
+wheels[2].pow:-0.13
+wheels[3].pow:-0.13
+wheels[3].pow:-0.13
+isTask complete : encoderCnt:575 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+wheels[1].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+wheels[2].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+wheels[3].tempCurDir: 1 ,.pow: 0.13, powToWheels:259
+[0][1]: 239 , [0][0]: 0 
+[1][1]: 1761 , [1][0]: 1 
+[2][1]: 1761 , [2][0]: 1 
+[3][1]: 239 , [3][0]: 0 
+wheelCmd[0][0] = 259 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1741 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1741 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 259 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.14
+wheels[0].pow:-0.14
+wheels[0].pow:-0.14
+wheels[1].pow:-0.14
+wheels[1].pow:-0.14
+wheels[2].pow:-0.14
+wheels[2].pow:-0.14
+wheels[3].pow:-0.14
+wheels[3].pow:-0.14
+isTask complete : encoderCnt:639 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+wheels[1].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+wheels[2].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+wheels[3].tempCurDir: 1 ,.pow: 0.14, powToWheels:279
+[0][1]: 259 , [0][0]: 0 
+[1][1]: 1741 , [1][0]: 1 
+[2][1]: 1741 , [2][0]: 1 
+[3][1]: 259 , [3][0]: 0 
+wheelCmd[0][0] = 279 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1721 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1721 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 279 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.15
+wheels[0].pow:-0.15
+wheels[0].pow:-0.15
+wheels[1].pow:-0.15
+wheels[1].pow:-0.15
+wheels[2].pow:-0.15
+wheels[2].pow:-0.15
+wheels[3].pow:-0.15
+wheels[3].pow:-0.15
+isTask complete : encoderCnt:703 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+wheels[1].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+wheels[2].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+wheels[3].tempCurDir: 1 ,.pow: 0.15, powToWheels:300
+[0][1]: 279 , [0][0]: 0 
+[1][1]: 1721 , [1][0]: 1 
+[2][1]: 1721 , [2][0]: 1 
+[3][1]: 279 , [3][0]: 0 
+wheelCmd[0][0] = 300 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1700 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1700 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 300 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.16
+wheels[0].pow:-0.16
+wheels[0].pow:-0.16
+wheels[1].pow:-0.16
+wheels[1].pow:-0.16
+wheels[2].pow:-0.16
+wheels[2].pow:-0.16
+wheels[3].pow:-0.16
+wheels[3].pow:-0.16
+isTask complete : encoderCnt:771 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+wheels[1].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+wheels[2].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+wheels[3].tempCurDir: 1 ,.pow: 0.16, powToWheels:320
+[0][1]: 300 , [0][0]: 0 
+[1][1]: 1700 , [1][0]: 1 
+[2][1]: 1700 , [2][0]: 1 
+[3][1]: 300 , [3][0]: 0 
+wheelCmd[0][0] = 320 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1680 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1680 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 320 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.17
+wheels[0].pow:-0.17
+wheels[0].pow:-0.17
+wheels[1].pow:-0.17
+wheels[1].pow:-0.17
+wheels[2].pow:-0.17
+wheels[2].pow:-0.17
+wheels[3].pow:-0.17
+wheels[3].pow:-0.17
+isTask complete : encoderCnt:833 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+wheels[1].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+wheels[2].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+wheels[3].tempCurDir: 1 ,.pow: 0.17, powToWheels:340
+[0][1]: 320 , [0][0]: 0 
+[1][1]: 1680 , [1][0]: 1 
+[2][1]: 1680 , [2][0]: 1 
+[3][1]: 320 , [3][0]: 0 
+wheelCmd[0][0] = 340 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1660 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1660 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 340 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.18
+wheels[0].pow:-0.18
+wheels[0].pow:-0.18
+wheels[1].pow:-0.18
+wheels[1].pow:-0.18
+wheels[2].pow:-0.18
+wheels[2].pow:-0.18
+wheels[3].pow:-0.18
+wheels[3].pow:-0.18
+isTask complete : encoderCnt:898 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+wheels[1].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+wheels[2].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+wheels[3].tempCurDir: 1 ,.pow: 0.18, powToWheels:360
+[0][1]: 340 , [0][0]: 0 
+[1][1]: 1660 , [1][0]: 1 
+[2][1]: 1660 , [2][0]: 1 
+[3][1]: 340 , [3][0]: 0 
+wheelCmd[0][0] = 360 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1640 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1640 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 360 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.19
+wheels[0].pow:-0.19
+wheels[0].pow:-0.19
+wheels[1].pow:-0.19
+wheels[1].pow:-0.19
+wheels[2].pow:-0.19
+wheels[2].pow:-0.19
+wheels[3].pow:-0.19
+wheels[3].pow:-0.19
+isTask complete : encoderCnt:960 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+wheels[1].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+wheels[2].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+wheels[3].tempCurDir: 1 ,.pow: 0.19, powToWheels:380
+[0][1]: 360 , [0][0]: 0 
+[1][1]: 1640 , [1][0]: 1 
+[2][1]: 1640 , [2][0]: 1 
+[3][1]: 360 , [3][0]: 0 
+wheelCmd[0][0] = 380 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1620 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1620 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 380 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.2
+wheels[0].pow:-0.2
+wheels[0].pow:-0.2
+wheels[1].pow:-0.2
+wheels[1].pow:-0.2
+wheels[2].pow:-0.2
+wheels[2].pow:-0.2
+wheels[3].pow:-0.2
+wheels[3].pow:-0.2
+isTask complete : encoderCnt:1024 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+wheels[1].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+wheels[2].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+wheels[3].tempCurDir: 1 ,.pow: 0.2, powToWheels:400
+[0][1]: 380 , [0][0]: 0 
+[1][1]: 1620 , [1][0]: 1 
+[2][1]: 1620 , [2][0]: 1 
+[3][1]: 380 , [3][0]: 0 
+wheelCmd[0][0] = 400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.21
+wheels[0].pow:-0.21
+wheels[0].pow:-0.21
+wheels[1].pow:-0.21
+wheels[1].pow:-0.21
+wheels[2].pow:-0.21
+wheels[2].pow:-0.21
+wheels[3].pow:-0.21
+wheels[3].pow:-0.21
+isTask complete : encoderCnt:1085 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[1].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[2].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+wheels[3].tempCurDir: 1 ,.pow: 0.21, powToWheels:420
+[0][1]: 400 , [0][0]: 0 
+[1][1]: 1600 , [1][0]: 1 
+[2][1]: 1600 , [2][0]: 1 
+[3][1]: 400 , [3][0]: 0 
+wheelCmd[0][0] = 420 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1580 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1580 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 420 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.22
+wheels[0].pow:-0.22
+wheels[0].pow:-0.22
+wheels[1].pow:-0.22
+wheels[1].pow:-0.22
+wheels[2].pow:-0.22
+wheels[2].pow:-0.22
+wheels[3].pow:-0.22
+wheels[3].pow:-0.22
+isTask complete : encoderCnt:1147 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+wheels[1].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+wheels[2].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+wheels[3].tempCurDir: 1 ,.pow: 0.22, powToWheels:440
+[0][1]: 420 , [0][0]: 0 
+[1][1]: 1580 , [1][0]: 1 
+[2][1]: 1580 , [2][0]: 1 
+[3][1]: 420 , [3][0]: 0 
+wheelCmd[0][0] = 440 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1560 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1560 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 440 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.23
+wheels[0].pow:-0.23
+wheels[0].pow:-0.23
+wheels[1].pow:-0.23
+wheels[1].pow:-0.23
+wheels[2].pow:-0.23
+wheels[2].pow:-0.23
+wheels[3].pow:-0.23
+wheels[3].pow:-0.23
+isTask complete : encoderCnt:1207 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+wheels[1].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+wheels[2].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+wheels[3].tempCurDir: 1 ,.pow: 0.23, powToWheels:460
+[0][1]: 440 , [0][0]: 0 
+[1][1]: 1560 , [1][0]: 1 
+[2][1]: 1560 , [2][0]: 1 
+[3][1]: 440 , [3][0]: 0 
+wheelCmd[0][0] = 460 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1540 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1540 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 460 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.24
+wheels[0].pow:-0.24
+wheels[0].pow:-0.24
+wheels[1].pow:-0.24
+wheels[1].pow:-0.24
+wheels[2].pow:-0.24
+wheels[2].pow:-0.24
+wheels[3].pow:-0.24
+wheels[3].pow:-0.24
+isTask complete : encoderCnt:1267 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+wheels[1].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+wheels[2].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+wheels[3].tempCurDir: 1 ,.pow: 0.24, powToWheels:480
+[0][1]: 460 , [0][0]: 0 
+[1][1]: 1540 , [1][0]: 1 
+[2][1]: 1540 , [2][0]: 1 
+[3][1]: 460 , [3][0]: 0 
+wheelCmd[0][0] = 480 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1520 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1520 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 480 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.25
+wheels[0].pow:-0.25
+wheels[0].pow:-0.25
+wheels[1].pow:-0.25
+wheels[1].pow:-0.25
+wheels[2].pow:-0.25
+wheels[2].pow:-0.25
+wheels[3].pow:-0.25
+wheels[3].pow:-0.25
+isTask complete : encoderCnt:1326 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+wheels[1].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+wheels[2].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+wheels[3].tempCurDir: 1 ,.pow: 0.25, powToWheels:500
+[0][1]: 480 , [0][0]: 0 
+[1][1]: 1520 , [1][0]: 1 
+[2][1]: 1520 , [2][0]: 1 
+[3][1]: 480 , [3][0]: 0 
+wheelCmd[0][0] = 500 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1500 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1500 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 500 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.26
+wheels[0].pow:-0.26
+wheels[0].pow:-0.26
+wheels[1].pow:-0.26
+wheels[1].pow:-0.26
+wheels[2].pow:-0.26
+wheels[2].pow:-0.26
+wheels[3].pow:-0.26
+wheels[3].pow:-0.26
+isTask complete : encoderCnt:1386 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+wheels[1].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+wheels[2].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+wheels[3].tempCurDir: 1 ,.pow: 0.26, powToWheels:520
+[0][1]: 500 , [0][0]: 0 
+[1][1]: 1500 , [1][0]: 1 
+[2][1]: 1500 , [2][0]: 1 
+[3][1]: 500 , [3][0]: 0 
+wheelCmd[0][0] = 520 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1480 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1480 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 520 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.27
+wheels[0].pow:-0.27
+wheels[0].pow:-0.27
+wheels[1].pow:-0.27
+wheels[1].pow:-0.27
+wheels[2].pow:-0.27
+wheels[2].pow:-0.27
+wheels[3].pow:-0.27
+wheels[3].pow:-0.27
+isTask complete : encoderCnt:1443 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+wheels[1].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+wheels[2].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+wheels[3].tempCurDir: 1 ,.pow: 0.27, powToWheels:540
+[0][1]: 520 , [0][0]: 0 
+[1][1]: 1480 , [1][0]: 1 
+[2][1]: 1480 , [2][0]: 1 
+[3][1]: 520 , [3][0]: 0 
+wheelCmd[0][0] = 540 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1460 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1460 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 540 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.28
+wheels[0].pow:-0.28
+wheels[0].pow:-0.28
+wheels[1].pow:-0.28
+wheels[1].pow:-0.28
+wheels[2].pow:-0.28
+wheels[2].pow:-0.28
+wheels[3].pow:-0.28
+wheels[3].pow:-0.28
+isTask complete : encoderCnt:1503 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+wheels[1].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+wheels[2].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+wheels[3].tempCurDir: 1 ,.pow: 0.28, powToWheels:560
+[0][1]: 540 , [0][0]: 0 
+[1][1]: 1460 , [1][0]: 1 
+[2][1]: 1460 , [2][0]: 1 
+[3][1]: 540 , [3][0]: 0 
+wheelCmd[0][0] = 560 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1440 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1440 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 560 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.29
+wheels[0].pow:-0.29
+wheels[0].pow:-0.29
+wheels[1].pow:-0.29
+wheels[1].pow:-0.29
+wheels[2].pow:-0.29
+wheels[2].pow:-0.29
+wheels[3].pow:-0.29
+wheels[3].pow:-0.29
+isTask complete : encoderCnt:1559 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[1].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[2].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+wheels[3].tempCurDir: 1 ,.pow: 0.29, powToWheels:580
+[0][1]: 560 , [0][0]: 0 
+[1][1]: 1440 , [1][0]: 1 
+[2][1]: 1440 , [2][0]: 1 
+[3][1]: 560 , [3][0]: 0 
+wheelCmd[0][0] = 580 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1420 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1420 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 580 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.3
+wheels[0].pow:-0.3
+wheels[0].pow:-0.3
+wheels[1].pow:-0.3
+wheels[1].pow:-0.3
+wheels[2].pow:-0.3
+wheels[2].pow:-0.3
+wheels[3].pow:-0.3
+wheels[3].pow:-0.3
+isTask complete : encoderCnt:1616 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+wheels[1].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+wheels[2].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+wheels[3].tempCurDir: 1 ,.pow: 0.3, powToWheels:600
+[0][1]: 580 , [0][0]: 0 
+[1][1]: 1420 , [1][0]: 1 
+[2][1]: 1420 , [2][0]: 1 
+[3][1]: 580 , [3][0]: 0 
+wheelCmd[0][0] = 600 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1400 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1400 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 600 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.31
+wheels[0].pow:-0.31
+wheels[0].pow:-0.31
+wheels[1].pow:-0.31
+wheels[1].pow:-0.31
+wheels[2].pow:-0.31
+wheels[2].pow:-0.31
+wheels[3].pow:-0.31
+wheels[3].pow:-0.31
+isTask complete : encoderCnt:1672 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+wheels[1].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+wheels[2].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+wheels[3].tempCurDir: 1 ,.pow: 0.31, powToWheels:620
+[0][1]: 600 , [0][0]: 0 
+[1][1]: 1400 , [1][0]: 1 
+[2][1]: 1400 , [2][0]: 1 
+[3][1]: 600 , [3][0]: 0 
+wheelCmd[0][0] = 620 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1380 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1380 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 620 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.32
+wheels[0].pow:-0.32
+wheels[0].pow:-0.32
+wheels[1].pow:-0.32
+wheels[1].pow:-0.32
+wheels[2].pow:-0.32
+wheels[2].pow:-0.32
+wheels[3].pow:-0.32
+wheels[3].pow:-0.32
+isTask complete : encoderCnt:1726 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+wheels[1].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+wheels[2].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+wheels[3].tempCurDir: 1 ,.pow: 0.32, powToWheels:640
+[0][1]: 620 , [0][0]: 0 
+[1][1]: 1380 , [1][0]: 1 
+[2][1]: 1380 , [2][0]: 1 
+[3][1]: 620 , [3][0]: 0 
+wheelCmd[0][0] = 640 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1360 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1360 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 640 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.33
+wheels[0].pow:-0.33
+wheels[0].pow:-0.33
+wheels[1].pow:-0.33
+wheels[1].pow:-0.33
+wheels[2].pow:-0.33
+wheels[2].pow:-0.33
+wheels[3].pow:-0.33
+wheels[3].pow:-0.33
+isTask complete : encoderCnt:1779 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+wheels[1].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+wheels[2].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+wheels[3].tempCurDir: 1 ,.pow: 0.33, powToWheels:660
+[0][1]: 640 , [0][0]: 0 
+[1][1]: 1360 , [1][0]: 1 
+[2][1]: 1360 , [2][0]: 1 
+[3][1]: 640 , [3][0]: 0 
+wheelCmd[0][0] = 660 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1340 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1340 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 660 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.34
+wheels[0].pow:-0.34
+wheels[0].pow:-0.34
+wheels[1].pow:-0.34
+wheels[1].pow:-0.34
+wheels[2].pow:-0.34
+wheels[2].pow:-0.34
+wheels[3].pow:-0.34
+wheels[3].pow:-0.34
+isTask complete : encoderCnt:1834 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+wheels[1].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+wheels[2].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+wheels[3].tempCurDir: 1 ,.pow: 0.34, powToWheels:680
+[0][1]: 660 , [0][0]: 0 
+[1][1]: 1340 , [1][0]: 1 
+[2][1]: 1340 , [2][0]: 1 
+[3][1]: 660 , [3][0]: 0 
+wheelCmd[0][0] = 680 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1320 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1320 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 680 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.35
+wheels[0].pow:-0.35
+wheels[0].pow:-0.35
+wheels[1].pow:-0.35
+wheels[1].pow:-0.35
+wheels[2].pow:-0.35
+wheels[2].pow:-0.35
+wheels[3].pow:-0.35
+wheels[3].pow:-0.35
+isTask complete : encoderCnt:1888 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+wheels[1].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+wheels[2].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+wheels[3].tempCurDir: 1 ,.pow: 0.35, powToWheels:700
+[0][1]: 680 , [0][0]: 0 
+[1][1]: 1320 , [1][0]: 1 
+[2][1]: 1320 , [2][0]: 1 
+[3][1]: 680 , [3][0]: 0 
+wheelCmd[0][0] = 700 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1300 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1300 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 700 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.36
+wheels[0].pow:-0.36
+wheels[0].pow:-0.36
+wheels[1].pow:-0.36
+wheels[1].pow:-0.36
+wheels[2].pow:-0.36
+wheels[2].pow:-0.36
+wheels[3].pow:-0.36
+wheels[3].pow:-0.36
+isTask complete : encoderCnt:1939 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+wheels[1].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+wheels[2].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+wheels[3].tempCurDir: 1 ,.pow: 0.36, powToWheels:720
+[0][1]: 700 , [0][0]: 0 
+[1][1]: 1300 , [1][0]: 1 
+[2][1]: 1300 , [2][0]: 1 
+[3][1]: 700 , [3][0]: 0 
+wheelCmd[0][0] = 720 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1280 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1280 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 720 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.37
+wheels[0].pow:-0.37
+wheels[0].pow:-0.37
+wheels[1].pow:-0.37
+wheels[1].pow:-0.37
+wheels[2].pow:-0.37
+wheels[2].pow:-0.37
+wheels[3].pow:-0.37
+wheels[3].pow:-0.37
+isTask complete : encoderCnt:1989 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+wheels[1].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+wheels[2].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+wheels[3].tempCurDir: 1 ,.pow: 0.37, powToWheels:740
+[0][1]: 720 , [0][0]: 0 
+[1][1]: 1280 , [1][0]: 1 
+[2][1]: 1280 , [2][0]: 1 
+[3][1]: 720 , [3][0]: 0 
+wheelCmd[0][0] = 740 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1260 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1260 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 740 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.38
+wheels[0].pow:-0.38
+wheels[0].pow:-0.38
+wheels[1].pow:-0.38
+wheels[1].pow:-0.38
+wheels[2].pow:-0.38
+wheels[2].pow:-0.38
+wheels[3].pow:-0.38
+wheels[3].pow:-0.38
+isTask complete : encoderCnt:2041 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+wheels[1].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+wheels[2].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+wheels[3].tempCurDir: 1 ,.pow: 0.38, powToWheels:760
+[0][1]: 740 , [0][0]: 0 
+[1][1]: 1260 , [1][0]: 1 
+[2][1]: 1260 , [2][0]: 1 
+[3][1]: 740 , [3][0]: 0 
+wheelCmd[0][0] = 760 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1240 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1240 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 760 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.39
+wheels[0].pow:-0.39
+wheels[0].pow:-0.39
+wheels[1].pow:-0.39
+wheels[1].pow:-0.39
+wheels[2].pow:-0.39
+wheels[2].pow:-0.39
+wheels[3].pow:-0.39
+wheels[3].pow:-0.39
+isTask complete : encoderCnt:2091 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+wheels[1].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+wheels[2].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+wheels[3].tempCurDir: 1 ,.pow: 0.39, powToWheels:780
+[0][1]: 760 , [0][0]: 0 
+[1][1]: 1240 , [1][0]: 1 
+[2][1]: 1240 , [2][0]: 1 
+[3][1]: 760 , [3][0]: 0 
+wheelCmd[0][0] = 780 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1220 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1220 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 780 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.4
+wheels[0].pow:-0.4
+wheels[0].pow:-0.4
+wheels[1].pow:-0.4
+wheels[1].pow:-0.4
+wheels[2].pow:-0.4
+wheels[2].pow:-0.4
+wheels[3].pow:-0.4
+wheels[3].pow:-0.4
+isTask complete : encoderCnt:2139 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+wheels[1].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+wheels[2].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+wheels[3].tempCurDir: 1 ,.pow: 0.4, powToWheels:800
+[0][1]: 780 , [0][0]: 0 
+[1][1]: 1220 , [1][0]: 1 
+[2][1]: 1220 , [2][0]: 1 
+[3][1]: 780 , [3][0]: 0 
+wheelCmd[0][0] = 800 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1200 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1200 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 800 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.41
+wheels[0].pow:-0.41
+wheels[0].pow:-0.41
+wheels[1].pow:-0.41
+wheels[1].pow:-0.41
+wheels[2].pow:-0.41
+wheels[2].pow:-0.41
+wheels[3].pow:-0.41
+wheels[3].pow:-0.41
+isTask complete : encoderCnt:2189 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+wheels[1].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+wheels[2].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+wheels[3].tempCurDir: 1 ,.pow: 0.41, powToWheels:820
+[0][1]: 800 , [0][0]: 0 
+[1][1]: 1200 , [1][0]: 1 
+[2][1]: 1200 , [2][0]: 1 
+[3][1]: 800 , [3][0]: 0 
+wheelCmd[0][0] = 820 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1180 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1180 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 820 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.42
+wheels[0].pow:-0.42
+wheels[0].pow:-0.42
+wheels[1].pow:-0.42
+wheels[1].pow:-0.42
+wheels[2].pow:-0.42
+wheels[2].pow:-0.42
+wheels[3].pow:-0.42
+wheels[3].pow:-0.42
+isTask complete : encoderCnt:2236 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+wheels[1].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+wheels[2].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+wheels[3].tempCurDir: 1 ,.pow: 0.42, powToWheels:840
+[0][1]: 820 , [0][0]: 0 
+[1][1]: 1180 , [1][0]: 1 
+[2][1]: 1180 , [2][0]: 1 
+[3][1]: 820 , [3][0]: 0 
+wheelCmd[0][0] = 840 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1160 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1160 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 840 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.43
+wheels[0].pow:-0.43
+wheels[0].pow:-0.43
+wheels[1].pow:-0.43
+wheels[1].pow:-0.43
+wheels[2].pow:-0.43
+wheels[2].pow:-0.43
+wheels[3].pow:-0.43
+wheels[3].pow:-0.43
+isTask complete : encoderCnt:2280 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[1].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[2].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+wheels[3].tempCurDir: 1 ,.pow: 0.43, powToWheels:860
+[0][1]: 840 , [0][0]: 0 
+[1][1]: 1160 , [1][0]: 1 
+[2][1]: 1160 , [2][0]: 1 
+[3][1]: 840 , [3][0]: 0 
+wheelCmd[0][0] = 860 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1140 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1140 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 860 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.44
+wheels[0].pow:-0.44
+wheels[0].pow:-0.44
+wheels[1].pow:-0.44
+wheels[1].pow:-0.44
+wheels[2].pow:-0.44
+wheels[2].pow:-0.44
+wheels[3].pow:-0.44
+wheels[3].pow:-0.44
+isTask complete : encoderCnt:2327 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+wheels[1].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+wheels[2].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+wheels[3].tempCurDir: 1 ,.pow: 0.44, powToWheels:880
+[0][1]: 860 , [0][0]: 0 
+[1][1]: 1140 , [1][0]: 1 
+[2][1]: 1140 , [2][0]: 1 
+[3][1]: 860 , [3][0]: 0 
+wheelCmd[0][0] = 880 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1120 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1120 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 880 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.45
+wheels[0].pow:-0.45
+wheels[0].pow:-0.45
+wheels[1].pow:-0.45
+wheels[1].pow:-0.45
+wheels[2].pow:-0.45
+wheels[2].pow:-0.45
+wheels[3].pow:-0.45
+wheels[3].pow:-0.45
+isTask complete : encoderCnt:2372 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+wheels[1].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+wheels[2].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+wheels[3].tempCurDir: 1 ,.pow: 0.45, powToWheels:900
+[0][1]: 880 , [0][0]: 0 
+[1][1]: 1120 , [1][0]: 1 
+[2][1]: 1120 , [2][0]: 1 
+[3][1]: 880 , [3][0]: 0 
+wheelCmd[0][0] = 900 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1100 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1100 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 900 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.46
+wheels[0].pow:-0.46
+wheels[0].pow:-0.46
+wheels[1].pow:-0.46
+wheels[1].pow:-0.46
+wheels[2].pow:-0.46
+wheels[2].pow:-0.46
+wheels[3].pow:-0.46
+wheels[3].pow:-0.46
+isTask complete : encoderCnt:2414 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+wheels[1].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+wheels[2].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+wheels[3].tempCurDir: 1 ,.pow: 0.46, powToWheels:920
+[0][1]: 900 , [0][0]: 0 
+[1][1]: 1100 , [1][0]: 1 
+[2][1]: 1100 , [2][0]: 1 
+[3][1]: 900 , [3][0]: 0 
+wheelCmd[0][0] = 920 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1080 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1080 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 920 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.47
+wheels[0].pow:-0.47
+wheels[0].pow:-0.47
+wheels[1].pow:-0.47
+wheels[1].pow:-0.47
+wheels[2].pow:-0.47
+wheels[2].pow:-0.47
+wheels[3].pow:-0.47
+wheels[3].pow:-0.47
+isTask complete : encoderCnt:2455 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[1].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[2].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+wheels[3].tempCurDir: 1 ,.pow: 0.47, powToWheels:940
+[0][1]: 920 , [0][0]: 0 
+[1][1]: 1080 , [1][0]: 1 
+[2][1]: 1080 , [2][0]: 1 
+[3][1]: 920 , [3][0]: 0 
+wheelCmd[0][0] = 940 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1060 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1060 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 940 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.48
+wheels[0].pow:-0.48
+wheels[0].pow:-0.48
+wheels[1].pow:-0.48
+wheels[1].pow:-0.48
+wheels[2].pow:-0.48
+wheels[2].pow:-0.48
+wheels[3].pow:-0.48
+wheels[3].pow:-0.48
+isTask complete : encoderCnt:2499 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+wheels[1].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+wheels[2].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+wheels[3].tempCurDir: 1 ,.pow: 0.48, powToWheels:960
+[0][1]: 940 , [0][0]: 0 
+[1][1]: 1060 , [1][0]: 1 
+[2][1]: 1060 , [2][0]: 1 
+[3][1]: 940 , [3][0]: 0 
+wheelCmd[0][0] = 960 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1040 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1040 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 960 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.49
+wheels[0].pow:-0.49
+wheels[0].pow:-0.49
+wheels[1].pow:-0.49
+wheels[1].pow:-0.49
+wheels[2].pow:-0.49
+wheels[2].pow:-0.49
+wheels[3].pow:-0.49
+wheels[3].pow:-0.49
+isTask complete : encoderCnt:2538 encoderDist:2550
+wheels[0].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+wheels[1].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+wheels[2].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+wheels[3].tempCurDir: 1 ,.pow: 0.49, powToWheels:980
+[0][1]: 960 , [0][0]: 0 
+[1][1]: 1040 , [1][0]: 1 
+[2][1]: 1040 , [2][0]: 1 
+[3][1]: 960 , [3][0]: 0 
+wheelCmd[0][0] = 980 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1020 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1020 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 980 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.5
+wheels[0].pow:-0.5
+wheels[0].pow:-0.5
+wheels[1].pow:-0.5
+wheels[1].pow:-0.5
+wheels[2].pow:-0.5
+wheels[2].pow:-0.5
+wheels[3].pow:-0.5
+wheels[3].pow:-0.5
+isTask complete : encoderCnt:2578 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+wheels[1].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+wheels[2].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+wheels[3].tempCurDir: 1 ,.pow: 0.5, powToWheels:1000
+[0][1]: 980 , [0][0]: 0 
+[1][1]: 1020 , [1][0]: 1 
+[2][1]: 1020 , [2][0]: 1 
+[3][1]: 980 , [3][0]: 0 
+wheelCmd[0][0] = 1000 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1000 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1000 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1000 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.51
+wheels[0].pow:-0.51
+wheels[0].pow:-0.51
+wheels[1].pow:-0.51
+wheels[1].pow:-0.51
+wheels[2].pow:-0.51
+wheels[2].pow:-0.51
+wheels[3].pow:-0.51
+wheels[3].pow:-0.51
+isTask complete : encoderCnt:2642 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[1].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[2].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+wheels[3].tempCurDir: 1 ,.pow: 0.51, powToWheels:1020
+[0][1]: 1000 , [0][0]: 0 
+[1][1]: 1000 , [1][0]: 1 
+[2][1]: 1000 , [2][0]: 1 
+[3][1]: 1000 , [3][0]: 0 
+wheelCmd[0][0] = 1020 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 980 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 980 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1020 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.52
+wheels[0].pow:-0.52
+wheels[0].pow:-0.52
+wheels[1].pow:-0.52
+wheels[1].pow:-0.52
+wheels[2].pow:-0.52
+wheels[2].pow:-0.52
+wheels[3].pow:-0.52
+wheels[3].pow:-0.52
+isTask complete : encoderCnt:2710 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+wheels[1].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+wheels[2].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+wheels[3].tempCurDir: 1 ,.pow: 0.52, powToWheels:1040
+[0][1]: 1020 , [0][0]: 0 
+[1][1]: 980 , [1][0]: 1 
+[2][1]: 980 , [2][0]: 1 
+[3][1]: 1020 , [3][0]: 0 
+wheelCmd[0][0] = 1040 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 960 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 960 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1040 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.53
+wheels[0].pow:-0.53
+wheels[0].pow:-0.53
+wheels[1].pow:-0.53
+wheels[1].pow:-0.53
+wheels[2].pow:-0.53
+wheels[2].pow:-0.53
+wheels[3].pow:-0.53
+wheels[3].pow:-0.53
+isTask complete : encoderCnt:2767 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+wheels[1].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+wheels[2].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+wheels[3].tempCurDir: 1 ,.pow: 0.53, powToWheels:1060
+[0][1]: 1040 , [0][0]: 0 
+[1][1]: 960 , [1][0]: 1 
+[2][1]: 960 , [2][0]: 1 
+[3][1]: 1040 , [3][0]: 0 
+wheelCmd[0][0] = 1060 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 940 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 940 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1060 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.54
+wheels[0].pow:-0.54
+wheels[0].pow:-0.54
+wheels[1].pow:-0.54
+wheels[1].pow:-0.54
+wheels[2].pow:-0.54
+wheels[2].pow:-0.54
+wheels[3].pow:-0.54
+wheels[3].pow:-0.54
+isTask complete : encoderCnt:2821 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.54, powToWheels:1080
+wheels[1].tempCurDir: 1 ,.pow: 0.54, powToWheels:1080
+wheels[2].tempCurDir: 1 ,.pow: 0.54, powToWheels:1080
+wheels[3].tempCurDir: 1 ,.pow: 0.54, powToWheels:1080
+[0][1]: 1060 , [0][0]: 0 
+[1][1]: 940 , [1][0]: 1 
+[2][1]: 940 , [2][0]: 1 
+[3][1]: 1060 , [3][0]: 0 
+wheelCmd[0][0] = 1080 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 920 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 920 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1080 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.55
+wheels[0].pow:-0.55
+wheels[0].pow:-0.55
+wheels[1].pow:-0.55
+wheels[1].pow:-0.55
+wheels[2].pow:-0.55
+wheels[2].pow:-0.55
+wheels[3].pow:-0.55
+wheels[3].pow:-0.55
+isTask complete : encoderCnt:2873 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.55, powToWheels:1100
+wheels[1].tempCurDir: 1 ,.pow: 0.55, powToWheels:1100
+wheels[2].tempCurDir: 1 ,.pow: 0.55, powToWheels:1100
+wheels[3].tempCurDir: 1 ,.pow: 0.55, powToWheels:1100
+[0][1]: 1080 , [0][0]: 0 
+[1][1]: 920 , [1][0]: 1 
+[2][1]: 920 , [2][0]: 1 
+[3][1]: 1080 , [3][0]: 0 
+wheelCmd[0][0] = 1100 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 900 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 900 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1100 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.56
+wheels[0].pow:-0.56
+wheels[0].pow:-0.56
+wheels[1].pow:-0.56
+wheels[1].pow:-0.56
+wheels[2].pow:-0.56
+wheels[2].pow:-0.56
+wheels[3].pow:-0.56
+wheels[3].pow:-0.56
+isTask complete : encoderCnt:2907 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.56, powToWheels:1120
+wheels[1].tempCurDir: 1 ,.pow: 0.56, powToWheels:1120
+wheels[2].tempCurDir: 1 ,.pow: 0.56, powToWheels:1120
+wheels[3].tempCurDir: 1 ,.pow: 0.56, powToWheels:1120
+[0][1]: 1100 , [0][0]: 0 
+[1][1]: 900 , [1][0]: 1 
+[2][1]: 900 , [2][0]: 1 
+[3][1]: 1100 , [3][0]: 0 
+wheelCmd[0][0] = 1120 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 880 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 880 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1120 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.57
+wheels[0].pow:-0.57
+wheels[0].pow:-0.57
+wheels[1].pow:-0.57
+wheels[1].pow:-0.57
+wheels[2].pow:-0.57
+wheels[2].pow:-0.57
+wheels[3].pow:-0.57
+wheels[3].pow:-0.57
+isTask complete : encoderCnt:2942 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.57, powToWheels:1140
+wheels[1].tempCurDir: 1 ,.pow: 0.57, powToWheels:1140
+wheels[2].tempCurDir: 1 ,.pow: 0.57, powToWheels:1140
+wheels[3].tempCurDir: 1 ,.pow: 0.57, powToWheels:1140
+[0][1]: 1120 , [0][0]: 0 
+[1][1]: 880 , [1][0]: 1 
+[2][1]: 880 , [2][0]: 1 
+[3][1]: 1120 , [3][0]: 0 
+wheelCmd[0][0] = 1140 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 860 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 860 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1140 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.58
+wheels[0].pow:-0.58
+wheels[0].pow:-0.58
+wheels[1].pow:-0.58
+wheels[1].pow:-0.58
+wheels[2].pow:-0.58
+wheels[2].pow:-0.58
+wheels[3].pow:-0.58
+wheels[3].pow:-0.58
+isTask complete : encoderCnt:2976 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.58, powToWheels:1160
+wheels[1].tempCurDir: 1 ,.pow: 0.58, powToWheels:1160
+wheels[2].tempCurDir: 1 ,.pow: 0.58, powToWheels:1160
+wheels[3].tempCurDir: 1 ,.pow: 0.58, powToWheels:1160
+[0][1]: 1140 , [0][0]: 0 
+[1][1]: 860 , [1][0]: 1 
+[2][1]: 860 , [2][0]: 1 
+[3][1]: 1140 , [3][0]: 0 
+wheelCmd[0][0] = 1160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1160 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.59
+wheels[0].pow:-0.59
+wheels[0].pow:-0.59
+wheels[1].pow:-0.59
+wheels[1].pow:-0.59
+wheels[2].pow:-0.59
+wheels[2].pow:-0.59
+wheels[3].pow:-0.59
+wheels[3].pow:-0.59
+isTask complete : encoderCnt:3007 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.59, powToWheels:1180
+wheels[1].tempCurDir: 1 ,.pow: 0.59, powToWheels:1180
+wheels[2].tempCurDir: 1 ,.pow: 0.59, powToWheels:1180
+wheels[3].tempCurDir: 1 ,.pow: 0.59, powToWheels:1180
+[0][1]: 1160 , [0][0]: 0 
+[1][1]: 840 , [1][0]: 1 
+[2][1]: 840 , [2][0]: 1 
+[3][1]: 1160 , [3][0]: 0 
+wheelCmd[0][0] = 1180 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 820 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 820 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1180 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.6
+wheels[0].pow:-0.6
+wheels[0].pow:-0.6
+wheels[1].pow:-0.6
+wheels[1].pow:-0.6
+wheels[2].pow:-0.6
+wheels[2].pow:-0.6
+wheels[3].pow:-0.6
+wheels[3].pow:-0.6
+isTask complete : encoderCnt:3039 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.6, powToWheels:1200
+wheels[1].tempCurDir: 1 ,.pow: 0.6, powToWheels:1200
+wheels[2].tempCurDir: 1 ,.pow: 0.6, powToWheels:1200
+wheels[3].tempCurDir: 1 ,.pow: 0.6, powToWheels:1200
+[0][1]: 1180 , [0][0]: 0 
+[1][1]: 820 , [1][0]: 1 
+[2][1]: 820 , [2][0]: 1 
+[3][1]: 1180 , [3][0]: 0 
+wheelCmd[0][0] = 1200 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 800 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 800 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1200 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.61
+wheels[0].pow:-0.61
+wheels[0].pow:-0.61
+wheels[1].pow:-0.61
+wheels[1].pow:-0.61
+wheels[2].pow:-0.61
+wheels[2].pow:-0.61
+wheels[3].pow:-0.61
+wheels[3].pow:-0.61
+isTask complete : encoderCnt:3073 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.61, powToWheels:1220
+wheels[1].tempCurDir: 1 ,.pow: 0.61, powToWheels:1220
+wheels[2].tempCurDir: 1 ,.pow: 0.61, powToWheels:1220
+wheels[3].tempCurDir: 1 ,.pow: 0.61, powToWheels:1220
+[0][1]: 1200 , [0][0]: 0 
+[1][1]: 800 , [1][0]: 1 
+[2][1]: 800 , [2][0]: 1 
+[3][1]: 1200 , [3][0]: 0 
+wheelCmd[0][0] = 1220 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 780 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 780 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1220 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.62
+wheels[0].pow:-0.62
+wheels[0].pow:-0.62
+wheels[1].pow:-0.62
+wheels[1].pow:-0.62
+wheels[2].pow:-0.62
+wheels[2].pow:-0.62
+wheels[3].pow:-0.62
+wheels[3].pow:-0.62
+isTask complete : encoderCnt:3107 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.62, powToWheels:1240
+wheels[1].tempCurDir: 1 ,.pow: 0.62, powToWheels:1240
+wheels[2].tempCurDir: 1 ,.pow: 0.62, powToWheels:1240
+wheels[3].tempCurDir: 1 ,.pow: 0.62, powToWheels:1240
+[0][1]: 1220 , [0][0]: 0 
+[1][1]: 780 , [1][0]: 1 
+[2][1]: 780 , [2][0]: 1 
+[3][1]: 1220 , [3][0]: 0 
+wheelCmd[0][0] = 1240 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 760 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 760 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1240 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.63
+wheels[0].pow:-0.63
+wheels[0].pow:-0.63
+wheels[1].pow:-0.63
+wheels[1].pow:-0.63
+wheels[2].pow:-0.63
+wheels[2].pow:-0.63
+wheels[3].pow:-0.63
+wheels[3].pow:-0.63
+isTask complete : encoderCnt:3135 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.63, powToWheels:1260
+wheels[1].tempCurDir: 1 ,.pow: 0.63, powToWheels:1260
+wheels[2].tempCurDir: 1 ,.pow: 0.63, powToWheels:1260
+wheels[3].tempCurDir: 1 ,.pow: 0.63, powToWheels:1260
+[0][1]: 1240 , [0][0]: 0 
+[1][1]: 760 , [1][0]: 1 
+[2][1]: 760 , [2][0]: 1 
+[3][1]: 1240 , [3][0]: 0 
+wheelCmd[0][0] = 1260 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 740 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 740 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1260 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.64
+wheels[0].pow:-0.64
+wheels[0].pow:-0.64
+wheels[1].pow:-0.64
+wheels[1].pow:-0.64
+wheels[2].pow:-0.64
+wheels[2].pow:-0.64
+wheels[3].pow:-0.64
+wheels[3].pow:-0.64
+isTask complete : encoderCnt:3165 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.64, powToWheels:1280
+wheels[1].tempCurDir: 1 ,.pow: 0.64, powToWheels:1280
+wheels[2].tempCurDir: 1 ,.pow: 0.64, powToWheels:1280
+wheels[3].tempCurDir: 1 ,.pow: 0.64, powToWheels:1280
+[0][1]: 1260 , [0][0]: 0 
+[1][1]: 740 , [1][0]: 1 
+[2][1]: 740 , [2][0]: 1 
+[3][1]: 1260 , [3][0]: 0 
+wheelCmd[0][0] = 1280 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 720 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 720 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1280 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.65
+wheels[0].pow:-0.65
+wheels[0].pow:-0.65
+wheels[1].pow:-0.65
+wheels[1].pow:-0.65
+wheels[2].pow:-0.65
+wheels[2].pow:-0.65
+wheels[3].pow:-0.65
+wheels[3].pow:-0.65
+isTask complete : encoderCnt:3193 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.65, powToWheels:1300
+wheels[1].tempCurDir: 1 ,.pow: 0.65, powToWheels:1300
+wheels[2].tempCurDir: 1 ,.pow: 0.65, powToWheels:1300
+wheels[3].tempCurDir: 1 ,.pow: 0.65, powToWheels:1300
+[0][1]: 1280 , [0][0]: 0 
+[1][1]: 720 , [1][0]: 1 
+[2][1]: 720 , [2][0]: 1 
+[3][1]: 1280 , [3][0]: 0 
+wheelCmd[0][0] = 1300 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 700 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 700 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1300 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.66
+wheels[0].pow:-0.66
+wheels[0].pow:-0.66
+wheels[1].pow:-0.66
+wheels[1].pow:-0.66
+wheels[2].pow:-0.66
+wheels[2].pow:-0.66
+wheels[3].pow:-0.66
+wheels[3].pow:-0.66
+isTask complete : encoderCnt:3219 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.66, powToWheels:1320
+wheels[1].tempCurDir: 1 ,.pow: 0.66, powToWheels:1320
+wheels[2].tempCurDir: 1 ,.pow: 0.66, powToWheels:1320
+wheels[3].tempCurDir: 1 ,.pow: 0.66, powToWheels:1320
+[0][1]: 1300 , [0][0]: 0 
+[1][1]: 700 , [1][0]: 1 
+[2][1]: 700 , [2][0]: 1 
+[3][1]: 1300 , [3][0]: 0 
+wheelCmd[0][0] = 1320 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 680 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 680 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1320 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.67
+wheels[0].pow:-0.67
+wheels[0].pow:-0.67
+wheels[1].pow:-0.67
+wheels[1].pow:-0.67
+wheels[2].pow:-0.67
+wheels[2].pow:-0.67
+wheels[3].pow:-0.67
+wheels[3].pow:-0.67
+isTask complete : encoderCnt:3246 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.67, powToWheels:1340
+wheels[1].tempCurDir: 1 ,.pow: 0.67, powToWheels:1340
+wheels[2].tempCurDir: 1 ,.pow: 0.67, powToWheels:1340
+wheels[3].tempCurDir: 1 ,.pow: 0.67, powToWheels:1340
+[0][1]: 1320 , [0][0]: 0 
+[1][1]: 680 , [1][0]: 1 
+[2][1]: 680 , [2][0]: 1 
+[3][1]: 1320 , [3][0]: 0 
+wheelCmd[0][0] = 1340 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 660 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 660 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1340 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.68
+wheels[0].pow:-0.68
+wheels[0].pow:-0.68
+wheels[1].pow:-0.68
+wheels[1].pow:-0.68
+wheels[2].pow:-0.68
+wheels[2].pow:-0.68
+wheels[3].pow:-0.68
+wheels[3].pow:-0.68
+isTask complete : encoderCnt:3273 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.68, powToWheels:1360
+wheels[1].tempCurDir: 1 ,.pow: 0.68, powToWheels:1360
+wheels[2].tempCurDir: 1 ,.pow: 0.68, powToWheels:1360
+wheels[3].tempCurDir: 1 ,.pow: 0.68, powToWheels:1360
+[0][1]: 1340 , [0][0]: 0 
+[1][1]: 660 , [1][0]: 1 
+[2][1]: 660 , [2][0]: 1 
+[3][1]: 1340 , [3][0]: 0 
+wheelCmd[0][0] = 1360 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 640 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 640 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1360 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.69
+wheels[0].pow:-0.69
+wheels[0].pow:-0.69
+wheels[1].pow:-0.69
+wheels[1].pow:-0.69
+wheels[2].pow:-0.69
+wheels[2].pow:-0.69
+wheels[3].pow:-0.69
+wheels[3].pow:-0.69
+isTask complete : encoderCnt:3297 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.69, powToWheels:1380
+wheels[1].tempCurDir: 1 ,.pow: 0.69, powToWheels:1380
+wheels[2].tempCurDir: 1 ,.pow: 0.69, powToWheels:1380
+wheels[3].tempCurDir: 1 ,.pow: 0.69, powToWheels:1380
+[0][1]: 1360 , [0][0]: 0 
+[1][1]: 640 , [1][0]: 1 
+[2][1]: 640 , [2][0]: 1 
+[3][1]: 1360 , [3][0]: 0 
+wheelCmd[0][0] = 1380 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 620 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 620 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1380 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.7
+wheels[0].pow:-0.7
+wheels[0].pow:-0.7
+wheels[1].pow:-0.7
+wheels[1].pow:-0.7
+wheels[2].pow:-0.7
+wheels[2].pow:-0.7
+wheels[3].pow:-0.7
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3322 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1380 , [0][0]: 0 
+[1][1]: 620 , [1][0]: 1 
+[2][1]: 620 , [2][0]: 1 
+[3][1]: 1380 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.71
+wheels[0].pow:-0.71
+wheels[0].pow:-0.7
+wheels[1].pow:-0.71
+wheels[1].pow:-0.7
+wheels[2].pow:-0.71
+wheels[2].pow:-0.7
+wheels[3].pow:-0.71
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3346 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.72
+wheels[0].pow:-0.72
+wheels[0].pow:-0.7
+wheels[1].pow:-0.72
+wheels[1].pow:-0.7
+wheels[2].pow:-0.72
+wheels[2].pow:-0.7
+wheels[3].pow:-0.72
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3368 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.73
+wheels[0].pow:-0.73
+wheels[0].pow:-0.7
+wheels[1].pow:-0.73
+wheels[1].pow:-0.7
+wheels[2].pow:-0.73
+wheels[2].pow:-0.7
+wheels[3].pow:-0.73
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3390 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.74
+wheels[0].pow:-0.74
+wheels[0].pow:-0.7
+wheels[1].pow:-0.74
+wheels[1].pow:-0.7
+wheels[2].pow:-0.74
+wheels[2].pow:-0.7
+wheels[3].pow:-0.74
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3412 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.75
+wheels[0].pow:-0.75
+wheels[0].pow:-0.7
+wheels[1].pow:-0.75
+wheels[1].pow:-0.7
+wheels[2].pow:-0.75
+wheels[2].pow:-0.7
+wheels[3].pow:-0.75
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3434 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.76
+wheels[0].pow:-0.76
+wheels[0].pow:-0.7
+wheels[1].pow:-0.76
+wheels[1].pow:-0.7
+wheels[2].pow:-0.76
+wheels[2].pow:-0.7
+wheels[3].pow:-0.76
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3455 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.77
+wheels[0].pow:-0.77
+wheels[0].pow:-0.7
+wheels[1].pow:-0.77
+wheels[1].pow:-0.7
+wheels[2].pow:-0.77
+wheels[2].pow:-0.7
+wheels[3].pow:-0.77
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3479 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.78
+wheels[0].pow:-0.78
+wheels[0].pow:-0.7
+wheels[1].pow:-0.78
+wheels[1].pow:-0.7
+wheels[2].pow:-0.78
+wheels[2].pow:-0.7
+wheels[3].pow:-0.78
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3501 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.79
+wheels[0].pow:-0.79
+wheels[0].pow:-0.7
+wheels[1].pow:-0.79
+wheels[1].pow:-0.7
+wheels[2].pow:-0.79
+wheels[2].pow:-0.7
+wheels[3].pow:-0.79
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3522 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.8
+wheels[0].pow:-0.8
+wheels[0].pow:-0.7
+wheels[1].pow:-0.8
+wheels[1].pow:-0.7
+wheels[2].pow:-0.8
+wheels[2].pow:-0.7
+wheels[3].pow:-0.8
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3543 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.81
+wheels[0].pow:-0.81
+wheels[0].pow:-0.7
+wheels[1].pow:-0.81
+wheels[1].pow:-0.7
+wheels[2].pow:-0.81
+wheels[2].pow:-0.7
+wheels[3].pow:-0.81
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3565 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.82
+wheels[0].pow:-0.82
+wheels[0].pow:-0.7
+wheels[1].pow:-0.82
+wheels[1].pow:-0.7
+wheels[2].pow:-0.82
+wheels[2].pow:-0.7
+wheels[3].pow:-0.82
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3585 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.83
+wheels[0].pow:-0.83
+wheels[0].pow:-0.7
+wheels[1].pow:-0.83
+wheels[1].pow:-0.7
+wheels[2].pow:-0.83
+wheels[2].pow:-0.7
+wheels[3].pow:-0.83
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3605 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.84
+wheels[0].pow:-0.84
+wheels[0].pow:-0.7
+wheels[1].pow:-0.84
+wheels[1].pow:-0.7
+wheels[2].pow:-0.84
+wheels[2].pow:-0.7
+wheels[3].pow:-0.84
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3628 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.85
+wheels[0].pow:-0.85
+wheels[0].pow:-0.7
+wheels[1].pow:-0.85
+wheels[1].pow:-0.7
+wheels[2].pow:-0.85
+wheels[2].pow:-0.7
+wheels[3].pow:-0.85
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3650 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.86
+wheels[0].pow:-0.86
+wheels[0].pow:-0.7
+wheels[1].pow:-0.86
+wheels[1].pow:-0.7
+wheels[2].pow:-0.86
+wheels[2].pow:-0.7
+wheels[3].pow:-0.86
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3670 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.87
+wheels[0].pow:-0.87
+wheels[0].pow:-0.7
+wheels[1].pow:-0.87
+wheels[1].pow:-0.7
+wheels[2].pow:-0.87
+wheels[2].pow:-0.7
+wheels[3].pow:-0.87
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3692 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.88
+wheels[0].pow:-0.88
+wheels[0].pow:-0.7
+wheels[1].pow:-0.88
+wheels[1].pow:-0.7
+wheels[2].pow:-0.88
+wheels[2].pow:-0.7
+wheels[3].pow:-0.88
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3713 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.89
+wheels[0].pow:-0.89
+wheels[0].pow:-0.7
+wheels[1].pow:-0.89
+wheels[1].pow:-0.7
+wheels[2].pow:-0.89
+wheels[2].pow:-0.7
+wheels[3].pow:-0.89
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3734 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.9
+wheels[0].pow:-0.9
+wheels[0].pow:-0.7
+wheels[1].pow:-0.9
+wheels[1].pow:-0.7
+wheels[2].pow:-0.9
+wheels[2].pow:-0.7
+wheels[3].pow:-0.9
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3755 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.91
+wheels[0].pow:-0.91
+wheels[0].pow:-0.7
+wheels[1].pow:-0.91
+wheels[1].pow:-0.7
+wheels[2].pow:-0.91
+wheels[2].pow:-0.7
+wheels[3].pow:-0.91
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3776 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.92
+wheels[0].pow:-0.92
+wheels[0].pow:-0.7
+wheels[1].pow:-0.92
+wheels[1].pow:-0.7
+wheels[2].pow:-0.92
+wheels[2].pow:-0.7
+wheels[3].pow:-0.92
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3795 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.93
+wheels[0].pow:-0.93
+wheels[0].pow:-0.7
+wheels[1].pow:-0.93
+wheels[1].pow:-0.7
+wheels[2].pow:-0.93
+wheels[2].pow:-0.7
+wheels[3].pow:-0.93
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3816 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.94
+wheels[0].pow:-0.94
+wheels[0].pow:-0.7
+wheels[1].pow:-0.94
+wheels[1].pow:-0.7
+wheels[2].pow:-0.94
+wheels[2].pow:-0.7
+wheels[3].pow:-0.94
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3837 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.95
+wheels[0].pow:-0.95
+wheels[0].pow:-0.7
+wheels[1].pow:-0.95
+wheels[1].pow:-0.7
+wheels[2].pow:-0.95
+wheels[2].pow:-0.7
+wheels[3].pow:-0.95
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3857 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.96
+wheels[0].pow:-0.96
+wheels[0].pow:-0.7
+wheels[1].pow:-0.96
+wheels[1].pow:-0.7
+wheels[2].pow:-0.96
+wheels[2].pow:-0.7
+wheels[3].pow:-0.96
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3877 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.97
+wheels[0].pow:-0.97
+wheels[0].pow:-0.7
+wheels[1].pow:-0.97
+wheels[1].pow:-0.7
+wheels[2].pow:-0.97
+wheels[2].pow:-0.7
+wheels[3].pow:-0.97
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3899 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.98
+wheels[0].pow:-0.98
+wheels[0].pow:-0.7
+wheels[1].pow:-0.98
+wheels[1].pow:-0.7
+wheels[2].pow:-0.98
+wheels[2].pow:-0.7
+wheels[3].pow:-0.98
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3921 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+distancePowerMult:-0.99
+wheels[0].pow:-0.99
+wheels[0].pow:-0.7
+wheels[1].pow:-0.99
+wheels[1].pow:-0.7
+wheels[2].pow:-0.99
+wheels[2].pow:-0.7
+wheels[3].pow:-0.99
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3942 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+Backward startup
+
+done with startup phasedistancePowerMult:-1
+wheels[0].pow:-1
+wheels[0].pow:-0.7
+wheels[1].pow:-1
+wheels[1].pow:-0.7
+wheels[2].pow:-1
+wheels[2].pow:-0.7
+wheels[3].pow:-1
+wheels[3].pow:-0.7
+isTask complete : encoderCnt:3963 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[1].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[2].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+wheels[3].tempCurDir: 1 ,.pow: 0.7, powToWheels:1400
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 1400 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 600 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 600 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 1400 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:3985 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 1400 , [0][0]: 0 
+[1][1]: 600 , [1][0]: 1 
+[2][1]: 600 , [2][0]: 1 
+[3][1]: 1400 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4008 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4044 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4091 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4140 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4222 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4311 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4414 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4514 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4601 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4668 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4735 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0
+pow:-2550
+, encoderGoal:-2550, encoderVal:0, errorNew:-2550
+distancePowerMult:-0.0005
+wheels[0].pow:-0.0005
+wheels[0].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[1].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[2].pow:-0.0005
+wheels[3].pow:-0.0005
+wheels[3].pow:-0.0005
+isTask complete : encoderCnt:4803 encoderDist:2550
+line sensor config: 2 curLineSensor: 0wheels[0].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[1].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[2].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+wheels[3].tempCurDir: 1 ,.pow: 0.08, powToWheels:160
+[0][1]: 160 , [0][0]: 0 
+[1][1]: 1840 , [1][0]: 1 
+[2][1]: 1840 , [2][0]: 1 
+[3][1]: 160 , [3][0]: 0 
+wheelCmd[0][0] = 160 wheelCmd[0,[1]] = 0
+wheelCmd[1][0] = 1840 wheelCmd[1,[1]] = 1
+wheelCmd[2][0] = 1840 wheelCmd[2,[1]] = 1
+wheelCmd[3][0] = 160 wheelCmd[3,[1]] = 0

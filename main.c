@@ -56,7 +56,7 @@ void alignCommand(int * driveWheelPipe) {
 void sidelineForward(int* driveWheelPipe) { 
     //move(Forward, 30, driveWheelPipe); 
     //alignCommand(driveWheelPipe); 
-    moveToLine(Left, 10, driveWheelPipe, CENTER_TO_SUPPLY_FWD); 
+    moveToLine(Left, 8, driveWheelPipe, CENTER_TO_SUPPLY_FWD); 
 }
 
 int main(){
@@ -84,7 +84,7 @@ int main(){
    driveWheelPid = createDriveWheelChild(&driveWheelPipe);
 
 
-   enum dir direction;
+   //enum dir direction;
    /*struct pollfd stdin_poll = {
        .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
        */
@@ -95,7 +95,7 @@ int main(){
        break;
       }
 
-      direction = Left;
+      /*direction = Left;
       move(direction, 70 , driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
@@ -104,12 +104,13 @@ int main(){
       //direction = Forward;
       direction = Right;
       move(direction, 70 ,driveWheelPipe); 
+      */
 
-      //sidelineForward(driveWheelPipe); 
+
+      sidelineForward(driveWheelPipe); 
    }
    msg[0] = 'q'; 
    MYWRITE(driveWheelPipe[1], msg, sizeof(char));   
-   waitpid(driveWheelPid,&status,0);
    digitalWrite(pin(FL),0);
    digitalWrite(pin(FR),0);
    digitalWrite(pin(BL),0);
@@ -118,6 +119,7 @@ int main(){
 	   sprintf(msg,"echo %d=0 > /dev/servoblaster",i);
 	   system(msg);
    }
+   waitpid(driveWheelPid,&status,0);
 
    return 0; 
 }

@@ -1,6 +1,6 @@
 #include "driveWheelPid.h"
 
-#define KD 0.01
+#define KD 0
 #define KP 1
 #define KI 0
 //#define KI .1 
@@ -294,24 +294,67 @@ void updateEncoderStatus(int *encoderPipe, Encoder *curEnco, WheelPid *wheels) {
 }
 
 //this takes the pow that is a double that can be negitive or postiive and then direction and turns wheelCmd with the correct power and dir output to be controled
-void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int taskComplete){
+void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int taskComplete,int ignoreEncoder){
    //pow is valid from -2000 to 2000 if neg is then turned postive with dirValueTemp 1
    //printf("power:%10.10f \t direction:%d\n",*pow,direction);
-
+   switch(direction){
+      case Forward:
+         wheels[FL].tempCurDir = 1;
+         wheels[FR].tempCurDir = 1;
+         wheels[BR].tempCurDir = 1;
+         wheels[BL].tempCurDir = 1;
+      break;
+      case Backward:
+         wheels[FL].tempCurDir = 0;
+         wheels[FR].tempCurDir = 0;
+         wheels[BR].tempCurDir = 0;
+         wheels[BL].tempCurDir = 0;
+      break;
+      case Right:
+         wheels[FL].tempCurDir = 1;
+         wheels[FR].tempCurDir = 0;
+         wheels[BR].tempCurDir = 1;
+         wheels[BL].tempCurDir = 0;
+      break;
+      case Left:
+         wheels[FL].tempCurDir = 0;
+         wheels[FR].tempCurDir = 1;
+         wheels[BR].tempCurDir = 0;
+         wheels[BL].tempCurDir = 1;
+      break;
+      case Clockwise:
+         wheels[FL].tempCurDir = 1;
+         wheels[FR].tempCurDir = 0;
+         wheels[BR].tempCurDir = 0;
+         wheels[BL].tempCurDir = 1;
+      break;
+      case Counterclockwise:
+         wheels[FL].tempCurDir = 0;
+         wheels[FR].tempCurDir = 1;
+         wheels[BR].tempCurDir = 1;
+         wheels[BL].tempCurDir = 0;
+      break;
+   }
    for(int i = 0 ; i < 4; i ++ ){
 
        //if pow is negitive invert it and set dirValue Temp = 1
-       if((wheels[i].pow) < 0){
-          wheels[i].tempCurDir = 1;
-          wheels[i].pow *= -1;
+       if(!ignoreEncoder){
+         if((wheels[i].pow) < 0){
+            wheels[i].tempCurDir = 1;
+            wheels[i].pow *= -1;
+         }
+         else {
+            wheels[i].tempCurDir = 0;
+         }
        }
-       else{
-          wheels[i].tempCurDir = 0;
-       }
+       
        assert(wheels[i].pow >=0);
        //if greater then maxumim speed then set it to max speed
        if((wheels[i].pow)>MAX_SPEED){
           wheels[i].pow = MAX_SPEED;
+       }
+       if(ignoreEncoder){
+            wheels[i].pow = MIN_SPEED;
        }
        //if less then minamum speed then set it to zero we are done
        //added double_abs
@@ -393,7 +436,7 @@ double angleToValue(float angle){
    return angle;
 }
 /* corrects for what value of angle we have acumulated over the trip*/
-void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
+void straightBias(WheelPid *wheels,enum dir direction,double powerMult, int ignoreEncoder) {
    double pow;
    switch(direction){
       case Forward:
@@ -419,6 +462,9 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
    //if abs(powerMult) is less then 1 then we are adding and subtracting so reduce bias by factor of two
    if(abs_double(powerMult) <= .9){
       pow /= 2;
+   }
+   if(ignoreEncoder) {
+      pow = 0; 
    }
    //TODO add bias to single wheel BL!!
 
@@ -474,12 +520,16 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
 /* logic that outputs a double indicating wheel power multiplier for all 4 wheels.
  * Used to speed up and slow down at beginning and end. 
  */
-double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPhase, double lastDistPowVal) {
+double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPhase, int ignoreEncoder, double lastDistPowVal) {
 
    int indexEncoderToUse = 0;
        long error_new;
    long encoderToUse = wheels[indexEncoderToUse].encoderCnt;
-  
+ 
+   if(ignoreEncoder) {
+      return 0;
+   }
+
     if(*startupPhase){
         if(direction==Forward || direction==Right){
             lastDistPowVal += .01; 
@@ -494,7 +544,6 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
             *startupPhase = 0; 
         } 
         
-        return lastDistPowVal;
     }
        // this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
        /*for(int i = 1; i < 4; i++){
@@ -565,6 +614,7 @@ int lineConditionsMet(unsigned char lineSensorConfig, unsigned char curLineSenso
 
    printf("line sensor config: %x curLineSensor: %x", lineSensorConfig, curLineSensor); 
    if((lineSensorConfig & curLineSensor) == lineSensorConfig){
+	   printf("TASK COMPLEETE!!!\n");
       return 1;
    }
 
@@ -572,7 +622,7 @@ int lineConditionsMet(unsigned char lineSensorConfig, unsigned char curLineSenso
 
 }
 
-int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSensor, ImuDir *curImu) {
+int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSensor, ImuDir *curImu,int *ignoreEncoder) {
  
     printf("isTask complete : encoderCnt:%ld encoderDist:%g\n",wheelPid[0].encoderCnt,command->encoderDist);
    //speculatively uncommented v
@@ -581,8 +631,11 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
             return 1; 
 
     } else if (command->cmdType == Line){
-         return (abs_double((wheelPid[0].encoderCnt)) >= abs_double(command->encoderDist)) &&
-		 lineConditionsMet(command->lineSensorConfig, curLineSensor);      
+	    if(abs_double((wheelPid[0].encoderCnt)) >= abs_double(command->encoderDist)){
+                  printf("ENCODER DISTANCE REACHED IGNORING ENCODER\n\n");
+		    *ignoreEncoder = 1;
+		 return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
+	    }
     } else if (command->cmdType == Align) { 
         if(abs_double(curImu->Rx) < .01)
         {
@@ -674,24 +727,26 @@ void driveWheelPidControl(){
 
 
    stdInPipe = STDIN_FILENO;
+
    struct pollfd stdin_poll = {
      .fd = stdInPipe, .events = POLLIN |  POLLPRI };
 
    int wheelCmd[4][2];
    unsigned char curLineSensor = 0; 
 
+   int ignoreEncoder = 0;
    resetWheels(wheelCmd, wheels); 
    writeToWheels(wheelCmd); 
 //this is beacues the IMU takes a coucple of seconds to start working
    //TODO change these values but for testing making them small
-   for(int i =0;i < 3; i++){
+   /*for(int i =0;i < 3; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    }
    //resetImu(imuPipe);
    for(int i =0;i < 0; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
       printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
-   }
+   }*/
    fprintf(stderr, "IMU READY!!\n");
 
    resetWheels(wheelCmd, wheels); 
@@ -713,21 +768,22 @@ void driveWheelPidControl(){
       //if encoder reset = 1 then we have already reset the encoders and are not moving again. this is to repeat encoder resetting actions
       if(encoderReset == 0) {
         //change: this no longer controlls when it ends, it only control pid before then ... 
-        distancePowerMult = distancePIDControl(wheels,direction,&startUpPhase,distancePowerMult);
+        distancePowerMult = distancePIDControl(wheels,direction,&startUpPhase, ignoreEncoder, distancePowerMult);
+        straightBias(wheels, direction, distancePowerMult, ignoreEncoder);
+
         printf("distancePowerMult:%g\n",distancePowerMult);
         
         //takes distancePowerMUlt and translates that to pow for each wheels control depending on direction adding bias 
-        straightBias(wheels, direction, distancePowerMult);
         
         align(&direction, wheels, &command, &curImu); 
         //anglePIDControl(wheels,wheelCmd,direction,&curImu);
         //the line here is whatever the thing is that controlls when its done. Depending on the command being listened to this might be different things. 
         //for example, this might be a line, a limit switch, a distance ... 
-        int taskComplete = isTaskComplete(wheels, &command, curLineSensor, &curImu);
+        int taskComplete = isTaskComplete(wheels, &command, curLineSensor, &curImu,&ignoreEncoder);
 
 
         //this is what translates from WheelPid to wheelCmd 
-        limitPowerWheels(wheels,wheelCmd,direction,taskComplete);
+        limitPowerWheels(wheels,wheelCmd,direction,taskComplete,ignoreEncoder);
 
         if(taskComplete) { 
             if(encoderReset == 0){
@@ -735,6 +791,7 @@ void driveWheelPidControl(){
              resetEncoder(encoderPipe[1]);
                 curImu.curError = 0;
                 distancePowerMult = 0;
+		ignoreEncoder = 0;
             }
              encoderReset = 1;
         }
