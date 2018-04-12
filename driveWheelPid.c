@@ -17,7 +17,7 @@
 #define dt_nsec 5000000
 #define dt_sec ((double)dt_nsec)/1000000000
 
-#define MAX_SPEED .7
+#define MAX_SPEED 1
 #define MIN_SPEED .08
 
 #define FWD_BIAS 80
@@ -49,9 +49,9 @@ const int counterwise[4][2]  = {{1,2}, {2,3}, {2,3} , {0,4}};
 int pin(int index){
    switch(index){
       case FL:
-         return 31;
-      case FR:
          return 5;
+      case FR:
+         return 31;
       case BR:
          return 6;
       case BL:
@@ -182,6 +182,10 @@ void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
    }
 }
 
+double abs_double(double a){
+   return (a<0)?-1*a:a;
+}
+
 /*Reads from main.c data request and responds accordingly
  * Returns 1 if there was reques (so wheels can be updated)
  * Returns 0 if no request
@@ -310,7 +314,8 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
           wheels[i].pow = MAX_SPEED;
        }
        //if less then minamum speed then set it to zero we are done
-       if((wheels[i].pow) < MIN_SPEED){
+       //added double_abs
+       if(abs_double(wheels[i].pow) < MIN_SPEED){
            if(taskComplete == 1){
               wheels[i].pow  = 0;
            }
@@ -339,13 +344,15 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
       case Left:
       case Right:
       //need to change 1-dirValueTemp this may not work
+      
+      //TODO FL should be going fwd , FR backwords, BR fws, BL backwords
             //FL
-            wheelCmd[FL][0] = (int)abs(2000*(1-wheels[FL].tempCurDir) - wheels[FL].powToWheels);//defualt backwords
-            wheelCmd[FL][1] = 1-wheels[FL].tempCurDir;
+            wheelCmd[FL][0] = (int)abs(2000*(wheels[FL].tempCurDir) - wheels[FL].powToWheels);//defualt backwords
+            wheelCmd[FL][1] = wheels[FL].tempCurDir;
 
             //FR
-            wheelCmd[FR][0] = (int)abs(2000*(wheels[FR].tempCurDir) - wheels[FR].powToWheels);//default fowards
-            wheelCmd[FR][1] = wheels[FR].tempCurDir;
+            wheelCmd[FR][0] = (int)abs(2000*(1-wheels[FR].tempCurDir) - wheels[FR].powToWheels);//default fowards
+            wheelCmd[FR][1] = 1-wheels[FR].tempCurDir;
 
             //BR
             wheelCmd[BR][0] = (int)abs(2000*(wheels[BR].tempCurDir) - wheels[BR].powToWheels);//default fowards
@@ -371,9 +378,6 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
       wheels[i].curDir = (wheelCmd[i][1]==0)?1:-1;
    }
 
-}
-double abs_double(double a){
-   return (a<0)?-1*a:a;
 }
 double angleToValue(float angle){
    assert(angle >= 0);
@@ -412,6 +416,7 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
    if(abs_double(powerMult) <= .9){
       pow /= 2;
    }
+   //TODO add bias to single wheel BL!!
 
    switch(direction){
       case Forward:
@@ -433,18 +438,19 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
 
       break;
       case Left:
-         wheels[BR].pow = powerMult - (powerMult)*pow;
-         wheels[BL].pow = powerMult - (powerMult)*pow;
+         //wheels[BR].pow = powerMult - (powerMult)*pow;
+         //wheels[FL].pow = powerMult - (powerMult)*pow;
 
-         wheels[FR].pow = powerMult + (powerMult)*pow;
-         wheels[FL].pow = powerMult + (powerMult)*pow;
+         //wheels[FR].pow = powerMult + (powerMult)*pow;
+         wheels[BL].pow = powerMult + (powerMult)*pow;
       break; 
       case Right:
-         wheels[FL].pow = powerMult - (powerMult)*pow;
-         wheels[FR].pow = powerMult - (powerMult)*pow;
+      //break;
+         wheels[BL].pow = powerMult - (powerMult)*pow;
+         //wheels[FR].pow = powerMult - (powerMult)*pow;
 
-         wheels[BL].pow = powerMult + (powerMult)*pow;
-         wheels[BR].pow = powerMult + (powerMult)*pow;
+         //wheels[FL].pow = powerMult + (powerMult)*pow;
+         //wheels[BR].pow = powerMult + (powerMult)*pow;
       break;
       case Clockwise:
       case Counterclockwise:
@@ -481,12 +487,12 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
         }
         
         if( abs_double(lastDistPowVal) >= 1) {
+	    printf("done with startup phase"); 
             *startupPhase = 0; 
         } 
         
         return lastDistPowVal;
     }
-    else {
        // this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
        for(int i = 1; i < 4; i++){
           if(abs(wheels[i].encoderCnt) < abs(encoderToUse)){
@@ -496,6 +502,11 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
        }
        // Calculate errors:
        error_new = wheels[indexEncoderToUse].encoderGoal - encoderToUse;
+
+       if((error_new > 0 && wheels[indexEncoderToUse].encoderGoal < 0) ||
+		       (error_new < 0 && wheels[indexEncoderToUse].encoderGoal > 0)) {
+	      return 0; 
+       }  
        //TODO add for BACK and LEFT and RIGHT thsi is only for FOWARD!!!
 
        // PI control
@@ -503,20 +514,30 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
           wheels[i].curError += error_new;
        }
 
-   }
 
    double pow;
    //using wheels[0] becaues all wheels have the same curError. this will probally change 
    pow = (KP*error_new + KI*dt_sec*(wheels[0].curError));
       printf("pow:%g\n, encoderGoal:%ld, encoderVal:%ld, errorNew:%ld\n",pow,wheels[indexEncoderToUse].encoderGoal,encoderToUse,error_new);
    if(pow >  2000 ){
-       return  1;
+       pow =   1;
    }
    else if(pow < -2000){
-       return -1;
+      pow = -1;
    }
-   return pow/2000;
+   pow = pow/2000;
+   if(*startupPhase){
+	   if(abs_double(pow) < abs_double(lastDistPowVal)){
+		   *startupPhase = 0;
+		   return pow;
+	   }
+	   else{
+		   return lastDistPowVal;
+	   }
+   }
 
+
+   return pow;
 } 
 
 
@@ -536,6 +557,7 @@ void updateImuStatus(ImuDir *curImu){
 //i.e these must be sensing a line, but it doesn't matter either way for other ones
 int lineConditionsMet(unsigned char lineSensorConfig, unsigned char curLineSensor) {
 
+   printf("line sensor config: %x curLineSensor: %x", lineSensorConfig, curLineSensor); 
    if((lineSensorConfig & curLineSensor) == lineSensorConfig){
       return 1;
    }
@@ -545,14 +567,15 @@ int lineConditionsMet(unsigned char lineSensorConfig, unsigned char curLineSenso
 }
 
 int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSensor, ImuDir *curImu) {
-
+ 
+    printf("isTask complete : encoderCnt:%ld encoderDist:%g\n",wheelPid[0].encoderCnt,command->encoderDist);
    //speculatively uncommented v
     if(command->cmdType == Distance) {
-    printf("encoderCnt:%ld encoderDist:%g\n",wheelPid[0].encoderCnt,command->encoderDist);
-        if(abs(wheelPid[0].encoderCnt) >= abs(command->encoderDist)) 
+        if(abs_double(wheelPid[0].encoderCnt) >= abs_double(command->encoderDist)) 
             return 1; 
-    } else if (command->cmdType == Line && (abs((wheelPid[0].encoderCnt)) >= abs(command->encoderDist))){
-         return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
+    } else if (command->cmdType == Line){
+         return (abs_double((wheelPid[0].encoderCnt)) >= abs_double(command->encoderDist)) &&
+		 lineConditionsMet(command->lineSensorConfig, curLineSensor);      
     } else if (command->cmdType == Align) { 
         if(abs_double(curImu->Rx) < .01)
         {

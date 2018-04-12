@@ -56,7 +56,7 @@ void alignCommand(int * driveWheelPipe) {
 void sidelineForward(int* driveWheelPipe) { 
     //move(Forward, 30, driveWheelPipe); 
     //alignCommand(driveWheelPipe); 
-    moveToLine(Forward, 12, driveWheelPipe, SIDELINE_FWD); 
+    moveToLine(Left, 10, driveWheelPipe, CENTER_TO_SUPPLY_FWD); 
 }
 
 int main(){
@@ -83,7 +83,8 @@ int main(){
 
    driveWheelPid = createDriveWheelChild(&driveWheelPipe);
 
-   //enum dir direction;
+
+   enum dir direction;
    /*struct pollfd stdin_poll = {
        .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
        */
@@ -101,9 +102,9 @@ int main(){
       //}
 
       //direction = Forward;
-      //direction = Right; ;
-      //move(direction, 70 ,driveWheelPipe); 
-      sidelineForward(driveWheelPipe); 
+      direction = Right;
+      move(direction, 700 ,driveWheelPipe); 
+      //sidelineForward(driveWheelPipe); 
    }
    msg[0] = 'q'; 
    MYWRITE(driveWheelPipe[1], msg, sizeof(char));   
