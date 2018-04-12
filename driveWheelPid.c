@@ -438,19 +438,18 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult) {
 
       break;
       case Left:
-         //wheels[BR].pow = powerMult - (powerMult)*pow;
-         //wheels[FL].pow = powerMult - (powerMult)*pow;
+         wheels[BR].pow = powerMult; //- (powerMult)*pow;
+         wheels[FL].pow = powerMult;// - (powerMult)*pow;
 
-         //wheels[FR].pow = powerMult + (powerMult)*pow;
+         wheels[FR].pow = powerMult;// + (powerMult)*pow;
          wheels[BL].pow = powerMult + (powerMult)*pow;
       break; 
       case Right:
-      //break;
          wheels[BL].pow = powerMult - (powerMult)*pow;
-         //wheels[FR].pow = powerMult - (powerMult)*pow;
+         wheels[FR].pow = powerMult;// - (powerMult)*pow;
 
-         //wheels[FL].pow = powerMult + (powerMult)*pow;
-         //wheels[BR].pow = powerMult + (powerMult)*pow;
+         wheels[FL].pow = powerMult;// + (powerMult)*pow;
+         wheels[BR].pow = powerMult;// + (powerMult)*pow;
       break;
       case Clockwise:
       case Counterclockwise:
@@ -503,10 +502,10 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
        // Calculate errors:
        error_new = wheels[indexEncoderToUse].encoderGoal - encoderToUse;
 
-       if((error_new > 0 && wheels[indexEncoderToUse].encoderGoal < 0) ||
+       /*if((error_new > 0 && wheels[indexEncoderToUse].encoderGoal < 0) ||
 		       (error_new < 0 && wheels[indexEncoderToUse].encoderGoal > 0)) {
 	      return 0; 
-       }  
+       }  */
        //TODO add for BACK and LEFT and RIGHT thsi is only for FOWARD!!!
 
        // PI control
@@ -571,8 +570,9 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
     printf("isTask complete : encoderCnt:%ld encoderDist:%g\n",wheelPid[0].encoderCnt,command->encoderDist);
    //speculatively uncommented v
     if(command->cmdType == Distance) {
-        if(abs_double(wheelPid[0].encoderCnt) >= abs_double(command->encoderDist)) 
+        if(abs_double(wheelPid[0].encoderCnt) >= abs_double(command->encoderDist))
             return 1; 
+
     } else if (command->cmdType == Line){
          return (abs_double((wheelPid[0].encoderCnt)) >= abs_double(command->encoderDist)) &&
 		 lineConditionsMet(command->lineSensorConfig, curLineSensor);      
