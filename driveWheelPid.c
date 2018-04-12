@@ -137,7 +137,7 @@ void updateWheels(WheelPid *wheels,double inputGoal,enum dir direction){
       wheels[i].encoderGoal = (inputGoal)*(wheels[i].curDir);
       wheels[i].curError = 0;
    }
-   printf("wheels[0].encoderGoal:%ld\n\n\n",wheels[0].encoderGoal);
+   printf("reset encoderCnt: wheels[0].encoderGoal:%ld\n\n\n",wheels[0].encoderGoal);
 }
 
 void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
@@ -366,9 +366,6 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
          assert(0);
    }
 
-   for(int i = 0 ; i< 4;i++){
-      printf("wheelCmd[%d][0] = %d wheelCmd[%d,[1]] = %d\n",i,wheelCmd[i][0],i,wheelCmd[i][1]);
-   }
 
    for(int i = 0 ; i< 4;i++){
       assert(wheelCmd[i][0]>=0);
@@ -376,6 +373,13 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
       assert(wheelCmd[i][1]==0||wheelCmd[i][1]==1);
 
       wheels[i].curDir = (wheelCmd[i][1]==0)?1:-1;
+   }
+
+   for(int i = 0 ; i< 4;i++){
+      printf("wheelCmd[%d][0] = %d wheelCmd[%d,[1]] = %d\n",i,wheelCmd[i][0],i,wheelCmd[i][1]);
+   }
+   for(int i = 0 ; i< 4;i++){
+      printf("%d:wheelCmd.curDir = %d wheel.encoderCnt = %ld\n",i,wheels[i].curDir,wheels[i].encoderCnt);
    }
 
 }
@@ -493,12 +497,12 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
         return lastDistPowVal;
     }
        // this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
-       for(int i = 1; i < 4; i++){
+       /*for(int i = 1; i < 4; i++){
           if(abs(wheels[i].encoderCnt) < abs(encoderToUse)){
              encoderToUse = wheels[i].encoderCnt;
              indexEncoderToUse = i;
           }
-       }
+       }*/
        // Calculate errors:
        error_new = wheels[indexEncoderToUse].encoderGoal - encoderToUse;
 
@@ -517,14 +521,16 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
    double pow;
    //using wheels[0] becaues all wheels have the same curError. this will probally change 
    pow = (KP*error_new + KI*dt_sec*(wheels[0].curError));
-      printf("pow:%g\n, encoderGoal:%ld, encoderVal:%ld, errorNew:%ld\n",pow,wheels[indexEncoderToUse].encoderGoal,encoderToUse,error_new);
+      printf("pow:%g, encoderGoal:%ld, encoderVal:%ld, errorNew:%ld\n",pow,wheels[indexEncoderToUse].encoderGoal,encoderToUse,error_new);
    if(pow >  2000 ){
        pow =   1;
    }
    else if(pow < -2000){
       pow = -1;
    }
-   pow = pow/2000;
+   else{
+	   pow = pow/2000;
+   }
    if(*startupPhase){
 	   if(abs_double(pow) < abs_double(lastDistPowVal)){
 		   *startupPhase = 0;
@@ -536,6 +542,7 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
    }
 
 
+   printf("pow returned by distance:%g\n",pow);
    return pow;
 } 
 

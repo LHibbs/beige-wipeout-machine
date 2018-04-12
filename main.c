@@ -95,15 +95,16 @@ int main(){
        break;
       }
 
-      //direction = Backward;
-      //move(direction, 60 , driveWheelPipe); 
-      //if(fgetc(stdin)==EOF){
-      //   break;
-      //}
+      direction = Left;
+      move(direction, 70 , driveWheelPipe); 
+      if(fgetc(stdin)==EOF){
+         break;
+      }
 
       //direction = Forward;
       direction = Right;
-      move(direction, 700 ,driveWheelPipe); 
+      move(direction, 70 ,driveWheelPipe); 
+
       //sidelineForward(driveWheelPipe); 
    }
    msg[0] = 'q'; 
