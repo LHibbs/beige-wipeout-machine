@@ -56,7 +56,7 @@ void alignCommand(int * driveWheelPipe) {
 void sidelineForward(int* driveWheelPipe) { 
     //move(Forward, 30, driveWheelPipe); 
     //alignCommand(driveWheelPipe); 
-    moveToLine(Left, 8, driveWheelPipe, CENTER_TO_SUPPLY_FWD); 
+    moveToLine(Backward, 8, driveWheelPipe, CENTER_TO_SUPPLY_FWD); 
 }
 
 int main(){

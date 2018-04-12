@@ -299,40 +299,40 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
    //printf("power:%10.10f \t direction:%d\n",*pow,direction);
    switch(direction){
       case Forward:
-         wheels[FL].tempCurDir = 1;
-         wheels[FR].tempCurDir = 1;
-         wheels[BR].tempCurDir = 1;
-         wheels[BL].tempCurDir = 1;
+         wheels[FL].tempCurDir = 0;
+         wheels[FR].tempCurDir = 0;
+         wheels[BR].tempCurDir = 0;
+         wheels[BL].tempCurDir = 0;
       break;
       case Backward:
-         wheels[FL].tempCurDir = 0;
-         wheels[FR].tempCurDir = 0;
-         wheels[BR].tempCurDir = 0;
-         wheels[BL].tempCurDir = 0;
-      break;
-      case Right:
          wheels[FL].tempCurDir = 1;
-         wheels[FR].tempCurDir = 0;
+         wheels[FR].tempCurDir = 1;
          wheels[BR].tempCurDir = 1;
-         wheels[BL].tempCurDir = 0;
+         wheels[BL].tempCurDir = 1;
       break;
       case Left:
-         wheels[FL].tempCurDir = 0;
-         wheels[FR].tempCurDir = 1;
-         wheels[BR].tempCurDir = 0;
-         wheels[BL].tempCurDir = 1;
-      break;
-      case Clockwise:
          wheels[FL].tempCurDir = 1;
-         wheels[FR].tempCurDir = 0;
-         wheels[BR].tempCurDir = 0;
-         wheels[BL].tempCurDir = 1;
-      break;
-      case Counterclockwise:
-         wheels[FL].tempCurDir = 0;
          wheels[FR].tempCurDir = 1;
          wheels[BR].tempCurDir = 1;
+         wheels[BL].tempCurDir = 1;
+      break;
+      case Right:
+         wheels[FL].tempCurDir = 0;
+         wheels[FR].tempCurDir = 0;
+         wheels[BR].tempCurDir = 0;
          wheels[BL].tempCurDir = 0;
+      break;
+      case Clockwise:
+         wheels[FL].tempCurDir = 0;
+         wheels[FR].tempCurDir = 0;
+         wheels[BR].tempCurDir = 0;
+         wheels[BL].tempCurDir = 0;
+      break;
+      case Counterclockwise:
+         wheels[FL].tempCurDir = 1;
+         wheels[FR].tempCurDir = 1;
+         wheels[BR].tempCurDir = 1;
+         wheels[BL].tempCurDir = 1;
       break;
    }
    for(int i = 0 ; i < 4; i ++ ){
@@ -347,14 +347,14 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
             wheels[i].tempCurDir = 0;
          }
        }
+       else{
+          wheels[i].pow = MIN_SPEED;
+       }
        
        assert(wheels[i].pow >=0);
        //if greater then maxumim speed then set it to max speed
        if((wheels[i].pow)>MAX_SPEED){
           wheels[i].pow = MAX_SPEED;
-       }
-       if(ignoreEncoder){
-            wheels[i].pow = MIN_SPEED;
        }
        //if less then minamum speed then set it to zero we are done
        //added double_abs
@@ -409,6 +409,9 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
          assert(0);
    }
 
+   for(int i = 0 ; i< 4;i++){
+      printf("wheelCmd[%d][0] = %d wheelCmd[%d,[1]] = %d\n",i,wheelCmd[i][0],i,wheelCmd[i][1]);
+   }
 
    for(int i = 0 ; i< 4;i++){
       assert(wheelCmd[i][0]>=0);
