@@ -70,7 +70,7 @@ void lineChildFunct(){
    fprintf(stderr,"got in lineSensor almost to while loop\n");
    while(1){
 
-      for(int i = 1 ; i < 2 ; i++) {
+      for(int i = 0 ; i < 6 ; i++) {
       
          switch(lightSensors[i].state) {
             case IO:

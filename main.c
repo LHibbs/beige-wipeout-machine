@@ -7,15 +7,15 @@
 
 //binary config of light sensors for each type of line command
 
-#define SIDELINE_FWD 5  //00000101
-#define CENTER_TO_SUPPLY_FWD 2 
+#define ACROSS_FWD 4  //00000101 //right now sensor 0 wont work so don't use the second one
+#define CENTER_TO_SUPPLY_FWD 2   //going right  
 #define SUPPLY_TO_SUPPLY_FWD 2
-#define SUPPLY_TO_CENTER_FWD 2
+#define SUPPLY_TO_CENTER_FWD 16
 
-#define SIDELINE_BCK 48 //00110000
-#define CENTER_TO_SUPPLY_BCK 8 //00001000 
-#define SUPPLY_TO_SUPPLY_BCK 8
-#define SUPPLY_TO_CENTER_BCK 8
+#define ACROSS_BCK 8 //00101000 right now sensor 5 wont work, if it did value is 40
+#define CENTER_TO_SUPPLY_BCK 16 //00010000 
+#define SUPPLY_TO_SUPPLY_BCK 16
+#define SUPPLY_TO_CENTER_BCK 2 //00000010
 
 void clear(){
    int c = fgetc(stdin);
@@ -53,10 +53,30 @@ void alignCommand(int * driveWheelPipe) {
 }
 
 
-void sidelineForward(int* driveWheelPipe) { 
+void acrossFwd(int* driveWheelPipe) { 
     //move(Forward, 30, driveWheelPipe); 
     //alignCommand(driveWheelPipe); 
-    moveToLine(Backward, 8, driveWheelPipe, CENTER_TO_SUPPLY_FWD); 
+    moveToLine(Forward, 70, driveWheelPipe, ACROSS_FWD); 
+}
+
+void supplyToSupplyBck(int * driveWheelPipe) {
+   moveToLine(Left, 20, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); 
+}
+
+void supplyToCenterBck(int * driveWheelPipe) {
+    moveToLine(Right, 10, driveWheelPipe, SUPPLY_TO_CENTER_BCK); 
+}
+
+void centerToSupplyFwd(int * driveWheelPipe) {
+   moveToLine(Right, 10, driveWheelPipe, CENTER_TO_SUPPLY_FWD); 
+}
+
+void supplyToSupplyFwd(int * driveWheelPipe) {
+   moveToLine(Left, 20, driveWheelPipe, SUPPLY_TO_SUPPLY_FWD); 
+}
+
+void supplyToCenterFwd(int * driveWheelPipe) {
+    moveToLine(Right, 10, driveWheelPipe, SUPPLY_TO_CENTER_BCK); 
 }
 
 int main(){
@@ -101,13 +121,23 @@ int main(){
          break;
       }
 
-      //direction = Forward;
+      direction = Forward;
       direction = Right;
       move(direction, 70 ,driveWheelPipe); 
       */
 
+      supplyToSupplyBck(driveWheelPipe); 
 
-      sidelineForward(driveWheelPipe); 
+      if(fgetc(stdin)==EOF){
+         break;
+      }
+
+      supplyToCenterBck(driveWheelPipe); 
+
+      if(fgetc(stdin)==EOF){
+         break;
+      }
+      acrossFwd(driveWheelPipe); 
    }
    msg[0] = 'q'; 
    MYWRITE(driveWheelPipe[1], msg, sizeof(char));   
