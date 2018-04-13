@@ -57,6 +57,7 @@ void lineChildFunct(){
    pinMode(LS_3_PIN,OUTPUT);
    pinMode(LS_4_PIN,OUTPUT);
    pinMode(LS_5_PIN,OUTPUT);
+   int chargeTime = 0;
 
    lightSensor lightSensors[6]; 
    after = malloc(sizeof(struct timeval));
@@ -70,17 +71,22 @@ void lineChildFunct(){
    fprintf(stderr,"got in lineSensor almost to while loop\n");
    while(1){
 
-      for(int i = 0 ; i < 6 ; i++) {
-      
+      for(int i = 5 ; i < 6 ; i++) { 
          switch(lightSensors[i].state) {
             case IO:
                lightSensors[i].state = Charge;
                digitalWrite(pins[i],1);
                break; 
             case Charge: 
+               chargeTime++;
+               if(chargeTime > 10){
+
                pinMode(pins[i],INPUT);
                gettimeofday(lightSensors[i].start,NULL);
                lightSensors[i].state = Wait;
+               chargeTime = 0;
+
+               }
                break; 
             case Wait:
                gettimeofday(after,NULL);
@@ -90,21 +96,24 @@ void lineChildFunct(){
                   if(diffTime > threshold[i]){
                      if(lightSensors[i].count < 5){
                         lightSensors[i].count++;
+                        output &= ~maskPin[i];
+                        fprintf(stderr,"H:diffTIme:%g\n",diffTime);
                      }
                      else{
                         output |= (maskPin[i]);
+                        fprintf(stderr,"D:diffTIme:%g\n",diffTime);
                      }
                   }
                   else{
                      lightSensors[i].count = 0;
                      output &= ~maskPin[i];
+                     fprintf(stderr,"L:diffTIme:%g\n",diffTime);
                   }
 
                   pinMode(pins[i],OUTPUT);
                   lightSensors[i].state = IO;
                }
 
-//		  fprintf(stderr,"diffTIme:%g\n",diffTime);
                break; 
             default: 
                break; 
