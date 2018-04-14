@@ -18,6 +18,9 @@
 #define SUPPLY_TO_SUPPLY_BCK 16
 #define SUPPLY_TO_CENTER_BCK 2 //00000010
 
+#define CENTER_TO_CENTER_FWD 8
+#define CENTER_TO_CENTER_BCK 4 
+
 void clear(){
    int c = fgetc(stdin);
    while(c!=EOF){
@@ -26,7 +29,7 @@ void clear(){
 }
 
 // dist in inches
-void move(enum dir direction, int dist,int* driveWheelPipe) {
+void move(enum dir direction, double dist,int* driveWheelPipe) {
    double distance = dist * ENC_TO_INCH;
    
    char msg[10];
@@ -37,7 +40,9 @@ void move(enum dir direction, int dist,int* driveWheelPipe) {
    MYWRITE(driveWheelPipe[1],&direction,sizeof(enum dir));
 }
 
-void moveToLine(enum dir direction, int expectedDist, int* driveWheelPipe, char type) {
+void moveToLine(enum dir direction, double expectedDist, int* driveWheelPipe, char type) {
+   move(direction,expectedDist,driveWheelPipe);
+   return;
    double distance = expectedDist * ENC_TO_INCH;
    char msg[10];
    msg[0] = 'l';
@@ -137,26 +142,49 @@ int main(){
    
 
    while(1){
+      /*if(fgetc(stdin)==EOF){
+       break;
+      }
+      alignCommand(driveWheelPipe);//align*/
       if(fgetc(stdin)==EOF){
        break;
       }
-         move(Right, 30, driveWheelPipe);
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+
          moveToLine(Right, 11, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); //this is differnt then just supply to suppy becaues of starting position
 
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      //alignCommand(driveWheelPipe);//align
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Forward,1,driveWheelPipe);//supply to supply from left to right
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         moveToLine(Left,24,driveWheelPipe,SUPPLY_TO_SUPPLY_BCK);//supply to supply from left to right
 
       if(fgetc(stdin)==EOF){
        break;
       }
-         moveToLine(Left,20,driveWheelPipe,SUPPLY_TO_SUPPLY_BCK);//supply to supply from left to right
+         moveToLine(Right,15,driveWheelPipe,SUPPLY_TO_CENTER_BCK);//supply right to center 
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-         moveToLine(Right,10,driveWheelPipe,SUPPLY_TO_CENTER_BCK);//supply right to center 
          move(Left,2,driveWheelPipe);//schoot to align with center
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Forward,41,driveWheelPipe);//move to raised platform
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      alignCommand(driveWheelPipe);//align
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+
+      moveToLine(Forward,41,driveWheelPipe,CENTER_TO_CENTER_FWD);//move to other side
 
       /*turnOnDeath(launchingPipe);
 

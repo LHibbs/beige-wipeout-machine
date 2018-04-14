@@ -22,8 +22,8 @@
 
 #define FWD_BIAS 80
 #define BACK_BIAS 103 
-#define LEFT_BIAS 0 //positive is more arcing and moving up when going left
-#define RIGHT_BIAS -400//positive is more arcing and moving down when going right 
+#define LEFT_BIAS -80 //positive is more arcing and moving up when going left
+#define RIGHT_BIAS -300//positive is more arcing and moving down when going right 
 #define CLOCKWISE_BIAS 0
 #define COUNTERCLOCKWISE_BIAS 0
 
@@ -386,8 +386,8 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
          case Right:
             wheels[FL].powToWheels = MIN_SPEED*2000 -30;
             wheels[FR].powToWheels = MIN_SPEED*2000-30;
-            wheels[BR].powToWheels = MIN_SPEED*2000 + 30;
-            wheels[BL].powToWheels = MIN_SPEED*2000 + 10;
+            wheels[BR].powToWheels = MIN_SPEED*2000 + 50;
+            wheels[BL].powToWheels = MIN_SPEED*2000 + 30;
          break;       
          case Left:  
             wheels[FL].powToWheels = MIN_SPEED*2000-30;
@@ -633,6 +633,7 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
 	    printf("done with startup phase"); 
             *startupPhase = 0; 
         } 
+        return lastDistPowVal;
         
     }
        // this grabs the wheels that moved the least. THis is crazy sam's idea for best PI control change later if foundn he was just dumb
@@ -661,6 +662,14 @@ double distancePIDControl(WheelPid *wheels, enum dir direction, int * startupPha
    //using wheels[0] becaues all wheels have the same curError. this will probally change 
    pow = (KP*error_new + KI*dt_sec*(wheels[0].curError));
       printf("pow:%g, encoderGoal:%ld, encoderVal:%ld, errorNew:%ld\n",pow,wheels[indexEncoderToUse].encoderGoal,encoderToUse,error_new);
+   if(pow > 1){
+      return 1;
+   }
+   else if(pow < -1){
+      return -1;
+   }
+   else
+      return 0;
    if(pow >  2000 ){
        pow =   1;
    }
@@ -693,9 +702,11 @@ void resetImu(int  imuPipe){
 void updateImuStatus(ImuDir *curImu){
    struct pollfd IMU_poll = {
      .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
+   float x,y,z;
    while(poll(&IMU_poll,1,0)==1){
-      scanf("%g %g %g\n",&(curImu->Rx),&(curImu->Ry),&(curImu->Rz));
+      scanf("%g %g %g\n",&(x),&(y),&(z));
    }
+   curImu->Rx = (x);
 }
 
 //currently assumes that 0s in lineConfig are not important, can change this later
@@ -723,12 +734,12 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
     } else if (command->cmdType == Line){
 	    if(abs_double((wheelPid[0].encoderCnt)) >= abs_double(command->encoderDist)){
                   printf("ENCODER DISTANCE REACHED IGNORING ENCODER\n\n");
-		    *ignoreEncoder = 1;
+		    //*ignoreEncoder = 1;
 		 return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
 	    }
     } else if (command->cmdType == Align) { 
        *ignoreEncoder = 1;
-       //fprintf(stderr,"angle is:%g\n",angleToValue(curImu->Rx));
+       fprintf(stderr,"angle is:%g\n",angleToValue(curImu->Rx));
         if(abs_double(angleToValue(curImu->Rx)) < .3)
         {
             return 1;
