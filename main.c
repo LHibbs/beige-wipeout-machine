@@ -140,8 +140,12 @@ int main(){
       if(fgetc(stdin)==EOF){
        break;
       }
-      //launchBalls(5,launchingPipe);
       turnOnDeath(launchingPipe);
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      launchBalls(10,launchingPipe);
 
       if(fgetc(stdin)==EOF){
          break;

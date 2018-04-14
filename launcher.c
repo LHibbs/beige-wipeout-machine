@@ -1,5 +1,6 @@
 #include "launcher.h"
-#define MAX_LAUNCHER_SPEED 350
+#define MAX_LAUNCHER_SPEED 750
+#define MAX_LAUNCHER_SPEED_CONT 320
 #define MAX_FEEDER_SPEED 2000
 #define JAMTIME 600000 //in mu seconds 1 second
 #define BUTTON_CONTACT_COUNT 10
@@ -168,7 +169,7 @@ void launchingChildFunct(int new_stdin){
       if(gradualStart == 1){
          if(launcherCmd.count > 10){
             launcherCmd.count = 0;
-            launcherCmd.pow += 10;
+            launcherCmd.pow += 5;
             fprintf(stderr,"pow:%d\n",launcherCmd.pow);
             if(launcherCmd.pow >=  MAX_LAUNCHER_SPEED){
                launcherCmd.pow = MAX_LAUNCHER_SPEED;
@@ -177,6 +178,12 @@ void launchingChildFunct(int new_stdin){
             }
          }
          launcherCmd.count++;
+      }
+      else{
+         if(launcherCmd.pow > 0){
+            fprintf(stderr,"pow:%d\n",launcherCmd.pow);
+            launcherCmd.pow = MAX_LAUNCHER_SPEED_CONT;
+         }
       }
 
       if(poll(&stdin_poll,1,0)==1){
