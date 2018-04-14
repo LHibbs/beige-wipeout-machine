@@ -112,6 +112,21 @@ void moveNoGrad(enum dir direction, double dist,int* driveWheelPipe) {
    MYWRITE(driveWheelPipe[1],&distance,sizeof(double));
    MYWRITE(driveWheelPipe[1],&direction,sizeof(enum dir));
 }
+void waitMS(double time){
+   struct timeval start,after;
+   struct timespec sleepTime;
+
+   sleepTime.tv_nsec = 1000000;
+   sleepTime.tv_sec = sleepTime.tv_nsec/1000000000;
+   gettimeofday(&start,NULL);
+   gettimeofday(&start,NULL);
+   double diffTime = 0;;
+   while(diffTime < time*1000){
+      gettimeofday(&after,NULL);
+      diffTime =  (after.tv_usec - start.tv_usec) +\
+         1000000*(after.tv_sec - start.tv_sec);
+   }
+}
 int main(){
 
    pid_t driveWheelPid;
@@ -125,10 +140,10 @@ int main(){
    struct timespec jiggleTime_FWD;
    struct timespec jiggleTime_BCK;
    struct timespec sleepTime;
-   jiggleTime_FWD.tv_nsec = 70000000;
+   jiggleTime_FWD.tv_nsec = 80000000;
    jiggleTime_FWD.tv_sec = jiggleTime_FWD.tv_nsec/1000000000;
 
-   jiggleTime_BCK.tv_nsec = 150000000;
+   jiggleTime_BCK.tv_nsec = 70000000;
    jiggleTime_BCK.tv_sec = jiggleTime_BCK.tv_nsec/1000000000;
 
    int status;
@@ -227,7 +242,7 @@ int main(){
 
          diffTime =  (after->tv_usec - start->tv_usec) +\
             1000000*(after->tv_sec - start->tv_sec);
-         if(diffTime > 4000000){
+         if(diffTime > 3000000){
             break;
          }
          if(jiggleState == 0){
@@ -242,6 +257,10 @@ int main(){
          }
       }
       move(Forward,0,driveWheelPipe);
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      alignCommand(driveWheelPipe);//align
 
       if(fgetc(stdin)==EOF){
        break;
