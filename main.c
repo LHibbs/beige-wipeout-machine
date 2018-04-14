@@ -127,6 +127,16 @@ void waitMS(double time){
          1000000*(after.tv_sec - start.tv_sec);
    }
 }
+void waitFinish(struct pollfd *inFd,double time){
+
+   char tmp[10];
+   printf("waiting for complete!\n");
+   MYREAD(inFd->fd,tmp,sizeof(char));
+   while(poll(inFd,1,0)==1){
+      MYREAD(inFd->fd,tmp,sizeof(char));
+   }
+   waitMS(time);
+}
 int main(){
 
    pid_t driveWheelPid;
@@ -176,9 +186,17 @@ int main(){
   launchingPipe = 0;*/
 
    //enum dir direction;
-   /*struct pollfd stdin_poll = {
-       .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
-       */
+   struct pollfd complete_poll = {
+       .fd = driveWheelPipe[0], .events = POLLIN |  POLLPRI };
+   for(int i =0; i < 6;i++){
+	   sprintf(msg,"echo %d=0 > /dev/servoblaster",i);
+	   system(msg);
+   }
+   digitalWrite(pin(FL),0);
+   digitalWrite(pin(FR),0);
+   digitalWrite(pin(BL),0);
+   digitalWrite(pin(BR),0);
+   digitalWrite(FEEDER_DIR_PIN,0);
    
 
    while(1){
@@ -186,41 +204,31 @@ int main(){
        break;
       }
       alignCommand(driveWheelPipe);//align*/
-      /*
+      
       if(fgetc(stdin)==EOF){
        break;
       }
 
          moveToLine(Right, 11.7, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); //this is differnt then just supply to suppy becaues of starting position
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitFinish(&complete_poll,500);
       alignCommand(driveWheelPipe);//align
       //if(fgetc(stdin)==EOF){
        //break;
       //}
       //   move(Forward,1,driveWheelPipe);//supply to supply from left to right
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitFinish(&complete_poll,100);
          moveToLine(Left,26,driveWheelPipe,SUPPLY_TO_SUPPLY_BCK);//supply to supply from left to right
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitFinish(&complete_poll,500);
          moveToLine(Right,11,driveWheelPipe,SUPPLY_TO_CENTER_BCK);//supply right to center 
 
          //move(Left,2,driveWheelPipe);//schoot to align with center
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitFinish(&complete_poll,500);
          move(Forward,67,driveWheelPipe);//move to raised platform
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitFinish(&complete_poll,500);
        //move(Backward,1,driveWheelPipe);//move to raised platform
       //if(fgetc(stdin)==EOF){
        //break;
@@ -228,14 +236,11 @@ int main(){
       turnOnDeath(launchingPipe);
       alignCommand(driveWheelPipe);//align
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-      launchBalls(15,launchingPipe);*/
+      waitFinish(&complete_poll,5000);
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      launchBalls(15,launchingPipe);
+      waitMS(10000);
+      turnOffDeath(launchingPipe);
       gettimeofday(start,NULL);
       while(1){
          gettimeofday(after,NULL);
@@ -257,48 +262,39 @@ int main(){
          }
       }
       move(Forward,0,driveWheelPipe);
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+
+      waitFinish(&complete_poll,500);
+
+      printf("finished and aligned\n");
+      turnOnDeath(launchingPipe);
       alignCommand(driveWheelPipe);//align
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-      turnOffDeath(launchingPipe);
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-         move(Forward,3,driveWheelPipe);//move to raised platform
+      waitFinish(&complete_poll,5000);
+      launchBalls(15,launchingPipe);
+      waitMS(10000);
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      turnOffDeath(launchingPipe);
+         move(Forward,3,driveWheelPipe);//move to raised platform
+      waitFinish(&complete_poll,500);
+
          move(Left,8,driveWheelPipe);//move to raised platform
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitFinish(&complete_poll,500);
          move(Right,23.5,driveWheelPipe);//move to raised platform
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-         move(Left,9,driveWheelPipe);//move to raised platform
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitFinish(&complete_poll,500);
       turnOnDeath(launchingPipe);
+         move(Left,9,driveWheelPipe);//move to raised platform
+      waitFinish(&complete_poll,5000);
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
       launchBalls(20,launchingPipe);
-      if(fgetc(stdin)==EOF){
-       break;
-      }
+      waitMS(10000);
+
       turnOffDeath(launchingPipe);
 
+      alignCommand(driveWheelPipe);//align
+      waitFinish(&complete_poll,500);
  
+         move(Right,9,driveWheelPipe);//move to raised platform
 
       /*alignCommand(driveWheelPipe);//align
       if(fgetc(stdin)==EOF){

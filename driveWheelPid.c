@@ -869,7 +869,7 @@ void driveWheelPidControl(int new_stdin,int write_out){
    resetImu(imuPipe);
    for(int i =0;i < 10; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
-      fprintf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
+      //fprintf(stderr,"%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
    }
    fprintf(stderr, "IMU READY!!\n");
 
