@@ -22,8 +22,10 @@
 
 #define FWD_BIAS 80
 #define BACK_BIAS 103 
-#define LEFT_BIAS 0 
-#define RIGHT_BIAS 0 
+#define LEFT_BIAS 0 //positive is more arcing and moving up when going left
+#define RIGHT_BIAS -400//positive is more arcing and moving down when going right 
+#define CLOCKWISE_BIAS 0
+#define COUNTERCLOCKWISE_BIAS 0
 
 //distance to center of ramp 23 
 
@@ -379,6 +381,46 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
        }
        wheels[i].powToWheels = wheels[i].pow * 2000;
    }
+   if(ignoreEncoder){
+      switch(direction){
+         case Right:
+            wheels[FL].powToWheels = MIN_SPEED*2000 -30;
+            wheels[FR].powToWheels = MIN_SPEED*2000-30;
+            wheels[BR].powToWheels = MIN_SPEED*2000 + 30;
+            wheels[BL].powToWheels = MIN_SPEED*2000 + 10;
+         break;       
+         case Left:  
+            wheels[FL].powToWheels = MIN_SPEED*2000-30;
+            wheels[FR].powToWheels = MIN_SPEED*2000-30;
+            wheels[BR].powToWheels = MIN_SPEED*2000 + 30;
+            wheels[BL].powToWheels = MIN_SPEED*2000 + 30;
+         break;     
+         case Forward:
+            wheels[FL].powToWheels = MIN_SPEED*2000;
+            wheels[FR].powToWheels = MIN_SPEED*2000;
+            wheels[BR].powToWheels = MIN_SPEED*2000;
+            wheels[BL].powToWheels = MIN_SPEED*2000;
+         break;      
+         case Backward:
+            wheels[FL].powToWheels = MIN_SPEED*2000;
+            wheels[FR].powToWheels = MIN_SPEED*2000;
+            wheels[BR].powToWheels = MIN_SPEED*2000;
+            wheels[BL].powToWheels = MIN_SPEED*2000;
+         break;       
+         case Counterclockwise:
+            wheels[FL].powToWheels = MIN_SPEED*2000;
+            wheels[FR].powToWheels = MIN_SPEED*2000;
+            wheels[BR].powToWheels = MIN_SPEED*2000;
+            wheels[BL].powToWheels = MIN_SPEED*2000;
+         break;        
+         case Clockwise:
+            wheels[FL].powToWheels = MIN_SPEED*2000;
+            wheels[FR].powToWheels = MIN_SPEED*2000;
+            wheels[BR].powToWheels = MIN_SPEED*2000;
+            wheels[BL].powToWheels = MIN_SPEED*2000;
+         break;
+      }
+   }
   
    for(int j = 0 ; j < 4; j++){
       printf("wheels[%d].tempCurDir: %d ,.pow: %g, powToWheels:%d\n",j,wheels[j].tempCurDir,wheels[j].pow,wheels[j].powToWheels);
@@ -478,14 +520,16 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult, int igno
          pow = -BACK_BIAS;
       break;
       case Left:
-         pow = -LEFT_BIAS;
+         pow = LEFT_BIAS;///positive is more arcing and moving up when going left
       break;
       case Right:
          pow = RIGHT_BIAS;
       break;
       case Clockwise:
+         pow = CLOCKWISE_BIAS;
+         break;
       case Counterclockwise:
-      pow = RIGHT_BIAS;
+         pow = COUNTERCLOCKWISE_BIAS;
       break;
       default:
          assert(0);
@@ -523,22 +567,32 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult, int igno
          wheels[BR].pow = powerMult - (powerMult)*pow;
 
       break;
-      case Left:
-         wheels[BR].pow = powerMult; //- (powerMult)*pow;
-         wheels[FL].pow = powerMult;// - (powerMult)*pow;
+      case Left://positive is more arcing and moving up when going left
+         wheels[BR].pow = powerMult - (powerMult)*pow;
+         wheels[FL].pow = powerMult - (powerMult)*pow;
 
-         wheels[FR].pow = powerMult;// + (powerMult)*pow;
+         wheels[FR].pow = powerMult + (powerMult)*pow;
          wheels[BL].pow = powerMult + (powerMult)*pow;
       break; 
-      case Right:
-         wheels[BL].pow = powerMult - (powerMult)*pow;
-         wheels[FR].pow = powerMult;// - (powerMult)*pow;
+      case Right://positive bias means more clockwise drift right
+         wheels[BL].pow = powerMult + (powerMult)*pow;
+         wheels[FR].pow = powerMult + (powerMult)*pow;
 
-         wheels[FL].pow = powerMult;// + (powerMult)*pow;
-         wheels[BR].pow = powerMult;// + (powerMult)*pow;
+         wheels[FL].pow = powerMult + (powerMult)*pow;
+         wheels[BR].pow = powerMult - 2*(powerMult)*pow;
       break;
       case Clockwise:
+         wheels[BL].pow = powerMult + (powerMult)*pow;
+         wheels[FR].pow = powerMult + (powerMult)*pow;
+
+         wheels[FL].pow = powerMult - (powerMult)*pow;
+         wheels[BR].pow = powerMult - (powerMult)*pow;
       case Counterclockwise:
+         wheels[BL].pow = powerMult + (powerMult)*pow;
+         wheels[FR].pow = powerMult + (powerMult)*pow;
+
+         wheels[FL].pow = powerMult - (powerMult)*pow;
+         wheels[BR].pow = powerMult - (powerMult)*pow;
       break;
    }
    for(int i = 0; i < 4;i++){

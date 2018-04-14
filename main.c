@@ -140,7 +140,25 @@ int main(){
       if(fgetc(stdin)==EOF){
        break;
       }
-      turnOnDeath(launchingPipe);
+         move(Right, 30, driveWheelPipe);
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         moveToLine(Right, 11, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); //this is differnt then just supply to suppy becaues of starting position
+
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         moveToLine(Left,20,driveWheelPipe,SUPPLY_TO_SUPPLY_BCK);//supply to supply from left to right
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         moveToLine(Right,10,driveWheelPipe,SUPPLY_TO_CENTER_BCK);//supply right to center 
+         move(Left,2,driveWheelPipe);//schoot to align with center
+
+      /*turnOnDeath(launchingPipe);
 
       if(fgetc(stdin)==EOF){
        break;
@@ -152,7 +170,7 @@ int main(){
       }
       printf("turning off!!!\n");
 
-      turnOffDeath(launchingPipe);
+      turnOffDeath(launchingPipe);*/
 
       /*direction = Right;
       move(direction, 70 , driveWheelPipe); 

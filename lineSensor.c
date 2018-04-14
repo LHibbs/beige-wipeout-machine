@@ -16,7 +16,7 @@
 #define LS_11_THRESHOLD 2000
 //this light sensor is broken only givng values around 70
 
-#define LS_10_THRESHOLD 1500
+#define LS_10_THRESHOLD 1000
 //infinate black and light is low
 
 
@@ -84,7 +84,7 @@ void lineChildFunct(){
    fprintf(stderr,"got in lineSensor almost to while loop\n");
    while(1){
 
-      for(int i = 1 ; i < 5 ; i++) { 
+      for(int i = 2 ; i < 5 ; i++) { 
          switch(lightSensors[i].state) {
             case IO:
                lightSensors[i].state = Charge;
