@@ -35,7 +35,7 @@ void launchingChildFunct(int new_stdin){
    char msg[100];
    int ballsToLaunch = 1;
 
-   enum FeederState feederState = Front;
+   enum FeederState feederState = Forward;
    FeederStruct feederCmd = {{0,0},0};
    LauncherStruct launcherCmd = {0,0};
 
@@ -95,17 +95,23 @@ void launchingChildFunct(int new_stdin){
                1000000*(after->tv_sec - start->tv_sec);
             //fprintf(stderr,"state:Forward:");
             if((diffTime > JAMTIME) || (digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON && on_button  > BUTTON_CONTACT_COUNT )){
-               if(diffTime > JAMTIME){
+               if(diffTime > JAMTIME){//jamed go back
  //                 fprintf(stderr,"GOT A JAM resetting!\n");
+                  on_button = 0;
+                  feederState = Backward;
+                  gettimeofday(start,NULL);
+                  feederCmd.count = 0;
+                  feederCmd.cmd[0] = MAX_FEEDER_SPEED;
+                  feederCmd.cmd[1] = 0;
                }
+               else{
+
                   on_button = 0;
                   feederCmd.cmd[0] = 0;
                   feederCmd.cmd[1] = 0;
                   feederCmd.count = 0;
-
-
-                  feederState = Backward;
-                  gettimeofday(start,NULL);
+                  feederState = Front;
+               }
 //                  fprintf(stderr,"Front!\n");
             }
             else{
@@ -130,6 +136,7 @@ void launchingChildFunct(int new_stdin){
    //            fprintf(stderr,"Going Forward!\n");
                gettimeofday(start,NULL);
                on_button = 0;
+               feederCmd.count =0;
                feederState = Forward;
             }
          break;
@@ -140,6 +147,7 @@ void launchingChildFunct(int new_stdin){
             }
             if(feederCmd.count == 10){
                ballsToLaunch--;
+               feederCmd.count =0;
                if(ballsToLaunch > 0){
     //              fprintf(stderr,"launching:%d more!\n",ballsToLaunch);
                   feederState = Backward;
@@ -209,6 +217,7 @@ void launchingChildFunct(int new_stdin){
                exit(EXIT_SUCCESS);
             default:
                fprintf(stderr,"Error in encoder function switch statment recieved:%c line:%d, file:%s\n",msg[0],__LINE__,__FILE__);
+               exit(EXIT_FAILURE);
          }
       }
 

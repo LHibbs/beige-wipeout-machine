@@ -84,7 +84,7 @@ void lineChildFunct(){
    fprintf(stderr,"got in lineSensor almost to while loop\n");
    while(1){
 
-      for(int i = 5 ; i < 6 ; i++) { 
+      for(int i = 0 ; i < 6 ; i++) { 
          switch(lightSensors[i].state) {
             case IO:
                lightSensors[i].state = Charge;
@@ -110,17 +110,17 @@ void lineChildFunct(){
                      if(lightSensors[i].count < 5){
                         lightSensors[i].count++;
                         output &= ~maskPin[i];
-                        fprintf(stderr,"H:diffTIme:%g\n",diffTime);
+                        //fprintf(stderr,"H:diffTIme:%g\n",diffTime);
                      }
                      else{
                         output |= (maskPin[i]);
-                        fprintf(stderr,"D:diffTIme:%g\n",diffTime);
+                        //fprintf(stderr,"D:diffTIme:%g\n",diffTime);
                      }
                   }
                   else{
                      lightSensors[i].count = 0;
                      output &= ~maskPin[i];
-                     fprintf(stderr,"L:diffTIme:%g\n",diffTime);
+                     //fprintf(stderr,"L:diffTIme:%g\n",diffTime);
                   }
 
                   pinMode(pins[i],OUTPUT);

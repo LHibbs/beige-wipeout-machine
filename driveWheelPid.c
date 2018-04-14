@@ -128,6 +128,17 @@ void updateWheels(WheelPid *wheels,double inputGoal,enum dir direction){
          wheels[BR].curDir = -1;
          wheels[BL].curDir = 1;
       break;
+      case Clockwise:
+         wheels[FL].curDir = 1;
+         wheels[FR].curDir = -1;
+         wheels[BR].curDir = -1;
+         wheels[BL].curDir = 1;
+      break;
+      case Counterclockwise:
+         wheels[FL].curDir = -1;
+         wheels[FR].curDir = 1;
+         wheels[BR].curDir = 1;
+         wheels[BL].curDir = -1;
       default:
          assert(0);
    }
@@ -405,13 +416,31 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
             wheelCmd[BL][0] = (int)abs(2000*(1-wheels[BL].tempCurDir) - wheels[BL].powToWheels);//default backwords
             wheelCmd[BL][1] = 1-wheels[BL].tempCurDir;
       break;
+      case Clockwise:
+      case Counterclockwise:
+            //FL
+            wheelCmd[FL][0] = (int)abs(2000*(wheels[FL].tempCurDir) - wheels[FL].powToWheels);//defualt backwords
+            wheelCmd[FL][1] = wheels[FL].tempCurDir;
+
+            //FR
+            wheelCmd[FR][0] = (int)abs(2000*(1-wheels[FR].tempCurDir) - wheels[FR].powToWheels);//default fowards
+            wheelCmd[FR][1] = 1-wheels[FR].tempCurDir;
+
+            //BR
+            wheelCmd[BR][0] = (int)abs(2000*(1-wheels[BR].tempCurDir) - wheels[BR].powToWheels);//default fowards
+            wheelCmd[BR][1] = 1-wheels[BR].tempCurDir;
+
+            //BL
+            wheelCmd[BL][0] = (int)abs(2000*(wheels[BL].tempCurDir) - wheels[BL].powToWheels);//default backwords
+            wheelCmd[BL][1] = wheels[BL].tempCurDir;
+            break;
       default:
          assert(0);
    }
 
-   for(int i = 0 ; i< 4;i++){
+   /*for(int i = 0 ; i< 4;i++){
       printf("wheelCmd[%d][0] = %d wheelCmd[%d,[1]] = %d\n",i,wheelCmd[i][0],i,wheelCmd[i][1]);
-   }
+   }*/
 
    for(int i = 0 ; i< 4;i++){
       assert(wheelCmd[i][0]>=0);
@@ -420,16 +449,16 @@ void limitPowerWheels(WheelPid *wheels,int wheelCmd[][2],enum dir direction,int 
 
       wheels[i].curDir = (wheelCmd[i][1]==0)?1:-1;
    }
-
+/*
    for(int i = 0 ; i< 4;i++){
       printf("wheelCmd[%d][0] = %d wheelCmd[%d,[1]] = %d\n",i,wheelCmd[i][0],i,wheelCmd[i][1]);
    }
    for(int i = 0 ; i< 4;i++){
       printf("%d:wheelCmd.curDir = %d wheel.encoderCnt = %ld\n",i,wheels[i].curDir,wheels[i].encoderCnt);
-   }
+   }*/
 
 }
-double angleToValue(float angle){
+double angleToValue(double angle){
    assert(angle >= 0);
    if(abs(angle) > 90){
       double diff = 0;
@@ -453,6 +482,10 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult, int igno
       break;
       case Right:
          pow = RIGHT_BIAS;
+      break;
+      case Clockwise:
+      case Counterclockwise:
+      pow = RIGHT_BIAS;
       break;
       default:
          assert(0);
@@ -640,7 +673,9 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
 		 return lineConditionsMet(command->lineSensorConfig, curLineSensor);      
 	    }
     } else if (command->cmdType == Align) { 
-        if(abs_double(curImu->Rx) < .01)
+       *ignoreEncoder = 1;
+       fprintf(stderr,"angle is:%g\n",angleToValue(curImu->Rx));
+        if(abs_double(angleToValue(curImu->Rx)) < .3)
         {
             return 1;
         }
@@ -674,18 +709,18 @@ int isValInArray(int val, int *arr, int size){
 void align(enum dir *dir, WheelPid *wheelPid, Command *command, ImuDir *curImu) {
     
     if(command->cmdType == Align) { 
-        if(curImu->Rx > 0) { 
+        if(angleToValue(curImu->Rx) < 0) { 
             *dir = Clockwise;
-            wheelPid[0].pow = MIN_SPEED;
-            wheelPid[1].pow = MIN_SPEED; 
-            wheelPid[2].pow = -MIN_SPEED;
-            wheelPid[3].pow = -MIN_SPEED; 
+            wheelPid[FL].pow = MIN_SPEED;
+            wheelPid[FR].pow = -MIN_SPEED; 
+            wheelPid[BR].pow = -MIN_SPEED;
+            wheelPid[BL].pow = MIN_SPEED; 
         } else {
             *dir = Counterclockwise;  
-            wheelPid[0].pow = -MIN_SPEED;
-            wheelPid[1].pow = -MIN_SPEED; 
-            wheelPid[2].pow = MIN_SPEED;
-            wheelPid[3].pow = -MIN_SPEED; 
+            wheelPid[FL].pow = -MIN_SPEED;
+            wheelPid[FR].pow = MIN_SPEED; 
+            wheelPid[BR].pow = MIN_SPEED;
+            wheelPid[BL].pow = -MIN_SPEED; 
         } 
     }
 }
@@ -757,7 +792,7 @@ void driveWheelPidControl(int new_stdin){
       
       //sets current encoder count of wheels
       updateEncoderStatus(encoderPipe, curEnco, wheels);
-      //updateImuStatus(&curImu);
+      updateImuStatus(&curImu);
       updateLineSensor(linePipe,&curLineSensor);
 
 
@@ -767,6 +802,7 @@ void driveWheelPidControl(int new_stdin){
          // resetWheels(wheelCmd, wheels); 
       }
 
+      fprintf(stderr,"angle is:%g\n",angleToValue(curImu.Rx));
       //if encoder reset = 1 then we have already reset the encoders and are not moving again. this is to repeat encoder resetting actions
       if(encoderReset == 0) {
         //change: this no longer controlls when it ends, it only control pid before then ... 

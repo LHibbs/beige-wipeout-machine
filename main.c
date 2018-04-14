@@ -102,7 +102,7 @@ int main(){
    */
    int status;
    //runLDRTest();
-   enum dir direction;
+   //enum dir direction;
 
    wiringPiSetup();
    pinMode(pin(FL),OUTPUT);
@@ -131,13 +131,16 @@ int main(){
       }
 //      launchBalls(1,launchingPipe);
 
-/*      direction = Forward;
+      /*direction = Right;
       move(direction, 70 , driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
       }*/
-      direction = Left;
-      move(direction, 70 , driveWheelPipe); 
+
+      alignCommand(driveWheelPipe);
+
+      //direction = Left;
+      //move(direction, 70 , driveWheelPipe); 
 
       /*
       supplyToSupplyBck(driveWheelPipe); 
