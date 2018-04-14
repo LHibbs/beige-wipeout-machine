@@ -150,7 +150,7 @@ int main(){
        break;
       }
 
-         moveToLine(Right, 11, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); //this is differnt then just supply to suppy becaues of starting position
+         moveToLine(Right, 11.3, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); //this is differnt then just supply to suppy becaues of starting position
 
          /*
       if(fgetc(stdin)==EOF){
@@ -177,16 +177,41 @@ int main(){
       if(fgetc(stdin)==EOF){
        break;
       }
-         move(Forward,35,driveWheelPipe);//move to raised platform
+         move(Forward,69,driveWheelPipe);//move to raised platform
+
       if(fgetc(stdin)==EOF){
        break;
       }
+      alignCommand(driveWheelPipe);//align
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      turnOnDeath(launchingPipe);
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      launchBalls(20,launchingPipe);
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      turnOffDeath(launchingPipe);
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Left,10,driveWheelPipe);//move to raised platform
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Right,23.5,driveWheelPipe);//move to raised platform
+
       /*alignCommand(driveWheelPipe);//align
       if(fgetc(stdin)==EOF){
        break;
       }*/
 
-      moveToLine(Forward,30,driveWheelPipe,CENTER_TO_CENTER_FWD);//move to other side
 
       /*turnOnDeath(launchingPipe);
 
