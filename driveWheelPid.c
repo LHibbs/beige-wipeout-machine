@@ -694,7 +694,7 @@ void driveWheelPidControl(int new_stdin){
 
    int* encoderPipe;
    int* linePipe;
-   //int imuPipe;
+   int imuPipe;
    int stdInPipe;
    char msg[1000];
    //MotorMsg dirMsg[4];
@@ -724,12 +724,12 @@ void driveWheelPidControl(int new_stdin){
    printf("pipe:%d, %d\n\n",encoderPipe[0],encoderPipe[1]);
 
 
-   //createAcceleromoterChild(&stdInPipe,&imuPipe);
+   createAcceleromoterChild(&stdInPipe,&imuPipe);
    createLineSensorChild(&linePipe);
 
 
 
-   stdInPipe = new_stdin;
+   stdInPipe = stdInPipe;
 
    struct pollfd stdin_poll = {
      .fd = stdInPipe, .events = POLLIN |  POLLPRI };
@@ -741,15 +741,14 @@ void driveWheelPidControl(int new_stdin){
    resetWheels(wheelCmd, wheels); 
    writeToWheels(wheelCmd); 
 //this is beacues the IMU takes a coucple of seconds to start working
-   //TODO change these values but for testing making them small
-   /*for(int i =0;i < 3; i++){
+   for(int i =0;i < 60; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    }
-   //resetImu(imuPipe);
-   for(int i =0;i < 0; i++){
+   resetImu(imuPipe);
+   for(int i =0;i < 10; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
       printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
-   }*/
+   }
    fprintf(stderr, "IMU READY!!\n");
 
    resetWheels(wheelCmd, wheels); 

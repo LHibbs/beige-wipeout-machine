@@ -30,8 +30,8 @@
 #define LS_10_THRESHOLD 3000 //white is 750 black is really high
 
 
-#define LS_0_PIN 10
-#define LS_0_THRESHOLD LS_10_THRESHOLD
+#define LS_0_PIN 12
+#define LS_0_THRESHOLD LS_12_THRESHOLD
 
 #define LS_1_PIN 11
 #define LS_1_THRESHOLD LS_11_THRESHOLD
@@ -42,8 +42,8 @@
 #define LS_3_PIN 14 
 #define LS_3_THRESHOLD LS_14_THRESHOLD
 
-#define LS_4_PIN 12 
-#define LS_4_THRESHOLD LS_12_THRESHOLD
+#define LS_4_PIN 10 
+#define LS_4_THRESHOLD LS_10_THRESHOLD
 
 #define LS_5_PIN 30
 #define LS_5_THRESHOLD LS_30_THRESHOLD
@@ -84,7 +84,7 @@ void lineChildFunct(){
    fprintf(stderr,"got in lineSensor almost to while loop\n");
    while(1){
 
-      for(int i = 0 ; i < 6 ; i++) { 
+      for(int i = 5 ; i < 6 ; i++) { 
          switch(lightSensors[i].state) {
             case IO:
                lightSensors[i].state = Charge;
@@ -110,17 +110,17 @@ void lineChildFunct(){
                      if(lightSensors[i].count < 5){
                         lightSensors[i].count++;
                         output &= ~maskPin[i];
-                        //fprintf(stderr,"H:diffTIme:%g\n",diffTime);
+                        fprintf(stderr,"H:diffTIme:%g\n",diffTime);
                      }
                      else{
                         output |= (maskPin[i]);
-                        //fprintf(stderr,"D:diffTIme:%g\n",diffTime);
+                        fprintf(stderr,"D:diffTIme:%g\n",diffTime);
                      }
                   }
                   else{
                      lightSensors[i].count = 0;
                      output &= ~maskPin[i];
-                     //fprintf(stderr,"L:diffTIme:%g\n",diffTime);
+                     fprintf(stderr,"L:diffTIme:%g\n",diffTime);
                   }
 
                   pinMode(pins[i],OUTPUT);

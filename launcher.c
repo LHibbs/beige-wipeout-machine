@@ -1,8 +1,9 @@
 #include "launcher.h"
 #define MAX_LAUNCHER_SPEED 350
 #define MAX_FEEDER_SPEED 2000
-#define JAMTIME 1000000 //in mu seconds 1 second
-#define BUTTON_CONTACT_COUNT 20
+#define JAMTIME 600000 //in mu seconds 1 second
+#define BUTTON_CONTACT_COUNT 10
+#define START_UP_TIME 10000 //in mu second 2 ms this is time from switching from front to back so it does not read as going back before it moves
 
 
 enum FeederState{Back,Forward,Front,Backward};
@@ -34,7 +35,7 @@ void launchingChildFunct(int new_stdin){
    char msg[100];
    int ballsToLaunch = 1;
 
-   enum FeederState feederState = Backward;
+   enum FeederState feederState = Front;
    FeederStruct feederCmd = {{0,0},0};
    LauncherStruct launcherCmd = {0,0};
 
@@ -64,14 +65,17 @@ void launchingChildFunct(int new_stdin){
       switch(feederState){
          case Backward:
             //fprintf(stderr,"state:Backward:");
-            if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON && on_button > BUTTON_CONTACT_COUNT ){
+            gettimeofday(after,NULL);
+            diffTime =  (after->tv_usec - start->tv_usec) +\
+               1000000*(after->tv_sec - start->tv_sec);
+            if((diffTime > START_UP_TIME) && (digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON && on_button > BUTTON_CONTACT_COUNT) ){
                on_button = 0;
 
                feederCmd.cmd[0] = 0;
                feederCmd.cmd[1] = 0;
 
                feederState = Back;
-               fprintf(stderr,"Back!\n");
+  //             fprintf(stderr,"Back!\n");
             }
             else{
                if(digitalRead(FEEDER_SWITCH_PIN)==FEEDER_SWITCH_ON){
@@ -91,13 +95,18 @@ void launchingChildFunct(int new_stdin){
                1000000*(after->tv_sec - start->tv_sec);
             //fprintf(stderr,"state:Forward:");
             if((diffTime > JAMTIME) || (digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON && on_button  > BUTTON_CONTACT_COUNT )){
+               if(diffTime > JAMTIME){
+ //                 fprintf(stderr,"GOT A JAM resetting!\n");
+               }
                   on_button = 0;
                   feederCmd.cmd[0] = 0;
                   feederCmd.cmd[1] = 0;
                   feederCmd.count = 0;
 
-                  feederState = Front;
-                  fprintf(stderr,"Front!\n");
+
+                  feederState = Backward;
+                  gettimeofday(start,NULL);
+//                  fprintf(stderr,"Front!\n");
             }
             else{
             if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
@@ -110,20 +119,21 @@ void launchingChildFunct(int new_stdin){
                feederCmd.cmd[1] = 1;
             }
             break;
-         case Front:
+         case Back:
             //fprintf(stderr,"state:Front:");
             if(feederCmd.count < 10){
                feederCmd.count++;
             }
             if(feederCmd.count == 10){
-               feederCmd.cmd[0] = MAX_FEEDER_SPEED;
-               feederCmd.cmd[1] = 0;
-               fprintf(stderr,"Going back!\n");
+               feederCmd.cmd[0] = 2000-MAX_FEEDER_SPEED;
+               feederCmd.cmd[1] = 1;
+   //            fprintf(stderr,"Going Forward!\n");
+               gettimeofday(start,NULL);
                on_button = 0;
-               feederState = Backward;
+               feederState = Forward;
             }
          break;
-         case Back:
+         case Front:
             //fprintf(stderr,"state:Back:");
             if(feederCmd.count < 10){
                feederCmd.count++;
@@ -131,11 +141,10 @@ void launchingChildFunct(int new_stdin){
             if(feederCmd.count == 10){
                ballsToLaunch--;
                if(ballsToLaunch > 0){
-                  fprintf(stderr,"launching:%d more!\n",ballsToLaunch);
-                  feederState = Forward;
-                  gettimeofday(start,NULL);
+    //              fprintf(stderr,"launching:%d more!\n",ballsToLaunch);
+                  feederState = Backward;
                   on_button = 0;
-                  feederCmd.cmd[0] = 0;
+                  feederCmd.cmd[0] = MAX_FEEDER_SPEED;
                   feederCmd.cmd[1] = 0;
                }
                else{
@@ -184,7 +193,7 @@ void launchingChildFunct(int new_stdin){
                feederCmd.cmd[1] = 1;
                on_button = 0;
                //assert(feederState == Back);
-               feederState = Forward;
+               feederState = Backward;
                gettimeofday(start,NULL);
             break;
             case 'd': //dump x number of balls
@@ -194,7 +203,7 @@ void launchingChildFunct(int new_stdin){
                feederCmd.cmd[1] = 1;
                on_button = 0;
                //assert(feederState == Back);
-               feederState = Forward;
+               feederState = Backward;
             break;
             case 'q':
                exit(EXIT_SUCCESS);
