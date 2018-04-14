@@ -4,6 +4,7 @@
 #include "launcher.h"
 #include "ldr.h"
 
+#include <time.h>
 #define ENC_TO_INCH 255
 
 //binary config of light sensors for each type of line command
@@ -101,6 +102,16 @@ void launchBalls(int balls,int* launchingPipe){
    MYWRITE(launchingPipe[1],&balls,sizeof(int));
 }
 
+void moveNoGrad(enum dir direction, double dist,int* driveWheelPipe) {
+   double distance = dist * ENC_TO_INCH;
+   
+   char msg[10];
+   printf("distance Goal:%g\n",distance);
+   msg[0] = 'g';
+   MYWRITE(driveWheelPipe[1],msg,sizeof(char));
+   MYWRITE(driveWheelPipe[1],&distance,sizeof(double));
+   MYWRITE(driveWheelPipe[1],&direction,sizeof(enum dir));
+}
 int main(){
 
    pid_t driveWheelPid;
@@ -111,14 +122,27 @@ int main(){
    //dont buffer stdout so faster printing to screen uncomment if multiple process are printing to screen
    //setbuf(stdout,NULL);
 
-   /*
+   struct timespec jiggleTime_FWD;
+   struct timespec jiggleTime_BCK;
    struct timespec sleepTime;
-   sleepTime.tv_sec = 0;
-   sleepTime.tv_nsec = 50000000;
-   */
+   jiggleTime_FWD.tv_nsec = 70000000;
+   jiggleTime_FWD.tv_sec = jiggleTime_FWD.tv_nsec/1000000000;
+
+   jiggleTime_BCK.tv_nsec = 150000000;
+   jiggleTime_BCK.tv_sec = jiggleTime_BCK.tv_nsec/1000000000;
+
    int status;
    //runLDRTest();
    //enum dir direction;
+   int jiggleState = 0;
+
+   struct timeval *start,*after;
+   start = malloc(sizeof(struct timeval));
+   after = malloc(sizeof(struct timeval));
+   sleepTime.tv_nsec = 100000;//.1 mu seconds
+   sleepTime.tv_sec = sleepTime.tv_nsec/1000000000;
+   gettimeofday(start,NULL);
+   gettimeofday(after,NULL);
 
    wiringPiSetup();
    pinMode(pin(FL),OUTPUT);
@@ -128,6 +152,7 @@ int main(){
 
    pinMode(FEEDER_DIR_PIN,OUTPUT);
 
+   double diffTime = 0;
 
    driveWheelPid = createDriveWheelChild(&driveWheelPipe);
 
@@ -146,22 +171,21 @@ int main(){
        break;
       }
       alignCommand(driveWheelPipe);//align*/
+      /*
       if(fgetc(stdin)==EOF){
        break;
       }
 
          moveToLine(Right, 11.7, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); //this is differnt then just supply to suppy becaues of starting position
 
-         /*
       if(fgetc(stdin)==EOF){
        break;
       }
-      //alignCommand(driveWheelPipe);//align
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-         move(Forward,1,driveWheelPipe);//supply to supply from left to right
-         */
+      alignCommand(driveWheelPipe);//align
+      //if(fgetc(stdin)==EOF){
+       //break;
+      //}
+      //   move(Forward,1,driveWheelPipe);//supply to supply from left to right
       if(fgetc(stdin)==EOF){
        break;
       }
@@ -177,13 +201,70 @@ int main(){
       if(fgetc(stdin)==EOF){
        break;
       }
-         move(Forward,69,driveWheelPipe);//move to raised platform
+         move(Forward,67,driveWheelPipe);//move to raised platform
 
       if(fgetc(stdin)==EOF){
        break;
       }
+       //move(Backward,1,driveWheelPipe);//move to raised platform
+      //if(fgetc(stdin)==EOF){
+       //break;
+      //}
+      turnOnDeath(launchingPipe);
       alignCommand(driveWheelPipe);//align
 
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      launchBalls(15,launchingPipe);*/
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      gettimeofday(start,NULL);
+      while(1){
+         gettimeofday(after,NULL);
+
+         diffTime =  (after->tv_usec - start->tv_usec) +\
+            1000000*(after->tv_sec - start->tv_sec);
+         if(diffTime > 4000000){
+            break;
+         }
+         if(jiggleState == 0){
+            moveNoGrad(Forward,1,driveWheelPipe);
+            jiggleState = 1;
+         nanosleep(&jiggleTime_FWD,NULL);
+         }
+         else{
+            moveNoGrad(Backward,1,driveWheelPipe);
+            jiggleState = 0;
+         nanosleep(&jiggleTime_BCK,NULL);
+         }
+      }
+      move(Forward,0,driveWheelPipe);
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+      turnOffDeath(launchingPipe);
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Forward,3,driveWheelPipe);//move to raised platform
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Left,8,driveWheelPipe);//move to raised platform
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Right,23.5,driveWheelPipe);//move to raised platform
+
+      if(fgetc(stdin)==EOF){
+       break;
+      }
+         move(Left,9,driveWheelPipe);//move to raised platform
       if(fgetc(stdin)==EOF){
        break;
       }
@@ -198,14 +279,7 @@ int main(){
       }
       turnOffDeath(launchingPipe);
 
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-         move(Left,10,driveWheelPipe);//move to raised platform
-      if(fgetc(stdin)==EOF){
-       break;
-      }
-         move(Right,23.5,driveWheelPipe);//move to raised platform
+ 
 
       /*alignCommand(driveWheelPipe);//align
       if(fgetc(stdin)==EOF){

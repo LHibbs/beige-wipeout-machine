@@ -22,7 +22,7 @@
 
 #define FWD_BIAS 80
 #define BACK_BIAS 103 
-#define LEFT_BIAS +200 //positive is more arcing and moving up when going left
+#define LEFT_BIAS +100 //positive is more arcing and moving up when going left
 #define RIGHT_BIAS -300//positive is more arcing and moving down when going right 
 #define CLOCKWISE_BIAS 0
 #define COUNTERCLOCKWISE_BIAS 0
@@ -244,6 +244,28 @@ int handleInput(struct pollfd *stdin_poll,WheelPid *wheels,char *msg, int wheelC
                   wheelCmd[i][1] = 0;
                   wheels[i].curError = 0;
                   wheels[i].encoderGoal = wheels[i].encoderCnt;
+               }
+               break;
+            case 'g'://move -- looks for encoder move amount with direction
+               MYREAD(stdin_poll->fd,inputGoal,sizeof(double));
+               MYREAD(stdin_poll->fd,direction,sizeof(enum dir));
+               fprintf(stderr,"inputGoal:%g \t direction:%d\n\n\n",inputGoal[0],(int)*direction);
+               updateWheels(wheels,inputGoal[0],*direction);
+               
+               //also doesn't seem like this needs to be here 
+               resetEncoder(encoderPipe[1]);
+               //gradualStartUp(wheels,wheelCmd,*direction);
+               command->cmdType = Distance; 
+               if(*direction==Backward || *direction==Left){
+                  command->encoderDist = *inputGoal*-1; 
+               }
+               else{
+                  command->encoderDist = *inputGoal; 
+               }
+
+               printf("in handle input\n");
+               for(int j = 0 ; j < 4;j++){
+                  printf("wheelCmd[%d][0] = %d wheelCmd[%d,[1]] = %d\n",j,wheelCmd[j][0],j,wheelCmd[j][1]);
                }
                break;
             case 'l':
