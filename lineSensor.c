@@ -1,21 +1,34 @@
 #include "lineSensor.h"
 #include <time.h>
 //encoder pinout
-#define LS_12_THRESHOLD 400  //white was 350-360 black was 430
-#define LS_14_THRESHOLD 420  //ehite was 290 black was 480
-#define LS_30_THRESHOLD 1000 //may need to change this hard to tell black was infinate
-#define LS_21_THRESHOLD 2000 //may need to change this hard to tell black was infinate
-#define LS_11_THRESHOLD 2000 //white is 750 black is really high
-#define LS_10_THRESHOLD 1000 //white is 750 black is really high
-
 /*
+#define LS_12_THRESHOLD 400 
+//around 400-500 for dark and around 200-300 for light
+
+#define LS_14_THRESHOLD 420
+//around 500 dark and around 200 for light
+
+#define LS_30_THRESHOLD 1000
+//working around 1000 for dark and around 300 for light
+
+#define LS_21_THRESHOLD 2000 
+//infinate black and light is low ~200
+
+#define LS_11_THRESHOLD 2000
+//this light sensor is broken only givng values around 70
+
+#define LS_10_THRESHOLD 1000
+//infinate black and light is low
+
+*/
+
 #define LS_12_THRESHOLD 3000  //white was 350-360 black was 430
 #define LS_14_THRESHOLD 3000  //ehite was 290 black was 430
 #define LS_30_THRESHOLD 3000 //may need to change this hard to tell black was infinate
 #define LS_21_THRESHOLD 3000 //may need to change this hard to tell black was infinate
 #define LS_11_THRESHOLD 3000 //white is 750 black is really high
 #define LS_10_THRESHOLD 3000 //white is 750 black is really high
-*/
+
 
 #define LS_0_PIN 10
 #define LS_0_THRESHOLD LS_10_THRESHOLD
@@ -71,7 +84,7 @@ void lineChildFunct(){
    fprintf(stderr,"got in lineSensor almost to while loop\n");
    while(1){
 
-      for(int i = 5 ; i < 6 ; i++) { 
+      for(int i = 3 ; i < 4 ; i++) { 
          switch(lightSensors[i].state) {
             case IO:
                lightSensors[i].state = Charge;

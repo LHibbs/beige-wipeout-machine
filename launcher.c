@@ -1,6 +1,6 @@
 #include "launcher.h"
 #include <assert.h>
-#define MAX_LAUNCHER_SPEED 1000
+#define MAX_LAUNCHER_SPEED 350
 
 #define FEEDER_PIN 4
 #define FEEDER_DIR_PIN 33
@@ -29,7 +29,9 @@ void cmdMotors(FeederStruct* feederCmd, LauncherStruct* launcherCmd){
 
    writeToServod(FEEDER_PIN,feederCmd->cmd[0]);
    digitalWrite(FEEDER_DIR_PIN,feederCmd->cmd[1]);
-   writeToServod(LAUNCHER_PIN,launcherCmd->pow);
+   if(launcherCmd->pow!=MAX_LAUNCHER_SPEED){
+      writeToServod(LAUNCHER_PIN,launcherCmd->pow);
+   }
 }
 void launcherChildFunct(){
    char msg[100];
@@ -83,6 +85,21 @@ void launcherChildFunct(){
             }
          break;
          case Back:
+            if(feederCmd.count < 10){
+               feederCmd.count++;
+            }
+            if(feederCmd.count == 10){
+               ballsToLaunch--;
+               if(ballsToLaunch > 0){
+                  feederState = Forward;
+                  feederCmd.cmd[0] = 0;
+                  feederCmd.cmd[1] = 0;
+               }
+               else{
+                  feederCmd.cmd[0] = 0;
+                  feederCmd.cmd[1] = 0;
+               }
+            }
          break;
       }
      
@@ -93,6 +110,7 @@ void launcherChildFunct(){
             if(launcherCmd.pow >=  MAX_LAUNCHER_SPEED){
                launcherCmd.pow = MAX_LAUNCHER_SPEED;
                gradualStart = 0;
+               writeToServod(LAUNCHER_PIN,launcherCmd.pow);
             }
          }
          launcherCmd.count++;
@@ -116,6 +134,8 @@ void launcherChildFunct(){
                launcherCmd.pow = 100;
             break;
             case 'l'://launch single ball
+               assert(launcherCmd.pow > 0);
+               ballsToLaunch = 1;
                feederCmd.cmd[0] = 2000;
                feederCmd.cmd[1] = 0;
                assert(feederState == Back);
@@ -123,8 +143,11 @@ void launcherChildFunct(){
             break;
             case 'd': //dump x number of balls
                scanf("%d",&ballsToLaunch);
-
-
+               assert(launcherCmd.pow > 0);
+               feederCmd.cmd[0] = 2000;
+               feederCmd.cmd[1] = 0;
+               assert(feederState == Back);
+               feederState = Forward;
             break;
             default:
                fprintf(stderr,"Error in encoder function switch statment recieved:%c line:%d, file:%s\n",msg[0],__LINE__,__FILE__);
