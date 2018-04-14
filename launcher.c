@@ -1,6 +1,6 @@
 #include "launcher.h"
-#define MAX_LAUNCHER_SPEED 750
-#define MAX_LAUNCHER_SPEED_CONT 320
+#define MAX_LAUNCHER_SPEED 800
+#define MAX_LAUNCHER_SPEED_CONT 350
 #define MAX_FEEDER_SPEED 2000
 #define JAMTIME 600000 //in mu seconds 1 second
 #define BUTTON_CONTACT_COUNT 10
@@ -203,7 +203,7 @@ void launchingChildFunct(int new_stdin){
             case 'u'://gradualy start launcher wheels
                gradualStart = 1; 
                launcherCmd.count = 0;
-               launcherCmd.pow = 100;
+               launcherCmd.pow = 200;
             break;
             case 'l'://launch single ball
                //assert(launcherCmd.pow > 0);

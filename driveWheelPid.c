@@ -841,7 +841,7 @@ void driveWheelPidControl(int new_stdin){
    resetWheels(wheelCmd, wheels); 
    writeToWheels(wheelCmd); 
 //this is beacues the IMU takes a coucple of seconds to start working
-   for(int i =0;i < 60; i++){
+   for(int i =0;i < 70; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
    }
    resetImu(imuPipe);
