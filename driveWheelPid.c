@@ -150,7 +150,7 @@ void updateWheels(WheelPid *wheels,double inputGoal,enum dir direction){
       wheels[i].encoderGoal = (inputGoal)*(wheels[i].curDir);
       wheels[i].curError = 0;
    }
-   printf("reset encoderCnt: wheels[0].encoderGoal:%ld\n\n\n",wheels[0].encoderGoal);
+   //printf("reset encoderCnt: wheels[0].encoderGoal:%ld\n\n\n",wheels[0].encoderGoal);
 }
 
 void gradualStartUp(WheelPid *wheels,int wheelCmd[][2],enum dir direction){
@@ -812,7 +812,7 @@ void align(enum dir *dir, WheelPid *wheelPid, Command *command, ImuDir *curImu) 
     }
 }
 
-void driveWheelPidControl(int new_stdin){
+void driveWheelPidControl(int new_stdin,int write_out){
 
    int* encoderPipe;
    int* linePipe;
@@ -869,7 +869,7 @@ void driveWheelPidControl(int new_stdin){
    resetImu(imuPipe);
    for(int i =0;i < 10; i++){
       scanf("%g %g %g\n",&(curImu.Rx),&(curImu.Ry),&(curImu.Rz));
-      printf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
+      fprintf("%g %g %g\n",(curImu.Rx),(curImu.Ry),(curImu.Rz));
    }
    fprintf(stderr, "IMU READY!!\n");
 
@@ -896,7 +896,7 @@ void driveWheelPidControl(int new_stdin){
         distancePowerMult = distancePIDControl(wheels,direction,&startUpPhase, ignoreEncoder, distancePowerMult);
         straightBias(wheels, direction, distancePowerMult, ignoreEncoder);
 
-        printf("distancePowerMult:%g\n",distancePowerMult);
+        //printf("distancePowerMult:%g\n",distancePowerMult);
         
         //takes distancePowerMUlt and translates that to pow for each wheels control depending on direction adding bias 
         
@@ -905,6 +905,10 @@ void driveWheelPidControl(int new_stdin){
         //the line here is whatever the thing is that controlls when its done. Depending on the command being listened to this might be different things. 
         //for example, this might be a line, a limit switch, a distance ... 
         int taskComplete = isTaskComplete(wheels, &command, curLineSensor, &curImu,&ignoreEncoder);
+        if(taskComplete == 1){
+           msg[0] = 'c';
+           MYWRITE(write_out,msg,sizeof(char));
+        }
 
 
         //this is what translates from WheelPid to wheelCmd 
@@ -964,7 +968,7 @@ pid_t createDriveWheelChild(int** writeToChild){
       myclose(pipeToIt[1]);
      // dup2(pipeToMe[1],STDOUT_FILENO);
       dup2(pipeToIt[0],STDIN_FILENO);
-      driveWheelPidControl(pipeToIt[0]);
+      driveWheelPidControl(pipeToIt[0],pipeToMe[1]);
       fprintf(stderr,"execl failure");
       perror(NULL);
       exit(EXIT_FAILURE);
