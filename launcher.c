@@ -29,6 +29,7 @@ void cmdMotors(FeederStruct* feederCmd, LauncherStruct* launcherCmd){
    digitalWrite(FEEDER_DIR_PIN,feederCmd->cmd[1]);
    if(launcherCmd->pow!=MAX_LAUNCHER_SPEED){
       writeToServod(LAUNCHER_PIN,launcherCmd->pow);
+   //fprintf(stderr,"pow:%d\n",launcherCmd->pow);
    }
 }
 void launchingChildFunct(int new_stdin){
@@ -96,7 +97,8 @@ void launchingChildFunct(int new_stdin){
             //fprintf(stderr,"state:Forward:");
             if((diffTime > JAMTIME) || (digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON && on_button  > BUTTON_CONTACT_COUNT )){
                if(diffTime > JAMTIME){//jamed go back
- //                 fprintf(stderr,"GOT A JAM resetting!\n");
+                  ballsToLaunch--;
+                  fprintf(stderr,"GOT A JAM resetting!\n");
                   on_button = 0;
                   feederState = Backward;
                   gettimeofday(start,NULL);
@@ -164,9 +166,10 @@ void launchingChildFunct(int new_stdin){
       }
      
       if(gradualStart == 1){
-         if(launcherCmd.count > 50){
+         if(launcherCmd.count > 10){
             launcherCmd.count = 0;
-            launcherCmd.pow++;
+            launcherCmd.pow += 10;
+            fprintf(stderr,"pow:%d\n",launcherCmd.pow);
             if(launcherCmd.pow >=  MAX_LAUNCHER_SPEED){
                launcherCmd.pow = MAX_LAUNCHER_SPEED;
                gradualStart = 0;
@@ -181,6 +184,8 @@ void launchingChildFunct(int new_stdin){
          switch(msg[0]){
             case 'f'://turn off launcher wheels
                launcherCmd.pow = 0;
+               gradualStart = 0; 
+               launcherCmd.count = 0;
             break;
             case 'r'://reset everything
                feederState = Front;
@@ -205,7 +210,7 @@ void launchingChildFunct(int new_stdin){
                gettimeofday(start,NULL);
             break;
             case 'd': //dump x number of balls
-               scanf("%d",&ballsToLaunch);
+               MYREAD(new_stdin,&ballsToLaunch,sizeof(int));
                //assert(launcherCmd.pow > 0);
                feederCmd.cmd[0] = 2000-MAX_FEEDER_SPEED;
                feederCmd.cmd[1] = 1;

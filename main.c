@@ -79,10 +79,21 @@ void supplyToSupplyFwd(int * driveWheelPipe) {
 void supplyToCenterFwd(int * driveWheelPipe) {
     moveToLine(Right, 10, driveWheelPipe, SUPPLY_TO_CENTER_BCK); 
 }
+void turnOffDeath(int *launchingPipe){
+   char msg[10];
+   msg[0] = 'f';
+   MYWRITE(launchingPipe[1],msg,sizeof(char));
+}
+void turnOnDeath(int *launchingPipe){
+   char msg[10];
+   msg[0] = 'u';
+   MYWRITE(launchingPipe[1],msg,sizeof(char));
+}
 void launchBalls(int balls,int* launchingPipe){
    char msg[10];
-   msg[0] = 'l';
+   msg[0] = 'd';
    MYWRITE(launchingPipe[1],msg,sizeof(char));
+   MYWRITE(launchingPipe[1],&balls,sizeof(int));
 }
 
 int main(){
@@ -129,7 +140,15 @@ int main(){
       if(fgetc(stdin)==EOF){
        break;
       }
-//      launchBalls(1,launchingPipe);
+      //launchBalls(5,launchingPipe);
+      turnOnDeath(launchingPipe);
+
+      if(fgetc(stdin)==EOF){
+         break;
+      }
+      printf("turning off!!!\n");
+
+      turnOffDeath(launchingPipe);
 
       /*direction = Right;
       move(direction, 70 , driveWheelPipe); 
@@ -137,7 +156,7 @@ int main(){
          break;
       }*/
 
-      alignCommand(driveWheelPipe);
+//      alignCommand(driveWheelPipe);
 
       //direction = Left;
       //move(direction, 70 , driveWheelPipe); 

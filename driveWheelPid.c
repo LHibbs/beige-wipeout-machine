@@ -674,7 +674,7 @@ int isTaskComplete(WheelPid *wheelPid, Command *command, unsigned char curLineSe
 	    }
     } else if (command->cmdType == Align) { 
        *ignoreEncoder = 1;
-       fprintf(stderr,"angle is:%g\n",angleToValue(curImu->Rx));
+       //fprintf(stderr,"angle is:%g\n",angleToValue(curImu->Rx));
         if(abs_double(angleToValue(curImu->Rx)) < .3)
         {
             return 1;
@@ -802,7 +802,7 @@ void driveWheelPidControl(int new_stdin){
          // resetWheels(wheelCmd, wheels); 
       }
 
-      fprintf(stderr,"angle is:%g\n",angleToValue(curImu.Rx));
+      //fprintf(stderr,"angle is:%g\n",angleToValue(curImu.Rx));
       //if encoder reset = 1 then we have already reset the encoders and are not moving again. this is to repeat encoder resetting actions
       if(encoderReset == 0) {
         //change: this no longer controlls when it ends, it only control pid before then ... 
