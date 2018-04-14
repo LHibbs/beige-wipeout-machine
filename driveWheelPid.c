@@ -22,7 +22,7 @@
 
 #define FWD_BIAS 80
 #define BACK_BIAS 103 
-#define LEFT_BIAS -80 //positive is more arcing and moving up when going left
+#define LEFT_BIAS +200 //positive is more arcing and moving up when going left
 #define RIGHT_BIAS -300//positive is more arcing and moving down when going right 
 #define CLOCKWISE_BIAS 0
 #define COUNTERCLOCKWISE_BIAS 0
@@ -568,10 +568,10 @@ void straightBias(WheelPid *wheels,enum dir direction,double powerMult, int igno
 
       break;
       case Left://positive is more arcing and moving up when going left
-         wheels[BR].pow = powerMult - (powerMult)*pow;
-         wheels[FL].pow = powerMult - (powerMult)*pow;
+         wheels[BR].pow = powerMult + 2*(powerMult)*pow;
+         wheels[FL].pow = powerMult - .1*(powerMult)*pow;
 
-         wheels[FR].pow = powerMult + (powerMult)*pow;
+         wheels[FR].pow = powerMult - (powerMult)*pow;
          wheels[BL].pow = powerMult + (powerMult)*pow;
       break; 
       case Right://positive bias means more clockwise drift right

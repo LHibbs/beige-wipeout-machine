@@ -152,6 +152,7 @@ int main(){
 
          moveToLine(Right, 11, driveWheelPipe, SUPPLY_TO_SUPPLY_BCK); //this is differnt then just supply to suppy becaues of starting position
 
+         /*
       if(fgetc(stdin)==EOF){
        break;
       }
@@ -160,31 +161,32 @@ int main(){
        break;
       }
          move(Forward,1,driveWheelPipe);//supply to supply from left to right
+         */
       if(fgetc(stdin)==EOF){
        break;
       }
-         moveToLine(Left,24,driveWheelPipe,SUPPLY_TO_SUPPLY_BCK);//supply to supply from left to right
+         moveToLine(Left,23.5,driveWheelPipe,SUPPLY_TO_SUPPLY_BCK);//supply to supply from left to right
 
       if(fgetc(stdin)==EOF){
        break;
       }
-         moveToLine(Right,15,driveWheelPipe,SUPPLY_TO_CENTER_BCK);//supply right to center 
+         moveToLine(Right,8,driveWheelPipe,SUPPLY_TO_CENTER_BCK);//supply right to center 
 
-         move(Left,2,driveWheelPipe);//schoot to align with center
+         //move(Left,2,driveWheelPipe);//schoot to align with center
 
       if(fgetc(stdin)==EOF){
        break;
       }
-         move(Forward,41,driveWheelPipe);//move to raised platform
+         move(Forward,35,driveWheelPipe);//move to raised platform
       if(fgetc(stdin)==EOF){
        break;
       }
-      alignCommand(driveWheelPipe);//align
+      /*alignCommand(driveWheelPipe);//align
       if(fgetc(stdin)==EOF){
        break;
-      }
+      }*/
 
-      moveToLine(Forward,41,driveWheelPipe,CENTER_TO_CENTER_FWD);//move to other side
+      moveToLine(Forward,30,driveWheelPipe,CENTER_TO_CENTER_FWD);//move to other side
 
       /*turnOnDeath(launchingPipe);
 
