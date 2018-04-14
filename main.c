@@ -1,6 +1,7 @@
 #include "imuInteract.h"
 #include "driveWheelPid.h"
 #include <wiringPi.h>
+#include "launcher.h"
 #include "ldr.h"
 
 #define ENC_TO_INCH 255
@@ -78,11 +79,18 @@ void supplyToSupplyFwd(int * driveWheelPipe) {
 void supplyToCenterFwd(int * driveWheelPipe) {
     moveToLine(Right, 10, driveWheelPipe, SUPPLY_TO_CENTER_BCK); 
 }
+void launchBalls(int balls,int* launchingPipe){
+   char msg[10];
+   msg[0] = 'l';
+   MYWRITE(launchingPipe[1],msg,sizeof(char));
+}
 
 int main(){
 
    pid_t driveWheelPid;
    int* driveWheelPipe;
+   pid_t launchingPid;
+   int* launchingPipe;
    char msg[1000];
    //dont buffer stdout so faster printing to screen uncomment if multiple process are printing to screen
    //setbuf(stdout,NULL);
@@ -101,8 +109,14 @@ int main(){
    pinMode(pin(BL),OUTPUT);
    pinMode(pin(BR),OUTPUT);
 
+   pinMode(FEEDER_DIR_PIN,OUTPUT);
+
+
    driveWheelPid = createDriveWheelChild(&driveWheelPipe);
 
+   launchingPid = createLaunchingChild(&launchingPipe);
+  /*launchingPid = 0;
+  launchingPipe = 0;*/
 
    //enum dir direction;
    /*struct pollfd stdin_poll = {
@@ -114,17 +128,13 @@ int main(){
       if(fgetc(stdin)==EOF){
        break;
       }
+      launchBalls(1,launchingPipe);
 
       /*direction = Left;
       move(direction, 70 , driveWheelPipe); 
       if(fgetc(stdin)==EOF){
          break;
       }
-
-      direction = Forward;
-      direction = Right;
-      move(direction, 70 ,driveWheelPipe); 
-      */
 
       supplyToSupplyBck(driveWheelPipe); 
 
@@ -137,20 +147,26 @@ int main(){
       if(fgetc(stdin)==EOF){
          break;
       }
-      acrossFwd(driveWheelPipe); 
+      acrossFwd(driveWheelPipe); */
    }
    msg[0] = 'q'; 
    MYWRITE(driveWheelPipe[1], msg, sizeof(char));   
-   digitalWrite(pin(FL),0);
-   digitalWrite(pin(FR),0);
-   digitalWrite(pin(BL),0);
-   digitalWrite(pin(BR),0);
-   for(int i =0; i <6;i++){
+   MYWRITE(launchingPipe[1], msg, sizeof(char));   
+   for(int i =0; i < 6;i++){
 	   sprintf(msg,"echo %d=0 > /dev/servoblaster",i);
 	   system(msg);
    }
    waitpid(driveWheelPid,&status,0);
-
+   waitpid(launchingPid,&status,0);
+   digitalWrite(pin(FL),0);
+   digitalWrite(pin(FR),0);
+   digitalWrite(pin(BL),0);
+   digitalWrite(pin(BR),0);
+   digitalWrite(FEEDER_DIR_PIN,0);
+   for(int i =0; i < 6;i++){
+	   sprintf(msg,"echo %d=0 > /dev/servoblaster",i);
+	   system(msg);
+   }
    return 0; 
 }
 

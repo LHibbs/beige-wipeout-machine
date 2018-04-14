@@ -1,12 +1,9 @@
 #include "launcher.h"
-#include <assert.h>
 #define MAX_LAUNCHER_SPEED 350
+#define MAX_FEEDER_SPEED 2000
+#define JAMTIME 1000000 //in mu seconds 1 second
+#define BUTTON_CONTACT_COUNT 20
 
-#define FEEDER_PIN 4
-#define FEEDER_DIR_PIN 33
-#define FEEDER_SWITCH_PIN 31
-#define FEEDER_SWITCH_ON 1
-#define LAUNCHER_PIN 5
 
 enum FeederState{Back,Forward,Front,Backward};
 
@@ -33,7 +30,7 @@ void cmdMotors(FeederStruct* feederCmd, LauncherStruct* launcherCmd){
       writeToServod(LAUNCHER_PIN,launcherCmd->pow);
    }
 }
-void launcherChildFunct(){
+void launchingChildFunct(int new_stdin){
    char msg[100];
    int ballsToLaunch = 1;
 
@@ -43,55 +40,101 @@ void launcherChildFunct(){
 
 
    int gradualStart = 0;//set to 1 if needing to gradual startup 0 otherwise
+   struct timeval *start,*after;
    struct timespec sleepTime;
    sleepTime.tv_nsec = 100000;//.1 mu seconds
    sleepTime.tv_sec = sleepTime.tv_nsec/1000000000;
    struct pollfd stdin_poll = {
-     .fd = STDIN_FILENO, .events = POLLIN |  POLLPRI };
+     .fd = new_stdin, .events = POLLIN |  POLLPRI };
+   int on_button = 0;
+   start = malloc(sizeof(struct timeval));
+   after = malloc(sizeof(struct timeval));
 
+   double diffTime = 0;
 
    cmdMotors(&feederCmd,&launcherCmd);
 
    fprintf(stderr,"got in launcher almost to while loop\n");
+   gettimeofday(start,NULL);
+   gettimeofday(after,NULL);
    while(1){
 
+      //fprintf(stderr,"pin:%d",digitalRead(FEEDER_SWITCH_PIN));
       
       switch(feederState){
          case Backward:
-            if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
+            //fprintf(stderr,"state:Backward:");
+            if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON && on_button > BUTTON_CONTACT_COUNT ){
+               on_button = 0;
+
                feederCmd.cmd[0] = 0;
                feederCmd.cmd[1] = 0;
 
                feederState = Back;
+               fprintf(stderr,"Back!\n");
+            }
+            else{
+               if(digitalRead(FEEDER_SWITCH_PIN)==FEEDER_SWITCH_ON){
+                  on_button++;
+               }
+               else{
+
+               on_button = 0;
+               }
+               feederCmd.cmd[0] = MAX_FEEDER_SPEED;
+               feederCmd.cmd[1] = 0;
             }
          break;
          case Forward:
-            if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
+            gettimeofday(after,NULL);
+            diffTime =  (after->tv_usec - start->tv_usec) +\
+               1000000*(after->tv_sec - start->tv_sec);
+            //fprintf(stderr,"state:Forward:");
+            if((diffTime > JAMTIME) || (digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON && on_button  > BUTTON_CONTACT_COUNT )){
+                  on_button = 0;
                   feederCmd.cmd[0] = 0;
                   feederCmd.cmd[1] = 0;
                   feederCmd.count = 0;
 
                   feederState = Front;
+                  fprintf(stderr,"Front!\n");
             }
+            else{
+            if(digitalRead(FEEDER_SWITCH_PIN) == FEEDER_SWITCH_ON ){
+               on_button++;
+            }
+            else{
+               on_button = 0;
+            }
+               feederCmd.cmd[0] = 2000-MAX_FEEDER_SPEED;
+               feederCmd.cmd[1] = 1;
+            }
+            break;
          case Front:
+            //fprintf(stderr,"state:Front:");
             if(feederCmd.count < 10){
                feederCmd.count++;
             }
             if(feederCmd.count == 10){
-               feederCmd.cmd[0] = 0;
-               feederCmd.cmd[1] = 1;
-
+               feederCmd.cmd[0] = MAX_FEEDER_SPEED;
+               feederCmd.cmd[1] = 0;
+               fprintf(stderr,"Going back!\n");
+               on_button = 0;
                feederState = Backward;
             }
          break;
          case Back:
+            //fprintf(stderr,"state:Back:");
             if(feederCmd.count < 10){
                feederCmd.count++;
             }
             if(feederCmd.count == 10){
                ballsToLaunch--;
                if(ballsToLaunch > 0){
+                  fprintf(stderr,"launching:%d more!\n",ballsToLaunch);
                   feederState = Forward;
+                  gettimeofday(start,NULL);
+                  on_button = 0;
                   feederCmd.cmd[0] = 0;
                   feederCmd.cmd[1] = 0;
                }
@@ -117,7 +160,7 @@ void launcherChildFunct(){
       }
 
       if(poll(&stdin_poll,1,0)==1){
-         scanf("%c",msg);
+         MYREAD(new_stdin,msg,sizeof(char));
          switch(msg[0]){
             case 'f'://turn off launcher wheels
                launcherCmd.pow = 0;
@@ -134,21 +177,27 @@ void launcherChildFunct(){
                launcherCmd.pow = 100;
             break;
             case 'l'://launch single ball
-               assert(launcherCmd.pow > 0);
+               //assert(launcherCmd.pow > 0);
+               //TODO put in assert statment
                ballsToLaunch = 1;
-               feederCmd.cmd[0] = 2000;
-               feederCmd.cmd[1] = 0;
-               assert(feederState == Back);
+               feederCmd.cmd[0] = 2000-MAX_FEEDER_SPEED;
+               feederCmd.cmd[1] = 1;
+               on_button = 0;
+               //assert(feederState == Back);
                feederState = Forward;
+               gettimeofday(start,NULL);
             break;
             case 'd': //dump x number of balls
                scanf("%d",&ballsToLaunch);
-               assert(launcherCmd.pow > 0);
-               feederCmd.cmd[0] = 2000;
-               feederCmd.cmd[1] = 0;
-               assert(feederState == Back);
+               //assert(launcherCmd.pow > 0);
+               feederCmd.cmd[0] = 2000-MAX_FEEDER_SPEED;
+               feederCmd.cmd[1] = 1;
+               on_button = 0;
+               //assert(feederState == Back);
                feederState = Forward;
             break;
+            case 'q':
+               exit(EXIT_SUCCESS);
             default:
                fprintf(stderr,"Error in encoder function switch statment recieved:%c line:%d, file:%s\n",msg[0],__LINE__,__FILE__);
          }
@@ -161,7 +210,7 @@ void launcherChildFunct(){
 }
 
 /*create child that executes open source code interacting with gyoscope*/
-void createLauncherChild(int** writeToChild){
+pid_t createLaunchingChild(int** writeToChild){
  
    pid_t pid;
 
@@ -189,7 +238,7 @@ void createLauncherChild(int** writeToChild){
          perror(NULL);
          exit(EXIT_FAILURE);
       }
-      encoderChildFunct();
+      launchingChildFunct(pipeToIt[0]);
       fprintf(stderr,"encoderCHildFUnction failure %d in  %s",__LINE__,__FILE__);
       perror(NULL);
       exit(EXIT_FAILURE);
@@ -201,6 +250,7 @@ void createLauncherChild(int** writeToChild){
    *writeToChild = malloc(sizeof(int)*2);
    (*writeToChild)[0] = pipeToMe[0];
    (*writeToChild)[1] = pipeToIt[1];
+   return pid;
 }
 
 

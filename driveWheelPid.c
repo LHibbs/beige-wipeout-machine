@@ -690,7 +690,7 @@ void align(enum dir *dir, WheelPid *wheelPid, Command *command, ImuDir *curImu) 
     }
 }
 
-void driveWheelPidControl(){
+void driveWheelPidControl(int new_stdin){
 
    int* encoderPipe;
    int* linePipe;
@@ -729,7 +729,7 @@ void driveWheelPidControl(){
 
 
 
-   stdInPipe = STDIN_FILENO;
+   stdInPipe = new_stdin;
 
    struct pollfd stdin_poll = {
      .fd = stdInPipe, .events = POLLIN |  POLLPRI };
@@ -842,7 +842,7 @@ pid_t createDriveWheelChild(int** writeToChild){
       myclose(pipeToIt[1]);
      // dup2(pipeToMe[1],STDOUT_FILENO);
       dup2(pipeToIt[0],STDIN_FILENO);
-      driveWheelPidControl();
+      driveWheelPidControl(pipeToIt[0]);
       fprintf(stderr,"execl failure");
       perror(NULL);
       exit(EXIT_FAILURE);
